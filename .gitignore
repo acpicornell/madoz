@@ -1,0 +1,18 @@
+# OCR sources from Internet Archive — large, re-downloadable via fetch_volume.py
+data/chocr/
+data/page_numbers/
+data/txt_djvu/
+
+# Page images (downloaded on demand for fase 2)
+data/pages/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store

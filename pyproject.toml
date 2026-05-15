@@ -1,0 +1,11 @@
+[project]
+name = "madoz"
+version = "0.1.0"
+description = "Re-digitalisation of the Balearic subset of Pascual Madoz's Diccionario geográfico-estadístico-histórico de España (1845-1850)"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.5.0",
+]
+
+[tool.uv]
+package = false

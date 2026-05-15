@@ -3,8 +3,14 @@ data/chocr/
 data/page_numbers/
 data/txt_djvu/
 
-# Page images (downloaded on demand for fase 2)
+# Page images (downloaded on demand for phase 2)
 data/pages/
+
+# DuckDB binary — rebuildable from JSONL cache via scrape_madoz.py --from-cache
+# and load_chocr_index.py. The raw JSONL is versioned so the DB never needs to
+# hit the network to be reconstructed.
+db/*.duckdb
+db/*.duckdb.wal
 
 # Python
 __pycache__/

@@ -1,25 +1,28 @@
-"""Recover Balearic entries that Nomenclator has and we miss.
+"""Recover Balearic entries that diccionariomadoz.com has and we miss.
 
-Cross-references the Nomenclator DuckDB (built from diccionariomadoz.com)
-with our chocr-based index. For each Nomenclator entry not present in
-our index (fuzzy match), tries to locate the corresponding paragraph in
-our Internet Archive chocr text. If found, emits the entry with the
-canonical title and content from Nomenclator plus the (vol, leaf,
-printed page) located in our scan.
+Cross-references our local project DuckDB (populated by
+scripts/scrape_madoz.py from diccionariomadoz.com) with the chocr-based
+index. For each madoz_entries row not present in our chocr_entries
+(fuzzy match), tries to locate the corresponding paragraph in our
+Internet Archive chocr text. If found, emits the entry with the
+canonical title and content from the scraped source plus the (vol,
+leaf, printed page) located in our scan.
 
-Use this AFTER `merge_index.py` has produced `data/index/all.jsonl`.
+Use this AFTER `merge_index.py` has produced `data/index/all.jsonl` and
+`scrape_madoz.py --from-cache` has populated `db/madoz.duckdb`.
 
 Run: python scripts/recover_from_nomenclator.py
-Output: data/index/from_nomenclator.jsonl  (entries to merge into all.jsonl)
+Output: data/index/from_nomenclator.jsonl  (entries to merge into combined.jsonl)
         data/index/unrecoverable.jsonl     (entries neither side could place)
+        data/index/combined.jsonl          (union: ours + nomenclator imports)
 
 Notes:
-- The chocr paragraph text is OCR-mangled, so matching uses two signals
-  in tandem: a fuzzy-normalised title prefix and a content-snippet hit.
-  Both must agree before we accept a location.
-- An entry that locates to a paragraph already indexed by us under a
-  different title (typical OCR variant — BINISETS vs B1NISETS) is
-  skipped to avoid duplicates in the final union.
+- The chocr paragraph text is OCR-mangled, so matching uses a fuzzy-
+  normalised title-prefix Lev distance against paragraph heads.
+- We deliberately do NOT dedup imports against same-leaf entries of
+  ours — Madoz pages routinely carry multiple distinct entries (RAFAL,
+  RAFAL DE EN MARTI, RAFAL COLOM DE BINIMAIMUT all on the same leaf).
+  The `source` field on each entry marks its provenance.
 """
 from __future__ import annotations
 
@@ -40,7 +43,7 @@ DATA = PROJECT / "data"
 CHOCR_DIR = DATA / "chocr"
 PAGENUM_DIR = DATA / "page_numbers"
 INDEX_DIR = DATA / "index"
-NOMENCLATOR_DB = Path.home() / "Nomenclator" / "db" / "nomenclator.duckdb"
+DB = PROJECT / "db" / "madoz.duckdb"
 
 
 # OCR-tolerant normalisation — collapses common substitutions so titles
@@ -192,15 +195,18 @@ def find_paragraph(
 
 
 def main() -> None:
-    if not NOMENCLATOR_DB.exists():
-        sys.exit(f"Nomenclator DB not found at {NOMENCLATOR_DB}")
+    if not DB.exists():
+        sys.exit(
+            f"Local DB not found at {DB}. "
+            "Run first: python scripts/scrape_madoz.py --from-cache"
+        )
 
     print(f"Loading our index from {INDEX_DIR / 'all.jsonl'}...", flush=True)
     our_fz_set, _ = load_our_index()
     print(f"  {len(our_fz_set)} unique fuzzy titles indexed", flush=True)
 
-    print("Reading Nomenclator missing entries...", flush=True)
-    con = duckdb.connect(str(NOMENCLATOR_DB), read_only=True)
+    print(f"Reading scraped Madoz entries from {DB}...", flush=True)
+    con = duckdb.connect(str(DB), read_only=True)
     rows = con.execute(
         "select title, coalesce(content_text,''), place_type, island, judicial_district, municipality "
         "from madoz_entries"

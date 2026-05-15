@@ -91,3 +91,50 @@ CREATE INDEX IF NOT EXISTS idx_chocr_entries_title
     ON chocr_entries(title);
 CREATE INDEX IF NOT EXISTS idx_chocr_entries_madoz_id
     ON chocr_entries(madoz_entry_id);
+
+-- Vision-extracted entries (Phase 3) -----------------------------------
+
+-- One row per Madoz entry, populated by Claude Vision over the page
+-- image from Internet Archive. The fields here are the canonical
+-- structured outputs of the project: cleaned title, structured place
+-- attributes, free-text description, and the statistics fields that
+-- the diccionariomadoz.com mirror is known to corrupt.
+CREATE SEQUENCE IF NOT EXISTS seq_vision_id START 1;
+
+CREATE TABLE IF NOT EXISTS vision_entries (
+    id                 INTEGER PRIMARY KEY DEFAULT nextval('seq_vision_id'),
+    vol                TEXT NOT NULL,
+    leaf               INTEGER NOT NULL,
+    page_printed       TEXT,
+    -- Cleaned canonical title from Vision (e.g. "ARTA", "BELLVER",
+    -- "POQUET (son)", "MARÍA (Santa)").
+    title              TEXT NOT NULL,
+    place_type         TEXT,                 -- predio / villa / cala / sierra...
+    island             TEXT,                 -- Mallorca / Menorca / ...
+    judicial_district  TEXT,                 -- Inca / Manacor / Palma / ...
+    municipality       TEXT,                 -- Felanitx / Pollensa / ...
+    description        TEXT,                 -- clean transcription of the body
+    -- Statistics extracted from the entry. Stored as JSON so the
+    -- numeric subfields (casas, vecinos, almas, ...) can grow without
+    -- schema churn. Use JSON_EXTRACT for typed queries.
+    stats              JSON,
+    cross_references   TEXT[],               -- e.g. ["V. PALMA"]
+    -- Vision's self-rated confidence: 'high' | 'medium' | 'low'.
+    confidence         TEXT,
+    -- Optional pointer back to the chocr paragraph and the curated
+    -- scrape row, if we can match them confidently.
+    chocr_entry_id     INTEGER,
+    madoz_entry_id     INTEGER,
+    -- Provenance for reproducibility.
+    model              TEXT,                 -- e.g. 'claude-sonnet-4-6'
+    extracted_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_vision_entries_vol_leaf
+    ON vision_entries(vol, leaf);
+CREATE INDEX IF NOT EXISTS idx_vision_entries_title
+    ON vision_entries(title);
+CREATE INDEX IF NOT EXISTS idx_vision_entries_island
+    ON vision_entries(island);
+CREATE INDEX IF NOT EXISTS idx_vision_entries_municipality
+    ON vision_entries(municipality);

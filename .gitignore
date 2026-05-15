@@ -3,8 +3,13 @@ data/chocr/
 data/page_numbers/
 data/txt_djvu/
 
-# Page images (downloaded on demand for phase 2)
+# Page images (downloaded on demand for phase 3)
 data/pages/
+
+# Vision output (regenerable by extract_vision.py — but each rerun has
+# a non-trivial dollar cost, so consider committing the final batch
+# explicitly when satisfied with quality)
+data/vision/
 
 # DuckDB binary — rebuildable from JSONL cache via scrape_madoz.py --from-cache
 # and load_chocr_index.py. The raw JSONL is versioned so the DB never needs to

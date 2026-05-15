@@ -1,8 +1,8 @@
 """Load the chOCR-derived index into the project DuckDB.
 
 Reads:
-  - data/index/all.jsonl              (regex-based, source='regex')
-  - data/index/from_nomenclator.jsonl (recovery imports, source='nomenclator')
+  - data/index/all.jsonl          (regex-based, source='regex')
+  - data/index/from_scrape.jsonl  (recovery imports, source='scrape')
 
 Populates the `chocr_entries` table defined in db/schema.sql. Each run
 fully replaces the table contents, so the JSONL files remain the
@@ -44,8 +44,8 @@ def main() -> None:
     con.execute(SCHEMA.read_text())
 
     regex_rows = load_jsonl(INDEX_DIR / "all.jsonl", "regex")
-    nm_rows = load_jsonl(INDEX_DIR / "from_nomenclator.jsonl", "nomenclator")
-    print(f"Loaded {len(regex_rows)} regex entries, {len(nm_rows)} nomenclator imports")
+    nm_rows = load_jsonl(INDEX_DIR / "from_scrape.jsonl", "scrape")
+    print(f"Loaded {len(regex_rows)} regex entries, {len(nm_rows)} scrape imports")
 
     con.execute("BEGIN")
     con.execute("DELETE FROM chocr_entries")
@@ -77,10 +77,10 @@ def main() -> None:
     n_total, n_regex, n_nm = con.execute(
         "SELECT COUNT(*), "
         "       SUM(CASE WHEN source='regex' THEN 1 ELSE 0 END), "
-        "       SUM(CASE WHEN source='nomenclator' THEN 1 ELSE 0 END) "
+        "       SUM(CASE WHEN source='scrape' THEN 1 ELSE 0 END) "
         "FROM chocr_entries"
     ).fetchone()
-    print(f"chocr_entries: {n_total} total ({n_regex} regex, {n_nm} nomenclator)")
+    print(f"chocr_entries: {n_total} total ({n_regex} regex, {n_nm} scrape)")
 
     print("\n--- Coverage by volume ---")
     for r in con.execute(

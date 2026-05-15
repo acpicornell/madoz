@@ -10,7 +10,7 @@
 -- 2) chocr_entries — derived from our paragraph-based parsing of the
 --    Internet Archive chOCR (Phase 1 of the pipeline). Populated by
 --    scripts/load_chocr_index.py from data/index/all.jsonl and
---    data/index/from_nomenclator.jsonl.
+--    data/index/from_scrape.jsonl.
 --
 -- The two sources are complementary: madoz_entries is the curated
 -- ground truth (human-edited titles, structured fields) but is
@@ -64,10 +64,9 @@ CREATE INDEX IF NOT EXISTS idx_madoz_entries_municipality
 
 -- One row per entry we located in the Internet Archive chocr. `source`
 -- distinguishes how the entry got here:
---   'regex'             — captured by scripts/index_volume.py
---   'nomenclator'       — present in madoz_entries but missed by our
---                         regex; located in chocr by
---                         scripts/recover_from_nomenclator.py
+--   'regex'   — captured by scripts/index_volume.py
+--   'scrape'  — present in madoz_entries but missed by our regex;
+--               located in chocr by scripts/recover_missing.py
 CREATE TABLE IF NOT EXISTS chocr_entries (
     id                 INTEGER PRIMARY KEY DEFAULT nextval('seq_chocr_id'),
     vol                TEXT NOT NULL,        -- '01' .. '16'
@@ -78,8 +77,8 @@ CREATE TABLE IF NOT EXISTS chocr_entries (
     source             TEXT NOT NULL DEFAULT 'regex',
     -- Optional link back to the curated source when we can pair them.
     madoz_entry_id     INTEGER,
-    -- Structured fields, populated when we got them from Nomenclator.
-    -- Phase 2 (Vision) will fill these for all entries.
+    -- Structured fields, populated for scrape-sourced rows. Phase 3
+    -- (Vision) will fill these for regex-sourced rows too.
     place_type         TEXT,
     island             TEXT,
     judicial_district  TEXT,

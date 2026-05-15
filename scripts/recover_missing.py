@@ -11,10 +11,10 @@ leaf, printed page) located in our scan.
 Use this AFTER `merge_index.py` has produced `data/index/all.jsonl` and
 `scrape_madoz.py --from-cache` has populated `db/madoz.duckdb`.
 
-Run: python scripts/recover_from_nomenclator.py
-Output: data/index/from_nomenclator.jsonl  (entries to merge into combined.jsonl)
-        data/index/unrecoverable.jsonl     (entries neither side could place)
-        data/index/combined.jsonl          (union: ours + nomenclator imports)
+Run: python scripts/recover_missing.py
+Output: data/index/from_scrape.jsonl    (located entries to merge in)
+        data/index/unrecoverable.jsonl  (entries neither side could place)
+        data/index/combined.jsonl       (union: regex pass + scrape imports)
 
 Notes:
 - The chocr paragraph text is OCR-mangled, so matching uses a fuzzy-
@@ -124,12 +124,12 @@ def find_paragraph(
     nm_body: str,
     par_cache: dict[str, list[tuple]],
 ) -> tuple[str, int, str] | None:
-    """Locate a paragraph that matches the Nomenclator entry.
+    """Locate a paragraph that matches the scraped Madoz entry.
 
     Strategy:
     1. Fuzzy-match the title against the first 40 chars of each paragraph.
     2. Tie-break / verify by checking that distinctive keywords from the
-       Nomenclator body appear in the paragraph's first 400 chars.
+       scrape body appear in the paragraph's first 400 chars.
     """
     fz_title = fuzzy(nm_title)
     if len(fz_title) < 3:
@@ -211,13 +211,13 @@ def main() -> None:
         "select title, coalesce(content_text,''), place_type, island, judicial_district, municipality "
         "from madoz_entries"
     ).fetchall()
-    print(f"  Nomenclator total: {len(rows)} entries", flush=True)
+    print(f"  Scrape total: {len(rows)} entries", flush=True)
 
-    # Pre-filter: skip Nomenclator entries that are OCR-variants of ours.
+    # Pre-filter: skip scrape entries that are OCR-variants of ours.
     # Our titles often carry a parenthetical specifier ("ALEGRE rSON« (antes
-    # Cova den Panxe)") while Nomenclator's are shorter ("ALEGRE »SON«"), so
-    # compare both full Lev and prefix Lev (our title's first chars vs full
-    # Nomenclator title) and take the minimum.
+    # Cova den Panxe)") while the scrape's are shorter ("ALEGRE »SON«"), so
+    # compare both full Lev and prefix Lev (our title's first chars vs the
+    # full scrape title) and take the minimum.
     our_fz_list = list(our_fz_set)
     truly_missing: list[tuple] = []
     for title, body, ptype, isl, jd, muni in rows:
@@ -263,7 +263,7 @@ def main() -> None:
                 "judicial_district": jd,
                 "municipality": muni,
                 "context": (body or "")[:140].strip(),
-                "source": "nomenclator",
+                "source": "scrape",
             })
             continue
         vol, leaf, head = hit
@@ -278,12 +278,12 @@ def main() -> None:
             "island": isl,
             "judicial_district": jd,
             "municipality": muni,
-            "source": "nomenclator",
+            "source": "scrape",
             "chocr_head": head,
         })
 
     # Write outputs
-    out_loc = INDEX_DIR / "from_nomenclator.jsonl"
+    out_loc = INDEX_DIR / "from_scrape.jsonl"
     with out_loc.open("w") as f:
         for e in located:
             f.write(json.dumps(e, ensure_ascii=False) + "\n")
@@ -293,12 +293,12 @@ def main() -> None:
             f.write(json.dumps(e, ensure_ascii=False) + "\n")
 
     # Build the combined final index: our regex-found entries (tagged
-    # source='ours') plus the Nomenclator imports we located.
+    # source='regex') plus the scrape imports we located.
     combined: list[dict] = []
     with (INDEX_DIR / "all.jsonl").open() as f:
         for line in f:
             e = json.loads(line)
-            e.setdefault("source", "ours")
+            e.setdefault("source", "regex")
             combined.append(e)
     for e in located:
         combined.append(e)
@@ -308,12 +308,12 @@ def main() -> None:
             f.write(json.dumps(e, ensure_ascii=False) + "\n")
 
     print()
-    print(f"Located (imported as source='nomenclator'): {len(located)}")
-    print(f"Unrecoverable (no match in our chocr):     {len(unrecoverable)}")
+    print(f"Located (imported as source='scrape'):    {len(located)}")
+    print(f"Unrecoverable (no match in our chocr):    {len(unrecoverable)}")
     print(f"  → {out_loc.relative_to(PROJECT)}")
     print(f"  → {out_lost.relative_to(PROJECT)}")
     print()
-    print(f"Combined index: {len(combined)} entries (ours + nomenclator imports)")
+    print(f"Combined index: {len(combined)} entries (regex + scrape imports)")
     print(f"  → {out_combined.relative_to(PROJECT)}")
 
 

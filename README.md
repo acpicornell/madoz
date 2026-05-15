@@ -38,8 +38,8 @@ db/madoz.duckdb
 ├── madoz_tags              ← scraped WP tags
 ├── madoz_entry_tags        ← scraped entry↔tag links
 └── chocr_entries           ← our derived index (1194 rows)
-    ├── source='regex'         (1161, found by index_volume.py)
-    └── source='nomenclator'   (33, found by recover_from_nomenclator.py)
+    ├── source='regex'   (1161, found by index_volume.py)
+    └── source='scrape'  (33, found by recover_missing.py)
 ```
 
 The two sources are complementary: `madoz_entries` is curated ground
@@ -86,11 +86,11 @@ diccionariomadoz.com's WP REST API (raw JSONL cached under
 `data/madoz/`) and loads them into `madoz_entries`. Politely paced
 (1.5 s between requests, exponential backoff on 429/5xx).
 
-`recover_from_nomenclator.py` then takes the ~58 curated entries that
-Phase 1 missed (after Lev-fuzzy dedup) and tries to locate each in the
-chocr by fuzzy-matching the title against paragraph heads. The ones it
-places get tagged `source='nomenclator'` and emitted to
-`data/index/from_nomenclator.jsonl`; the ones nobody can find go to
+`recover_missing.py` then takes the ~58 curated entries that Phase 1
+missed (after Lev-fuzzy dedup) and tries to locate each in the chocr
+by fuzzy-matching the title against paragraph heads. The ones it
+places get tagged `source='scrape'` and emitted to
+`data/index/from_scrape.jsonl`; the ones nobody can find go to
 `data/index/unrecoverable.jsonl`.
 
 `load_chocr_index.py` loads both JSONLs into the `chocr_entries`
@@ -107,7 +107,7 @@ MAHON) get the full image range as context. Vision will:
 - Pull out the statistics fields (casas, vecinos, habitantes) the
   facsimile shows, fixing the human-transcription errors the source
   site carries.
-- Resolve duplicates between `source='regex'` and `source='nomenclator'`
+- Resolve duplicates between `source='regex'` and `source='scrape'`
   entries on the same paragraph.
 
 ## Current status
@@ -155,7 +155,7 @@ python scripts/scrape_madoz.py          # full scrape; ~30 min, polite pacing
 # (alternative: --from-cache to skip the network)
 
 # 5. Locate missing-from-ours entries in the chocr and union the index
-python scripts/recover_from_nomenclator.py
+python scripts/recover_missing.py
 
 # 6. Load both sources into the local DuckDB
 python scripts/load_chocr_index.py
@@ -203,8 +203,8 @@ scripts/
   merge_index.py              # merges per-volume JSONL into all.jsonl
   scrape_madoz.py             # WP REST scraper for diccionariomadoz.com
   scrape_madoz_extras.py      # recovers mis-categorised slugs by slug
-  recover_from_nomenclator.py # locates curated entries we missed in chocr
-  load_chocr_index.py         # loads all.jsonl + from_nomenclator.jsonl into DB
+  recover_missing.py          # locates scraped entries we missed in chocr
+  load_chocr_index.py         # loads all.jsonl + from_scrape.jsonl into DB
 NOTES.md             # author's Catalan working notebook
 ```
 

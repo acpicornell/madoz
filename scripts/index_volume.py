@@ -43,13 +43,18 @@ OUT_DIR = DATA / "index"
 # STRICT version: requires a separator (`:`, `;`, `-.`, `.-`) between
 # the title and body. This matches canonical Madoz and the majority of
 # entries.
+#
+# OCR-noise tolerance: paragraphs are sometimes prefixed by stray glyphs
+# (curly quotes, tildes, "t0", apostrophes) and the parenthetical part
+# of a title is often mangled (e.g. "AMER Isos)", "BALME (c\n)",
+# "ESTARAS ¿son)", "LLANERAS (sój"). To recover those, we accept ANY
+# non-separator char inside the title body — the safeguard is the
+# initial 2+ caps run and the Balearic filter on the body afterwards.
 PAT_ENTRY_STRICT = re.compile(
-    r'^\s*'
+    r'^[\s\'\"~`«»_,\.\-\(\)\[\]\{\}t0\d]{0,6}'  # leading OCR junk
     r'(?P<title>'
-        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9]{1,}'
-        r"(?:[A-ZÑÁÉÍÓÚÜa-zñáéíóú0-9 \-,\.\']"
-            r"|\([A-Za-zñáéíóúÑÁÉÍÓÚÜ0-9\s\.,\-\']{1,30}\)"
-        r'){0,40}?'
+        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9]{1,}'      # initial caps run (>=2)
+        r'[^:;\n]{0,50}?'                       # title body (anything but the separator)
     r')'
     r"\s*(?:[:;]\.?|-\.|\.\-)\s*[\'\"]?\s*"
     r'(?P<body>.+)',

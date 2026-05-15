@@ -28,6 +28,12 @@ from pathlib import Path
 
 import anthropic
 import duckdb
+from dotenv import load_dotenv
+
+# Pull ANTHROPIC_API_KEY from a project-local .env if one exists. Never
+# log or print the value. `.env` is gitignored; see .env.example for the
+# expected variable names.
+load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
 PROJECT = Path(__file__).resolve().parent.parent
 DB = PROJECT / "db" / "madoz.duckdb"

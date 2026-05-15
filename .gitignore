@@ -17,6 +17,11 @@ data/vision/
 db/*.duckdb
 db/*.duckdb.wal
 
+# Secrets — never commit. Keep .env.example as the public template.
+.env
+.env.*
+!.env.example
+
 # Python
 __pycache__/
 *.pyc

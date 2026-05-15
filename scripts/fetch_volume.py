@@ -1,18 +1,18 @@
-"""Descarrega els fitxers OCR i el mapa de pàgines d'un tom del Madoz.
+"""Download the OCR files and page map for a Madoz volume.
 
-Internet Archive té els 16 toms del Diccionari de Madoz (1845-1850) amb
-identificadors `diccionariogeogr01mado` ... `diccionariogeogr16mado`.
-Per cada tom necessitem:
+Internet Archive hosts the 16 volumes of Madoz's Diccionario (1845-1850)
+under identifiers `diccionariogeogr01mado` ... `diccionariogeogr16mado`.
+For each volume we need:
 
-- `_chocr.html.gz` (~64 MB): hOCR comprimit amb una caixa delimitadora
-  per a cada paraula. L'identificador `id="word_LEAF_INDEX"` permet
-  recuperar a quin full ha caigut cada paraula.
-- `_page_numbers.json` (~107 KB): mapa `leafNum -> número de pàgina
-  printat`. Calibrat amb confiança ~96%.
-- `_djvu.txt` (~6 MB): text pla extret (sense pàgines). Útil per a
-  cerca ràpida; en aquest projecte el guardem per referència.
+- `_chocr.html.gz` (~64 MB): compressed hOCR with a bounding box per
+  word. The `id="word_LEAF_INDEX"` lets us recover which leaf each
+  word belongs to.
+- `_page_numbers.json` (~107 KB): map `leafNum -> printed page number`.
+  Calibrated with ~96% confidence.
+- `_djvu.txt` (~6 MB): plain text (no pagination). Useful for quick
+  grep; kept for reference.
 
-Run: python scripts/fetch_volume.py <tom>   (per exemple: 02)
+Run: python scripts/fetch_volume.py <vol>   (e.g. 02)
 """
 from __future__ import annotations
 
@@ -46,7 +46,7 @@ def fetch(vol: str, kind: str) -> Path:
         ext = ".txt"
     out = out_dir / f"tomo{vol}{ext}"
     if out.exists() and out.stat().st_size > 0:
-        print(f"  [skip] {out.relative_to(PROJECT)} ja existeix")
+        print(f"  [skip] {out.relative_to(PROJECT)} already exists")
         return out
     print(f"  [GET]  {url}")
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -58,11 +58,11 @@ def fetch(vol: str, kind: str) -> Path:
 
 def main() -> None:
     if len(sys.argv) < 2:
-        sys.exit("Ús: python scripts/fetch_volume.py <vol>  (per ex.: 02)")
+        sys.exit("Usage: python scripts/fetch_volume.py <vol>  (e.g. 02)")
     vol = sys.argv[1].zfill(2)
     if vol not in [f"{i:02d}" for i in range(1, 17)]:
-        sys.exit(f"Volum invàlid: {vol}. Ha d'estar entre 01 i 16.")
-    print(f"=== Tom {vol} ===")
+        sys.exit(f"Invalid volume: {vol}. Must be between 01 and 16.")
+    print(f"=== Volume {vol} ===")
     for kind in FILES:
         fetch(vol, kind)
 

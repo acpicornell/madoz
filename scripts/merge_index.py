@@ -1,8 +1,8 @@
-"""Fusiona els 16 JSONL d'índex en un sol fitxer deduplicat.
+"""Merge the 16 per-volume index JSONL files into one deduplicated file.
 
-Llegeix data/index/tomo<vol>.jsonl per a tots els toms presents, deduplica
-per (vol, leaf, title.upper()) i escriu data/index/all.jsonl. També
-imprimeix un resum per tom (entrades, pàgines amb hit, primers títols).
+Reads data/index/tomo<vol>.jsonl for every volume present, deduplicates
+by (vol, leaf, title.upper()), and writes data/index/all.jsonl. Prints a
+per-volume summary (entries, pages with hits, sample titles).
 
 Run: python scripts/merge_index.py
 """
@@ -19,7 +19,7 @@ INDEX_DIR = PROJECT / "data" / "index"
 def main() -> None:
     files = sorted(INDEX_DIR.glob("tomo*.jsonl"))
     if not files:
-        raise SystemExit(f"No hi ha cap tomo*.jsonl a {INDEX_DIR}")
+        raise SystemExit(f"No tomo*.jsonl files found under {INDEX_DIR}")
 
     all_entries: list[dict] = []
     per_tom: Counter = Counter()
@@ -47,12 +47,12 @@ def main() -> None:
         for e in unique:
             f.write(json.dumps(e, ensure_ascii=False) + "\n")
 
-    print(f"Tomos llegits: {len(files)}")
+    print(f"Volumes read: {len(files)}")
     for vol in sorted(per_tom):
-        print(f"  Tom {vol}: {per_tom[vol]:>4} entrades")
-    print(f"\nTotal en cru: {len(all_entries)}")
-    print(f"Total deduplicat: {len(unique)}")
-    print(f"Escrit: {out.relative_to(PROJECT)}")
+        print(f"  Volume {vol}: {per_tom[vol]:>4} entries")
+    print(f"\nTotal raw: {len(all_entries)}")
+    print(f"Total deduplicated: {len(unique)}")
+    print(f"Wrote: {out.relative_to(PROJECT)}")
 
 
 if __name__ == "__main__":

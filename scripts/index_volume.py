@@ -61,19 +61,25 @@ PAT_ENTRY_STRICT = re.compile(
     re.DOTALL,
 )
 
-# LOOSE version: separator is optional. Used ONLY when STRICT fails;
-# combined with a body-marker safeguard (the body must start with a
-# canonical Madoz marker: predio, v., cas., alq., etc.). Recovers
-# entries where the OCR has dropped the `:`.
+# LOOSE version: separator is optional / non-standard (the OCR drops or
+# mangles the canonical `:` into `,`, `.`, `•`, or pure whitespace).
+# Used ONLY when STRICT fails; combined with a body-marker safeguard
+# (the body must start with a canonical Madoz marker: predio, v., cas.,
+# alq., etc.).
+#
+# Title structure made explicit: initial caps run, then optional
+# additional caps-only words (separated by spaces, possibly joined by
+# lowercase 'ó' / 'o' for alternates like "LLORETO ó LLORITO"), then an
+# optional parenthetical specifier. This lets us absorb the parens into
+# the title even when the separator that follows is missing.
 PAT_ENTRY_LOOSE = re.compile(
-    r'^\s*'
+    r'^[\s\'\"~`«»_,\.\-\(\)\[\]\{\}t0\d]{0,6}'
     r'(?P<title>'
-        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9]{1,}'
-        r"(?:[A-ZÑÁÉÍÓÚÜa-zñáéíóú0-9 \-,\.\']"
-            r"|\([A-Za-zñáéíóúÑÁÉÍÓÚÜ0-9\s\.,\-\']{1,30}\)"
-        r'){0,40}?'
+        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9]{1,}'                  # initial caps run (digits ok for OCR)
+        r'(?:\s+(?:[óòo]\s+)?[A-ZÑÁÉÍÓÚÜ]+(?:[\-,\'][A-ZÑÁÉÍÓÚÜ]+)*)*'   # extra caps words
+        r'(?:\s*\([A-Za-zñáéíóúÑÁÉÍÓÚÜ0-9\s\.,\-\']{1,30}\))?'  # optional parens
     r')'
-    r'\s+'
+    r'[\s\.\,•:;\'\"]{1,4}'                                   # flexible separator
     r'(?P<body>.+)',
     re.DOTALL,
 )
@@ -91,23 +97,31 @@ BODY_MARKER = re.compile(
     r'isleta|islote|partido|parroquia|feligresia|feligresía|granja|cortijo|'
     r'barrio|estancia|arroyo|río|rio|torre|hacienda|ribera|despoblado|fuente|'
     r'provincia|pueblo|pago|coto|baron|baronia|baronía|condado|jurisdicci[óo]n|'
-    r'departamento|distrito|cuart[óo]n|porci[óo]n|territorio|antigua|antiguo|'
+    r'departamento|distrito|cuart[óo]n|porci[óo]n|territorio|terreno|antigua|antiguo|'
     r'pequeña|pequeño|pequeñas|pequeños|cortijada|caser[ií]a|granja|señoría|'
-    r'cab|cabezada|colina|laguna|saliente|punto|piedra|peñ[óo]n|peñas?|nombre'
+    r'cab|cabezada|colina|laguna|saliente|punto|piedra|peñ[óo]n|peñas?|nombre|'
+    r'pedazo|porci[óo]n|huerta|isletas?|edificio|capilla|ermita|fort[ií]n|'
+    r'castillo|fortaleza|atalaya|mirador|pico|sembrad|labranza|dehesa|coto'
     r')(?=[^A-Za-zñáéíóúÑÁÉÍÓÚÜ])'
     r'|'
     # Abbreviations — the literal period is the delimiter
-    r'(?:v|l|cas|c|ald|alq|parr|felig|r|hac|desp|prov|distr|cot|ant|cap|t|fr)\.'
+    r'(?:v|l|cas|c|ald|alq|parr|felig|r|hac|desp|prov|distr|cot|ant|cap|t|fr|s)\.'
+    # Generic "en la/el [Madoz-token]" — Madoz entry continuations that
+    # have lost their initial type marker (e.g. LLORETO body starts with
+    # "en la isla y dióc. de Mallorca"). Safe enough since the second
+    # word constrains.
+    r'|en\s+(?:la|el|las|los)\s+(?:isla|prov|part|c|villa|d[ií]óc|aud|cuart|t[eé]rm|playa|sierra|puerto|cabo|punta|cala|monte|valle|tercio|aldea|estancia|barrio|granja)'
     r')',
     re.IGNORECASE,
 )
 
 PAT_BALEAR = re.compile(
     r'\b(?:isla|isl\.|prov\.|adm\.|dióc\.|partido|cala|punta|cabo|sierra|'
-    r'valle|bahia|bahía|monte|playa|puerto)\.?'
-    r'.{0,40}'
+    r'valle|bahia|bahía|monte|playa|puerto|tercio|distr\.|distrito|'
+    r'mar[ií]t(?:imo)?\.?|aud\.|c\. g\.)\.?'
+    r'.{0,40}?'
     r'(?:Mallorca|Menorca|Ibiza|Iviza|Formentera|Cabrera|'
-    r'Baleares|Raleares|Paleares)\b',
+    r'Baleares|Raleares|Paleares|Balea\b)',
     re.IGNORECASE | re.DOTALL,
 )
 

@@ -1,0 +1,157 @@
+{
+  "source": "Madoz, tom I, pàgines preliminars (1845). «Esplicacion de las abreviaturas». Transcrita literalment del facsímil.",
+  "categories": [
+    {
+      "name": "Administratives",
+      "items": [
+        ["ab.", "abadengo"],
+        ["adm.", "administracion"],
+        ["alc. c.", "alcalde constitucional"],
+        ["alc. m.", "alcalde mayor"],
+        ["alc. p.", "alcalde pedáneo"],
+        ["art.", "articulo"],
+        ["arz.", "arzobispo, arzobispado"],
+        ["aud.", "audiencia"],
+        ["ayunt.", "ayuntamiento"],
+        ["c. g.", "capitania general"],
+        ["cab.", "cabeza"],
+        ["cap.", "capital"],
+        ["cated.", "catedral, cátedra"],
+        ["cend.", "cendea"],
+        ["col.", "colegiata"],
+        ["com. g.", "comandancia general"],
+        ["conc.", "concejo, concejil"],
+        ["cond.", "conde, condado"],
+        ["correg.", "corregidor, corregimiento"],
+        ["conv.", "convento"],
+        ["dióc.", "diócesis"],
+        ["dip.", "diputado"],
+        ["distr.", "distrito"],
+        ["ecl.", "eclesiásticos"],
+        ["ep.", "episcopal"],
+        ["herm.", "hermandad"],
+        ["igl.", "iglesia"],
+        ["jurisd.", "jurisdiccion"],
+        ["juzg.", "juzgado"],
+        ["merind.", "merindad"],
+        ["monast.", "monasterio"],
+        ["ob.", "obispado, obispo"],
+        ["parr.", "parroquia, parroquial"],
+        ["part. jud.", "partido judicial"],
+        ["prov.", "provincia"],
+        ["señ.", "señorío"],
+        ["univ.", "universidad"]
+      ]
+    },
+    {
+      "name": "Tipus de població",
+      "items": [
+        ["ald.", "aldea"],
+        ["alq.", "alqueria"],
+        ["anteigl.", "anteiglesia"],
+        ["c.", "ciudad"],
+        ["cas.", "caserio"],
+        ["cast.", "castillo"],
+        ["cot. red.", "coto redondo"],
+        ["desp.", "despoblado"],
+        ["felig.", "feligresía"],
+        ["fort.", "fortaleza"],
+        ["l.", "lugar"],
+        ["pobl.", "poblacion"],
+        ["v.", "villa"],
+        ["(V.)", "Véase"]
+      ]
+    },
+    {
+      "name": "Geografia física",
+      "items": [
+        ["alt.", "altitud"],
+        ["cord.", "cordillera"],
+        ["cuad.", "cuadra"],
+        ["deh.", "dehesa"],
+        ["der.", "derecha"],
+        ["dist.", "dista, distante, distancia"],
+        ["fab.", "fábrica"],
+        ["ferr.", "ferrería"],
+        ["izq.", "izquierda"],
+        ["lat.", "latitud"],
+        ["leg.", "legua"],
+        ["lim.", "limite, limita"],
+        ["long.", "longitud"],
+        ["márg.", "márgen"],
+        ["marit.", "marítima, o"],
+        ["r.", "rio"],
+        ["riach.", "riachuelo"],
+        ["sit.", "situacion, situado, a"],
+        ["térm.", "término"],
+        ["terr.", "territorio, territorial"]
+      ]
+    },
+    {
+      "name": "Punts cardinals",
+      "items": [
+        ["N.", "Norte"],
+        ["S.", "Sur"],
+        ["E.", "Este"],
+        ["O.", "Oeste"],
+        ["NE.", "Nordeste"],
+        ["NO.", "Noroeste"],
+        ["SE.", "Sudeste"],
+        ["SO.", "Sudoeste"],
+        ["Set.", "Setentrion, al"]
+      ]
+    },
+    {
+      "name": "Demografia i economia",
+      "items": [
+        ["a", "arroba"],
+        ["alm.", "almas"],
+        ["contr.", "contribucion"],
+        ["fan.", "fanega"],
+        ["hab.", "habitantes"],
+        ["imp.", "imponible"],
+        ["ind.", "industria, industrial"],
+        ["prod.", "productos"],
+        ["qq.", "quintales"],
+        ["quint.", "quintal"],
+        ["rent.", "rentas"],
+        ["vec.", "vecino"]
+      ]
+    },
+    {
+      "name": "Altres i signes",
+      "items": [
+        ["ant.", "antiguo, a"],
+        ["descrip.", "descripcion"],
+        ["=", "igual"],
+        ["—", "menos"],
+        ["+", "mas"],
+        ["×", "por"]
+      ]
+    }
+  ],
+  "supplementary": {
+    "title": "Abreviatures que apareixen a les entrades però que el Madoz no inclou a la llista oficial",
+    "intro": "Madoz dóna per supòsits termes universals al 1845 (la moneda, els convents secularitzats, l'estructura naval) i no els abrevia explícitament. Aquestes abreviatures s'usen a les entrades balears però NO consten al llistat preliminar del tom I.",
+    "items": [
+      ["rs.", "reales (moneda)"],
+      ["rs. vn.", "reales de vellón (moneda corrent al segle XIX)"],
+      ["vn.", "vellón (sufix monetari: maravedís vn., reales vn.)"],
+      ["mrs.", "maravedís (1 real = 34 maravedís)"],
+      ["marít.", "marítima, marítimo (variant accentuada de marit.)"],
+      ["fáb.", "fábrica (variant accentuada de fab.)"],
+      ["exconv.", "ex-convento (immoble desafectat per la desamortització de Mendizábal, 1836)"],
+      ["depart.", "departamento (marítim, militar — p. ex. depart. de Cartagena)"]
+    ]
+  },
+  "context_notes": [
+    "Aquesta llista és canònica del Madoz: està impresa a les pàgines preliminars del tom I (1845) sota el títol «ESPLICACION DE LAS ABREVIATURAS» (l'ortografia és l'original: amb 's', no 'x').",
+    "El terme **predio**, freqüent als articles balears, no apareix com a abreviatura — es deixa sempre sencer. A les Balears designa una finca rústica gran amb casa pairal (l'equivalent català és **possessió** o **casal**).",
+    "**Vecino** és la unitat fiscal/administrativa, ~1 família amb cap de casa. Per estimar habitants es multiplica per ~4-5.",
+    "**Almas** és el recompte total de persones, a diferència de *vecinos*.",
+    "**Felig.** (feligresía) a Galícia designa una parròquia rural; a les Balears el Madoz l'aplica per analogia a alguns predis amb església.",
+    "Una **legua** castellana ≈ 5,5 km. Les distàncies «en horas» són hores de marxa a peu (≈ 4 km/h).",
+    "El Madoz escriu **Setentrion** amb una sola 'p' (variant ortogràfica del segle XIX); ortografia moderna: *septentrión*."
+  ],
+  "source_url": "https://www.google.com/books/edition/Diccionario_geográfico-estadístico-his/QqB_GVEFw4UC"
+}

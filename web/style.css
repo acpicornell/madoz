@@ -1007,6 +1007,51 @@ button.primary:hover { filter: brightness(1.08); }
 }
 #sql-result td.text-muted { color: var(--text-muted); }
 
+/* === Notes tab: Madoz abbreviations === */
+/* Single alphabetical table, 2 columns flowing as multi-column on wide
+   screens so it fits the eye like the original Madoz print page. */
+.abbr-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  font-size: 0.93em;
+  /* Multi-column flow: the table body splits into 2 visual columns on
+     wider viewports. */
+  column-count: 2;
+  column-gap: 2.2em;
+  column-rule: 1px solid var(--border-soft, #eee);
+}
+@media (max-width: 760px) { .abbr-table { column-count: 1; } }
+.abbr-table thead {
+  display: none;  /* header repeats badly across multi-col; the section
+                     intro already announces the contents. */
+}
+.abbr-table tr {
+  display: grid;
+  grid-template-columns: 7em 1fr;
+  gap: 0.7em;
+  padding: 0.22em 0;
+  break-inside: avoid;
+  border-bottom: 1px solid var(--border-soft, #eee);
+}
+.abbr-table td {
+  padding: 0;
+  line-height: 1.4;
+}
+.abbr-table td.abbr-cell {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-weight: 600;
+  color: var(--accent, #c14a2c);
+  white-space: nowrap;
+}
+.notes-list {
+  line-height: 1.55;
+  padding-left: 1.3em;
+}
+.notes-list li {
+  margin-bottom: 0.5em;
+}
+
 /* Checkbox inside filter sidebar */
 .checkbox-line {
   display: flex;

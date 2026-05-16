@@ -39,6 +39,7 @@ function gotoTab(t) {
   document.querySelectorAll(".tab-content").forEach(sec =>
     sec.classList.toggle("active", sec.dataset.toptab === t));
   if (t === "stats") renderStats();
+  if (t === "notes") renderNotes();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -316,6 +317,63 @@ function renderStats() {
     ["Només al nostre OCR", total - linked],
     ["Total d'articles a diccionariomadoz.com", state.madozTotal],
   ], ([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${fmt(v)}</td></tr>`);
+}
+
+// === NOTES TAB (Madoz abbreviations) ===
+let notesRendered = false;
+async function renderNotes() {
+  if (notesRendered) return;
+  notesRendered = true;
+  const container = document.getElementById("abbreviations-container");
+  try {
+    const res = await fetch("abbreviations.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    // Helper: render an alphabetical 2-col table from a list of [abbr, meaning].
+    const renderTable = items => {
+      const sorted = [...items].sort(
+        (a, b) => norm(a[0]).localeCompare(norm(b[0]), "es")
+      );
+      const rows = sorted.map(([a, m]) =>
+        `<tr><td class="abbr-cell">${esc(a)}</td><td>${esc(m)}</td></tr>`
+      ).join("");
+      return `<table class="abbr-table"><tbody>${rows}</tbody></table>`;
+    };
+
+    // Official Madoz list (flat alphabetical from all categories).
+    const officialItems = data.categories.flatMap(c => c.items);
+    const officialHtml = renderTable(officialItems);
+
+    // Optional supplementary table (in-entry abbreviations not in the source).
+    const supp = data.supplementary;
+    const suppHtml = supp ? `
+      <div class="modern-intro" style="margin-top:2.5em">
+        <h3>${esc(supp.title)}</h3>
+        <p>${esc(supp.intro)}</p>
+      </div>
+      ${renderTable(supp.items)}
+    ` : "";
+
+    const notes = (data.context_notes || []).map(n => {
+      const html = esc(n).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+      return `<li>${html}</li>`;
+    }).join("");
+
+    container.innerHTML = `
+      ${officialHtml}
+      ${suppHtml}
+      ${notes ? `<div class="modern-intro" style="margin-top:2em">
+        <h3>Notes contextuals</h3>
+        <ul class="notes-list">${notes}</ul>
+        <p style="font-size:0.85em;color:var(--text-muted);margin-top:1.5em">
+          Font: ${esc(data.source)}
+        </p>
+      </div>` : ""}
+    `;
+  } catch (err) {
+    container.innerHTML = `<p class="empty" style="color:#b00">Error carregant abreviatures: ${esc(err.message)}</p>`;
+    console.error(err);
+  }
 }
 
 // === BOOTSTRAP ===

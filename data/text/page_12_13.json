@@ -6,7 +6,7 @@
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
     {
-      "title": "NADAL (so1)",
+      "title": "NADAL (so)",
       "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Manacor",
@@ -17,7 +17,7 @@
       "confidence": "high"
     },
     {
-      "title": "NADAL (sol",
+      "title": "NADAL (so)",
       "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Palma",

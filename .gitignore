@@ -8,6 +8,9 @@ data/pages/
 # Resized image cache produced by extract_vision.py for Batch API submits
 data/pages_resized/
 
+# Generated audit reports (regenerable from the DB; large files)
+data/reports/
+
 # Vision output (regenerable by extract_vision.py — but each rerun has
 # a non-trivial dollar cost, so consider committing the final batch
 # explicitly when satisfied with quality)

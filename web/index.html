@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<title>Madoz · Diccionari geogràfic-estadístic-històric · Balears</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <h1>Diccionari Madoz · Balears</h1>
+    <p class="subtitle">Articles balears del <em>Diccionario geográfico-estadístico-histórico de España</em> · Pascual Madoz, 1845–1850</p>
+  </div>
+</header>
+
+<nav class="tabs tabs-main">
+  <button class="tab active" data-toptab="explore">Explorar</button>
+  <button class="tab" data-toptab="stats">Estadístiques</button>
+</nav>
+
+<!-- ===== EXPLORE ===== -->
+<section id="tab-explore" class="tab-content active" data-toptab="explore">
+  <div class="source-stats" data-source="madoz">
+    <span><strong id="stat-text">…</strong> entrades extretes</span>
+    <span><strong id="stat-madoz">…</strong> articles del scrape</span>
+    <span><strong id="stat-volumes">…</strong> volums</span>
+    <span><strong id="stat-islands">…</strong> illes</span>
+    <span><strong id="stat-types">…</strong> tipus de lloc</span>
+  </div>
+  <div class="modern-intro">
+    <p>
+      Aquesta web mostra les <strong>entrades balears del Madoz extretes del text complet</strong>
+      (chocr de l'Internet Archive) — predios, viles, cales, talaies, partits judicials i articles
+      institucionals. Cada entrada té tipus de lloc, illa, partit judicial i municipi inferits del
+      Madoz canònic, més la descripció sencera, els estadístics (vecinos, almas, contribución...)
+      i les referències creuades. Filtra des de la barra esquerra; clica una fila per veure el text
+      complet de l'article. La columna <strong>Vol/Full</strong> indica on viu l'entrada al Madoz
+      original (16 volums, 1845–1850).
+    </p>
+  </div>
+  <div class="modern-explorer">
+    <aside class="filters filters-modern">
+      <h3>Filtres</h3>
+      <div class="filter-group">
+        <label for="f-search">Cercar (títol o text)</label>
+        <input id="f-search" type="text" placeholder="Ex: Manacor, Son, predio…" autocomplete="off">
+      </div>
+      <div class="filter-group">
+        <label for="f-island">Illa</label>
+        <select id="f-island"><option value="">— Totes —</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-district">Partit judicial</label>
+        <select id="f-district"><option value="">— Tots —</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-municipality">Municipi</label>
+        <select id="f-municipality"><option value="">— Tots —</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-type">Tipus de lloc</label>
+        <select id="f-type"><option value="">— Tots —</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-vol">Volum</label>
+        <select id="f-vol"><option value="">— Tots —</option></select>
+      </div>
+      <div class="filter-group">
+        <label for="f-conf">Confiança</label>
+        <select id="f-conf">
+          <option value="">— Totes —</option>
+          <option value="high">Alta</option>
+          <option value="medium">Mitjana</option>
+          <option value="low">Baixa</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label class="checkbox-line"><input id="f-only-madoz" type="checkbox"> Només amb article del scrape</label>
+      </div>
+      <button id="f-clear" class="ghost">Netejar filtres</button>
+      <button id="f-export" class="ghost btn-export" title="Descarrega un CSV amb tots els resultats actuals">Descarregar CSV</button>
+      <div class="filter-group" style="margin-top:1.4em">
+        <p id="count" style="font-size:0.88em;color:var(--text-muted);margin:0">—</p>
+      </div>
+    </aside>
+    <main class="results">
+      <div class="table-wrap">
+        <table id="table-madoz">
+          <thead>
+            <tr>
+              <th>Títol</th>
+              <th>Tipus</th>
+              <th>Illa</th>
+              <th>Partit jud.</th>
+              <th>Municipi</th>
+              <th>Vol/Full</th>
+              <th>Pàg.</th>
+              <th>Conf.</th>
+            </tr>
+          </thead>
+          <tbody id="tbody-madoz">
+            <tr><td colspan="8" class="empty">Carregant…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section id="tab-stats" class="tab-content" data-toptab="stats">
+  <div class="modern-intro">
+    <h2>Estadístiques de cobertura</h2>
+    <p>Resums calculats al navegador a partir de les 1214 entrades.</p>
+  </div>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <h3>Per illa</h3>
+      <table id="stat-by-island"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+    <div class="stat-card">
+      <h3>Per tipus de lloc (top 15)</h3>
+      <table id="stat-by-type"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+    <div class="stat-card">
+      <h3>Per partit judicial</h3>
+      <table id="stat-by-district"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+    <div class="stat-card">
+      <h3>Top 20 municipis</h3>
+      <table id="stat-by-muni"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+    <div class="stat-card stat-card-wide">
+      <h3>Cobertura per volum</h3>
+      <p style="color:var(--text-muted);font-size:0.88em;margin:0 0 0.6em">
+        Quantes entrades balears té cada un dels 16 volums del Madoz original.
+      </p>
+      <table id="stat-by-vol"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+    <div class="stat-card stat-card-wide">
+      <h3>Connexió amb el scrape canònic</h3>
+      <p style="color:var(--text-muted);font-size:0.88em;margin:0 0 0.6em">
+        Quantes entrades del text OCR tenen el seu corresponent a diccionariomadoz.com.
+      </p>
+      <table id="stat-links"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>
+    Font: <em>Diccionario geográfico-estadístico-histórico de España y sus posesiones de ultramar</em>,
+    Pascual Madoz, Madrid 1845–1850. Articles balears extrets del text OCR
+    (<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>, chocr)
+    i cotejats amb la transcripció web de
+    <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>.
+    Web estàtica, sense backend.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

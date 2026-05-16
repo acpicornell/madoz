@@ -1,0 +1,20 @@
+{
+  "vol": "03",
+  "leaf": 230,
+  "page_printed": "226",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BACA (torre de)",
+      "place_type": "torre",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Atalaya y punta en la isla, tercio y prov. marít. de Mallorca, distr. de Soller, apostadero de Cartagena. Sit. al E. de Cala Casdere.",
+      "stats": {},
+      "cross_references": ["Soller", "Cala Casdere"],
+      "confidence": "high"
+    }
+  ]
+}

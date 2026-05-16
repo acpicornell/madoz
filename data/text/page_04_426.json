@@ -1,0 +1,41 @@
+{
+  "vol": "04",
+  "leaf": 426,
+  "page_printed": "420",
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOTA",
+      "place_type": "bajo",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "Bajo del tercio marít. de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena: está sit. al N. 1/4 NO. de lo mas oriental de la isla de Breda á 1 1/2 milla de dist.; es de bastante estension y á poca mar que haya, se ve su rompiente á mucha dist.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "BOTANA (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "BOTIFARRA",
+      "place_type": "porción de terreno",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Porción de terreno en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita: sit. al E. de la pobl., constituía antiguamente parte de un pequeño predio, que en el día se halla dividido y agregado lo demás á otro llamado Son Dico.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

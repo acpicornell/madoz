@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 410,
+  "page_printed": "404",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BORDILS (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": ["Inca"],
+      "confidence": "high"
+    }
+  ]
+}

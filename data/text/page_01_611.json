@@ -1,0 +1,20 @@
+{
+  "vol": "01",
+  "leaf": 611,
+  "page_printed": "603",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALI ó PUIG DEN ALI",
+      "place_type": "monte",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Monte muy elevado en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)",
+      "stats": {},
+      "cross_references": ["Selva"],
+      "confidence": "high"
+    }
+  ]
+}

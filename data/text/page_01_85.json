@@ -1,0 +1,9 @@
+{
+  "vol": "01",
+  "leaf": 85,
+  "page_printed": "81",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Continuation of ADAYA entries that started on leaf 84 (Granja de Adaya, Adaya o Dadaya, Islas de Adaya). chocr regex re-hit the titles because Madoz reflows across both leaves. The entries are already captured in page_01_84.json — no new Balearic content to extract here.",
+  "entries": []
+}

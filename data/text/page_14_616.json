@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 616,
+  "page_printed": "554",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TAFONA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Artá",
+      "description": "prédio en la isla Mallorca, prov. de Baleares,part. jud. de Manacor, térm. y jurisd. de la v. de Arta.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

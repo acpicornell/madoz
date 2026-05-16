@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 550,
+  "page_printed": "546",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ROMAGUERA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Porreras",
+      "description": "prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. yjurisd. de la v. dePorreras.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "ROMAGUERA (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "prédio en la isla de Mallorca, prov.de Baleares, part. jud. de Manacor, térm. y jurisd. déla v.de Petra.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

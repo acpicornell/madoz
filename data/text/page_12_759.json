@@ -1,0 +1,48 @@
+{
+  "vol": "12",
+  "leaf": 759,
+  "page_printed": "753",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PEDRUXELLA (GRAN)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "(antig Pertuxella) predio en el valle de March , en la isla de Mallorca, provincia de Baleares, partido judicial de Inca, término y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Baleares",
+        "Inca",
+        "Mallorca",
+        "Pollenza"
+      ],
+      "confidence": "high",
+      "source_note": "description from diccionariomadoz.com scrape (OCR title mangled or absent)"
+    },
+    {
+      "title": "PEDRUXELLA PETIT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en el valle de March en laisla de Mallorca, prov. de Baleares, part. jud. de Inca,térm. y jurisd. de la v. de Pollenza; tiene buena casa, fuente que riega un huerto , y molino de aceite con 2 prensas.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PEDRÜXELLA (cnAN), (antig. Pertuxella)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en elvalle de March , en la isla delMallorca, prov. de Baleares,part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

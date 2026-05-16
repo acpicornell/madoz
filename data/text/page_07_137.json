@@ -1,0 +1,22 @@
+{
+  "vol": "07",
+  "leaf": 137,
+  "page_printed": "133",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CORRALSERRA",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Casa de campo arruinada en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

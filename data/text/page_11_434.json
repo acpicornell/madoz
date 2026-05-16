@@ -1,0 +1,9 @@
+{
+  "vol": "11",
+  "leaf": 434,
+  "page_printed": "430",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Fals positiu: l'entrada MIRAMAR ó MIRALMAR és de la prov. de Tarragona (part. jud. de Valls). El regex la va capturar perquè el cos menciona 'las montañas de la isla de Mallorca' com a referència visual des del cim. Cap entrada balear real en aquest full.",
+  "entries": []
+}

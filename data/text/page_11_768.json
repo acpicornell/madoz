@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 768,
+  "page_printed": "764",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MURO", "place_type": "villa", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Muro", "description": "V. con ayunt. en la isla y dióc. de Mallorca, part. jud. de Inca, prov., aud. terr., c. g. de Baleares. Sit. en una dilatada llanura cuya márg. forma la bahía de Alcudia, con buena ventilación y clima templado y sano. 900 casas, un exconv. de Mínimos, una escuela de instrucción primaria, una igl. parr. (San Juan Evangelista) — de la que es aneja la de Llubí — servida por cura de término (provisión real y ordinaria), 2 vicarios temporales y amovibles, 12 beneficiados de distintos patronatos, y 9 sacerdotes ordenados á título de patrimonio. Térm.: N. Puebla; E. el mar; S. Sta. Margarita; O. Inca y Selva; contiene varias alquerías o casas de campo y una cantera de mármoles. Terreno de buena calidad, aunque en parte menos cultivado que otros de la isla. Caminos locales. Correo desde la cab. del partido. Prod.: trigo candeal, cebada, legumbres, vino; ganado lanar, cabrío y vacuno; caza de diferentes especies.", "stats": {"vecinos": 729, "almas": 3016, "contr_1846": 55014, "casas": 900, "beneficiados": 12, "sacerdotes_patrimonio": 9}, "cross_references": ["Inca", "Llubí", "La Puebla", "Santa Margarita", "Selva", "Alcudia"], "confidence": "high"}
+  ]
+}

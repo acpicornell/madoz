@@ -1,0 +1,175 @@
+# tom04 leaf 43  printed page 39  window=2
+# chocr-indexed Balearic entries on this leaf (1):
+#   - BARRANCAR (el)  (regex)
+
+=== TARGET LEAF ===
+BARR
+
+BARRAL: ald. en la prov. de la Coruña, ayunt. de Trazoy felig. de San Martin de Monzo. (V.)
+
+BARRAL : 1. en la prov. de la Coruña, ayunt. de Oroso yfelig. de Sto. Tomás de Vülarromariz (V.): pobl. : 2 vec,11 almas.
+
+BARRAL: ald. en la prov. de la Goruña, ayunt. y felig.de Sta. Maria de Trazo. (V.)
+
+BARRAL: ald. en la prov. de la Coruña, ayunt. de Trazoy felig. de Sta. Maria de Chayan (V.): pobl. 4 vec, 2oalmas.
+
+BARRAL: 1. en la prov. de la Coruña, ayunt. y felig. deSantiago de Arleijo.(V.)
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Bibero y felig.de San Pedro de Bibero. (V.)
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Muras y felig.de Sta. Maria del Burgo. (Y.)
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Ribadeo yfelig. de Sta. Eulalia de Debesa (V.J: pobl.: 9 vec., 38 almas.
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Cabarcos yfelig. de SU. Cristina de Cillero (V.): pobl.: 19 vec, 100almas.
+
+BARRAL: 1. en la prov. de Lugo , ayunt. de Villalba yíelig. de Santiago de Sancobad (Y.): pobl.: 3 vec, 15 almas.
+
+BARRAL: 1. en la prov. de Lujo, ayunt. de Foz y felig.de San Julián de Cordedo (V.): pobl.: 7 vec, 34 almas.
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Pastoriza yfelig. de San Juan de Lagoa (V ): pobl. 6 vec., 29 almas.
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Pastoriza yfelig. de Sta. Maria de Albare (V.): pobl.: 5 vec., 24 almas.
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Alfoz y felig.de San Pedro de Mor (V.): pobl.: 17 vec, 83 almas.
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Abadin yfelig. de San Pedro cíe Labrada (V.): pobl.: 4 vec, 19 almas.
+
+BARRAL: 1. en la prov. de Lugo, ayunt. de Abadin y felig.de San Juan de Castromayor (V.y. pobl.: 2 vec. 9 almas.
+
+BARRAL.- 1. en la prov. de Lugo, ayunt. deMondoñedo yfelig. de San Pedro de Argomoso (V.): 13 vec 63 almas.
+
+BARRAL : 1. en la prov. de Pontevedra, ayunt. de Salvatierra, felig. de San Adrián de Meder (V.)
+
+BARRAL: 1. en la prov. de Pontevedra, ayunt. de Salvatierra, felig. de San Salvador de Letrado (V.)
+
+BARRAL: I. en la prov. de Pontevedra, ayunt. de Puenteareas, felig. de San Miguel de Puenteareas (V.)
+
+BARRAL: 1. en la prov. de Pontevedra, ayunt. de Cerdeólo y felig. de Sta. Marina de Tomonde (V.J: pobl. : 30 vec,151 almas.
+
+BARRAL (de) : 1. en la prov. de Pontevedra, ayunt. deRiíiadurnia y felig. de Sta. Maria de Besomano. (V.)
+
+BARRAL (de): 1. en la prov. de Pontevedra, ayunt. yfelig. de Rivadumia Sta. Eulalia de (V.)
+
+BARRAL : ald. en la prov. de Pontevedra, ayunt. de Chapa y felig. de San Martin de Villar (V.): pobl. : 3 vec., 18almas.
+
+BARRAL: ald. en la prov. de Pontevedra, ayunt. de Chapa y felig. de Sta. Maria de Cor legada {Y.): pobl.: 5 vec,30 almas.
+
+BABRAL: 1. en la prov. de Pontevedra, ayunt. y felig. deSan Miguel de Catoira. (V.)
+
+BARRAL: 1. en la prov. de Pontevedra, ayunt. y felig. deSta. Maria de Salceda. (V.)
+
+BARRAL: 1. en la prov. de Orense, ayunt. y felig. de SanCipriano de Padrenda. (V.)
+
+BABRAL: ald. en la prov. de Orense, ayunt. de Villamarin y felig. de Sta. Mana de Tamallancos. (V.)
+
+BARRAL : 1. en la prov. de Orense, ayunt. y felig. de SanEsteban de Cástrelo. (V.)
+
+BARRAL DE ABAJO: 1. en la prov. de la Coruña, ayunt.de Puentedeume y felig. de San Pedro de Villar [Y): pobl.:6 vec., 29 almas.
+
+BARRAL DE ARRIBA: 1. en la prov. déla Coruña, ayunt.de Puentedeume y felig. de San Cosme de Noguerosa (V):pobl.: 12 vec, 52 almas.
+
+BARRAL DE ARRIBA: 1. en la prov. de la Coruña, ayunt.de Puentedeume y felig. de San Pedro de Villar (V.): pobl.:3 vec. 15 almas.
+
+BARRAL DE CIMA: 1. en la prov. de Lugo, ayunt. deMondoñedo y felig. de Santiago de Lindin (V.): pobl. 6 vec,29 almas.
+
+TOMO IV.
+
+BARR 39
+
+BARRAL DE STA. BALLA: 1, en la prov. de la Coruña,ayunt. de Monfero y felig. de Sta. Maria de Gestoso (V.):pobl.: 2 vec., 13 almas.
+
+BABRALLOBRE (Santiago) felig. en la prov. de la Coruña,part. jud. de Puentedeume, ayunt. deFene (V.) Baralloble.
+
+BARRAMEDA: cortijo en la prov. y part. jud. de Sevilla,térm jurisd. de Coria del Rio.
+
+BARRAN: 1. en la prov. de Orense, ayunt. de Piñón yfelig. de San Juan de Barran. (V.)
+
+BARRAN (San Juan de): felig. en la prov. y dióc deOrense (31/2 leg.),part. jud.de Carballinofl l/l)y del ayunt.de Piñor de Cea, de que escap.: sit. en un alto cercado demontañas con alguna ventilación, y clima húmedo, propensoá fiebres y males herpéticos: comprende los 1. y ald. de Albaron, Arenteiriño, Arenteiro, Badin, Barran,Fontelo , Piñor, Senra y Sindiroy que reúnen hasta 130 casas de 5 á 1varas de elevación, pero escasas de comodidades. Hay unaescuela de instrucción primaria que temporalmente sostienenlos padres délos alumnos. La igl. parr. (San Juan), es buenay decente, como también lo es el santuario ó ermita de Arenteiro; el curato, declarado de primer ascenso, es de patronatoecl., y el cementerio se halla frente de la igl., sin perjudicará la salud pública. El térm. confina por N.con los de San Juande Cóiras y Sta. Maria de Osera, por E. con el de San Mamedde Canda, que continua lindando por el S., y al O. con el deSan Payo de Lueda: le bañan 2 riach.; el 1." tiene origen delos montes Ursarios, baja por el terr. du Osera, interponiéndose entre Barran y Canda, y continúa hasta llegar al puentede piedra, denominado Mírela; el 2." corre por la felig. deSan Juan de Coiras, y con tortuoso giro llega al puente deArenteiro, que también es de piedra y de un solo arco; desdeaquí va á unirse con el primero, en el mencionado puente deMirela y agregados al que corre por puente Colelas , formanel r. que cruza el puente Veiga y pasa próximo á Carballino.El terreno es montuoso; al E. se encuentran los citados montes Ursarios y los de Martina y Cobas, al O la larga y elevadasierra de la Magdalena y al S. los montes que baña el r. Anceo;abunda el arbolado de castaños y robles, y los prados de pastos, asi como las tierras destinada al cultivo, son de segunda ytercera calidad: caminos: la carretera de Orense á Santiago yá la Coruña pasa por esta lelig., en la cual hay parada depostas; tiene ademas otros caminos locales que enlazan coael que va de Lugo á Monterroso, y todos se hallan en mediano estado: el correo se recibe por la cap. de prov.; prod.:centeno, maiz, patatas, trigo, legumbres, lino, castañas,frutas y hortaliza; cria ganado vacuno, lanar y de cerda; haybastante caza y mucha pesca de truchas, anguilas y peces;ind.: la agrícola y pecuaria, y 3 molinos harineros; pobl.:130 vec, 765 alm.; coNTR.con su ayunt. (V.;
+
+BARRANCA: I. en la prov. de Oviedo, ayunt. de la Vegade Rivadeo y felig. de Sta. Maria de Paramios (V.); pobl.:16 vec, 54 almas.
+
+BARRANCAR (el): punta en la isla, tercio y prov. marít.de Mallorca, distr. de Andraix ó Andrach, departamento deCartagena: es bastante saliente y se halla 2 millas al N. 50"E. del cabo de Groser.
+
+BARRANCO: deh. en la prov. de Cáceres, part. jud. deMontanches, térm. de Alcuescar: sit. 1/4 leg. N. de esta v.,es una de las mejores ojas de labor que se conocen, y pertenece á los valdios del part.; por esto, como por tener buenasyerbas, y por ello muchos majadares de cerdos y ovejas,cuando no está de labor, produce tanto centeno como si fuerade primera clase; la baña el r. Ayuela, y, como ademas tenga mucha agua la hermosa charca del Cura, mantiene enrastrojera muchas piaras de ganado de cerda.
+
+BARRANCO: cortijo en la prov. de Jaén, part. jud. de Villacarrillo: se halla en los térm délas v. comuneras, Villanueva del Arzobispo, Iznatorafe, Sorihuela y Villacarillo á3/4 leg. S. de esta última.
+
+BARRANCO: cortijada en la prov. de Mureia, part. jud.y térm. jurisd. de Totana, entre 2 cerros poblados de montebajo; su terreno ameno y muy pintoresco, plantado de árboles frutales, parras y otros arbustos, linda con la heredadllamada Caribete, también poblada y de bella vista. En elBarranco hay una fuentecilla que se conoce con el nombre delVino; pues las aguas en su curso han formado por el peñascouna canal, que cubierta de ovas encarnadas, hace aparecer elagua del color del vino común.
+
+=== CONTINUATION LEAF +1 ===
+40
+
+BARR
+
+BARRANCO (huertas del): algunas pequeñas casillas conhuertas de árboles fruíales y alguna hortaliza: sít. en elfondo de un barranco á 2 leg. de Ciudadela en la isla de Menorca, y á i/2 leg. de la v. de Ferrerías por la parte del O.;este barranco forma forma el lim. de los dos términos.
+
+BARRANCO (venta del): en la prov. de Zaragoza, part.jud. de Borja, jurisd. de la v. de Gallur: sit. á 3/4 de horade la misma junto al barranco llamado el Reguero en la carretera que conduce á Navarra. Fué construida en el año de1800 y es una posada bastante capaz y concurrida particularmente de arrieros y carreteros.
+
+BARRANCO ALÉGRE: cas. en la prov. de Almería, part.jud. de Purchena, lérm. jurisd. y á 1/2 leg. O. de Macael:tiene 3 casascortijos habitadas constantemente por los trabajadores que cuidan de sus huertas; estas se riegan con él aguaque fluyen 2 fuentes poco abundantes.
+
+BARRANCO DE ALCAZAR: arroyo en la prov. de Granadapart. jud. de Albuñol; se forma de pequeños manantiales enel térm. de Alcázar, pasa á unas 60 varas de dicho pueblo, yá 1/2 leg. de él sin salir de su term. desemboca en el r. Guadaolfeo: en el invierno lleva bastante agua, pero en las demás épocas pierde su corriente por emplearla en el riego deunas 25 fan. de tierra.
+
+BARRANCO DE ALMERIN: cas. ó cortijada en la prov. deAlmería, part. jud. deBerja, térm.jurisd. de^dra. (S.)
+
+BARRANCO DEL AGUA: pago de la isla y part. jud. dela Palma, prov., aud. terr. ye. g. de Canarias, dióc. de Tenerife, jurisd. y felig. del 1. de San Andrés (V.): está sit. al E.de la isla y de la parr., cerca de la playa del mar ; tiene unaermita dedicada á Ntra. Sra. donde se celebra el oficio de lamisa los dias feriados.
+
+BARRANCO DE LA MONTESINA : pago de huertas en laprov. de Jaén, part. jud. de Villacarrillo, térm. jurisd. delas villas comuneras, Sorihuela, Villanueva del Arzobispo,Villacarrillo é Iznatorafe: principia á medio cuarto de leg. S.de esta última v. y se estiende hasta las inmediaciones del r.Guadalquivir.
+
+BARRANCO DE LA ZARZA: alq. en la prov. de Almería,part. juddeSorvas, térm. jurisd. deTahál.
+
+BARRANCO DEL ALAMILLO: torre en la prov. de Almería part. jud. de Sorvas , térm. jurisd. de Senés.
+
+BARRANCO DEL CAÑO: alq. en la prov. de Almería part.jud. de Sorvas y térm. jurisd. de Tahál.
+
+BARRANCO DE LOS ASENCIOS: diput. de la prov. deMurci.i: (V. Asensios.)
+
+BARRANCO DE LA CABAÑI'IA: alq.enlaprov.de Almería, part. jud. de Sorvas, térm. jurisd. de Benizalon.
+
+BARRANCO DE LAS ZORRERAS : alq. en la prov. de Almería , part. jud de Sorvas, térm. jurisd. de Tahál.
+
+BARRANCO DE LOS MOLINOS: arroyo en la prov. doGranada part. jud. de Albuñol: tiene su origen en el térm.de Berchulesen Sierranevada, de la cual baja en direcciónS. hasta desembocar en el r. Guadaoiíeo, térm. y á dist. de1/2 leg. de Timar, de cuyo pueblo pasa á 200 varas: es decurso perenne, da movimiento á 2 molinos harineros y fertiliza 22 fan. de tierra.
+
+BARRANCO DE LOS OLIVOS: alq. en la prov. de Almería,part. jud. de Sorvas, térm. jurisd. de Tahál.
+
+BARRANCO (el) : pago de la isla y dióc. de la Gran Canaria, prov., aud. terr. y c. g. de Canarias, part. jud. de las Palmas, jurisd. y felig de Tirajnna.
+
+BARRANCO Cel): pago déla isla de la Gomera, prov., aud.terr. y c. g. de Canarias, part. jud. de Sta. Cruz de Tenerife; dióc. de Tenerifejurisd. y felig. deSan Sebastian cap. de laisla: sit. á una leg. de su matriz; tiene 2 ermitas; es sitio muyameno por razón de sus huertas, bosques y pinares.
+
+BARRANCO GRANDE: rambla en la prov. de Almería,part. jud. de Berja lérm. jurisd. de Adra. (V.)
+
+BARRANCO HONDO: pago de la isla y dióc. de la Gran Canaria, prov. aud. terr. y c. g. deCanarias, part. jud. de Guio,felig. y jurisd. de Galdar (V.), es famoso este pagó por elesquisito queso que en él se fabrica, que puede competir conJos mejores de Europa.
+
+BARRANCO HONDO : pago en la isla y dióc. de Tenerife,prov. de Canarias, part. jud. de Sta. Cruz, jurisd. y felig. deCandelaria (V.). está srr. al E. de la isla no lejos de la playadel mar, á donde dpsembora el barranco que le da nombro.BARRANCOHONDO: pago de la isla y dióc. de Tenerife
+
+BARR
+
+prov. de Canarias, part. jud., térm. y felig. de San Cristóbalde la Laguna (V.y. está s t. al ES. de la isla entre varios cerros estribos de la cord. de Anaga ó montañas Orientales; tieneuna ermita en la cual se celebra misa los dias feriados;corre por él el barranco de su nombre, que desemboca enelmar, sirviendo de foso á la torre fuerte de San Juan unode los reductos que defienden el puerto de Sta. Cruz.
+
+BARRANCOHONDO: quebrada de Sierra Morena en laprov. de Jaén, part. jud. de Villacarrillo, térm. jurisd. deMontizon , Aldeahermosa y Venta de los Santos: forma ladivisión de este térm. común con ei de Villamanrique y esmuy célebre por las cortaduras y atrincheramientos que conmas celo que inteligencia se practicaron en la guerra de laIndependencia, para impedir el paso del ejército francés áAndalucía.
+
+BARRANCOHONDO: dip. déla prov. de Murcia, part. jud.térm. jurisd. y á una leg. de Lorca (V.): la mayor parle desu vecindario se halla reunido en una pequeña aldea.
+
+BARRANCO JUDIO: cortijada en la prov. de Albacete,part. jud. térm. jurisd. y á 1 1/2 hora entre O. y N. de Yeste(V.): se compone de 8 cortijos sil. á la falda de la encumbradasierra del Ardal, en terreno sumamente quebrado, con pocalabor y riego, pero muy poblada de monle alto y bajo.
+
+BARRANCO MORALES: part. de Campo desp". en la prov.de Málaga, part. jud. de VelezMálaga, térm. jurisd. deBenamocarra.
+
+BARRANCOS: llámase también Barranco de San Juan;,riach. de la prov. de Teruel en el part. jud. de Castellotetérm. de la v. de Cantavieja. Se forma en frente de la masiade Cerezos, de 3 arroyos que corren paralelamente á la faldadel monte llamado Pinar de Cantavieja y á 1/4 y medio dedist. uno de otro, conocidos con los nombres de Torre Marin,Fuente del Arcilla y los Toscos: los dos primeros tienen suorigen en la misma v. hácia su parte del S. y el 3." al N. del1. de la Iglesuela: sigue su curso mansamente dividiendo losreinos de V ilencia y Aragón hasta la v. de la Mata correspondiente al part. jud. de Morella en la prov. de Castellón dela Plana, donde se une al r. Bergántes. No tiene puente alguno, ni cria pesca de ninguna especie: acostumbra á secarseen el verano por la escasez de aguas en las fuentes que lo alimentan, y por esta razón apenas beneficia algún pequeñohuerlecillo: en el Otoño, invierno y primavera, da movimiento á las ruedas de 2 molinos harineros situados el 1.° quese llama Arnés, á una hora de su principio, y el 2," en el 1. deCuba, cerca de su confluencia con el Bergantes.
+
+BARRANCOS, den. en la prov. de Albacete, part. jud. ytérm. jurisd. de Alcaráz; se halla en ella un manantial llamado Baños de Buitre (V.), y ademas un arroyo que se dirije á la granja del Berro.
+
+BARRANCOS: dos cas. en la prov. de Murcia, part. jud.de Caravaca y lérm. jurisd. de Moratalla: uno de ellos sehalla sit. en la diputación llamada de San Bartolomé; el otroen la de Benamor, y cada uno se compone de 3 vecinos.
+
+BARRANCOS flos): seis cortijos en la prov. de Albacete,part. jud., lérm. jurisd. y á una hora NO. de Yerte (V.).- estan sit. en lo mas quebrado de la falda y al S. del Calar; elterreno es poco prod., pob!. de monte bajo, pinos y carrascas útiles para obras civiles, y lo fertiliza una fuente que naceen la parte superior.
+
+BARRANCONES: alq. en la prov. de Almería, part. jud.de Sorbas, térm. jurisd. de Alcudia.
+
+BARRANCONES (los): alq. en la prov. de Almería, part.jud. de Sorvas , térm. jurisd. de Benitagla.
+
+BARRANDA : diputación en la prov. de Murcia , par*, jud.de Caravaca, térm. jurisd. y al E. de Archivel (V.).- se compone de 141 casas diseminadas, escepto algunas que formanla principal cortijada: el terr. es como de una leg. cuadrada, y en su mayor parte de riego.
+
+BARRANGON: I. en la prov. de Lugo, ayunl. de Baleira yfelig. de San Lorenzo de Pousada (V.); pobl..- 9 vec, 46alm.
+
+BARRANQUET: granja eñ la prov. de Valencia, part. jud.de Liria, jurisd. de la Puebla de Balbona (1/4 hora E.): sit. enllano con una casa de labranza. Su terreno es de secano, yprod. trigo, cebada, vino, aceite, algarrobas y otros frutos;pobl.: un vecino.
+
+BARRANTES: jurisd. en la ant. prov. deTuy: se componía de las felig. de Barrantes y Campos ancos, que hoy pertenecen la primera al ayunt. de Ribadumia en el part. de Cam-

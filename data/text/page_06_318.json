@@ -1,0 +1,10 @@
+{
+  "vol": "06",
+  "leaf": 318,
+  "page_printed": "314",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CENTUIRI ant. CENTUNVIRI", "place_type": "monte", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Monte en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "high", "note": "OCR mangled 'CENTÜ1RI' -> CENTUIRI; ancient name Centunviri."}
+  ]
+}

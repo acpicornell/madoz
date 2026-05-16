@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 718,
+  "page_printed": "712",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PASCOL (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jad. de Inca, térm. y jurisi. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "vol": "04",
+  "leaf": 358,
+  "page_printed": "352",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BISBALS (las)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria y Santa Margarita",
+      "description": "Predio ant. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de las v. de Maria y Sta. Margarita: está sit. al S. de esta última y dividido en varias porciones con otras tantas casas, y aunque pertenecen á distintos dueños, conservan todas y el terreno un mismo nombre, que es el apellido de uno de los primeros pobladores de la isla después de la conquista.",
+      "stats": {},
+      "cross_references": [
+        "Maria",
+        "Santa Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

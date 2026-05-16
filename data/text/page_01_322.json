@@ -1,0 +1,55 @@
+{
+  "vol": "01",
+  "leaf": 322,
+  "page_printed": "314",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALBERCUIX (fortaleza de)",
+      "place_type": "castillo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Vulgo la Fortaleza. Cast. y plaza de armas en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, en el térm. y felig. de Pollenza. Sit. en un monte del predio que le da nombre, junto á un pequeño cabo. Residen en él un gobernador militar y algunos artilleros; hay un oratorio con misa todos los domingos y fiestas de precepto, cuyo sacerdote costea la Universidad de Pollenza. Fue construido entre 1622 y 1626; por documentos del archivo consistorial, la obra costó 3,950 libras mallorquinas (= 52,484 rs. 14 mrs. vn.).",
+      "stats": {
+        "construccion_inicio": 1622,
+        "construccion_fin": 1626,
+        "coste_libras_mallorquinas": 3950,
+        "coste_rs_vn": 52484,
+        "coste_mrs": 14
+      },
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALBERCUIX",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio, con casa rústica, en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Pollenza. Sit. cerca del puerto de esta v. en el valle de Bocar. Se encuentra en él piedra azul; á cinco pasos de la playa hay una fuente de buenas aguas de la cual se proveen muchas tripulaciones.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Valle de Bocar"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALBERCUIX (torre de)",
+      "place_type": "torre de vigía",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Vulgo la Atalaya de Albercuix. Torre de vigía en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Pollenza. Sit. en un elevado monte del mismo predio de su nombre, cerca del mar.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

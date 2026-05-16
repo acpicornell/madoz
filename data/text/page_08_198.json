@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 198,
+  "page_printed": "194",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FRIGOLA (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Lluchmayor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmayor.", "stats": {}, "cross_references": ["Lluchmayor"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 443,
+  "page_printed": "439",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "REY (cas)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": ". predio en la isla de Mallorca , prov. de Raleares, part. jud. de Inca, térm. y jurisd. de la v. de Escoren.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "REYNES (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmavor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

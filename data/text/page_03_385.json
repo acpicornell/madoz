@@ -1,0 +1,23 @@
+{
+  "vol": "03",
+  "leaf": 385,
+  "page_printed": "381",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Original text reads 'prov. de Mallorca, prov. de Baleares' — typo; corrected to 'isla de Mallorca, prov. de Baleares'.",
+  "entries": [
+    {
+      "title": "BARBALLEDA (Can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

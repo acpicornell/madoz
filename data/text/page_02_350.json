@@ -1,0 +1,38 @@
+{
+  "vol": "02",
+  "leaf": 350,
+  "page_printed": "344",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ANTONIO (San)",
+      "place_type": "villa",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San Antonio",
+      "description": "V. de la isla, part. jud., adm. de rent. y dióc. de Ibiza (2 1/2 horas), prov., aud. terr. y c. g. de las Baleares. Sit. entre montañas, libre á la influencia de todos los vientos, con cielo alegre y clima saludable. Forma ayunt. con los l. de su jurisd. que son Sta. Inés, San Mateo y San Rafael. Cuenta 168 casas y una igl. parr. servida por un cura párroco de tercera clase, de provisión ordinaria, y un sacristán. El edificio es bastante capaz, sólido y de regular arquitectura; tiene una torre que domina el puerto, fortificada y guarnecida con 2 piezas de artillería de grueso calibre. Confina el térm., comprendiendo en él sus pedáneos, por el N. con el de San Miguel, por el E. con el de Sta. Eulalia, por el S. con el de San José, y por el O. con el mar; aqui está su puerto llamado Puerto Magno, pero más comúnmente de San Antonio (V.). El terreno es montañoso, especialmente por el lado del N., pero tiene al E. y S. algunos llanos muy fértiles con el riego que les proporcionan varios riach. que desde los cerros bajan al mar, con cuyas aguas se da también impulso á las ruedas de algunos molinos harineros. En el monte hay bosques arbolados de pinos y otros arbustos, y crían abundantes yerbas de pasto. Prod.: trigo, cebada, aceite, vino, legumbres, hortalizas, frutas, ganado lanar, vacuno, de cerda, cabrio y mucha caza. Comercio: esportación por el espresado puerto de frutos sobrantes, carbón y leña.",
+      "stats": {
+        "casas": 168,
+        "vecinos": 558,
+        "almas": 3539,
+        "cap_imp_rs": 381659,
+        "contr_rs": 975,
+        "contr_mrs": 27
+      },
+      "cross_references": ["San Miguel (Ibiza)", "Santa Eulalia (Ibiza)", "San José (Ibiza)", "Santa Inés", "San Mateo", "San Rafael", "Puerto Magno", "Ibiza"],
+      "confidence": "high"
+    },
+    {
+      "title": "ANTONIO (San) ó PUERTO MAGNO",
+      "place_type": "puerto",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San Antonio",
+      "description": "Puerto de la isla, tercio, prov. y distr. marít. de Ibiza, apostadero de Cartagena. Sit. al O. y próximo á la v. que le da nombre; su boca es de dos millas. Principia la costa del NE. en el cabo de Negrete ó punta Verde, de mediana altura y poblado de árboles, al S. 11º O. 2 1/4 millas del pico de Nono. Al S. 28º E. 1/3 de milla se llega á cabo Blanco, que hace con el anterior la cala de Gracic. 1/2 milla al S. 41º E. se pasa por la punta de las Cuevas Blancas, y entre esta y aquel hay otra cala mayor denominada de Moros, ambas con buenos fondeaderos para verano. Continúa la costa hasta formar el saco del puerto. La costa del SO. principia en la cala de la Balsa, mas al E. 1/2 milla la cala del Aciste, y como al ESE. 1 1/4 milla la punta de la Fuente. La punta de Robira rasa y saliente, cerca de la cual en una elevación hay una torre, y el pico ó cabo de Nono, constituyen el alza esterior del puerto, cubriéndole en parte toda la estension de la isla llamada Conejera Grande. La entrada en él no tiene inconveniente alguno. En verano es bueno para cualquier número y porte de navíos; pero en invierno á causa de los vientos del N. y NO. continuos y la crecida mar, no es acomodado sino para buques menores, cuyo tenedero es escelente. Hay una casa recientemente construida para hospedaje.",
+      "stats": {},
+      "cross_references": ["San Antonio (Ibiza)", "Cabo Negrete", "Pico de Nono", "Cala de Gracic", "Cala de Moros", "Cuevas Blancas", "Conejera Grande", "Punta de Robira"],
+      "confidence": "high"
+    }
+  ]
+}

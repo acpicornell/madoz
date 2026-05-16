@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 547,
+  "page_printed": "543",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ROIG (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Calviá",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de l'alma, térm. y jurisd. de la v. de Calviá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "ROIG (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "predio en la isla de Mallorca, prov. de Baleares , part. jud. de Inca, térm. y jurisd. de la v. de Gampanet.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 159,
+  "page_printed": "155",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TRIAS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Esporlas",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, ténn. y jurisd. de la v. de Espolias.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

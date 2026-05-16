@@ -1,0 +1,21 @@
+{
+  "vol": "04",
+  "leaf": 158,
+  "page_printed": "154",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "On this leaf also appear BELLPUIG DE NOVES (Lérida) and BELLPUIG (v. Lérida) — non-Balearic. Only the predio of Artá is recorded.",
+  "entries": [
+    {
+      "title": "BELLPUIG",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Artá",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá. Tiene un oratorio público donde se celebra misa los días festivos y es propiedad del marqués de su mismo título.",
+      "stats": {},
+      "cross_references": ["Artá", "Marqués de Bellpuig"],
+      "confidence": "high"
+    }
+  ]
+}

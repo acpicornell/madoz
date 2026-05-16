@@ -1,0 +1,20 @@
+{
+  "vol": "02",
+  "leaf": 236,
+  "page_printed": "232",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AMARADO",
+      "place_type": "lago",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)",
+      "stats": {},
+      "cross_references": ["Muro"],
+      "confidence": "high"
+    }
+  ]
+}

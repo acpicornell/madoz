@@ -1,0 +1,20 @@
+{
+  "vol": "02",
+  "leaf": 312,
+  "page_printed": "308",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ANFOS (cabo de)",
+      "place_type": "cabo",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "Cabo de la isla, tercio, prov. y distr. marít. de Menorca, apostadero de Cartagena. Sit. al O. 1/4 NO. del cabo Ternells, entre este y el de Levante, que distan uno de otro 2 millas. Forma con el cabo de Levante una gran ensenada á la cual nombran golfo ó ensenada de Anfós.",
+      "stats": {},
+      "cross_references": ["Cabo Ternells", "Cabo de Levante", "Ensenada de Anfós"],
+      "confidence": "high"
+    }
+  ]
+}

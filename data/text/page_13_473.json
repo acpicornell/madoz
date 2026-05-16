@@ -1,0 +1,42 @@
+{
+  "vol": "13",
+  "leaf": 473,
+  "page_printed": "469",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BICHOLA",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Sineu",
+      "description": "alq. en la isla de Mallorca, prov. de Baleares,part. jad. de Inca, térm. jurisd. de la v. de Sincu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RIBOT (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "predio en la isla de Mallorca , prov. de Raleares, part. jud. , terna, y jurisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RICUOLETA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "predio en la isla de Mallorca, prov. de Baba res , part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

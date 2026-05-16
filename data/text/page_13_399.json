@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 399,
+  "page_printed": "395",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "REFAL",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "con esta denominación se conocen tres distintospredios en la isla de Mallorca, prov. de Baleares, part. jud.,térm. v jurisd. de la v. de Mannror.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

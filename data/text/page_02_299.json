@@ -1,0 +1,21 @@
+{
+  "vol": "02",
+  "leaf": 299,
+  "page_printed": "295",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "ANDRAIX continuation block (terreno/ind./pobl.) appears here but was attributed to leaf 298 where the entry begins. Only the standalone ANDRES (San) cala is recorded here.",
+  "entries": [
+    {
+      "title": "ANDRES (San)",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Ciudadela",
+      "description": "Cala de la isla, tercio y prov. marít. de Menorca, distr. de Ciudadela, apostadero de Cartagena. Sit. al S. del puerto de Ciudadela entre las calas del Degollador y la Blanca; sirve solo para jabeques chiquitos. En ella son travesía los vientos del tercer cuadrante, y meten mucha mar, por lo que es necesario buenas amarras ó barar como lo hacen los pescadores.",
+      "stats": {},
+      "cross_references": ["Ciudadela", "Cala del Degollador", "Cala Blanca"],
+      "confidence": "high"
+    }
+  ]
+}

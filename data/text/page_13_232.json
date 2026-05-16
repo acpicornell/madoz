@@ -1,0 +1,30 @@
+{
+  "vol": "13",
+  "leaf": 232,
+  "page_printed": "228",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PUEBLA (la)",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "La Puebla",
+      "description": "v. con ayuntamiento en la isla y diúciudad de Mallorca, provincia, audiencia tcrr., ciudad g de Baleares (Palma), part, judicial de Inca-, Sit en una amena y dihilada llanura, al NO. de la isla, combatido principalmente de los viento? de este punto y île los del N. ; su cielo es alegre y por ciertos punios piesenta una perspectiva pintoresca:» al N. y O. dist. 3/4 de leg. se descubren las montunas de varios predios, formando una cord, en figura semicircular, asi como por la parle de E. яе esliendo la llanura de las marjales ant. y modernas, terminando el horizonte en la misma dirección con la al »laya de Alcudia y el mar á 2 horas de dist.; el Clima es insalubre, efecto de. h humedad de aquellos terrenos y de los cases mi-filicos que exhalun las marjales , prados» y lagunas de la Albufera ; las enfermedades comunes son fiebres intermitentes y gástricas, y se observan pocos casos de longevidad. Consta la población «de 900 Ca SAS regulares, aunque poco ventilados generalmente los cuartos dormitorios ; las calles son rectas y espaciosas ; en muí de sus 2 plazas eslá la casa consistorial, de moderna construcción, y en otra la carnicería y pescadería pública; la iglesia p. ir. (Sao Antonio Abad] está situado al O. de la v., pero concluido y poblado que sea el cuadro desitnado que debe ocupar esta, so hallará la iglesia en el centro; la sirve un cura de término, de provisión real y ordinaria, 2 vicarios temporales y amovibles que nombra el diocesano, 10 sacerdotes ordenados á titul [...]",
+      "stats": {},
+      "cross_references": [
+        "Alcudia",
+        "Baleares",
+        "Inca",
+        "Llubí",
+        "Mallorca",
+        "Muro",
+        "Palma",
+        "Pollenza"
+      ],
+      "confidence": "high",
+      "source_note": "description from diccionariomadoz.com scrape (OCR title mangled or absent)"
+    }
+  ]
+}

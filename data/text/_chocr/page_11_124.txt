@@ -1,0 +1,507 @@
+# tom11 leaf 124  printed page 120  window=2
+# chocr-indexed Balearic entries on this leaf (1):
+#   - MALLORCA  (regex)
+
+=== TARGET LEAF ===
+120
+
+MALLORCA.
+
+CONVENTOS Y MONASTERIOS DE LA DIOC. DE MALLORCA.
+
+Regulares suprimidos en 12 de agosto de 1835.
+
+PUEBLOS.
+
+CONVENTOS lí MONASTERIOS.
+
+'Santo Domingo
+
+San Francisco de Asis...Ntra. Sra. del Carmen..
+
+i El Socorro
+
+1 El Santo Espíritu
+
+Palma i Ntra. Sra. de la Merced..
+
+1 San Francisco de Paula..La Purísima Concepción.
+
+Montesíon (')
+
+San Cayetano el Real....
+
+Jesús, estramuros
+
+Jesús
+
+San Antonio de Padua...San Francisco de Paula..
+
+San Agustín
+
+í Santo Domingo
+
+\ San Francisco de Asis...
+
+San Buenaventura
+
+San Vicente Ferrer
+
+Santa Ana
+
+San Bernardino
+
+Ntra. Sra. del Bosario...Ntra. Sra. de la Soledad.
+
+Jesús Maria
+
+Ntra. Sra. de Loreto
+
+Alcudia..Arta
+
+Campos .Felanitx.
+
+Inca
+
+LluchmayorManacor....
+
+Muro
+
+Petra
+
+Pollenza....Santa Maria.
+
+Sinen
+
+ORDENRELIGIOSO.
+
+Predicadores
+
+Observantes
+
+Carmelitas calzados.
+
+Agustinos
+
+Trinitarios calzados,
+
+Mercedarios ,
+
+Mínimos ,
+
+Capuchinos ,
+
+Jesuítas
+
+Tealinos
+
+Observantes
+
+id
+
+id
+
+Mínimos
+
+Agustinos
+
+Predicadores
+
+Observantes
+
+id
+
+Predicadores
+
+Mínimos
+
+Observantes
+
+Predicadores
+
+Mínimos
+
+id
+
+Predicadores
+
+Observantes
+
+Soller | Jesús
+
+MONACALES ESTINGCIDOS EL MISM
+
+Palma i San Bernardo el Real iGistercienses.
+
+Valldemosa | Jesús Nazareno |Cartujos
+
+marzo del propio año.
+
+Palma f San Felipe de Neri..
+
+San Vicente de Paul.
+
+Don jas
+
+Palma,
+
+Inca .Sinen
+
+Santa Margarita
+
+Santa Clara ,
+
+Ssn Gerónimo ,
+
+Santa Magdalena ,
+
+La Concepción
+
+Ntra. Sra. de la Misericordia..
+
+La Concepción del Olivar
+
+La Consolación ,
+
+Santa Teresa de Jesús.
+
+Sania Catalina de Sena ,
+
+La Purísima Concepción
+
+San Bartolomé
+
+La Concepción
+
+CongregaciónMisionistas...
+
+Agustinas
+
+Franciscanas
+
+Gerónimas
+
+Agustinas
+
+id
+
+id
+
+Orbenistas
+
+Agustinas
+
+Carmelitas descalzas.
+
+Dominicas
+
+Capuchinas
+
+Gerónimas
+
+Franciscas descalzas,
+
+akos desü
+
+NUMERO DERELIGIOSOS
+
+CONV. CUYASIGL. EXISTEN.
+
+FUNDACION.
+
+EN 1835.
+
+con culto.
+
+sin culto.
+
+1230
+
+86
+
+1
+
+1239
+
+140
+
+1
+
+1231
+
+31
+
+i
+
+1
+
+1480
+
+36
+
+1232
+
+34
+
+i
+
+1
+
+1235
+
+38
+
+i
+
+1582
+
+50
+
+i
+
+1677
+
+52
+
+1561
+
+17
+
+t
+
+1
+
+1721
+
+6
+
+1441
+
+23
+
+i
+
+1
+
+1536
+
+6
+
+i
+
+1581
+
+19
+
+i
+
+1599
+
+9
+
+i
+
+1603
+
+18
+
+i
+
+1605
+
+7
+
+i
+
+1325
+
+17
+
+i
+
+1600
+
+24
+
+i
+
+1576
+
+17
+
+i
+
+1583
+
+7
+
+i
+
+1607
+
+15
+
+i
+
+1578
+
+17
+
+i
+
+1581
+
+10
+
+i
+
+1667
+
+8
+
+i
+
+1597
+
+7
+
+i
+
+1441
+
+21
+
+i
+
+*MO DIA.
+
+| 1239
+
+1
+
+I 1399
+
+imlcnto del Real decreto de 8 de
+
+1712
+
+3
+
+1736
+
+8
+
+i
+
+765
+
+1232
+
+18
+
+1256
+
+31
+
+1
+
+1485
+
+26
+
+1330
+
+32
+
+1564
+
+25
+
+1578
+
+20
+
+1
+
+1549
+
+34
+
+1610
+
+28
+
+1614
+
+18
+
+1658
+
+31
+
+1662
+
+30
+
+1550
+
+28
+
+1579
+
+32
+
+553
+
+35
+
+8
+
+(*) El colegio de Jesuítas de Palma ya quedó estínguido en 16 de julio del citado año de 1835 consecuente á lo prevenido en el RealDecreto de 4 del mismo.
+
+MALLORCA: prov. marít. compuesta de la isla de su nombre , la de Menorca y Cabrera, propiamente Baleares ó Gimnesias de los griegos, de las de Ibiza, Formentera y Conejera, conocidas por Piíuisas, con otras pequeñas islas ó islotillosadyacentes, que se comprenden en la descripción de las(¡osfas; en lo civil y administrativo es de tercera clase; en
+
+lo judicial corresponde á la aud. terr. de su nombre, y conslade 6 part. jud. que son : Inca, Manacor y Palma en la isla deMallorca, Ciudadela y Mahon en la de Menorca, y el de Ibizaque abraza la isla de su nombre, y la de Formentera ; en lopnljtar forma una c. g.; en lo ecl. se divide en 3 dióc. denominadas de Mallorca, Menorca é Jbiza, sufragáneas las dos
+
+=== CONTINUATION LEAF +1 ===
+primeras de la de Valencia, y la última de la de Tarragona;v en el orden marit. forma 3 prov. tituladas de Mallorca, Manon é Ibiza, dependientes del tercio naval de Mallorca y departamento de Cartagena.
+
+La prov. de Mallorca ó islas Baleares, cuya cap. es la c. dePalma , se hallan sit. en el mar Mediterráneo, comprendidasentre los paralelos de 38° 37' y los 40° 7' lat. N., óu 22' y los8o !5' long. E. del meridiano de Madrid, equidistantes de lascostas de Africa y de Europa, y no tan apartadas entre sí queno puedan verse mutuamente desde alguna de sus costas: seaefe -to de su proximidad á la Península, sea consecuenciade la unidad de razas, de antiguas revoluciones ó de inesplicables afinidades perdidas en la noche de los tiempos, ciertoes que las Baleares jamás han podido separar su historia ysuerte délas del continente español, y que por debajo del ancho y profundo brazo de mar que las separa , pasan misteriosas raices que las hacen nutrirse de la vida y participar delas estaciones del grande árbol, del cual no parecen sino retoños. Sin embargo , es preciso convenir que las Baleares sonpoco menos que desconocidas en la Península, imaginadascomo un lugar de soledad y fastidio, cuando no de destierro;los desastres de la última guerra , arrojando , en especial áMallorca , una muchedumbre de españoles , han hecho conocer, al menos en ella, una ventaja que antes por común no seapreciaba, la paz; y de cuantos han regresado al continentedespués de haber gozado allí gratos días de sosiego, pocos hayque no recuerden con gratitud aquel paisyásus hab.; rindieudo homenageála amenidad y belleza del primero, y ala hospitalidad de los segundos. Atendidas sus particulares situaciones y accidentes del terreno , que influyen en el distinto clima , salubridad, fertilidad y movimiento de pobl. , que seobserva en las dos principales islas de Mallorca y Menorca, yásu diferencia en uso de pesos . medidas y monédasete. , yconcillando á la vez la estetismo posible en nuestros artículos,sin repeticiones infructuosas, vamosá describir en este cadauna de las citadas en particular , para no reiterar en sus respectivas descripciones, loque hemos de dejar consignado enel art. de prov.
+
+La isla de Mallorca se halla sit. en el 5." clima entre losparalelos de 39" 15' 45" y 39" 57' 15* N., y entre los meridianos 8" 39' 35" y 9° 47' 40" al E. del real observatorio demarina gaditano ; su figura , aunque muy parecida á un polígono irregular, es la de un cuadrdatero trapezoide , y no elparalelóeramo oblicánculoromboide, como quieren otros quesea: presenta los vértices de sus ángulos á los puntos cardinales; asi el promontorio de Pera , mira al E. é isla de Cerdeña ; el de Grocer al O. y playa de Valencia; el de Formentor al N. y principado de Cataluña , y el de Salinas al S. ycosta de Africa : correal OSO. 9 leg. de la tierra mas inmediata de Menorca , 15 al ENE. de la mas cercana de Ibiza,25 al S. 4o E. de Barcelona, que es el punto mas próximo delcontinente de España , y 45 al NNO. de Cabo Tenez , que loes del de Africa : tiene 15 leg. de largo con 8 de ancho , medida su long. de Cap de Pera á Grozer, y su lat. de Palma áAlcudia; su medida terrestre es de 1,234 millas cuadradas,conteniendo 2 c., 35 v., 39 lugarejos y 1,898 alq. ó posesiones. La temperatura es benigna , defendida la isla de los friosy vientos del N. por el formidable parapeto de la alta cord.de sus montañas : rara vez baja el termómetro de Reaumur de6* en algunos días del invierno; las brisas del mar templanlos rigores del estio , y aunque suelen combatirlos vientoscon violencia en las concavidades del N. , donde el clima eshúmedo y nebuloso, son muy puros y sanos en lo general dela isla, y las enfermedades mas comunes son catarros, pulmonías y fiebres intermitentes.
+
+Territobio. El de esta isla no puede menos de admirarse,pues comparativamente á su estension y á vista de la alternativa de cordilleras y llanuras, de campos secos ó abundantes en fuentes, de rocas cortadas á pico ó de ondulantes y fértilísimas colinas, creería cualquiera brillarse á la vez en distintos climas ó países entre sí muy apartados; crúzale unacord. de encadenadas v clevadísimas montañas qu« corre deNE. á SO., dividiéndole naturalmente en dos diferentes partes : primera, el llano que comprende la del S. y del O., segunda, la montuosa que abraza el N. y el E.: esta se divideen dos grupos , de los cuales el primero se estiende desde elcalió Calqfiguera hasta el de For mentor , y el segundo desdeel cabo FarruU al de Roig ó fiermejo, que es lo que forma
+
+RCA. 121
+
+la pequeña cord. de Arta; la mas occidental y mas notablode estas montañas, situadas desde el centro hácia el N. de laisla , es un pico elevado que se nombra el Puig de Galatzó,formando todas grandes cañadas y precipicios. Los puntosmas culminantes de ella, y su elevación sobre el nivel delmar , son como sigue :
+
+.metros (')•
+
+Puig major d' en Torrella 1463
+
+Puig major de Lluch H63
+
+Puig de Galatzó en Puigpuiñent 989
+
+Coll de Soller 562
+
+Bec de Ferrulx en Arta 538
+
+Colegio de Lluch en Escorca 459
+
+Mola del Esclop en Calviá 794
+
+Entrada de la cueva de Artá 43
+
+El Teix en Valldemosa 426
+
+Monlcsioii en Porreras 95
+
+Desde el citado centro hácia el S., es menos elevado el terreno , y aunque en él se ven algunas montañas separadascomo son el Puig de Ntra. Sra. de Randa, el de Bon Aiñ , eldel Llodrá , la montaña de San Salvador de Felanilx y la deNtra. Sra. de Consolación, ofrecen á la vista un agradable aspecto por lo regular de su figura. La formación geológica detodo el terr. es de calcáreo secundario, sobre el que se han desenvuelto sucesivamente los terrenos terciarios y cuaternarioscomunes á lodoel recintodel Mediterráneo; y aunque pedregosala parte de montaña, es tan fértil que en cualquiera de los cultivados montes de Mallorca, se dejan ver, no solo árboles deaquellos que solo son útiles arrancados del terreno que losprodujo, sino de robustos olivos cuya vida es tan preciosa.También puede considerarse dividida esta isla en 3 partes; ladel O., la del centro y la del E., y también será una divisiónnatural que corresponde casi á la territorial, hecha desde i 834en los 3 part. jud. de Palma, Inca y Mauacor; en esta última,y en una dilatadísima llanura, que al acabar la primavera, seasemeja aun mar de espigas, merecen notarse: Lluchmayor,de antiguos recuerdos, y construcción moderna; Campos quetiene en su térm. aguas minerales; Santagny de tan nombradas como preciosas canteras; la populosa Felanilx al pie deun grupo de montes aislados, en uno de los cuales , descuellan las ruinas del régio cast. de Santueri, y Manacor cab.de uno de los 3 part. jud., viniendo á terminar el llano, queno cuenta menos de H leg., en las cord. de la pintorescaArtá, de cuya grandiosa y célebre gruta , con sus bóvedasde estalactitas, y con sus caprichosos grupos, hemos hechomérito en su respectivo art. En la parle del centro, se encuentra rodeada de viñas y frutales á la linda Binisalem , á 'aantiquísima Inca, célebre aun por sus ferias, y otra de lascab. de part. , y mas allá de la verde llanura de cáñamo de laPuebla , se hallan cada una en el fondo de su bahía, la romana Pollenza , y la leal Alcudia, que después de conseguir eltítulo de c. á precio de su sangre , apenas llega á ser v. en eldia , por mas que la ciñan aun ruinosas murallas. Pero la parte sin comparación mas frondosa y pintoresca d« la isla , es ladel O., ocupada loda por una larga cord. de montes, que empezando al eslremo occidental de ella, en las playas de Calviá , teatro del desembarco y primero» triunfos de D. Jaime elConquistador, termina al N. en los encumbrados picos deUnco yy de Puig Major; cultivadísima y fértil es toda estacord., sorprendentes y vanadas las perspectivas, como frecuentes y bien sil. las pobl. que la matizan. Sin hablar de Andrajo, v. marítima, al par que agricultora, de Esporlasabundante en fuentes, en cuyo térm. se encuentra la famosagruta de Canet, cuya descripción dejamos consignada en elart. de esta v.: de Bañalbufar, fecunda en vinos generosos; dePuigpunent, tendida al pie del elevado Galatzó, bastará citarlas v. de Valldemosa y Soller, cuyos nombres han atraído ála isla no pocos cstranjeros , sin mas aliciente que la amenidad de sus campos, y la purez.i de sus aires ; Valldemosa sepresenta aunque con pobre aspecto , en medio de la aspereza
+
+(") El metro es la unidad de medida lineal ó itineraria en elsistema mítrico francés, es la diczmilésima part. de un mcridi.ino terrestre , tpic corresponde á 3 pies y poco mas de 11 lineasde París; equivalentes á 7 pulgadas ó 4 56/100 palmos de Castilla;
+
+157 y 1/-2 metros equivalen á 183 varas castellanas ó 555 pies,
+
+3 f M ■ ,íJ4UUKw 11 tri!.r7 4 zii 1. „ {)-x iwjrww. .«

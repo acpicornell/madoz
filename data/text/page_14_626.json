@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 626,
+  "page_printed": "564",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TALAPÍ",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de LaPuebla.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

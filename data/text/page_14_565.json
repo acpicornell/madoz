@@ -1,0 +1,31 @@
+{
+  "vol": "14",
+  "leaf": 565,
+  "page_printed": "503",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SORT DE SE C\\P1TANA",
+      "place_type": null,
+      "island": null,
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio con huerta en la isla deMallorca, prov.de Baleares, part. jud. de Inca, térm. yítíriád. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SORT DES LUISE",
+      "place_type": "casa de campo",
+      "island": null,
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "casa de campo con huerta en la islade Mallorca, prov. de Baleares, part. jud. de Inca, térm. yjurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

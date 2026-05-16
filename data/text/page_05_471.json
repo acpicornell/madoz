@@ -1,0 +1,20 @@
+{
+  "vol": "05",
+  "leaf": 471,
+  "page_printed": "467",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CANOGÜERA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller.",
+      "stats": {},
+      "cross_references": ["Soller"],
+      "confidence": "high"
+    }
+  ]
+}

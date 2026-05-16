@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 164,
+  "page_printed": "158",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NET (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov., aud. terr.,c. g. de Baleares , part. jud. de Palma, térm. y jurisd. de lav. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

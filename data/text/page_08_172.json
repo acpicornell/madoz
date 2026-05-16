@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 172,
+  "page_printed": "168",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FRARE (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Petra", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de Petra.", "stats": {}, "cross_references": ["Petra"], "confidence": "high"}
+  ]
+}

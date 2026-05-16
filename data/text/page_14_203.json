@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 203,
+  "page_printed": "199",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SERRA (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Ba-.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

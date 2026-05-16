@@ -1,0 +1,76 @@
+{
+  "vol": "09",
+  "leaf": 379,
+  "page_printed": "375",
+  "window": 4,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Leaf 379 hosts the tail of IBIZA isla plus three new IBIZA entries: dióc. (start leaf 379), c. with ayunt. (leaf 379), and part. jud. (start leaf 378's tail and continuation +3). The IBIZA part. jud. stats table sits on leaf 383 (beyond window=4) and is OCR-mangled in chocr (column-broken layout); criminal stats salvaged from the readable paragraphs that follow. Two non-Balearic IB-entries (IBIZA EL MONTE in Álava; IBON, IBOR, IBORT in Huesca/Cáceres) appear later on leaf 383 and are skipped.",
+  "entries": [
+    {
+      "title": "IBIZA (dióc.)",
+      "place_type": "diócesis",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "Dióc. sufragánea de la de Tarragona. Se compone de las islas de Ibiza y Formentera; no tiene enclavados fuera ni dentro, y toda pertenece á la prov. civil de Baleares. La catedral, erigida en 1782, consta de 2 dignidades, 6 canongías, 9 raciones y 12 beneficios. Cuadro de parroquias: ciudad de Ibiza (San Pedro — catedral, sirvida por un canónigo, curato de término; aneja: el Salvador en el arrabal de la Marina — cura de término; ayudas: igl. del conv. de dominicos, igl. del hospital de Caridad). Parroquias forenses de la isla de Ibiza: San Cristóbal, San Antonio (2.° ascenso), San Agustín (entrada), San Cárlos, Santa Eulalia (1.er ascenso), San Francisco de Paula, Santa Gertrudis, Ntra. Sra. de Jesús, San José, San Juan, San Lorenzo, San Miguel (término), San Mateo (1.er ascenso), San Rafael, San Vicente, Santa Inés, San Jorge. Parroquias de la isla de Formentera: San Francisco Javier (entrada), San Fernando, Ntra. Sra. del Pilar. RESUMEN: 22 parroquias, 22 párrocos (5 entrada, 5 primer ascenso, 5 segundo ascenso, 6 término), 21 clérigos agregados, 22 sacristanes.",
+      "stats": {
+        "parroquias": 22,
+        "parrocos": 22,
+        "curatos_entrada": 5,
+        "curatos_1er_ascenso": 5,
+        "curatos_2do_ascenso": 5,
+        "curatos_termino": 6,
+        "clerigos_agregados": 21,
+        "sacristanes": 22,
+        "catedral_dignidades": 2,
+        "catedral_canongias": 6,
+        "catedral_raciones": 9,
+        "catedral_beneficios": 12
+      },
+      "cross_references": ["Ibiza isla", "Formentera"],
+      "confidence": "high"
+    },
+    {
+      "title": "IBIZA",
+      "place_type": "ciudad",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Ibiza",
+      "description": "C. con ayunt. y aduana de segunda clase, cap. de la isla, part. jud. y dióc. de su nombre en la prov., aud. terr. y c. g. de Baleares, é igualmente cap. de su prov., part. y distrito marítimo, perteneciente al tercio de Mallorca, departamento de Cartagena. SITUACIÓN Y CLIMA. Se halla sit. en una elevación sobre peña, rodeada del mar por N., á la libre influencia de los vientos, con clima templado y estremadamente sano. La c. está muy bien defendida por el lado del E. y S., y tiene una fortaleza construida en tiempo de Carlos V. El conjunto de su fortificación presenta un hectágono irregular; los ángulos del frente de los baluartes son obtusos y sus traveses cubiertos con espaldas y casas bajas; el estremo ó punta de la plaza tiene un solo través, al cual defiende otro mas cercano; no tiene foso (por la peña), pero lo suple la aspereza y declive del terreno. En la parte de tierra se ve la estátua de un caballero sobre un baluarte, que domina unos pantanos de la campiña. Obras trazadas por el maestro Juan Bautista Galvi, ejecutadas por su discípulo Antonio Jaime. INTERIOR. Tiene la c. dos puertas (la Nueva y la del Principal); un hospicio, 2 hospitales, un colegio, 2 cuarteles, una cárcel insalubre y mala (proyectado trasladarla al exconv. de Dominicos), y un edificio del ayunt. habilitado para teatro y salón de bailes públicos. Las calles son incómodas, por lo pendiente y agrio de la cuesta sobre que están abiertas, y por su mal embaldosado se han mejorado algunas y conducido á la plaza de la Marina, como punto céntrico, las aguas de la única fuente que hay en la c. El edificio del presidio no sirve ya desde que se le quitó la dotación de presidiarios para atender á la esplotacion de las salinas. La catedral, obra del siglo antepróximo, fué construida bajo los planos del arquitecto D. José García; el coro está ocupado por 2 canónigos, 4 racioneros y 9 beneficiados y clérigos asistentes, presidido por el diocesano. La parr. de San Pedro, constituida en la catedral, se halla servida por un canónigo (curato de término) y 2 tenientes; uno sirve la igl. parr. de San Cristóbal como aneja y tiene á su cargo además el hospital y su capilla; también es ayuda la igl. del conv. de Dominicos (cuya conservación es necesaria por su sit. cómoda en el centro de la c.). Al E. de la c. y bajo el tiro de su cañón se halla el arrabal de la Marina, defendido por la parte del mar por un fortín guarnecido de 4 piezas de artillería; consta de 420 casas y una igl. parr. (El Salvador) servida por un cura de término, un beneficiado y un sacristán. EL PUERTO DE IBIZA es el principal de la isla; aunque algo sucio, no carece de capacidad y comodidad; está por todas partes bien abrigado, escepto por las del S. y SO. (donde le sirve de abrigo Formentera); al E. y SE. le ampara la isla Plana, y por los demás rumbos las tierras altas y montuosas de la isla. La Grosa y la Plana forman la parte E. del puerto (la Plana, en realidad, está unida á Ibiza por una lengua de tierra baja cubierta de juncos); la parte O. la forma la costa desde la punta Ratyada al N. hasta otra donde existe una torrecilla llamada Torreón del Mar. Anclage de muy buen tenedero; con facilidad y poca costa podría agrandarse, haciéndolo el segundo puerto del Mediterráneo (toda la playa de su fondo es arena movediza, sin piedra alguna, cosa rara en esta isla). El térm. comprende parte del ant. cuartón nombrado Llano de la v., del que esta c. era cab. Su terreno, prod. y caminos se hallarán en el art. de IBIZA ISLA. INDUSTRIA Y COMERCIO. Se ejercen las profesiones científicas y todas las artes mecánicas indispensables. Estadísticas de aduana 1844-1845: buques en comercio estrangero y de América (entrada 1844-1845: 107 buques, 14,937 t, 1,032 trip., año común 53/7,468/516; salida: 58/7,901/533, año común 29/3,950/266); buques en cabotaje (entrada: 890 buques, 22,803 t, 5,779 trip., año común 445/11,401/2,889; salida: 715/17,035/4,357, año común 357/8,517/2,178). Artículos esportados al estrangero año común 124,692 rs. (principalmente almendras 1,127 fanegas, almendrón 55 arrobas, carbón vegetal 3,460 libras, esparto 280 cargas, leña 77,250 piezas, naranjas y limones 14,073 números, pasas é higos, etc.). Artículos esportados á América año común 195,015 rs. (aceite de almendras, aceite común, aguardiente, almendrón, jabón, piñones, queso, sebo, vino, vizcochos, zapatos). Artículos entrados del estrangero año común valor 182,184 rs. (alquitrán, bacalao, carbón de piedra, duelas, hierro, madera, manteca, productos químicos, tripas secas de vaca, etc.). Entrados de América: cacao, café, etc., año común 70,800 rs. Cabotaje entrada año común valor 2.419,655 rs.; salida 738,187 rs. (mercaderías del reino, América y estrangero). Balanza general año común: importación total 2.672,639 rs., esportación total 1.057,894 rs., diferencia á favor de la importación 1.614,745 rs. La aduana ha tenido en 1843-1845 valores totales por todos conceptos de 590,826 (1843) + 863,483 (1844) + 278,210,994 mal-OCR (1845); año común de los tres 70,331 rs. (datos parcialmente corruptos). POBLACIÓN: 1,233 vec., 5,031 alm. CAP. IMP.: 121,093. HISTORIA. En 1783 hizo gracia D. Carlos III del título de Ciudad á Ibiza, erigiéndola sede episcopal sufragánea de Tarragona; primer obispo D. Fray Manuel Abad y Lasierra, dignidad de prior de Sta. María de Meya en Cataluña. Hace por armas, como toda la isla, en un escudo dorado las barras de Aragón.",
+      "stats": {
+        "vecinos": 1233,
+        "almas": 5031,
+        "riqueza_imponible": 121093,
+        "casas_arrabal_marina": 420,
+        "cabotaje_entrada_valor_anyo_comun": 2419655,
+        "cabotaje_salida_valor_anyo_comun": 738187,
+        "importacion_total_anyo_comun": 2672639,
+        "esportacion_total_anyo_comun": 1057894
+      },
+      "cross_references": ["Ibiza isla", "Formentera", "Marina (La)"],
+      "confidence": "high"
+    },
+    {
+      "title": "IBIZA (part. jud.)",
+      "place_type": "partido judicial",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "Part. jud. de entrada en la prov. civil, aud. terr. y c. g. de Baleares; corresponde á la dióc. de su nombre y á la prov. y part. marítimo del mismo, en el tercio de Mallorca, depart. de Cartagena. Comprende las islas de Ibiza y Formentera; se compone de una c., 5 v. y 14 l. que forman 6 ayunt., con poblaciones diseminadas en caseríos á cortas distancias. La isla de Ibiza se dividía antiguamente en 5 cuartones que aún se nombran así: Llano de la villa, Sta. Eulalia, Balanzat, Pormany y Salinas. El cuartón del LLANO DE LA VILLA (principal) tiene por cab. la c. de Ibiza, está rodeado por los otros cuatro, ocupa 1 1/2 leg., y además de la cap. tiene unos 200 caseríos, poblado de huertos y viñedos. STA. EULALIA es el mayor en distrito y caseríos: linda con el Llano y con Balanzat, ocupa más de 4 leg. con 700 casas muy vecinas (aunque no unidas en poblado) y 2 igl. BALANZAT es el menor, en tierra quebrada y montuosa; linda con Pormany, Sta. Eulalia y el Llano; 3 leg. de estension con 400 casas y una igl. PORMANY confina con Balanzat, Salinas y el Llano; se estiende como 4 leg., en general montuoso pero comprende una gran llanura fértil y abundante; unas 450 casas; en su distrito está el Puerto Magno ó de San Antonio y en sus inmediaciones las islas Cunilleras. SALINAS, llamado así por el manantial de riquezas que contiene, linda con Pormany y el Llano; en 2 leg. de estension contiene 200 casas, una hermosa llanura al Mediodía y en ella su parr. Estos 5 cuartones son hoy otros tantos distritos municipales, cuyas cab. son IBIZA, SAN JUAN BAUTISTA, STA. EULALIA, SAN JOSÉ y SAN ANTONIO ABAD. La isla de FORMENTERA forma solo el distrito municipal de su nombre. SIT., CLIMA, CONFINES, COSTAS, TERRENO Y PROD.: véanse los art. respectivos de Ibiza y Formentera (islas). ESTADÍSTICA CRIMINAL. Acusados en 1843: 58 (4 absueltos de la instancia, 1 libremente, 50 penados presentes, 3 contumaces, 1 reincidente en el mismo delito, 1 en otro distinto). Edades: 15 de 10-20 años, 29 de 20-40, 14 de 40+; 51 hombres y 7 mujeres; 29 solteros y 29 casados; 8 sabían leer y escribir; 9 ejercían profesión científica ó arte liberal y 42 artes mecánicas, ignorándose la ocupación de 7. En el mismo periodo se perpetraron 17 delitos de homicidio y heridas con 3 armas de fuego de uso lícito, 1 arma blanca permitida, 12 instrumentos contundentes y 1 instrumento no espresado. Las cifras de pobl., riqueza y contr. del partido constan en estado anexo (leaf 383), inutilizable por OCR.",
+      "stats": {
+        "ciudades": 1,
+        "villas": 5,
+        "lugares": 14,
+        "ayuntamientos": 6,
+        "acusados_1843": 58,
+        "absueltos_instancia": 4,
+        "absueltos_libremente": 1,
+        "penados_presentes": 50,
+        "contumaces": 3,
+        "delitos_homicidio_heridas": 17
+      },
+      "cross_references": ["Ibiza isla", "Formentera", "San Juan Bautista", "Santa Eulalia", "San José", "San Antonio Abad"],
+      "confidence": "medium"
+    }
+  ]
+}

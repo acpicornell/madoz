@@ -1,0 +1,11 @@
+{
+  "vol": "07",
+  "leaf": 368,
+  "page_printed": "364",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "DAVEZA (la)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Artá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá.", "stats": {}, "cross_references": ["Artá"], "confidence": "high"},
+    {"title": "DAVIU (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Palma", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.", "stats": {}, "cross_references": ["Palma"], "confidence": "high"}
+  ]
+}

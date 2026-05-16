@@ -1,0 +1,19 @@
+{
+  "vol": "01",
+  "leaf": 537,
+  "page_printed": "529",
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALFABIA",
+      "place_type": "sierra",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "Sierra de la isla de Mallorca: sit. al N. de la c. de Palma; desde ella se disfruta la amena perspectiva que ofrecen la llanura y contornos de la cap. de las Baleares: es uno de los principales ramales de montañas que cubren la isla: se prolonga por el NO. de ella hácia el SE., formando una especie de curvatura; está poblada de árboles silvestres de diferentes especies que dan maderas útiles para la construcción naval, de olivos, viñedos y otros árboles de cultivo; brotan en ella muchos manantiales que descienden al llano por uno y otro lado á fertilizar los campos, los r. Bauderola y Garces y otros diferentes arroyuelos de poca consideración: encierra también en sus entrañas minas de hierro y canteras de mármol de diferentes clases, tufos, escalácticas, espatos de naturaleza metálica y piedras vitrifícales. Casi en su centro hay una hermosa casa de campo que sirvió de sitio de recreo y alegre morada en ciertas épocas del año á los reyes moros: en el día es propiedad de la casa de Dameto.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

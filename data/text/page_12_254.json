@@ -1,0 +1,64 @@
+{
+  "vol": "12",
+  "leaf": 254,
+  "page_printed": "248",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "OLIVER (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "•. predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "OLIVER (soj",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "OLIVER (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "OLIVERET",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaré.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "OLIVERET (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manacor, térm. y jurisd. déla v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

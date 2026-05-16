@@ -1,0 +1,23 @@
+{
+  "vol": "05",
+  "leaf": 236,
+  "page_printed": "232",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CAEDEROL (Can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollensa.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa"
+      ],
+      "confidence": "medium",
+      "note": "OCR reads 'CAEDEROÜ' — uncertain transliteration; preserved as CAEDEROL pending confirmation."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "vol": "08",
+  "leaf": 50,
+  "page_printed": "46",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FERREDELLS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [
+        "Felanitx"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FERREGUT (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.",
+      "stats": {},
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FERREGUT (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Puebla.",
+      "stats": {},
+      "cross_references": [
+        "Puebla"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

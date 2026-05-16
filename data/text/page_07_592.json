@@ -1,0 +1,12 @@
+{
+  "vol": "07",
+  "leaf": 592,
+  "page_printed": "588",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "ESTANQUE DE SANTA ANA", "place_type": "laguna", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alcudia", "description": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. de la v. de Alcudia.", "stats": {}, "cross_references": ["Alcudia"], "confidence": "high"},
+    {"title": "ESTANQUE MAYOR", "place_type": "laguna", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alcudia", "description": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca; se halla en el térm. de la v. de Alcudia, y es propiedad del ayunt.", "stats": {}, "cross_references": ["Alcudia"], "confidence": "high"}
+  ],
+  "note": "Previously misattributed ESTAÑY DEBAIX/DE SON BAULO/DE SON REAL/DEL BISBA from window=2 continuation belong to leaf 593 (printed page 589); moved to that file. Same correction pattern as tom06 leaf 538/539."
+}

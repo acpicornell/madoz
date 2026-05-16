@@ -1,0 +1,53 @@
+{
+  "vol": "02",
+  "leaf": 206,
+  "page_printed": "202",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALQUERIA (la) — Sancasia den Pascual",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Vulgo Sancasia den Pascual. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALQUERIA (la) — Sencaria des Conta",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Vulgo Sencaria des Conta. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.)",
+      "stats": {},
+      "cross_references": ["Santa Margarita"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALQUERIA (la) — Angaria den Grau",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Vulgo Angaria den Grau. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALQUERIA DEL CONDE DE AMPURIAS",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Soller",
+      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud., adm. de rent. y dióc. de Palma. Sit. al pie de la cord. de montañas llamadas de Enfabeya, en el hermoso y fértil valle de Soller. Es l. ped. de la v. de este nombre, en cuyo térm. se halla enclavado, y en su felig. tiene una capilla servida por un vicario ó teniente delegado del cura párroco de la matriz. (V. Soller.)",
+      "stats": {},
+      "cross_references": ["Soller", "Cord. de Enfabeya"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "vol": "01",
+  "leaf": 473,
+  "page_printed": "465",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "chocr regex hit 'ALCORNOCAL' (nomenclator) here but no Balearic ALCORNOCAL entry appears on this leaf — only non-Balearic ALCORNOCAL entries (Badajoz, Salamanca, Albacete, Córdoba). Likely a regex false positive against the nomenclator listing on a previous leaf. No Balearic content to extract.",
+  "entries": []
+}

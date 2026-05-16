@@ -1,0 +1,23 @@
+{
+  "vol": "07",
+  "leaf": 626,
+  "page_printed": "622",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ESTREMER",
+      "place_type": "cala",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Cala en la Vall del Castell, en la isla, tercio y prov. marítima de Mallorca, depart. de Cartagena, térm. de la v. de Pollensa.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa",
+        "Vall del Castell"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

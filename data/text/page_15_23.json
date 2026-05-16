@@ -1,0 +1,53 @@
+{
+  "vol": "15",
+  "leaf": 23,
+  "page_printed": "19",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TON! COLL (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca , prov. deBaleares, part. jud. de Manacor, térm. y jurisd. del 1. deMonturi.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "TONI MAS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca , prov. deBaleares, part. jud., térm. yjurid. déla v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "TONI PAU(can)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio \"en la isla de Mallorca , prov. deBaleares , part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "TONI PENT (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, térm. y jurisd. de la v. deAndraitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

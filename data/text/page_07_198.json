@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 198,
+  "page_printed": "194",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CUBELLAS (vulgo L'horta)", "place_type": "huerta", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Huerta de frutales en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "high"}
+  ]
+}

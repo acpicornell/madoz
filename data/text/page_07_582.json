@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 582,
+  "page_printed": "578",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "ESLLAYETA", "place_type": "aldea", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Esporlas", "description": "Aldea en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares (Palma), part. jud. de Palma, térm. y jurisd. de la v. de Esporlas, con la cual está unida en pobl. y contr. (V.) Tiene un oratorio público dependiente de la parr. de dicha v., servido por un sacerdote con el título de vicario, que nombra el diocesano á propuesta del párroco de la matriz.", "stats": {"oratorios_publicos": 1}, "cross_references": ["Esporlas", "Palma"], "confidence": "high"}
+  ]
+}

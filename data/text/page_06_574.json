@@ -1,0 +1,11 @@
+{
+  "vol": "06",
+  "leaf": 574,
+  "page_printed": "570",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CONTE (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de dicha v.", "stats": {}, "cross_references": ["Manacor"], "confidence": "high"},
+    {"title": "CONTESTI (can)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "high"}
+  ]
+}

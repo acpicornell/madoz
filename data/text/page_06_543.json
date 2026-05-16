@@ -1,0 +1,10 @@
+{
+  "vol": "06",
+  "leaf": 543,
+  "page_printed": "539",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "COLL SO", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Artá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá.", "stats": {}, "cross_references": ["Artá"], "confidence": "high"}
+  ]
+}

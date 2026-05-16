@@ -1,0 +1,23 @@
+{
+  "vol": "06",
+  "leaf": 553,
+  "page_printed": "549",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COMETAS",
+      "place_type": "estancia",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Villacarlos",
+      "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. del l. de Villacarlos.",
+      "stats": {},
+      "cross_references": [
+        "Villacarlos",
+        "Mahon"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

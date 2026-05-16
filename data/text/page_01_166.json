@@ -1,0 +1,20 @@
+{
+  "vol": "01",
+  "leaf": 166,
+  "page_printed": "162",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AGUYO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Binisalem. (V. Binisalem.)",
+      "stats": {},
+      "cross_references": ["Binisalem"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "vol": "11",
+  "leaf": 124,
+  "page_printed": "120",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Tail of dióc convents/monasteries table (Mallorca/Inca/Sineu/Santa Margarita) followed by start of major MALLORCA prov. marít. article, which continues across many leaves.",
+  "entries": [
+    {"title": "MALLORCA (provincia marítima e islas Baleares)", "place_type": "provincia", "island": "Baleares", "judicial_district": null, "municipality": null, "description": "Prov. marít. compuesta de las islas de Mallorca, Menorca y Cabrera (propiamente Baleares ó Gimnesias de los griegos), de Ibiza, Formentera y Conejera (conocidas por Pitiusas), con otras pequeñas islas adyacentes. Civil/administrativa: tercera clase. Judicial: aud. terr. de su nombre, 6 partidos judiciales (Inca, Manacor, Palma, Ciudadela, Mahón, Ibiza). Militar: una c. g. Eclesiástica: 3 diócesis (Mallorca, Menorca, Ibiza), las dos primeras sufragáneas de Valencia, la última de Tarragona. Marítima: 3 prov. (Mallorca, Mahón, Ibiza) dependientes del tercio naval de Mallorca y departamento de Cartagena. Cap.: Palma. Sit. en el mar Mediterráneo entre paralelos 38°37'-40°7' lat. N. La isla de Mallorca: 15 leg. de largo, 8 de ancho, 1234 millas cuadradas. Contiene 2 c., 35 v., 39 lugarejos y 1898 alquerías. Cord. de montañas de NE. á SO. divide en parte montañosa (N. y E.) y llano (S. y O.). Puntos culminantes: Puig major d'en Torrella 1463m, Puig major de Lluch 1463m, Puig de Galatzó 989m, Mola del Esclop 794m, Coll de Soller 562m, Bec de Ferrutx 538m, Colegio de Lluch 459m, El Teix 426m. Pueblos notables: Lluchmayor, Campos, Santanyí, Felanitx, Manacor, Artá, Binisalem, Inca, La Puebla, Pollenza, Alcudia, Andraix, Esporlas, Bañalbufar, Puigpuñent, Valldemosa, Soller.", "stats": {"part_jud": 6, "ciudades": 2, "villas": 35, "lugarejos": 39, "alquerias": 1898, "millas_cuadradas": 1234, "leg_largo_mallorca": 15, "leg_ancho_mallorca": 8}, "cross_references": ["Palma", "Inca", "Manacor", "Mahón", "Ciudadela", "Ibiza", "Menorca", "Cabrera", "Formentera"], "confidence": "high"}
+  ]
+}

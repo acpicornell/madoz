@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 524,
+  "page_printed": "520",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "ESCAPDELLA ó CAPDELLA", "place_type": "lugar", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Calviá", "description": "Lugar en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma (4 leg.), y ayunt. de Calviá (1/2): sit. al O. de la isla en medio de la cord. de montañas que recorre la parte N. de ella; con clima templado y sano; las enfermedades comunes son fiebres intermitentes en verano. Tiene 300 casas diseminadas y una igl. parr. (Ntra. Sra. del Cármen), aneja de la de Calviá, servida por un vicario temporal y amovible, nombrado por el diocesano á propuesta del párroco de la matriz; uno con obligación de celebrar misa los dias festivos, un sacristán lego y 2 monacillos. El térm., terreno, prod., pobl. y contr. (V. Calvia.)", "stats": {"casas": 300}, "cross_references": ["Calviá", "Palma"], "confidence": "high"}
+  ]
+}

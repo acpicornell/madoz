@@ -1,0 +1,170 @@
+{
+  "vol": "04",
+  "leaf": 349,
+  "page_printed": "343",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BINI",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca: sit. al pie del monte mayor que llaman comunmente la Silla de Torrella; tiene 2 casas que habitan los arrendatarios, 2 pozos para conservar nieve, y prod. trigo y pastos para el verano.",
+      "stats": {},
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIALMARA",
+      "place_type": "reunión de casas",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Varias casas reunidas en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas.",
+      "stats": {},
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIAMALLA",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Cala de la prov. y distr. marít. de Mahón, tercio de Mallorca, departamento de Cartagena: sit. al E. de la punta y cala de BiniBeca, y tiene un islotillo; la tierra de las calas es baja y luego se eleva un poco con el nombre de los Esquejos, hasta la punta de Cola de Corps.",
+      "stats": {},
+      "cross_references": [
+        "Mahón",
+        "BiniBeca",
+        "Cola de Corps"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIANCOLLA",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Cala en la prov. y distr. marítimo de Mahón, tercio de Mallorca, departamento de Cartagena: sit. al S. de la isla con un islote inmediato llamado el Caracol; su boca es muy estrecha; las puntas bajas; tiene de largo como 1/4 de milla y de ancho una octava parte; su profundidad es poca, en tanto que no pueden fondear en ella sino faluchitos de pesca: cria erizos de mar.",
+      "stats": {},
+      "cross_references": [
+        "Mahón",
+        "Caracol"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIARAIX",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Soller",
+      "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y felig. de la v. de Soller: tiene un oratorio público donde se celebra misa en los dias de precepto: su clima, prod. y demás circunstancias (V. Soller.)",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIARROY",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Selva: tiene un oratorio público de propiedad y patronato de los vec., donde se celebra misa los dias de precepto: su clima, prod. y demas circunstancias (V. Selva).",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIATRIA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia.",
+      "stats": {},
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIATRO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á una hora poco mas de la pobl.: su terreno participa de monte, tierra de labor para cereales y huerta; todo es de regadío y muy feraz, prod.: granos, aceite y algarrobas; tiene un bosque dilatado y hermoso, y un huerto llamado de las Fuentes, rodeado de montes, que da ricas naranjas y hortalizas.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIATZAR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Buñola",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola.",
+      "stats": {},
+      "cross_references": [
+        "Buñola"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIBASI",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Fornalutx",
+      "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Fornalutx. (V.)",
+      "stats": {},
+      "cross_references": [
+        "Fornalutx"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIBECA",
+      "place_type": "punta y cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Punta y cala en la prov. y distr. marítimo de Mahón, tercio de Mallorca, departamento de Cartagena, sit. 1 1/2 milla al SE., medio cuarto E. de la cala de Bini Safaya; la cala es inútil y á una milla larga de la punta hay una torre de vijia llamada Atalaya grosa de BiniBeca, desde la que se hacen las convenientes señales á las embarcaciones que se dejan ver á la parte del S. de la isla, las cuales se repiten en la c. de Mahón en la torre de los Rendes.",
+      "stats": {},
+      "cross_references": [
+        "Mahón",
+        "Bini Safaya",
+        "Atalaya grosa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINICONVELLET",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Santa Margarita; sit. hacia el E. de la pobl.; consta de algunas tierras de labor que prod. toda clase de cereales, mas la mayor parte son de selva, que dan pastos para el ganado vacuno, cabrio, lanar y de cerda que en él se cria.",
+      "stats": {},
+      "cross_references": [
+        "Santa Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

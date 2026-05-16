@@ -1,0 +1,24 @@
+{
+  "vol": "13",
+  "leaf": 31,
+  "page_printed": "27",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PILAR (Ntra. Sra Del)",
+      "place_type": "feligresía",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San Francisco Javier",
+      "description": "(vulgo La Mola) : fclig. en la isla de Fermentera, partido judicial y diócesis de Ibiza, audiencia terr., ciudad g. de Baleares, distrito municipal de San Francisco Javier. Tiene una iglesia parr. (Ntra. Sra. del Pilar) servida por un cuta de ingreso. Su Pobl. y Riqueza (Y. Ibiza).",
+      "stats": {},
+      "cross_references": [
+        "Baleares",
+        "Ibiza"
+      ],
+      "confidence": "high",
+      "source_note": "description from diccionariomadoz.com scrape (OCR title mangled or absent)"
+    }
+  ]
+}

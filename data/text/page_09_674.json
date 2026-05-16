@@ -1,0 +1,10 @@
+{
+  "vol": "09",
+  "leaf": 674,
+  "page_printed": "670",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "JUSTANI", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.", "stats": {}, "cross_references": ["Manacor"], "confidence": "high"}
+  ]
+}

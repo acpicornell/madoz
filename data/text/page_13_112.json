@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 112,
+  "page_printed": "108",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "POLOTÁ (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en el valle de Mastaguera , en laisla de Mallorca, prov. de Baleares, part. jud. de Inca,térm. v jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

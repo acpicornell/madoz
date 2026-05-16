@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 80,
+  "page_printed": "76",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PLA DEL REY",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Valldemosa",
+      "description": "predio en la isla de Mallorca, prov. deBdeares, part. jud. de Palma, térm. y jurisd. de la v. deValldemosa.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

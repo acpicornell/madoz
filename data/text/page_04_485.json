@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 485,
+  "page_printed": "479",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BUFERA",
+      "place_type": "punta",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Punta en la isla de Menorca, prov. y part. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. al N. de Cala Mezquita; es muy poco importante.",
+      "stats": {},
+      "cross_references": ["Mahón", "Cala Mezquita"],
+      "confidence": "high"
+    }
+  ]
+}

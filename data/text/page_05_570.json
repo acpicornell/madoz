@@ -1,0 +1,23 @@
+{
+  "vol": "05",
+  "leaf": 570,
+  "page_printed": "566",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CARLOS (San)",
+      "place_type": "caserío parroquia rural",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Santa Eulalia",
+      "description": "Caserío ó parr. rural en la isla, part. y dióc. de Ibiza, prov., aud. terr. y c. g. de Baleares. Es una de las cuatro que forman el distrito municipal de Sta. Eulalia; sus casas están diseminadas; y tiene una igl. parr. (San Carlos) servida por un cura de primer ascenso y un sacristán; sus confines, calidad del terreno, prod., pobl. y riqueza (V. Santa Eulalia.)",
+      "stats": {},
+      "cross_references": [
+        "Santa Eulalia",
+        "Ibiza"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

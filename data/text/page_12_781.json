@@ -1,0 +1,31 @@
+{
+  "vol": "12",
+  "leaf": 781,
+  "page_printed": "775",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PENA (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "San Juan",
+      "description": "predio eD la isla de Mallorca, prov. de Baleores, part. jud. de Manacor, téim. y jurisd. de la v. deSan Juan.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "PEÑA (son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Inca",
+      "description": "alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

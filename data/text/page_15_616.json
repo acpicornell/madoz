@@ -1,0 +1,31 @@
+{
+  "vol": "15",
+  "leaf": 616,
+  "page_printed": "612",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VARIX (can)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": ". prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "VARIX (redol de)",
+      "place_type": "reunión de casas",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "reunión de casas contiguas á las delprédio de esle nombre, en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

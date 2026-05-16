@@ -1,0 +1,64 @@
+{
+  "vol": "13",
+  "leaf": 302,
+  "page_printed": "298",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PIMOLS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baeares, part. jud. de Manacor, térm. y jurisd. de lav.deArta.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PUJOL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "San Juan",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térín. y jurisd. de la v. de SanJuan.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PUJOL (el)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "alq. en la isla de Mallorca prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. deMaría.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PUJOL (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca , prov., aud.ten ., c. g. de Baleares, part. jad. de Palma, térm. y jurisd.de la v. de Algaida.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PULA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca , prov. , aud. terr.,c. g. de Baleares, part. jud. de Manacor, térm. y jurisd. dela v. de Artá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

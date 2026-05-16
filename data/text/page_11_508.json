@@ -1,0 +1,37 @@
+{
+  "vol": "11",
+  "leaf": 508,
+  "page_printed": "504",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "MONJEL (son)",
+      "place_type": "huerta",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Terreno de huertos en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro.",
+      "stats": {},
+      "cross_references": [
+        "Muro",
+        "Inca"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "MONJO (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet",
+        "Inca"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

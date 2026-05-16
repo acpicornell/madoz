@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 279,
+  "page_printed": "275",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MARRATXI", "place_type": "villa", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Marratxí", "description": "V. con ayunt. en la isla y dióc. de Mallorca, part. jud. de Palma, aud. terr. y c. g. de Baleares. Sit. á 1 1/2 leg. al NE. de la capital, con buena ventilación y clima sano; enfermedades comunes: fiebres gástricas é intermitentes. 413 casas diseminadas que forman 6 barrios: La Cabaneta, Portol, Pou de Coll, Marratxí, Son de Nebot y el Pla de na Tesa. 1 igl. parr. (San Marcial), servida por 1 cura de primer ascenso (provisión real y ordinaria), 1 vicario temporal y amovible, y 1 sacerdote ordenado á título de patrimonio adscrito al servicio de la igl. Cementerio contiguo al templo, aislado. Térm.: N. Buñola; E. Santa Maria; S. y O. Palma; se estiende 1/14 leg. de N. á S., y 1 3/4 de E. á O. Comprende varios predios rústicos, 2 con oratorios públicos y misa en festivos. Terreno de mediana calidad y de secano generalmente, con una pequeña parte feraz y de regadío; le cruzan los arroyos de Coma Negra (NE.-SO.), de Esporlas (N.-S.), y de Valldemosa (límite con Palma). Único camino: la carretera general de Palma. Correo desde Palma martes y viernes. Prod.: cereales, legumbres, aceite, vino, almendras, higos pasos y algarrobas; ganado lanar, caballar y de cerda; caza de liebres, conejos y perdices. Ind.: 10 fáb. de alfarería y 6 molinos de viento. Comercio: exportación de frutos sobrantes, importación de efectos coloniales, ropas, etc.", "stats": {"vecinos": 370, "almas": 1636, "cap_imp": 238387, "contr_1846": 43760, "casas": 413, "fabricas_alfareria": 10, "molinos_viento": 6}, "cross_references": ["Palma", "Buñola", "Santa Maria", "San Marcial", "Esporlas", "Valldemosa"], "confidence": "high"}
+  ]
+}

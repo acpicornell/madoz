@@ -1,0 +1,31 @@
+{
+  "vol": "01",
+  "leaf": 348,
+  "page_printed": "340",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALBUFERA MAYOR",
+      "place_type": "laguna",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia.",
+      "stats": {},
+      "cross_references": ["Alcudia"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALBUFERA MENOR",
+      "place_type": "laguna",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia.",
+      "stats": {},
+      "cross_references": ["Alcudia"],
+      "confidence": "high"
+    }
+  ]
+}

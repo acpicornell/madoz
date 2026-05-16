@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 177,
+  "page_printed": "171",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NOFRET (So)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca , prov. de Baleares , part. jud. deManacor, térm. yjurisd. de la v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 729,
+  "page_printed": "723",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PAX (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Valldemosa",
+      "description": "• predio en la isla de Mallorca, prov. de Baleares, part. jua. de Palma, térm. y jurisd. de la v. de Valide mosa.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

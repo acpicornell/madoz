@@ -1,0 +1,31 @@
+{
+  "vol": "01",
+  "leaf": 491,
+  "page_printed": "483",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALCUDIETA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Lloseta",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Lloseta. (V. Lloseta.)",
+      "stats": {},
+      "cross_references": ["Lloseta"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALCUDIOLA",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Pequeña reunión de casas de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.)",
+      "stats": {},
+      "cross_references": ["Santa Margarita"],
+      "confidence": "high"
+    }
+  ]
+}

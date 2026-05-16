@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 572,
+  "page_printed": "510",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SOSTALET",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "casa de campo en la isla de Mallorca,prov. de Raleares, part. jud.'de Inca , térm. y jurisd. dela v. de Maria.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

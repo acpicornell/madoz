@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 593,
+  "page_printed": "589",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VALLUENEGRE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, térm. y jurisd. de la la v. deCalviá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

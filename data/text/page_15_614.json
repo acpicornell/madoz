@@ -1,0 +1,42 @@
+{
+  "vol": "15",
+  "leaf": 614,
+  "page_printed": "610",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VALL VERD (la)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Calviá",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, tórm. yjurisd. de la v. deCalviá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "VALLVERD",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "ald. en la isla y dióc. de Mallorca, prov.,aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y ijurrsd. de la v. de Calviá, tiene una capilla con culto público; su pobl. y riqueza unida á la de dicha v.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "VANSELL (son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "alq. en la isla de Mallorca, prov. de Baleares , part jud. de Inca , térm. y jurisd. déla v. de Sineu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

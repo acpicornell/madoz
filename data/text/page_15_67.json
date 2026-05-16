@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 67,
+  "page_printed": "63",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TORRE (la)",
+      "place_type": null,
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "desp. en la prov. de CueDca, part. jad. deHuele y térm. jurisd. de Moncalvillo.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

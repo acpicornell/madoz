@@ -1,0 +1,42 @@
+{
+  "vol": "15",
+  "leaf": 676,
+  "page_printed": "672",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VERDERA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "(so): predio en la isla de Mallorca, prov. deBaleares, part. jud. de Inca , térm. y jurisd. de la villa deLlubi.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "VERDERA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Inca , térm. y jurisd. de la villa deLlubi.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "VERDEROL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov., aud.terr. y c. g. de Baleares, part jud. de Palma, térm. y jurisdicción de la v. de Sla. Mana.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "vol": "07",
+  "leaf": 358,
+  "page_printed": "354",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "DALT",
+      "place_type": "estancia",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "DAMA",
+      "place_type": "canal",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Canal en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "DAMETO (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Benisalem.",
+      "stats": {},
+      "cross_references": [
+        "Benisalem"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "DAMETO (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.",
+      "stats": {},
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "DAMETO (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Palma.",
+      "stats": {},
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high",
+      "note": "Second distinct DAMETO (so) entry in Palma jurisdiction."
+    },
+    {
+      "title": "DAMETO (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Esporlas",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Esporlas.",
+      "stats": {},
+      "cross_references": [
+        "Esporlas"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

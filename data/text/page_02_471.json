@@ -1,0 +1,22 @@
+{
+  "vol": "02",
+  "leaf": 471,
+  "page_printed": "463",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ARBOSAR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

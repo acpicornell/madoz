@@ -1,0 +1,38 @@
+{
+  "vol": "01",
+  "leaf": 562,
+  "page_printed": "554",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALGAYDA",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Algaida",
+      "description": "V. de la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de las Baleares; part. jud. y adm. de rent. de Palma. SITUACIÓN Y CLIMA. Sit. en una llanura elevada al N. de la montaña de Randa, de la que dist. una pequeña leg.; bien combatida de los vientos, con cielo alegre, despejada atmósfera y clima de lo más saludable. Forma ayunt. con los l. de Randa y Pina, enclavados en su jurisd. INTERIOR. Tiene 437 casas distribuidas en calles irregulares y de mal pavimento, á causa de las aguas que cuando llueve descienden de las montañas de Randa y Castellitx. Casa consistorial, cárcel pública, carnicería, una escuela de primeras letras con maestro aprobado (35-40 alumnos), otra de niñas (más de 50 educandas); ambos establecimientos dotados por los fondos de propios. IGL. PARR. dedicada á los Santos Apóstoles San Pedro y San Pablo, servida por un cura párroco (plaza de término, de nombramiento de la corona y del diocesano en concurso); hoy la sirve un ecónomo, 2 vicarios temporales y amovibles, 8 beneficiados de patronato de sangre (2 vacantes), un beneficiado de patronato ecl. con cargo de organista (oposición), una capellanía de patronato de sangre compatible con los beneficios, 5 sacerdotes ordenados á título de patrimonio adscritos al servicio sin obligación especial, y los dependientes necesarios para el culto. Además: las anejas RANDA (B. Raimundo Lulio) y PINA (Santos Cosme y Damián); el oratorio público de Ntra. Sra. de la Paz en el predio Castillitx (patronato del ayunt., misa en festivos); el oratorio de Ntra. Sra. de Cura sobre el monte de Randa, con cátedra de latinidad de unos 70-80 alumnos (pagada por el ayunt. de Palma — propietario del colegio é igl. por donación del cabildo catedralicio); á 3,000 pasos del colegio la cueva donde hizo penitencia el B. Raimundo Lulio (noble mallorquín insigne en letras y virtud; hoy oratorio, colegio y cueva completamente abandonados); el oratorio de San Honorato (patronato del ayunt., con hermosa igl. servida por 5 ermitaños, sin misa de precepto); y 4 oratorios rurales en predios particulares con misa los días de precepto. TÉRMINO. Confina N. Sansellas y Sta. María; E. Montuiri; S. Lluchmayor; O. la c. de Palma. Estension: 1 1/2 leg. en cada dirección. Comprende varios pozos de aguas esquisitas, 12 fuentes manantiales y 128 entre predios y casas rurales. TERRENO fértil y productivo: viñedos, pocos olivares, algunas huertas con frutales regadas con manantiales perennes (excepto 3 con norias); lo inculto (muy poco) con bosques para pasto y leña. PRODUCCIONES: trigo candeal, cebada, avena, vino, poco aceite, cáñamo, lino, legumbres escelentes, higos y otras frutas; cria ganado lanar y de cerda en abundancia. INDUSTRIA: 9 alambiques, 22 molinos harineros de viento, 3 de agua, una tahona y 6 herrerías. POBL.: 760 vec., 2,859 alm. CAP. PROD.: 1,168,223 rs. 22 mrs. vn. IMP.: 167,271 rs. CONTR.: 22,603 rs. 19 mrs. Presupuesto municipal: 11,457 rs. 19 mrs. vn., cubierto con 10,209 rs. 24 mrs. de propios y reparto vecinal. HISTORIA. Esta v. se llamó antes de la conquista Castelitg ('terreno llano'). El rey D. Jaime II de Mallorca la mandó poblar, dándola el nombre que hoy tiene; en memoria del antiguo, se fundó una ermita con el título de Castelitg, donde se celebra misa los días festivos. Sus armas son un castillo cuyas almenas muestran las barras catalanas sostenidas por dos leones, y corona real por timbre.",
+      "stats": {
+        "casas": 437,
+        "vecinos": 760,
+        "almas": 2859,
+        "capital_productivo_rs": 1168223,
+        "capital_productivo_mrs": 22,
+        "riqueza_imponible": 167271,
+        "contribucion_rs": 22603,
+        "contribucion_mrs": 19,
+        "presupuesto_municipal_rs": 11457,
+        "alambiques": 9,
+        "molinos_viento": 22,
+        "molinos_agua": 3,
+        "tahonas": 1,
+        "herrerias": 6,
+        "fuentes_manantiales": 12,
+        "predios_casas_rurales": 128,
+        "beneficios_parr": 8
+      },
+      "cross_references": ["Randa", "Pina", "Castellitx", "Montuiri", "Lluchmayor", "Palma", "Sansellas", "Santa María", "Beato Ramon Llull", "San Honorato"],
+      "confidence": "high"
+    }
+  ]
+}

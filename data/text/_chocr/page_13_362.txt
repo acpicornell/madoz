@@ -1,0 +1,121 @@
+# tom13 leaf 362  printed page 358  window=2
+# chocr-indexed Balearic entries on this leaf (19):
+#   - RAFAL  (regex)
+#   - RAFAL (él)  (regex)
+#   - RAFAL AMAGA!'  (regex)
+#   - RAFAL COLOM DE BINIMAIMUT  (nomenclator)
+#   - RAFAL COLOM DE PONS  (regex)
+#   - RAFAL DE EN MARTI  (nomenclator)
+#   - RAFAL DE LA MORT MAYOR  (regex)
+#   - RAFAL DE LA MORT MENOR  (regex)
+#   - RAFAL DEN PRIMO  (regex)
+#   - RAFAL FORT  (regex)
+#   - RAFAL NOU  (regex)
+#   - RAFAL PULlT  (regex)
+#   - RAFAL RLBÍ VÉLL  (regex)
+#   - RAFAL ROIG  (regex)
+#   - RAFAL RUBÍ NOU  (regex)
+#   - RAFAL VELL  (regex)
+#   - RAFALET (el)  (regex)
+#   - RAFALET (eÍ.)  (regex)
+#   - RAFALET GRAU  (regex)
+
+=== TARGET LEAF ===
+sm RAF
+
+duce á Beüiílobfl, Penáguila, Altea, Benidonn y defpfeipueblos de aquella parle de la marina. El correo se recibede Concentaina tres veces á la semana, piiod.-. vino , aceite, trigo y maiz. ind.: la agrícola, y una fáb. de aceite delinaza.pobl. : 22 vec., 75 alm. cap. piiod.: 457,603. imp.:17,820. contr..- 3,000. Este pueblo tuvo ayunt. hasta el año18to , en que fue agregado á Concentaina, por no tener los30 vec. de la ley.
+
+RAFAL: l. con ayunt. déla prov. de Alicante (8 leg.),part, jud. de Dolores (1), aud. lerr. y c. g. de Valencia (30),dióc. i.le Orihuela (1): Sit. en terreno llano; le baten losvientos del N. y S.; su cuma es templado y las enfermedades mas comunes tercianas. Tietie 24 casas j la delayunt. y cárcel, escuela de niños concurrida por 20 y dotada con 800 rs., igl. parr. (Ntra. Sra. del Rosario) deprimer ascenso, servida por un cura de patronato del marques de Rafal, y un cementerio á corta dist. de la pobl.Confina el térm". por N. con Callosa de Segura; E., S. y O.Jurisdicción de Orihuela; su estension es de 1/4 leg. en tollas dilecciones. El TERRENO es huerta de buena calidad,regado por una arroba llamada de San Bai toiorné, cuyasaguas recibe de la acequia vieja de Almoradí que las tomadel r. Sejura, y de las que se sirven también los vec. parasus usos, siendo de buena calidad. Los caminos, el canelero que conduce a Orihuela, Callosa de Segura y Benejuzar, en buen estado. El correo se recibe de Callosa de Segura, por el conductor que tiene el pueblo, dos veces á lasemana, phod. : trigo, cebada, aceite y cáñamo, ind.: laagrícola, podl. : 89 vec., 332 alm. cap. puod. : 618,833 rs.imp. : 36,840. contr. ! 8,987.
+
+RAFAL: predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, !érm. y jurisd de la v. de Alaró.
+
+RAFAL (él) : predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. dePollenza.
+
+RAFAL DE LA MORT MAYOR : predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.
+
+RAFAL DE LA MORT MENOR: prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.
+
+RAFAL AMAGA!': predio subdividido hoy en pequeñasporciones, en la isla de Menorca, prov. de Baleares, part.jud., térm. y jurisd. de la c. de Mahon.
+
+RAFAL COLOM DE BINIMAIMUT s prédio en la isla deMenorca , prov. de Baleares, part. jud., térm. y jurisd. dela c de Mahon.
+
+RAFAL COLOM DE PONS: prédio en la isla de Menorca,prov. de Baleares, part. jud., térm. y jurisd. de la c. deMahon.
+
+RAFAL D' EN MARTI í prédio en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. y jurisd. dela v. de Pollenza.
+
+RAFAL DEN PRIMO: alq. en la isla de Mallorca, prov.de Baleares, part. jud. de Inca, térm. y jurisd. de la v. deCampanet.
+
+RAFAL FORT: prédio en la isla de Menorca, prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de Alayor.
+
+RAFAL NOU: prédio en la isla de Mallorca, prov. déBaleares, part. jud. de Inca, térm. y jurisd. de la v. deMaria.
+
+RAFAL NOU: prédio en la isla de Menorca, prov. deBoleares, part. ¡ud., térm. y jurisd. de la c. de Mahon.
+
+RAFAL PULlT: predio en la isla de Menorca, prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de Alayor.
+
+RAFAL ROIG : alq. en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Maria.
+
+RAFAL RUBÍ NOU : prédio en lá isla de Menorca , prov.de Baleares, part. jud. de Mahon, térm. y jurisd. de Alayor.
+
+RAFAL RLBÍ VÉLL: prédio en la isla de Menorca, prov.de Ralearen, parí, júd de, Mahon , térm. y jurisd. de Alayor.
+
+RAFAL VELL: prédio en la isla de Menorca, prov. deBaleares part. jud , térm. y jurisd. de la c. de Mahon.
+
+RAFAlELL Y VISTABELLA: cas. con ale. p. dependiente del de la calle de Murviedro, barrio estramuros dela p de Válencfá. á cava prov. y part. jud. corresponden.Estáíi su-, amlios hacia el N. déla misma, á la dist. de 2leg., en terreno llano y delicioso, ofreciendo una anomalía
+
+RAF
+
+bastante singular, pues se hallan colocados dentro del part.jud. de Murviedro; y para constituirse en ellos desde Valencia hay que atravesar buena parte del terr. del de Moncada y parte del de Murviedro: indispensable se hace quedesaparezcan estas irregular,dades, que algunas veces hemos notado en el curso de la obra. Se componen de 8 casasó alq. y 5 barracas habitadas, cuyos vec. acuden pára elpasto espiritual á la vicaría de Masálfasar, anejo de Masamágrell, á cuya parr. pertenecen. Tienen térm. propio,que confina por N. y O. con el del antedicho Masamagrell;E. el mar Mediterráneo, y S. Masálfasar: comprende 2,000hanegadas y 3 cuarterones de tierra cultivada, de las cuales se riegan 1,271 con las aguas de la acequia de Moneada,careciendo de riego las restantes, riue se nallan plantadasde olivos y viñas. Se cosecha aceite, vino, trigo, maiz,verduras, legumbres y arroz, para el que hay destinadas450 hanegadas lo que nace que los hab. padezcan á menudocalenturas intermilenles. pobl. : 1o vec, 64 alm.
+
+RAFALES: cot. red. en la prdv. de Huesca, part. jud.de Fraga, térm. y jurisd. de Esplus. Se estienae en unallanura, y se halla cultivado por los vec. de este 1. y del deBinefar. El terreno es escelente para trigo, pero hay pocoroturado, por lo cual abunda en esparto, y yerbas de pastoque consumen los ganados de Cataluña en lá temporada déinvierno; cria caza de liebres; se ven en él las ruina? deun ant. cast., y 1/2 hora dist. hay un pozo, célebre por susricas y abundantes aguas, que jamas han escaseado aun enaños de gran sequía, a! cual se baja por una magnífica escalera ancha de 16 palmos, pobl. : 1 vec, 6 alm. contr.:318 rs., 19 mrs.
+
+RAFALES: v. con ayunt. en la prov. de Teruel (17 leg.),part. jud. de Valderrobres (1), aud. terr., dióc. de Zaragozay c. g. de Aragón, sit. en terreno muy quebrado al O. deia cab. del part.; el clima es templado y sano. Se componede unas 200 casas, la del ayunt., una escuela de instrucción primaria, un pósito y un hospital para pobres enfermos: escelentes aguas para el consumo de los vec.; una igl.parr. (La Asunta), servida por un cura de segundo ascensoy de provisión ordinaria; una ermita dedicada á San Rafael,sit. en un montecillo inmediato al pueblo, y un cementerio.Confina el térm. por el N. con el de Fóriibíes ; E. Valderobles; S. y O. la Cérollera; corre por él un arroyo con cuyasaguas se riegan varios trozos de tierra , yendo las restantesal Matarrana. El terreno es muy quebrado y peñascoso,con algunas cañadas de tierra de cultivo. Los caminos sonde herradura v conducen á los pueblos limítrofes. El correose recibe de Valderobles dos veces en la semana, pbod.:trigo, maiz, judias , aceite , vino y seda; hay algún ganadolanar y caza menor, ind. : la agrícola y varios telares ordinarios de lienzos, pobl. : 204 vec., 815 alm. riqueza lmp.:56,611 rs.
+
+Esta v. fue hecha encomienda de la Orden de Calatrava,parando últimamente en el Patrimonio Real. El caudillo carlista Cabrera, atacó por dos veces en Rafales á un destacamento de urbanos de Alcoy, el año 1835 , siendo ambas rechazado sin resultado de consideración. Es patria de D. Rafael Angles eclesiástico benemérito y muy instruido en lamúsica; fue organista de la catedral de Valencia, y tan sobresaliente en su facultad, que D. Félix Lasala en su biblioteca aragonesa, lo creyó digno de que su memoria figuraseen los fastos de Aragón; compuso varias obras de igl., queno se han publicado.
+
+RAFALET : cas. en la prov. de Alicante , part. jud. deConceitana, térm. jurisd. de Tollos.
+
+RAFALET : desn. dé la prov. de Valencia , part. jud. ytérm. jurisd. de Alberique.
+
+RAFALET (el) : casa de campo en la isla de Mallorca,prov. de Baleares , part. jud. de Inca , térm. y jurisd. de lav. de Sta. Margarita.
+
+RAFALET (eÍ.) : predio en la isla de Mallorca , prov. deBaleares, pa~t. jud. de Inca, térm. y jurisd. de la v. de Pollenza.
+
+RAFALET GRAU: predio en la isla de Menorca, prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de SanLuis.
+
+RAFALETO i predio en la isla de Menorca , prov. dr Iblearrs, part. ind. de Mahon, térm. y jurisd. de San Luis.RAFELBUÑOL: 1. con ayunt, de la prov., aud. terr., c. g.
+
+=== CONTINUATION LEAF +1 ===
+RAF
+
+ydióc.deValencia(21/41eg.),part.jud deMurviedro (1 12sit. en uDa llanura ol E de los montes llamados la Calderona; le baten los vientos del E.: sü cuma es templado y afecto á las calenturas intermitentes. Tiene 310 casas , escudade niños, á la que asisten 35, dotada íjon 1,125 rs. , otra deniñas concurrida por 40 , y 899 rs. de. dotación ; igl. parr.(San Antonio), servida per un cura de primer ascenso , deprovisión ordinaria, v un cementerio. Lobíifaa el térm. porN. y E. con el de Puig; S. Puebla de Farnals, y O. Masamagrell: su estension es de 1/2 leg. El terreno es llano, debuena calidad, y se riega la huerta con las aguas del Turiapor medio de la acequia de Moucada. Los caminos son locales y medianos, prod. : trigo , maiz , aceite , buen vino . algarrobas, alubias y toda clase de legumbres, ind.: la agrícola, 3 tejedores de lienzos ordinarios , 4 molinos de aceite ¡ y2 hornos de pan cocer, pobl. : 296 vec , 803 almas, cap.prod. : 4.410,443 rs. imp.: 54,08o. contr.; 19,142.
+
+Suena este pueblo en la historia de las germanias de Valencia: entre Puzol, Puig, Rafelbuñol y Mazamagrel, enviaron 2,000 agermanados contra el cast. de Murviedro, año1521.
+
+RAFELCOFER : 1. con ayunt. de la prov. de Alicante (14leg.J, (*) part. jud. de Pego (2), aud. terr., c. g. y dióc. deValencia ( lo), sit. en terreno llano, en la hermosa huerta deGandia; le balen generalmente los vientos del O.; su climaes templa lo y sano Tiene 122 casas que forman cuerpo depobl., y un barrio de unas 10 hacia el O., á la distancia de4/4 de hora; casa de ayunt., cárcel, escuela de niños, á laque asisten 4o, dotada con -1,080 rs.; igl. parr. (San Antonioy San Diego), de entrada, servida por un cura de provisiónordinaria, y un cementerio capaz y ventilado-, los vec. sesurten de 2 pozos públicos y de "las acequia». Confina eltérm. poi N. con el de Bellrreguart; E. Alquería de la Condesa; S. FucnteEncarroz, y O. Beniarjo : su estension deN. áS. es de 1/4 de hora, y lo mismo de E. áO El terruñoes flojo, de fegadio v bástanle fértil; comprende uno 200júnales de tierra, divididos en dos partidas rurales. Los caminos son locales, de herradura y en buen estado. El corkeo se recibe de Oliva por encargado, prod.: trigo, maiz,seda, frutas, legumbres y algunas verduras, ind.: la agrícola, pobl.: 184 vec, 767 alm. cap. prod.: 2.389,033 rs. imp.:10o,4G9 CONTB.: 10,121.
+
+RAFELGUARAF: 1 con ayunt. de la prov., aud. terr., c.g. y díóc. de Valencia (6 leg.), part. jud. de Játiva (1). sit.en terreno llano; le baten los vientos del N. y O.; su climaes templado, y las enlermedades mas comunes tercianas éinflamaciones. Tiene 46 casas , inclusa la del ayunt. y cárcel ; escuela de niños concurrida por 12, y dotada con 600rs. anuales; igl. parr. (El Nacimiento del Señor), que tienepor anejos á los pueblos de Tosalnou y Berfull, servida porun cura de entrada y provisión ordinaria. Los groe, se surten de_una fuente llamada de Perelló , sit á la falda de unamontaña de buena calidad. Confina el tébm. por N. con Barcheta; E. Realengo; S Carcagente, y O. Berfull: comprendealgunos montes bien poblados , y varios cas. titulados Casade los Frailes, de Esbrí, de la Parda, de Serena, de Gordo yde Morales, con hermosos huertos plantades de naranjos yotros árboles. El terreno es llano , de buena calidad, y seriega con las aguas de la acequia di Enova , que las recibedel r. Albaijda. Los caminos son locales en regular estado.El correo se recibe de Manuel tres veces á la semana.prod.: trigo, maiz, arroz, seda y legumbres ; mantiene ganado lanar y vacuno para la labranza , y hay caza de conejos, liebres y perdices, ind : la agrícola v un molino harinero, pobl.: 47 vec : 284alm. cap. prod.": 587,838 rs. imp.:24,919. contb -. 2,911.
+
+En Rafel Guaraf, ó Rafalgarces cargó el virey de Valenciasobre los agermanados, v entre los que les mató en la pelea, y después en el suplicio, pasaron de 600 hombres.
+
+RAFET (Ntba. Sra. de) : santuario en la prov. de Lérida, part. jud. de Balaguer, térm. jurisd. de Cero.
+
+RAFOL: masia ó col. red. de la prov. de Valencia, part.jud. y térm. jurisd. de Torrente, sit. á 1/2 hora SE delmismo, en um vega deliciosa y en medio Je un terreno fértil. Comprende un hermoso edificio rodeado de alamedas,naranjos, limoneros y frondosas huertas con dos jardines
+
+RAG 359
+
+contiguos; un oratorio donde se celebra misa todos los diasfestivos; otra casa y 3 barracas en las que habitan los arrendadores de la heredad; un molino de aceite y un pozode muy buena agua. El terreno que la pertenece es de lamejor "calidad; consta de 840 hanegadas de secano, plantadas de olivos y algarrobos, y -164 de huerta con moreras ytíntales, la cual disfruta cada 28 dias de 48 hoias de todael agua que nace de las fuentes del Barranco, prod. : trigo,maiz, seda, mucho aceite . algarrobas, habichuelas, melones, muy buenas frutas, toda especie de legumbres yhortalizas: el ácido de los limones ha valido algunos años30.000 rs. pobl.: 5 vec, 29 alm. Es propiedad del marquésde la Romana.
+
+RAFOL: desp. de la prov. de Valencia, part. jud. de Sueca, térm. jurisd ds Tabernes de Vaildigna. Se despobló ácausa de su insalubridad.
+
+RAFOL: ald. desp. de la prov. de Alicante, part. jud ytérm. jurisd. de VillaUmga. Se arruinó y despobló á consecuencia de la espuWion de los moriscos.
+
+RAFOL DE ALMUNIA i I. con ayunt. de la prov. de Alicante (14 1/2 leg.), part. jud. de Pego (1 1/2), aud. terr.,c. g. y dióc. de Valencia ¡13) sit. en llano á la falda delmonte llamado el Mortit; le baten generalmente los vientosdel E. y S.; su clima es templado, y las enfermedades mascomunes intermitentes. Tiene 80 CASAS, un palaciocastillo muy ant., propio del Sr. marqués de Alumina, en elque se cmsevan aun varias pinturas de mérito; igl parr.(San Francico de Paula1, de primer ascenso, de la que sonBenimeli, Negrals, Sagra, Sanet y Tormos , servida por uncura, de provisión ordinaria v un beneneficiado; y un cementerio que no perjudica á la salubridad •. los vec. se surten de 4 pozos que hay dentro y fuera del pueblo. Confinael térm. por N. con el de Pego; E. Benimeli; S. Benidoleig,y O. Sagra y Tormos: su estension de N. á S. es de 3/4 dehora, y 4/4 de E. á O. En sil radio se encuentran los montes de Segarria, Costera nesra v Mortit formando entre sícord. El terreno es generalmente llano; comprende unos200 jornales de labranza, gran parte de los cuales están reducidos á huerta que solo se siega en años de abundanteslluvias Los caminos son locales , de herradura y en mal estado. El correo se recibe en Denia por encargado, prod.:trigo , aceite, vino. pasa, algarrobas y seda. ind. : la agrícola , 2 molinos harineros y 2 de aceite, pobl. : 80 \ec,429 alm. cap. prod. : 1.430,000 rs. imp. : 56,830. contr.:4,909.
+
+RAFOL DE BENISALEM : desp. de la prov. de Alicante,part. jud. de Callosa de Ensarna, térm. jurisd. de Tárbcna.
+
+RAFOL DE SALEM : 1 con avunt. de la prov., aud terr.,c. g. y dióc. de Valencia (44 leg), part. jud. de Albania(2 1/2). sit. al pie de la montaña de Benicadell al S. deesta: le baten ios vientos del E. y O.; su clima es templado y saludable. Tiene 110 casas , inclusa la del ayunt.y cárcel; escuela de niños concurrida por 10 , y dotada con4,200 rs.; otra de niñas á la que asisten 14 y tiene 1,100 rs.de dotación; igl. parr. (San Blas) , servida por un cura deentrada, de provisión ordinaria , y un cementerio sit. al N.de la pobl. Los vec. se surten de una fuente que hay en losafueras, de buena calidad. Confina el térm. por N. ronCastellón; E. y S. Salem . y O Beniatjar: el Benicadell antes mencionado , cria romeros y aliagas El terreno es deregular calidad, parte secano v parte huerta regada por elarroyo, titulado de la fuente del Cantal, que nace en térm.de Salem. Los caminos conducen á Gandía, Albayda v Játiva, en mal estado. El correo se recihe de este últimopunto por baligero tres veces á la semana. fROD. . trigo,I vino y aceite, ind.: la agrírola, una fáb. de tinajas y 2 molinos harineros, pobl.-. 110 vec. 511 alm. cap. prod.:1.125,745 rs. imp : 44 814 contr.: 9.589.
+
+RAGA VIA: 1. con ayunt. en la prov. de Salamanca (8 leg.),part. ¡ud. de Peñaranda de Bracamonte (2, dióc. de Avila(10), aud. terr. de Valladolid (14) y c. g. de Castilla la Vieja, sit. en una llanura perfectamente ventilada; goza declima templado, siendo las tercianas y calenturas Tas enfermedades mas comunes. Se compone de 94 casas , la delayunt.. una escuela de instrucción pública concurrida por40 niños de ambos sexos; igl. parr. (El Salvador) servida
+
+(*) Por real orden de 21 de noviembre de l,847*se ha trasladado á la prov. d* Valencia, part. jud. de Gandia.

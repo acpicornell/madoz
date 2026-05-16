@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 82,
+  "page_printed": "78",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PLANES ^ses)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Buger",
+      "description": "casa de campo en la isla de Mallorca, prov.de Baleares, part. jud. de Inca , térm. y jurisd. de la v. deBugcr.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PLANICIA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": ". predio en la isla de Mallorca, proT. de Baleares , part. jud. de Palma , térm. y jurisd. de la v..de Ba-.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

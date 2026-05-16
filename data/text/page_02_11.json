@@ -1,0 +1,31 @@
+{
+  "vol": "02",
+  "leaf": 11,
+  "page_printed": null,
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALICANTI MAYOR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, y felig. de Muro. (V. Muro.)",
+      "stats": {},
+      "cross_references": ["Muro"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALICANTI MENOR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)",
+      "stats": {},
+      "cross_references": ["Muro"],
+      "confidence": "high"
+    }
+  ]
+}

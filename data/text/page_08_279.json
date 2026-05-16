@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 279,
+  "page_printed": "275",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "GALILEA", "place_type": "aldea", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Puigpuñent", "description": "Aldea en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent, á la que está unida en pobl., riqueza y contr.", "stats": {}, "cross_references": ["Puigpuñent"], "confidence": "high"}
+  ]
+}

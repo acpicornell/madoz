@@ -1,0 +1,21 @@
+{
+  "vol": "04",
+  "leaf": 160,
+  "page_printed": "156",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "BELL VER (castillo de Bellver) is a major architectural/historical entry. The article spans leaves 160–162 of tom04; this JSON records the full description as one entry.",
+  "entries": [
+    {
+      "title": "BELLVER (castillo de)",
+      "place_type": "castillo",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Castillo en la isla de Mallorca, prov. de Baleares. Sit. como á 1/2 leg. al OSO. de la c. de Palma, á medio tiro de cañón del mar, al N. de su orilla y á muchos pies de altura sobre su nivel; señorea y adorna todo el país circunyacente. Su forma es circular, con cortina ó muro exterior interrumpido por 3 albacaras ó torreones mochos y redondos (al E., al S. y al O.) y 4 garitones también circulares. El foso es ancho y profundísimo, sigue la línea circular del muro, y al exterior corre la esplanada con débiles parapetos. A la parte O. se avanza del centro un antiguo baluarte, y un fuerte reforzado con batería de 9 cañones obra del siglo anterior. La entrada principal está al N. por puente levadizo sobre el contrafoso. Entre los dos puentes se levanta aislada la gran torre del Homenaje, ceñida en lo alto por 38 grandes modillones almohadillados; comunica con la plataforma por puentecillo sobre dos arcos punteados. El interior se compone de muro medianero, galería circular alta de 21 grandes arcos punteados sobre columnas octágonas con capiteles del estilo corintiáco, y patio central que cubre el aljibe. Las bóvedas, sostenidas por fajas trinitarias que descansan en peanas voladas, presentan elegante y caprichosa forma. Tradicionalmente atribuido al rey D. Jaime II como morada real; documentadamente concluido en 1309. En 1394 lo habitaron D. Juan I y Doña Violante de Aragón. Cuenta por lo menos 5 siglos de edad. A poca dist. de los muros, al O., se ve la tenebrosa caverna de donde se sacaron sus sillares. El monte abriga grandes y espesos pinaretes (ya en su mayor parte desaparecidos), muchos algarrobos, acebuches, lentisco, gamón, plantas aromáticas y medicinales (centaura, geráneo, anagalis, sedos, achicorias, espárrago espinoso, digital purpúrea, buglosa, cinoglosa). En el término se crian conejos, perdices, liebres y pajarillos.",
+      "stats": {},
+      "cross_references": ["Palma", "PortoPi", "San Carlos", "Calamayor", "Andraix", "Mallorca"],
+      "confidence": "high"
+    }
+  ]
+}

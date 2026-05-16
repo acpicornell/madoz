@@ -1,0 +1,42 @@
+{
+  "vol": "14",
+  "leaf": 153,
+  "page_printed": "149",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SEGUA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. deLluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "SEGUÍ (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Pollenza",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. delnca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "SEGUÍ (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov., aud. terr.,c. g. de Baleares , part. jud. de Palma, térm. y jurisd. dela v. de Sta. Maria.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

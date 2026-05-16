@@ -1,0 +1,21 @@
+{
+  "vol": "03",
+  "leaf": 366,
+  "page_printed": "362",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "OCR mangles title as 'HA SOS ÍCADO DE)' — clearly 'BAÑOS (CABO DE)'.",
+  "entries": [
+    {
+      "title": "BAÑOS (cabo de)",
+      "place_type": "cabo",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Ciudadela",
+      "description": "Cabo occidental de la isla de Menorca, una de las Baleares, inmediato al puerto de Ciudadela por la parte del NO.",
+      "stats": {},
+      "cross_references": ["Menorca", "Ciudadela"],
+      "confidence": "high"
+    }
+  ]
+}

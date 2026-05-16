@@ -1,0 +1,35 @@
+{
+  "vol": "02",
+  "leaf": 52,
+  "page_printed": "48",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALMADRA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Predios con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alaró. Comprende 3 distintos predios con sus correspondientes casas, llamados La Casa d'Munt, Son Ordinas y Canxalet.",
+      "stats": {},
+      "cross_references": [
+        "Alaró"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALMADRAVA",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Ant. alquería, y ahora distintas propiedades de este nombre, una de las porciones de terreno que repartió el rey D. Jaime en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

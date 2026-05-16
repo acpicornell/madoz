@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 420,
+  "page_printed": "416",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "DUAS ROCAS (vulgo SILLOT DE SANTA EULALIA)", "place_type": "islote", "island": "Mallorca", "judicial_district": "Inca", "municipality": null, "description": "Islote en la costa de la isla, tercio y prov. marít. de Mallorca, departamento de Cartagena, prov. civil de Baleares: sit. en la ensenada que forman los cabos nombrados del Pinar y de Ferrutx al NE. de la isla.", "stats": {}, "cross_references": ["Pinar (cabo del)", "Ferrutx (cabo de)"], "confidence": "high", "note": "Alias: Sillot de Santa Eulalia."}
+  ]
+}

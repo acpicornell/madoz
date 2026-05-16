@@ -1,0 +1,20 @@
+{
+  "vol": "05",
+  "leaf": 472,
+  "page_printed": "468",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CANOVE (Se)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    }
+  ]
+}

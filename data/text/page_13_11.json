@@ -1,0 +1,26 @@
+{
+  "vol": "13",
+  "leaf": 11,
+  "page_printed": "?",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PI DE LA POSADE (el)",
+      "place_type": "cala",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "cala en la isla do Mallorca, provincia de Baleares, partido judicial de Inca, término y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Baleares",
+        "Inca",
+        "Mallorca",
+        "Pollenza"
+      ],
+      "confidence": "high",
+      "source_note": "description from diccionariomadoz.com scrape (OCR title mangled or absent)"
+    }
+  ]
+}

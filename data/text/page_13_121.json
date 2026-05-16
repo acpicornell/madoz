@@ -1,0 +1,64 @@
+{
+  "vol": "13",
+  "leaf": 121,
+  "page_printed": "117",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PONS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmavor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PONS (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. juris. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PONS DE SON LLEBBA",
+      "place_type": "alquería",
+      "island": null,
+      "judicial_district": "Inca",
+      "municipality": "Buger",
+      "description": "alq. en la isla de Mal'orca, prov.de Baleares, part. jud. de Inca, térm. y jurisd. de la v. deBuger.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PONT (can)",
+      "place_type": "predio",
+      "island": null,
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en el valle de Cuxach, en la isla deMallorca, prov. de Baleares, part. jud. de Inca, térm. yjurisd de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PONT (so^",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baleares , part . jud.. térm. y ¡urisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

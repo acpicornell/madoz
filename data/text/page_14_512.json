@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 512,
+  "page_printed": "450",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SORDA (la)",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Campos",
+      "description": "ald. en la isla de Mallorca, part. jud. deManacor , térm. y jurisd. de la v. de Campos, á la cual estaunida su pobl. y riqueza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

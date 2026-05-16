@@ -1,0 +1,9 @@
+{
+  "vol": "11",
+  "leaf": 457,
+  "page_printed": "453",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Fals positiu: l'entrada MOJACAR és una ciudad de la prov. de Almería; el regex va matar 'sierra de Cabrera' (sierra continental d'Almería, no l'illa balear). Cap entrada balear real en aquest full.",
+  "entries": []
+}

@@ -1,0 +1,10 @@
+{
+  "vol": "06",
+  "leaf": 480,
+  "page_printed": "476",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CLARET (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Muro", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro.", "stats": {}, "cross_references": ["Muro"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "16",
+  "leaf": 336,
+  "page_printed": "320",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VINAGRELLA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "granja en la isla de Mallorca, part. jud.de Inca , térm. y jurisd. de la v. de Llubí.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

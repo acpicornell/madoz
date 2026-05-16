@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 36,
+  "page_printed": "32",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CORTERA", "place_type": "cala", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Escorca", "description": "Cala en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.", "stats": {}, "cross_references": ["Escorca"], "confidence": "high"}
+  ]
+}

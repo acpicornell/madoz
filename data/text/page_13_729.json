@@ -1,0 +1,53 @@
+{
+  "vol": "13",
+  "leaf": 729,
+  "page_printed": "725",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SAN JUAN DE LAS HUERTAS ó DE CARBONELL",
+      "place_type": "aldea",
+      "island": null,
+      "judicial_district": "Ciudadela",
+      "municipality": null,
+      "description": "ald.en la isla, y dióc. de Menorca, part. jud.de Ciudadelaprov., au I. terr. y c. g. de Ba'eares, ayunt. de Mercadal:sit. en el térm. de esta v ,eiiTERRENO hondoyhúmedo,porcuya causa, es insalubre su clima , y propenso á fiebres intermitentes. Tiene 19 cas., y una igi. parr. (San Juan Bautista) servida por uu vicario de provisión del diocesano. Supobl. y riqueza unida á Mercadal.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SAN LLORIiNS",
+      "place_type": "feligresía",
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "felig. en la isla, part. jud. y dióc. deIbiza, au 1. terr. ye g. de Baleares, distr. municipal de SanJuan Bautista. Tiene una igl. parr. (San Lorenzo) servidapor uu cura de segundo ascenso. Su pobl. y riqueza (V.Ibizaj.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SAN LORENZO ó LLORENS ÜESCARDASAR",
+      "place_type": "lugar",
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "1. en laisla y dióc. de Mallorca ¡Palma 9 1/2leg.),part jud y ayunt.de Manacor (I 1/2), aud. terr. y c. g. de Baleares: sit. enuna fértil llanura, le combaten con frecuencia los vientosdel N. y E.; su clima es templado y húmedo y propenso áíiebres intermilentes y reumas. Tiene ¿81 casas; una escuela de inslrucion primaria, dotada con 530 rs. vn.; unaigl. parr. ^San Lorenzo) filial de la de Manacor, servida porun vicario temporal y amovible, que nombra el diocesano ápropuesta del párroco de la matriz, y un sacerdote ordenado á titulo de patrimonio. El térm. confina por N. y O conel de Manacor; S. este mismo y el mar, y E. la v. de Artá.El terreno es generalmente arenisco; en sus montes , queson de poca consideración, solo se cria mata baja, y escasopasto para ganados; le cruza un torrente que pasa por unángulo de la pobl., cuyas aguas se estancan por ciertospuntos, y hacen insalubre este terr. Hay un camino queconduce á la Cala de Manacor, y la carretera general queatraviesa la isla desde Palma á Artá prod.: trigo candeal,cebada, avena, higos v vino; cria ganado lanar y mular, ycaza de conejos y perdices. Su pobl. y riqueza va unida áManacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SAN MATEO",
+      "place_type": "aldea",
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "ald. ó cas. en la proy. y pait. jud de Gerona-, sit en un cerro en el térm. y jurisd. de San JorgeDcsvalls de cuyo 1. depende en todo.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

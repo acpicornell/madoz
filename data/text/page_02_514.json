@@ -1,0 +1,31 @@
+{
+  "vol": "02",
+  "leaf": 514,
+  "page_printed": "506",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ARENAL",
+      "place_type": "playa",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Porción de playa en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.)",
+      "stats": {},
+      "cross_references": ["Santa Margarita"],
+      "confidence": "high"
+    },
+    {
+      "title": "ARENAL DE CASTEL",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "Pequeña cala en la isla, tercio, prov. y distr. marít. de Menorca, apostadero de Cartagena. Sit. al EN. de la isla; fórmala la punta de Sevastada. Es muy poco frecuentada.",
+      "stats": {},
+      "cross_references": ["Punta de Sevastada"],
+      "confidence": "high"
+    }
+  ]
+}

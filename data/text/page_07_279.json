@@ -1,0 +1,37 @@
+{
+  "vol": "07",
+  "leaf": 279,
+  "page_printed": "275",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CUGOLLONET",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high",
+      "note": "OCR 'GUGOLLONET' / 'Manon' normalized to CUGOLLONET / Mahon. Distinct Madoz entry from the 'estancia' on previous leaf."
+    },
+    {
+      "title": "CUGULLUTX",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "San Juan",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan.",
+      "stats": {},
+      "cross_references": [
+        "San Juan",
+        "Manacor"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

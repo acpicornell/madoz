@@ -1,0 +1,203 @@
+# tom13 leaf 400  printed page 396  window=2
+# chocr-indexed Balearic entries on this leaf (13):
+#   - REFAL  (regex)
+#   - REFAL AXAT  (regex)
+#   - REFAL CENAS  (regex)
+#   - REFAL DE LOS PORE3  (regex)
+#   - REFAL DE SAREN  (regex)
+#   - REFAL DEN MASCARÓ  (regex)
+#   - REFAL DEN SION  (regex)
+#   - REFAL DES POBLÉ  (regex)
+#   - REFAL NOU  (regex)
+#   - REFAL PALLA GR03  (regex)
+#   - REFALET  (regex)
+#   - REFALET PALLA  (regex)
+#   - REFALOT  (regex)
+
+=== TARGET LEAF ===
+396 REF
+
+res, part. jud. de Manacor, térm. y juiisL de la v. de Fela-
+
+REFAL: hay dos predios de igual nombre en la isla deMallorca, prov. de Baleares, part. jud. de Manacor , térm. yjurisd de la v. de Artá.
+
+REFAL DE SAREN: predio en la isla de Mallorca , prov.de Baleares, part. jud. de Inca, térm. y jurisd. de la v. deBuger.
+
+REFAL DEN MASCARÓ: alq. en la isla de Mallorca, prov.de Baleares, part. jud. de Inca, térm. y jurisd. de la v. deBuger.
+
+REFAL DEN SION: alq. en la isla de Mallorca , prov. deBaleares, part. jud. de Inca, térm. y jurisd. de la v. deCampanet.
+
+REFAL DES POBLÉ : predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd.de la v. de Campanct.
+
+REFAL DE LOS PORE3: predio en la isla de Mallorca,prov. de Baleares, part. jud de Manacor, térm. y jurisd. dela v. de Santagny.
+
+REFAL AXAT: predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. deSan Juan.
+
+REFAL CENAS : con esta denominación se conocen dospredios distintos en la isla de Mallorca, prov. Je Baleares,part. jud. de Manacor, térm. y jurisd. de la v. de Santagny'.
+
+REFAL NOU: predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Manacor.
+
+REFAL PALLA GR03: predio en la isla de Mallorca, provde Baleares, part. jud. de Manacor, térm. y jurisd. de la vde Santagny.
+
+REFALET : con este nombre se conocen dos predios distintos en la isla de Mallorca , prov. de Baleares , part. jud.,térm. y jurisd. de h v. de Manacor.
+
+REFALET: predio en la isla de Mallorca, prov., aud.terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd.de la v. de Algaida.
+
+REFALET s predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Lluchmayor.
+
+REFALET: predio en la isla de Mallorca, prov , aud. terr.,c. g. de Baleares, part jud. de Manacor, térm. jurisd. dela v. de Artá.
+
+REFALET PALLA: predio en la isla de Mallorca , prov.,de Baleares, part. jud. de Manacor, térm. y jurisd. de la v.de Santagny.
+
+REFALOT: predio en la isla de Mallorca , prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.
+
+REPINOOS: 1. en la prov. de Lugo , ayunt. de Villalhay felig. de San Martin de Codesido (Y.), pobl. : o vec., 23almas.
+
+REFISTOLO: 1. en la prov. de Pontevedra, ayunt. v feligde Sta. Maria de Portas (V.).
+
+REFOFIN: I. en la prov. de Lugo , ayunt. y felig. de Sta.Maria de Cespeilo (Y.), pobl.-. 8 vec, 36 almas.
+
+REFOJO: 1. en la prov. de Lugo . ayunt. de Sarria y feligresía de San Miguel de Piñeira (Y.), poul. : un vec. , 5almas.
+
+REFOJO (San Esteban de): felig. en la prov. y dióc. deLugo (10 leg.), part. jud. de Monforle (1), y ayunt. de Sober (1/8). sit. en terreuo desigual, clima templado y sano.Comprende los I. de Camporairo, Pousada, Telleiros , Vi Ir. —mayor y Yilondriz que reúnen 3i casas, y varias fuentes deaguas frias y delgadas; la igl. parr. (San Esléban), tiene poranejo á San'Martin de Arrojo: el curato es de primer ascenso y patronato lego que ejerce el marqués de Camarasa. ElTÉn.M. confina por N. con Canabal; E. Neiras; S. Arrojo , yO. Villaoscura: los caminos vecinales y malos , enlazan conel que desde Monforte se dirige á Orense : el correo se recibe en la cap. del part. pnou. su fértil terreno toda clasede granos, semillas, vino y frutas ¡ cria ganado vacuno , lanar y de cerda-, hay caza de liebres y perdices, y se pescanalgunas anguilas dé pozos, ind. : la agrícola y pecuaria , ymolinos de invierno, pobl.: 38 vec., 198 alm. conté. : consu ayunt. (V.).
+
+REFOJOS : cot. red., ó ant. jurisd. de la prov. de Santingo; el señorío era ejercido por el monast. de Azebeiro,
+
+HEG
+
+¡ Orden de San Bernardo, quien nombraba el juez ordinario.
+
+BEFOJOS: 1. en la prov. de Pontevedra, avunt. y felig. deSta. Eulalia de Meira (V.).
+
+BEFOJOS : I. en la prov. de Oviedo , ayunt. de Rivadeoy felig. de Santiago de Abres (V.). pobl. : 15 vec., 68almas.
+
+BEFOJOS: 1. en la prov. de Pontevedra, ayunt. de Cambados y felig. de San Mamed de Corvillon (V.).
+
+REFOJOS: 1. en la prov. de Pontevedra, ayunt. de Oya yfelig. de San Mamed de Loureza (V.)
+
+REFOJOS (San Payo) : felig. en la prov. de Pontevedra(8 leg.), part. jud. de Lalin (1), dióc. de Lugo, ayunt. deChapa, sit. en una quebrada, á la izq. del r. Deza; climasano. Tiene unas 27 casas , en las ala.'dc Cadesin, Corrospedriños, Lazara y la de su nombre. La igl. parr. (San Pelayo), de la que es aneja la de Sto. Tomé de Parada, sehalla servida por un cura de primer ascenso , y patronatoreal y ecl. Confina NO. Graba ; SE. Laro; N. Seador, y alS. los límites del ayunt. y part El terreno es desigual, yde mediana calidad, prod. : trigo , maiz , centeno , patatas,hortalizas, frutas, castañas, maderas y pastos; se cria ganado vacuno, de cerda y lanar, y caza de varias especies.pobl.: 27 vec, 130 alm. contr.: con su ayunt. (Y.).
+
+REFOJOS (San Verisimo) : felig. en la prov. y dióc. deOrense (5 leg.), part. iud. de Celanova (3), ayunt. de Cortegada (4/4). sit. al E. deRaviño, con libre ventilación, y clima sano. Tiene 260 casas, en los 1. de Aldea de Soto, Carballeda. Casares de Refojos, Casares de la Yirgen, Otero,Pousadoiro, Refojos, Regueiro . Torre , Yilela , Yillaverde yZapariño. En el I. de Refojos existe la casa prioral de nuevafáb., fuerte y aspillerada que tuvo guarnición durante la última guerra. La igl. parr. ¡San Verisimo), está servida porun cura de término y presentación nutual; hay también 3ermitas de propiedad común. Confina N. Arnoy'a; E. Fustanes; S. Puendeva, y O. Balongo. El terreno participa demonte y llano, prod.: maiz, patatas, vino, castañas y pastos; se cria ganado vacuno, de cerda, lanar y cabrío, y cazade perdices, liebres y conejos, pobl. : 260 vec, 1,800 alm.contr.-. con su ayunt. (V.).
+
+REFONTEIRA: 1. en la prov. de Lugo, ayunt. de Taboada y felig. de San Miguel de Vilela (V.). pobl. : un vec., 5almas.
+
+REGA: 1. en la prov. de la Coruña , ayunt. de Serantes yfelig. de San Román de Doniños (V.).
+
+REGA: 1. en la prov. de la Coruña , ayunt. de Laracha yfelig. de San Román de Cavorilaño (V;).
+
+REGA : 1. en la prov. de Lugo, ayunt. de Yillalba yfelig. de San Jorge de Rioabeso (Y.), pobl..- un vec, 6¡ almas.
+
+REGA: 1. en la prov. de Lugo, ayunt. de Begonte yfelig. de Santiago de Baamonde (V.). pobl. : 2 vec , 8almas.
+
+REGA: 1. en la prov. de Lugo, ayunt. de Alfoz y feligresía de San Pedro de Mor (V.). pojl. : 6 vec., 30
+
+almas.
+
+REGA : 1. en la prov. de Lugo, ayunt. de Alfoz y feligresía de San Sebastian de Carballidu (Y.), pobl. : 9 vec,
+
+39 almas.
+
+REGA: 1. en la prov. de Lugo , ayunt. de Sabiñao y feligresía de Santiago de Louredo (V.). pobl.: 3 vec, 15almas.
+
+REGA: 1 en la prov. de Lugo, ayunt. de Cospeito y feligresía de San Juan de Sistallo (V.). pobl.: 5 vec, 24almas.
+
+REGA: ald. en la prov. de Oren?e. ayunt. de Yillamarin yfeli?. de Sta. Eulalia de lloymorto (V.).
+
+REGA: ald. en la prov. de Orense, ayunt. de Cañedo yfelig. de San Pedro de Cudciro (V.).
+
+REGA DA FRAGA: 1. en la prov. de la Coruña , ayunt. deAres y felig. de Sta. Eulalia de Lubre (Y.), pobl.: 7 vec, 25i almas.
+
+REGA DE ABIDUERIA : 1. en la prov. de Lugo , ayunt.y felig. de San Pedro de Muras (V.). pobl. : 8 vec., 4*almas.
+
+REGA DE URRAL BELLO: 1. en la prov. de Lugo, ayunt.yfclig.de San Pedro de Minas (V.). pobl.: 6 vec, 30almas.
+
+» REGA DO FOJO: 1. en la prav. de Lugo, ayunt. de Aba-
+
+=== CONTINUATION LEAF +1 ===
+REG
+
+din y felig. de San Juan de Castromayor (VA pobl. : 3vec, 15 almas.
+
+REÜACENDES: 1. en la prov. de la Coruña, ayunt. deSantiso y felig. de San Martin de Arcediago (V.). pobl. : 9vec , 10 almas.
+
+REGADA: 1. en la prov. de Orense, ayunt. de Lobios yfelig. de San Martin de Araujo (V.).
+
+REGADA: 1. en la prov. de Orense , ayunt. de Gelanova yfelig. de San Payo de Veiga (V.).
+
+REGADAS: 1. en la prov. de Pontevedra, ayunt. de Meiria y felig. de San Martin de Moaña (V.).
+
+REGADAS: 1. en la prov. de Pontevedra , ayunt. y felig.de Sla. Eulalia de Mos (V.).
+
+REGADAS: 1. en la prov. de Pontevedra, ayunt. y felig.de Sta. Maria de Arbo (V.).
+
+REGADAS: 1. en la prov. de Pontevedra , ayunt . de Gondomar y feüg. de San Martin de Borreiros (V.).
+
+REGADAS: 1. en la prov. de Orense, ayunt. y felig. de SanCiprian de PadrQnJa (V.).
+
+REGADAS (San Mauro): felig. en la prov. de Orense(4 \¡k leg.), part. jud. de Ribadavia (1/2), dióc. de Tuy,ayunt. de Beade (1/4). sit. en terreno bastante quebrado,con libre ventilación y clima algo propenso á tercianas.Tiene 86casas, y una igl. parr. (San Mauro) aneja de la deSta. Maria de Reáde. Confina N. Beño ; E. Yeran; S. Carballeda, y O. Beade. El terreno es de mediana calidad:sus montes son de corta estension, y los caminos conducená los pueblos inmediatos, en mal estado. El correo se recibe de Ribadavia. prod.: algún maiz, patatas, vino y pastos: se cria ganado vacuno y lanar, y alguna caza de perdices y conejos, pobl.: 90 vec, 270 alm. contr.: con suayunt. (V.).
+
+REGADIO: 1. en la prov. de Lugo, ayunt. de Antas y felig.de San Jorge de Terrachd (V.): pobl.: 6 vec, 24 alm.
+
+REiiAÜÓ: ald. eu la prov. de Pontevedra, ayunt. de Laliny felig. de Sta. Maria de Bermés{\.): pobl.: 4 vec, 23almas.
+
+REGADOIRA i 1. en la prov. de Lugo, ayunt. de Tierrallana y felig. de San Juan de Alage (V.): pobl.: 10 vec, 50almas.
+
+REGADOYIliS: 1. en la prov. de Pontevedra, ayunt. deArbo y felig. de San Miguel de Cequelinos (V.).
+
+REGAJAL: desp en Ta prov. de Salamanca, part. jud. deYitigudino , térm. municipal de Bañobarez.
+
+REGAJAL: arroyuelo eu la prov. de Avila, part. jud. deArévalo: tiene su origen en el térm. de la Nava de Arévalo.y espira en el mismo por su corto caudal de aguas en tal grado que se seca totalmente en el estío.
+
+REGAJO (el): ald. en la prov. de Albacete, part. jud. deChinchilla, térm. jurisd. de Fuenteálamo: perteneció alvinculo de Ursula Pastor.
+
+REGAJO (ra,): ald. en la prov. de Albacete, part. jud. deChinchilla, térm.jurisd. de Pozuelo.
+
+REGAJOS (los): casa de campo y labor en la prov. deCuenca. part. jud. de Cañete y térm. jurisd. de Moya.
+
+REGALADA: ald. en la prov. de Pontevedra, ayunt. deChapa y felig. de Sta. Maria de Cortegada (V.): pobl.: 6vec., 30 almas.
+
+REGALADOS: 1. en la prov. de la Coruña, ayunt. de Zasy felig. de San Pedro de Alio (V.).
+
+REGALADOS: 1. en la prov. de la Coruña, ayunt. de Cápela y felig. de San Martín de Goente (V.). pobl.: 1 vec, 7almas.
+
+REGANA: cabo en la ¡sla, prov. y tercio marítimo de Mallorca, departamento de Cartagena, distrito de Felanitx,térm. jurisd. de Lluchmayor.
+
+REGANTIO: arroyo en la prov. de Cáchz, el cual nace enla den. de las Yeguas, térm. de Arcos, pasa por el caminode esta c_ á Algodonales y desagua en el Guadalete.
+
+REGAÑADA: alq. en la prov. de Salamanca, part. jud.de Alba de Tormes, térm. municipal de Morille. pobl.: Ivec., 3 almas.
+
+REGAS: l. en la prov. de la Coruña, ayunt. de Ares yfelig. de San Pedro de Cerbds (V.): pobl..- 16 vec, 70 alm.
+
+REGAS: 1. en la prov. de Lugo, ayunt. y felig. de SantaMaria de Oról (V.).
+
+REGAS: 1. en la prov. de Lugo, ayunt. de Jove y felig. deSan Isidro de Monte (V.y. pobl.: 9 vec, 48 almas.
+
+REG 397
+
+REGAS 1. en la prov. de Orense , ayunt. de Gomesendey feli.,. de San Lorenzo de Fustanes.
+
+REGAS: 1. en la prov. de Orense, ayunt. de Yillameá yfelig. de San Salvador de Penosiños (V.).
+
+RRGATA: 1. en la prov. de Pontevedra, ayunt. de SanGenjo y felig. de San Pedro de Cordones (Y.).
+
+REGATA .- casa sola en la prov. de Orense, ayunt. de Peroja y felig. de Santiago de Larracedo (V.).
+
+REGATÍLLO, BOTELLAS, RIPA DE BANDALIES, ó JUSTICIA ó ALCALDE DE SANTOLARIA: r. en la prov. deHuesca: al N. de Sta. Eulalid la Mayor (vulgo Santularia delpart. de Huesca), á la dist. de medio cuarto de hora dentrode la sierra de dicho nombre , que es una continuación de lade Guara, nace un arroyuelo, que atravesando varios pueblos , y tomando las referidas denominaciones, tiene su confluencia con el Guatizalema, á 1/4 de hora al SO. de Argavieso, desde su nacimiento, discurre por los térm. de SantaEulalia, Sasa del Abadiado, Castilsabas, Loporzano, Ayeray Bandalies; hasta aquí apenas se le conoce masque con elnombre Barranca de Sta. Eulalia o Bipa de Bandalies,continua por el monte de Siétamo, Ola, Alcalá del Obispo,en donde ya riegan sus aguas sobre 100 cahizadas de tierra,después por el de Argavieso, en que riegan otras tantas, yúltimamente en el de Novales unas 35; en estos últimos pueblos se conoce con el nombre de Begatillo, y cuando vienemuy crecido le llaman también el Aclalde ó la Justicia deSta. Eulalia: y apenas hay uno que le de su verdaderonombre de Botellas, como se le ve llamar desde mediadosdel siglo XV , en documentos muy formales, como compromisos de aguas y riegos, pleitos etc.; en los mesesde junio,julio y agosto, llega a secarse enteramente hasta Alcalá, endonde recibe las aguas sobrantes de los riegos que se hacencon las del Guatizalema; las avenidas por efecto de aluviones, son generalmente muy grandes, y causan daños demucha consideración en Ola y Alcalá, pero especialmenteen Argavieso; los barbos y anguilas que cria, son sabrosísimos y abundarían mucho mas si no fuera tan fácil desaguarlo; nb'da movimiento á ningún artefacto; las presas que hayson de piedra suelta; no tiene mas que dos pequeños puentes, ó mas bien alcantarillas; el uno en el camino de herradura , que desde Huesca dirige á Barbastro, en el estremodel llano llamado de Quinto, y el otro en el carretero quesirve para la comunicación de ambas ciudades y Cataluña,junto á Alcalá del Obispo ; por cima de ambos puentes, pasael agua al menor aluvión ó temporal, é intercepta la comunicación de Huesca con Barbastro y Cataluña, y á los vecde aquellos pueblos , para atender al cultivo de sus t ierras,y recolección de sus cosechas.
+
+REGATO: barrio de Sierrapando en la prov. de Santander,part. jud. de Torrelavega.
+
+REGATO: barrio en la prov. de Vizcaya, part. jud. de Valmaseda , térm. de Baracaldo.
+
+REGAXET: cas. de la prov. de Valencia , part. jud. de Enguera, térm, jurisd. de Mogente.
+
+REGEDOIRA : 1. en la prov. de Lugo, ayunt. de Alfoz yfelig. de Santiago de Adelan (V.): pobl.: 7 vec, 35 alm.
+
+REGEDOIBO: I. en la prov. de Lugo, ayunt. de Palas deRey, felig. de San Juan de Cobelo (Y.)-, pobl.. 1 vec, 4almas.
+
+BEGEIRO: 1. en la prov. de la Coruña, ayunt. de Urtigueira y felig. de Sta. Maria de Mera (V.).
+
+REGEMIL: 1. en la prov. de Lugo, ayunt. de Cospeito yfelig. Santiago de Justas (V.): pobl. : 25" vec. ,112 alm.
+
+REGENCOS: 1. con ayunt. en la prov. y dióc. de Gerona(6 leg.), part. de la Bisbál (2), aud. terr. y c. g. de Barcelona (21). sit. en terreno llano, con buena ventilación y clima templado y saludable; las enfermedades comunes son fiebres intermitentes. Tiene unas 130 casas, una igl. parr. (SanVicente), servida por un cura de ingreso, de provisión real yordinaria. El téum. confina con País, Bagur, San Feliú deBoada y Esclañá. El terreno es de buena calidad ; le bañaun arroyo con cuyas aguas muelen 11 molinos harineros.Los caminos son locales. El correo se recibe de la Bisbal.prod.: trigo , legumbres, vino y aceite; cria algún ganado vcaza de varias especies, pobl.: 69 vec, 310 alm. cap. prod •2.834,400. imp.: 70, 860.
+
+REGENDA: I. en la prov. de Orense, ayunt. de Irijo yfelig. de Sta. Maria de Campo (V.).

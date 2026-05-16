@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 814,
+  "page_printed": "808",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PERE ANDREU (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov.de Baleares, part. jud., térm. y jurisd. déla v. deManacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

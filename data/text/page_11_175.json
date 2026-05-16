@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 175,
+  "page_printed": "171",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MANCOR", "place_type": "lugar", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Selva", "description": "L. con ayunt. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Selva. Igl. parr. (San Juan Bautista) aneja de la de Selva, servida por 1 vicario temporal y amovible (nombramiento del Diocesano), y 1 sacerdote adscrito para segunda misa. Para térm., terreno, prod., pobl. y riqueza, V. Selva.", "stats": {}, "cross_references": ["Selva", "Inca"], "confidence": "high"}
+  ]
+}

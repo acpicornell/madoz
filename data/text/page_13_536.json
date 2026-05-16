@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 536,
+  "page_printed": "532",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ROCAMELLA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Artá",
+      "description": "prédio en la isla de Mallorca , prov. deBaleares, part. jud. de Manacor, térm. y jurisd. de la v.de Arta.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

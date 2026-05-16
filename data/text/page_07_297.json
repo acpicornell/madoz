@@ -1,0 +1,49 @@
+{
+  "vol": "07",
+  "leaf": 297,
+  "page_printed": "293",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CUXACH",
+      "place_type": "valle",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollensa.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CUYEBA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Capdepera",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Capdepera.",
+      "stats": {},
+      "cross_references": [
+        "Capdepera"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CUYERASA (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza. Antiguamente nombrado el Real Masot.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high",
+      "note": "Alias antigo: 'el Real Masot'."
+    }
+  ]
+}

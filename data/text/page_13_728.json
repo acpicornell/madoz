@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 728,
+  "page_printed": "724",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SAN JUAN (s o)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "predio en la isla de Mallorca, prov. deBaleaies, part. jud. de Inca, térm. y jurisd. de la v. deAlaró.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

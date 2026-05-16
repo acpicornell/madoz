@@ -1,0 +1,48 @@
+{
+  "vol": "08",
+  "leaf": 29,
+  "page_printed": "25",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FAVA (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FAVA (son)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FAVAR (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Capdepera",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Capdepera.",
+      "stats": {},
+      "cross_references": [
+        "Capdepera"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

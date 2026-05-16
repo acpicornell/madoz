@@ -1,0 +1,54 @@
+{
+  "vol": "07",
+  "leaf": 561,
+  "page_printed": "557",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ESPALMADOR",
+      "place_type": "islote",
+      "island": "Formentera",
+      "judicial_district": "Ibiza",
+      "municipality": "Formentera",
+      "description": "Islote en el Mediterráneo, perteneciente á la prov. civil de Baleares y marítima de Ibiza, tercio de Mallorca, departamento de Cartagena; sit. cerca de la isla Formentera; en él se construyó una torre, próxima á la punta de su mismo nombre, para seguridad de la almadraba, que había en otra nombrada de las Portas; en el dia no tiene uso por el total abandono de aquella útil pesquería; la punta del Espalmador, es de mediana altura, pareja, roja y cortada á pique.",
+      "stats": {
+        "torres": 1
+      },
+      "cross_references": [
+        "Formentera",
+        "Ibiza"
+      ],
+      "confidence": "high",
+      "note": "OCR mangled 'ESPALMADOB' -> ESPALMADOR."
+    },
+    {
+      "title": "ESPALMER NOU",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high",
+      "note": "Madoz text says 'isla de Mallorca' but the Mahon municipality is on Menorca; likely OCR/typesetting error — semantically belongs to Menorca."
+    },
+    {
+      "title": "ESPALMER VELL",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high",
+      "note": "OCR mangled 'ESPALMER \\ELL' -> ESPALMER VELL."
+    }
+  ]
+}

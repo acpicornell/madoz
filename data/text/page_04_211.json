@@ -1,0 +1,62 @@
+{
+  "vol": "04",
+  "leaf": 211,
+  "page_printed": "205",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Four BENI- toponyms on this leaf, all Mallorcan (Inca district): BENIABONA (Selva), BENIAGUAL (Binisalem), BENIALI (Sancellas — distinct from the BENIALI of Valle de Gallinera/Alicante which also appears), BENIAMAR (Selva). The OCR mangles the leading B as R.",
+  "entries": [
+    {
+      "title": "BENIABONA",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Selva. (V. Selva.)",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BENIAGUAL",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Binisalem. Tiene un oratorio público. Su clima, prod. y demás circunstancias (V. Binisalem.)",
+      "stats": {},
+      "cross_references": [
+        "Binisalem"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BENIALI",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "L. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sancellas. Tiene una igl. parr. (San Cristóbal), aneja de la de esta, servida por un vicario temporal y amovible nombrado por el diocesano á propuesta del párroco de la matriz, y un sacerdote ascrito á ella, un sacristán y dos monacillos. Su clima, prod. y demás circunstancias (V. Sancellas.)",
+      "stats": {},
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BENIAMAR",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "L. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Selva. Tiene una igl. parr. (Sta. Tecla), aneja de la de esta v., servida por un vicario temporal y amovible nombrado por el diocesano á propuesta del párroco de la matriz, un sacerdote ascrito á ella, un sacristán y 2 monacillos. Su clima, prod. y demás circunstancias (V. Selva.)",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

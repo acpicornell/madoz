@@ -1,0 +1,9 @@
+{
+  "vol": "05",
+  "leaf": 60,
+  "page_printed": "56",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "The chocr regex hit 'CABRER\\ (oobeunacion ue)' is a heavily OCR-mangled rendering of 'CABRERA (gobernación de)' — an ancient jurisdicción in León (part. jud. Ponferrada), NOT a Balearic entry. The Balearic content on this leaf is only the tail of the CABRERA (isla de) article begun on leaf 59, which is recorded there.",
+  "entries": []
+}

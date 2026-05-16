@@ -1,0 +1,61 @@
+{
+  "vol": "08",
+  "leaf": 263,
+  "page_printed": "259",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FUSTER (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.",
+      "stats": {},
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FUSTER (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva.",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "GABALLI GRAN",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "GABALLI PETIT",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

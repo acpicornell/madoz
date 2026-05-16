@@ -1,0 +1,11 @@
+{
+  "vol": "08",
+  "leaf": 21,
+  "page_printed": "17",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FAMANIA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Escorca", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.", "stats": {}, "cross_references": ["Escorca"], "confidence": "high"},
+    {"title": "FANALS (can)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Antiguo predio; hoy diferentes porciones de tierra de este nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "high"}
+  ]
+}

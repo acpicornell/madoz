@@ -1,0 +1,22 @@
+{
+  "vol": "07",
+  "leaf": 373,
+  "page_printed": "369",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "DENLOSAL",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María.",
+      "stats": {},
+      "cross_references": [
+        "María"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

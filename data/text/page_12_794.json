@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 794,
+  "page_printed": "788",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PEÑA ROTJA",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "ald. ó cas. en la isla de Mallorca, part.jud. de Manacor, prov., aud. terr. y c. g. de Baleares, térm.jurisd_. de la v. de Son Servera.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

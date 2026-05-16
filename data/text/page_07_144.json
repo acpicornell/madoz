@@ -1,0 +1,75 @@
+{
+  "vol": "07",
+  "leaf": 144,
+  "page_printed": "140",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COSCONAR",
+      "place_type": "torre de vigía",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Torre de vigía en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.",
+      "stats": {},
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "note": "OCR 'COSCONAB' -> COSCONAR (typical r/B confusion)."
+    },
+    {
+      "title": "COSCOY (can)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro.",
+      "stats": {},
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COSCOYA",
+      "place_type": "monte",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Monte en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro.",
+      "stats": {},
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COSCOYA",
+      "place_type": "sierra",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Sierra en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COSCOYS (es)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

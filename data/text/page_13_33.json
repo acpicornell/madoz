@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 33,
+  "page_printed": "29",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PINA",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "ald. en la isla y dióc. de Mallorca, part. jud. dePalma , prov., aud. lerr., c. g. de Baleares, terna, y jurisd.de Algaida. Tiene una igl. parr. aneja de la de este últimopueblo, dedicada á los Santos Cosme y Damián, servidapor un vicario temporal y amovible y unsacerdole ordenado á titulo de patrimonio. Su pobl. y riqueza unida á Algaida.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

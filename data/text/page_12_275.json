@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 275,
+  "page_printed": "269",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "OLLANDIS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, térm. y jurisd. de la v. deAndraitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

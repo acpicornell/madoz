@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 688,
+  "page_printed": "684",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SALAT (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. , térm. yjuiisd. delav. de Inca.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

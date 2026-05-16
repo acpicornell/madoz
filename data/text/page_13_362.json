@@ -1,0 +1,213 @@
+{
+  "vol": "13",
+  "leaf": 362,
+  "page_printed": "358",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "RAFAL (él)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. dePollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFAL AMAGA!'",
+      "place_type": null,
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "predio subdividido hoy en pequeñasporciones, en la isla de Menorca, prov. de Baleares, part.jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL COLOM DE BINIMAIMUT",
+      "place_type": null,
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "s prédio en la isla deMenorca , prov. de Baleares, part. jud., térm. y jurisd. dela c de Mahon.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL COLOM DE PONS",
+      "place_type": null,
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "prédio en la isla de Menorca,prov. de Baleares, part. jud., térm. y jurisd. de la c. deMahon.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL DE EN MARTI",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en la ^sla de Mallorca, provincia de Baleares, partido judicial de Inca, term, y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Baleares",
+        "Inca",
+        "Mallorca",
+        "Pollenza"
+      ],
+      "confidence": "high",
+      "source_note": "description from diccionariomadoz.com scrape (OCR title mangled or absent)"
+    },
+    {
+      "title": "RAFAL DE LA MORT MAYOR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFAL DE LA MORT MENOR",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL DEN PRIMO",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "alq. en la isla de Mallorca, prov.de Baleares, part. jud. de Inca, térm. y jurisd. de la v. deCampanet.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFAL FORT",
+      "place_type": null,
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "prédio en la isla de Menorca, prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de Alayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL NOU",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "prédio en la isla de Mallorca, prov. déBaleares, part. jud. de Inca, térm. y jurisd. de la v. deMaria.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL PULlT",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "predio en la isla de Menorca, prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de Alayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFAL RLBÍ VÉLL",
+      "place_type": null,
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "prédio en la isla de Menorca, prov.de Ralearen, parí, júd de, Mahon , térm. y jurisd. de Alayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL ROIG",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "alq. en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Maria.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFAL RUBÍ NOU",
+      "place_type": null,
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "prédio en lá isla de Menorca , prov.de Baleares, part. jud. de Mahon, térm. y jurisd. de Alayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFAL VELL",
+      "place_type": null,
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "prédio en la isla de Menorca, prov. deBaleares part. jud , térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAFALET (el)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "casa de campo en la isla de Mallorca,prov. de Baleares , part. jud. de Inca , térm. y jurisd. de lav. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFALET (eÍ.)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Pollenza",
+      "description": "predio en la isla de Mallorca , prov. deBaleares, pa~t. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAFALET GRAU",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "predio en la isla de Menorca, prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de SanLuis.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

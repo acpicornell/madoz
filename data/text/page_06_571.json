@@ -1,0 +1,40 @@
+{
+  "vol": "06",
+  "leaf": 571,
+  "page_printed": "567",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CONSELL",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Lugar en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares (Palma), part. jud. de Inca, ayunt. de Alaró: sit. en llano con buena ventilación y clima saludable. Tiene una igl. parr. (La Visitación de Ntra. Sra.) aneja de la de Alaró, servida por un vicario temporal y amovible que nombra el diocesano á propuesta del párroco de la matriz; un sacerdote ordenado á título de patrimonio adscrito al servicio de la igl. para ayuda del vicario y segunda misa en los días festivos; un sacristán lego y 2 monacillos. El térm. confina con el de su matriz, Benisalem, Sta. Eugenia, Biniali y Sta. Maria; le cruza la carretera que conduce de Palma á la Alcudia, pasando por la v. de Inca. El terreno, prod., pobl., riqueza y contr. (V. Alaró).",
+      "stats": {},
+      "cross_references": [
+        "Alaró",
+        "Benisalem",
+        "Sta. Eugenia",
+        "Biniali",
+        "Sta. Maria"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CONSELL",
+      "place_type": "cortijada",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "San Luis",
+      "description": "Cortijada en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. del l. de San Luis.",
+      "stats": {},
+      "cross_references": [
+        "San Luis",
+        "Mahon"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

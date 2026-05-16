@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 86,
+  "page_printed": "82",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FIGAROLA (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Llubí", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubí.", "stats": {}, "cross_references": ["Llubí"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 188,
+  "page_printed": "182",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NOT (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisdicion de la v. deArtá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

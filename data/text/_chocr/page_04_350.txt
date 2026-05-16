@@ -1,0 +1,99 @@
+# tom04 leaf 350  printed page 344  window=2
+# chocr-indexed Balearic entries on this leaf (15):
+#   - B1NISETS (nu siquier)  (regex)
+#   - B1NIXIDI  (regex)
+#   - BIN1PARRAIG  (regex)
+#   - BINIETRENT  (regex)
+#   - BINIFALDO  (regex)
+#   - BINIFALET  (regex)
+#   - BINIFAT  (regex)
+#   - BINIFAT DE BAIX  (regex)
+#   - BINIFERRI  (regex)
+#   - BINIFORAN1  (regex)
+#   - BINIFOUBELL  (regex)
+#   - BINIGOMAR  (regex)
+#   - BINISAFULLA ó BINISAFAYA  (regex)
+#   - BINITAREF  (regex)
+#   - BIÑISATS (des metge)  (regex)
+
+=== TARGET LEAF ===
+344 BIN
+
+que según hemos indicado le atraviesa : tiene algunos trozosdestinados para huertos de hortalizas y legumbres: en la nocultivada se hallan bosques de árboles y maleza que proporcionan madera y leña para el consumo, caminos son locales yse hallan en mal estado: los conucos se reciben de Jaca: irod.:trigo , cebada y vino , legumbres , hortalizas y alguna fruta:cria ganado lanar y caza de perdices, conejos y liebres, ind.tí comercio : queda reducido una y otro á las artes mecánicasmas indispensables y á la csportacion de alguna de sus prod.é importación de los artículos que hacen falta, pobl.: 13 vec,52 almas, contr. 4, 145 rs. con 3 maravedises.BINIDALI: pequeña cala en la prov.y distr. marít. deMahontercio de Mallorca, departamento de Cartagena, sit. 3 millasalgo mas al SE.; 1/4 E. de las peñas de Mayor: no sirve sinopara barcos de pescar.
+
+BINIETRENT: dos predios ant. en la isla de Mallorca, prov.de Baleares, part. jud. de Inca , térm. y jurisd. de la v. deSelva.
+
+BINIFALDO: predio en la isla de Mallorca, part. jud. deInca, térm. y felig. de la v. de Escorca : tiene una casa quehabita el arrendatario y consta de tierras de sembradío , depastos y bosque.
+
+BINIFALET: ald. en la isla de Mallorca, prov. de Baleares,part. jud. de Inca, enclavada dentro del térm. yjurísd. délav. de Llubi: sit. á 1/4 deleg. al N. de esta con buena ventilación y clima sano: es pobl. pobre y su terreno contienedos pequeños bosques y alguna plantación de árboles frutalescomo higueras, almendros, etc.: tiene 7 vec., 28 almas.
+
+BINIFAT: cas. en la isla de Mallorca, prov. de Baleares,part. jud. de Inca , térm. y jurisd. de la v. de Sanséllas.
+
+BINIFAT DE BAIX: predio en la isla de Mallorca, prov. deBaleares, part: jud. de Inca, térm. y jurisd. déla v. de Sanséllas.
+
+BINIFERRI: cas. en la isla de Mallorca , prov. de Baleares,part. jud. de Inca , térm. y jurisd. de la v. de Sanséllas.
+
+BINIFORAN1: predio en la isla de Mallorca, prov. de Baleares, part. jud, de Palma , térm. y jurisd. de la v. de Buñola.
+
+BINIFOUBELL : cas. en la isla de Mallorca, prov. de Baleares, part. jud.de Inca, térm. y jurisd. de la v. de Sanséllas.
+
+BINIFONS y casas de Erbera : 1. con ayunt. de la prov.de Huesca (22 1/2 leg.), part. jud. deBenabarre (9), adm. derent. de Campo (6), aud. terr. y c. g. de Zaragoza (28), dióc.de la Seo de Urgel (17): sit. entre dos barrancos, combatidoprincipalmente por los vientos del E., con cuma saludable:tiene 6 casas y una igl. que es aneja de la parr. deLl. deNoales; sus vec. usan para beber y demás necesidades domésticas de las aguas de fuentes que brotan por el térm., elcual confina por N. con Ardanuy (medio cuarto de hora); porE. con Escané (1/4); por S. con Noales (medio cuarto), ypor O. con Señiu (,1/4). El terreno es áspero y de mala calidad ; abraza unos loo jornales de tierra, de los cuales se cultivan 45, que pertenecen 18 á la segunda suerte y 27 á latercera; le cruza el r. Saliera y los dos barrancos, de quehemos hablado al hacerlo de la sit., pero no pueden utilizarsesus aguas, anles bien causan daño en sus desbordaciones: latierra inculta está poblada de arbustos que facilitan leña parael consumo y yerbas de pasto, caminos : son locales y sehallan en mal estado, correos: no liene señalado este servicio ; si algún particular quiere hacer uso, es por medio de laadm. de la*cap. del part. prod. centeno y avena, cria algúnganado y caza. porl. 6 vec, 24 alm. contr. 1,913 rs. y 4 mrs.
+
+BINIGOMAR: porción de terreno en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. y jurisd. de lav. de Pollenza: es una de las que repartió oí rey D. Jaimeel Conquistador.
+
+BIN1PARRAIG : pequeña cala en la prov. y distr. marít.deMahon, tercio de Mallorca, departamento de Cartagena,sit. á 3 millas algo mas SE., 1/4 E. de las peñas de Atayor,entre la cala de BiniBali y el cabo des Fonls; no admite sinobarcos pescadores.
+
+BINISAFULLA ó BINISAFAYA : cala en la prov. y dist.marít. de Mahon , tercio de Mallorca, departam. de Cartagena; sit. á SE. de la cala de BiniParraig, 1/4 milla: tienedos islotes en su boca, uno en la parle del E. y otro en la delO., entre las cuales, y algo mas interior, hay un bajo cercade la costa, por cuya causa y su poco fondo solo es buenapara faluchos.
+
+BI.N
+
+BIÑISATS (des metge): alq. en la isla de Mallorca provde Baleares, part. jud., térm. y jurisd. de Inca.
+
+B1NISETS (nu siquier): alq."en la isla de Mallorca provde Baleares, part. jud., térm. y jurisd. de Inca.
+
+BINITANCHA: desp. de la prov. de Alicante, part. jud.de Callosa de Ensarriá. Tenia su sit. en una altura de las vanas que hay en el térm. de Tárbena, y era uno de los sietepuebiecitos que componían el ant. valle de esta v. En la actualidad solo se ven algunas ruinas, siendo causa de su despoblación la espulsion de los moriscos.
+
+BINITAREF: alq. en la isla de Mallorca, prov. de Baleares,part. jud. de Inca, térm. y jurisd. de la v. de Sineu.
+
+B1NIXIDI: prédio en la isla de Mallorca, prov. de Baleares,part. jud. de Inca, térm. y jurisd. de la v. de Selva.
+
+BINQUIÑO (do) : 1. en la prov. de Pontevedra , ayunt. deSan Geujo y felig. de San Giiiés de Padrino,■ . Y. '
+
+BINUES: 1. con ayunt.de la prov. de Huesca (íl leg.),part. jud., adm. de rentas y dióc. de Jaca (2), aud. terr. yc. g. de Zaragoza (19) ¡ sit. á la falda de la pena Oruel, combatido principalmente por los vientos del N. y E., con clim asaludable. Tiene 9 casas y una igl. parr. de la que es anejaa del 1. de Abena; su advocación es San Pedro Apóstol y sehalla servida por uu cura v un sacristán; el curato es de "primer ascenso y se provee "por S. M. ó el diocesano, previaoposición en concurso general; el cementerio ocupa un parajeventilado fuera de la pobl.: los vec. se sirven para beber ydemás usos domésticos, de aguas de fuentes que nacen en eltérm. , el cual confina por N. con el de Jarlata; por E. conel de Aros; por S. con el de Navaso, y por O. con el de Abena,estendiéndose 3/4 de hora de N. á S. y i hora de E. áO..-dentro de su circunferencia, se encuentran 2 ermitas dedicadas á Sta. Cruz, y la Magdalena: el terreno es escabroso;le cruza un barranco que nace á la falda de) monte Oroel yse dirije hácia el r. Gallego : en la parte no cultivada se encuentran bosques de bojes y malezas que proporcionan madera y leña para el consumo, con algunos árboles de pino:caminos, dirijen á la cap. de prov. y del part., y se hallanen mal estado: el correo se recibe de Jaca á donde van abuscarlo los particulares, prod. : trigo, algunas legumbres yhortalizas; cria ganado lanar y caza de perdices, conejos ypalomas torcaces, ind. y comercio: las artes mecánicas masindispensables, y la csportacion de escaso número de cabezasde ganado é importación de los artículos que fallan, pobl. , 6vec, 74 alm,: contr. , 1913 rs. con 24 mrs.
+
+B1ÑAL: I. en la prov. de Orense, ayunt. deBandey felis.de Santiago de Ntgaeiroa (V.)
+
+BIÑAS: 1. en la prov. de Orense, ayunt. de Padrenda yfelig. de Sla. María del Condado. (V.)
+
+BIÑAS': 1. en la prov. de Lugo, ayunt. de Panton y feli^.de San Esteban de Malo. (V.)
+
+BIÑOA : I. en la prov. de Orense, ayunt. de Leiro y felie.de Sto. Tomé de Seranles. (V.)
+
+BIÑON: 1. en la prov. de Oviedo, ayunt. de Cabranes yfelig. de San Julián de Dinon. (V.)
+
+BIÑON (San Julián de) : felig. en la prov. y dióc. deOviedo (6 1/2 leg.), part. jud. de Infiesto (2 1/2) y ayunt.de Cabranes (1/2) : sit. sobre las márg. de uno de los brazosque forman la Fia de Linares, con buena ventilación y climasano, si bien se padecen algunas fiebres: compréndelos 1. ycas. de Arboleya, Balbuena,"Biñon, La Puerta,La Rosa, Niao yotros que reúnen hasta 70 casas: hay una escuela indotada, á lacual concurren 30 niños y 6 niñas. La igl. parr. (San Julián),está servida por un curato de segundo ascenso v patronatoreal; hay una ermita dedicada á Ntra. Sra. del Carmen en el1. de Arboleya, El term. confina al N. con el del ayunt, deVillaviciosa (1/2 leg.); al E. con el de Sla Eulalia de Cabranesá igual distancia; por S. con el de Fresnedo á 1/4, volviendoá tocar por O. c on el de Sta. Eulalia. El terreno es de buenacalidad, con prados, arbolados y de pasto, y en su montecubierto de pinos y arbustos, se encuentran minas de carbón:le baña el mencionado r., que á su paso por esta felig.le cruza un puente de madera en el camino que se dirije á lacapital de prov.: este camino y los que cruzan de pueblo ápueblo, se encuentran mal cuidados: el correo se recibe enCabranes los lunes, miércoles y sábados, de donde salen losdomingos, martes y viernes, prod.: maíz, trigo y escanda,patatas, algunas legumbres, hortalizas, frutas y pastos; cria
+
+=== CONTINUATION LEAF +1 ===
+BIO
+
+ganado vacuno, caballar, lanar y de cerda j hay caza de perdices, y se pescan algunas truchas, ind. : la agrícola, cincomolinos harineros y varios lagares para sidra, pobl. 95 vec,288 alm.: contr. con su ayunt. (V.)
+
+BIÍSUALES: pardina de la prov. de Huesca, en el partidojud. de Boltaña, jurisd. del I. de Lardies. Tiene 3 casas y unaigl., sus hab. ó moradores usan aguas de fuentes que brotanpor el term. Sus confines, calidad del terr. prod. y demás (V.Lardies con quien contribuye).
+
+BIOBAO: 1. en la prov. de la Coruiia, ayuht. y felig. deSta. Maria de Sada. (V.)
+
+BIOBBA ('San Miguel de): felig. en la prov. de Orense (íeleg.)dióc. de Astorga (12), part. jud. de Villamartin de Valdeorra(3), ayunt. de Bubiana (l): sit. al S. de la cordillera de laEncina de la Lastra, en una altura con atmósfera despejaday clima sano; se padecen no obstante fiebres gástricas é intlamatcrias: reúnen 56 casas, algunas de ellas de piedra decanteria y las demás de pizarra y tosca construcción, con unsolo piso y cubiertas también de pizarra: se encuentran sinformar calles, ni plazas y sí constituyendo tres grupos , interpoladas las arboledas y huertas ; hay una escuela temporal desde noviembre á marzo inclusive, época en que concurren unos 40 niños, cuyo maestro recibe 140 rs. por repartoentre los vec. La igl. parr. ("San Miguel) es matriz de la deSan Cristóbal del Beal, con curato de primer ascenso y delibre provisión : el edificio sit. en el centrodel pueblo, es ensu mayor parte de piedra de canteria, formando una nave de9o pies, sobre 44 de ancho y 45 de elevación , junto á la igl.se encuentra el cementerio construido en 1839. El term.confina al N. con la cordillera deque hicimos mérito y queá media leg. de distancia, forman el límite de las prov. deLeón y Orense; por el E. confuía con las felg. de San Estebande Pardollan, Cobas y Sobrado; al S. con el Gástelo, y por O.con el anejo Beal. El terreno en su mayor parte montuoso,participa de llanos y laderas de buena calidad, regado porlos derrames de las escelentes aguas de dos abundantes fuentes que prestan esta utilidad, después de abastecer al vecindario: la parte cultivable se puede considerar dividida en1,500 emitías de tierra blanca, 400, de prado, 76 de cortinas yhuertas, 540 de viña y sobre 3000 pies de castaños, restandoaun 3,800 que producen urz y encinas. Los caminos son locales y duros por la desigualdad del terr. El correo se recibepor la cap. del partido, prod.: centeno, cebada, trigo, legumbres, castañas, patatas vino y pastos; cria ganado y alguna caza, ind. : la agrícola y algunos artesanos de primeranecesidad, y el comercio que les proporciona la venta del sobrante de la cosecha, en el Vierzo y Valdeorras. pobl. : 54 vec.270 alm.: contr. con su ayunt. (V.J
+
+BIOJO DE ABAJO: 1. en la prov. de la Coruña, ayunt. deBrión y felig. de San Julián de Luana. (V.)
+
+BIOJO DE ABBIBA: 1. en la prov. de la Coruña, ayunt. deBrión y felig. de San Julián de Luana. (V.)
+
+BIOBBETA ó BIDOETA: cas. en la prov. de Navarra, part.jud. de Aoiz (3 1/2 leg.), valle y ayunt. de Arriasgoiti (1/2):sit. á la falda de una montaña entre pinares, con buena ventilación y clima sano. Tiene 2 casas á propósito para la labranza y ganadería; una ermita, donde se celebra misa losdias festivos, y una fuente de esquisitas aguas. Confina eltlrm. N. Espoz ; E. Gurpegui; S. Zunzarren, y O. Amocain,de cuyos puntos dist. 1/2 leg. poco mas ó menos. El terrenoparticipa de monte y llano, prod.: trigo , avenas, pastos ymadera; sostiene ganado vacuno y lanar de buena calidad, y,hay caza de varias clases, pobl. : 1 vec., 7 alm. riqüeza ycontr. con el ayunt.
+
+BIOSCA : ribera ó arroyo en la prov. de Lérida, part. jud.de Solsona: tiene su origen en el térm. de Lloberola, atraviesa de N. á S. el de la v. que le da nombre, y dentro de él desagua en el r. Bregos ó Llobregos: aunque de curso perenne,suele secarse en años poco lluviosos.
+
+BIOSCA: v. con ayunt. en la prov. de Lérida (10 leg.), part.jud. y dióc. de Solsona (4), aud. terr. y c. g. de Cataluña (Barcelona 4) y adm. de rent. de Cervera (4 1/2): sit. en la faldameridional de la sierra de Torá en medio de un barranco quecorta dicho monte y describe un valle, por el cual se deslizaun arroyuelo que va á desaguar á corto trecho en el r. Llobregos: la combaten los vientos del O., resguardándola delos del N. el monte que á su espalda se levanta ; disfruta declima templado y saludable, cielo alegre y despejado, siendo
+
+BIO 345
+
+las enfermedades mas comunes algunas calenturas é intermitentes. Tiene 140 casas de dos pisos, fáb. ant. y mala distribución interior, que forman una plaza de 60 pasos de long. y25 de lat., y varias calles pendientes, irregulares, angostasy mal empedradas, de difícil acceso á pesar de la curbaturaque se les dió para hacerle menos penoso, en las calles Nuevay Soldevila hay 2 fuentes que manan en el mismo sitio dondetienen los caños; sus aguas son de buena calidad y surten conabundancia al vecindario ; un hospital fundado por el Sr. jurisdicional, y dotado con 1,000 rs. anuales, procedentes decenso, con la obligación de que se asistiera en él, ademas delos de la v., á los pobres enfermos de Palau y Taltahull; eracapaz para 50 enfermos, y aun á las veces se ha abrigado enél mayor número, especialmente durante la guerra; en el díano presta servicio alguno á la humanidad doliente; se hadescuidado hacer electivas las rentas, y el edificio sirve de almacén : confiamos en que cesará esta apatia, y que la municipalidad, como encargada de proteger y fomentarlos establecimientos de beneficencia, removerá los obstáculos que seopongan al restablecimiento de aquel asilo que tan buenosservicios ha prestado al soldado herido y rezagado, y á losindigentes del pais: una escuela de primeras letras frecuentada por 35 alumnos á cargo de un maestro, á quien los vec.pagan 5 rs. diarios: una igl. parr. titulada de San Abdon y ,San Señen, de término y patronato real; el templo de unasola nave, fáb. de cal y canto, con 4 altares, y junto á él lacasa del cura; fué embebido en el recinto del cast., de que sehablará, y el Smo. Sacramento se trasladó en 1839 á la capilla de Ntra. Sra. de la Concepción, que ocupa el centro de lav. El capítulo parr. se componía antes, del cura y 4 beneficiados; en el dia, el número de estos últimos ha quedado reducido á uno; el cementerio se halla á corta dist. de la pobl.en el cerro Tova con buena ventilación ; fué construido en1844 á espensas del común. Los carlistas en 1837 destruyeronel palacio del 'Sr. titular, sit. al E. en lo mas alto de la pobl.,conocida por el Sr. capitán general de Cataluña la importanciade este punto y la protección que de él se podia dar á losfrecuentes convoyes que se espedían para Solsona, dispusoen 1839 que sobre aquellas ruinas se construyese una fortificación capaz de imponer á los enemigos y contenerlos en susincursiones; consiste esta en 4 fuertes torreones que formanun cuadro, entrelazados con sólidas y elevadas murallas yuna torre en su centro de hermosas proporciones y grandesolidez, y bastante á defender el recinto del cast. si el enemigo se apoderase de las obras esteriores; se guarneció con unfuerte destacamento, 2 cañones de á 12 y 2 de á 4; actualmente uno de los torreones sirve de cárcel, y aunque el fuerteestá desastillado, continúa alli el comandante de armas prestando muy buenos servicios con su pequeña guarnición. Confina el térm. por el N. con el de Lloverola (1/3 leg.) ; E. losde \allferosa y Ayuda (3/4); S. Taltahull (1/3), y O. Sanahuja(l/3): en él se encuentran 3 masías ó casas de campo; á500 pasos S. de la v. al pie de la sierra, un barrio con 5 casas,y una ermita dedicada á San Antonio formando una calle, yá 1/4 leg. un edificio con su capilla, titulada antes de NuestraSeñora del Pía, y después de San Pelegnn, rodeada de unabuena heredad , cuyos prod. se destinaban al sostenimientodel culto y de un capellán que residía alli con la obligación deenseñar las primeras letrasesta posesión pasó á la amortización, de quien se ha reclamado como destinada á la instrucción pública. Es grande la devoción de los hab. á este santuario, de modo que las ofrendas presentadas en él desde el añoÍ840, pasan de 1,000. El terreno participa do llano y montuoso , aquel consiste en un valle formado por dos cord. quese corren de E. á O. dist. entre sí 1/2 hora, la una al N. es elcerro ya mencionado de Torá al S. también de Sanahuja, y laotra al mismo S. denominada do TosaldeLloca. La tierra cultivable es fuerte pero fértil, comprende 400 jornales de primeraclase, 800 de segunda ó igual número de tercera. Hay 800jornales de bosque de roble y encina, que se aprovechan también para pastos. Fertiliza el terreno el r. Bregos, conocidovulgarmente con el nombre de Llobregos, y el arroyo ó riberallamada Biosca. Los caminos que dirigen á Solsona, Torá, Sanahuja y Guisona, son generales y sehallan en mal estado, losdemás son locales. La correspondencia la reciben los mismosinteresados en la cartería de Torá, á la cual llegan viernes, domingos ymartes; salesábado, lunes y jueves, prod. trigo, centeno, cebada, legumbres, vino y aceite j cria ganado lanar en

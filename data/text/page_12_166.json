@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 166,
+  "page_printed": "160",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NIELL (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Inca, térm. y jurisd. de la v. deMaria.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

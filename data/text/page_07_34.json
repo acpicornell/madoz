@@ -1,0 +1,22 @@
+{
+  "vol": "07",
+  "leaf": 34,
+  "page_printed": "30",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CORTE (el)",
+      "place_type": "cuartel",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Pequeño cuartel á la orilla del mar en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

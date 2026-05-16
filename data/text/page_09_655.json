@@ -1,0 +1,22 @@
+{
+  "vol": "09",
+  "leaf": 655,
+  "page_printed": "651",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "JUBERA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la villa de Andraix.",
+      "stats": {},
+      "cross_references": [
+        "Andraix"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

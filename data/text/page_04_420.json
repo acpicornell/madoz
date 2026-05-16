@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 420,
+  "page_printed": "414",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BORRAS (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á 1/4 de hora de la pobl. Su terreno es de mediana calidad y se halla poblado de olivos, algarrobos, higueras y almendros.",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "vol": "01",
+  "leaf": 72,
+  "page_printed": "68",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ACEITE (cala del)",
+      "place_type": "cala",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San Antonio",
+      "description": "Cala en la isla de Ibiza, puerto de San Antonio ó Puerto Magno. (V. San Antonio.)",
+      "stats": {},
+      "cross_references": [
+        "San Antonio Abad",
+        "Puerto Magno"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

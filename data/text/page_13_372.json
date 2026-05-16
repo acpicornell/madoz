@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 372,
+  "page_printed": "368",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "RAMBLAS",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "predio en la isla de Menorca, prov. de Baleares, part. jud. de Mabon. térm. y jurisd. de ta v. de Aluyor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

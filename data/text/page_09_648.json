@@ -1,0 +1,12 @@
+{
+  "vol": "09",
+  "leaf": 648,
+  "page_printed": "644",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "JUAN (San)", "place_type": "estancia", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Alayor", "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor.", "stats": {}, "cross_references": ["Alayor"], "confidence": "high"},
+    {"title": "JUAN (Son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Muro", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Muro.", "stats": {}, "cross_references": ["Muro"], "confidence": "high"},
+    {"title": "JUAN (San)", "place_type": "villa", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "San Juan", "description": "V. con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares, part. jud. de Manacor. Sit. á la falda de una colina que le resguarda del viento N., á la libre influencia de los demás, con clima templado y sano; las enfermedades comunes son fiebres intermitentes. Tiene 440 casas, inclusas la consistorial y la cárcel, que forman una plaza y 20 calles. Escuela de instrucción primaria dotada con 1,100 rs. de los fondos municipales. Igl. parr. (San Juan Bautista), servida por cura de 2.° ascenso de provisión real y ordinaria, 2 vicarios temporales, 2 beneficiados de sangre, uno eclesiástico, y 5 sacerdotes ordenados á título de patrimonio, un sacristán lego y 2 monacillos. Cementerio sit. á unos 1,000 pasos del pueblo, en el monte llamado de Consolación (oratorio dedicado á Ntra. Sra. de Consolación). Térm. confina N. Sineu, E. Petra, S. Villafranca, O. Montuiri; estensión 1 leg. en ambas direcciones. Terreno de buena calidad. Prod.: todo género de granos, vino, legumbres y hortalizas; cria ganado lanar, cabrío, vacuno y alguna caza.", "stats": {"vecinos": 415, "almas": 1575, "cap_imp": 320828, "contr_1846_s1": 30900, "casas": 440}, "cross_references": ["Manacor", "Sineu", "Petra", "Villafranca", "Montuiri"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vol": "04",
+  "leaf": 417,
+  "page_printed": "411",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BORNETA",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Binisalem.",
+      "stats": {},
+      "cross_references": [
+        "Binisalem"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vol": "12",
+  "leaf": 743,
+  "page_printed": "737",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PEDRERAS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. ds la v. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PEDRET DE BOCAR",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "campos antiguamente del predioBocar en la isla de Mallorca, prov. de Baleares, part. jud.de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

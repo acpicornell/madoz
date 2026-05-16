@@ -1,0 +1,10 @@
+{
+  "vol": "06",
+  "leaf": 13,
+  "page_printed": "9",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CASABLANCA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Palma", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Palma.", "stats": {}, "cross_references": ["Palma"], "confidence": "high"}
+  ]
+}

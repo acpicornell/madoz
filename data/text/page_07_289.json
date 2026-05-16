@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 289,
+  "page_printed": "285",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CUNIA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Selva", "description": "Dos predios en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva.", "stats": {"predios": 2}, "cross_references": ["Selva"], "confidence": "high"}
+  ]
+}

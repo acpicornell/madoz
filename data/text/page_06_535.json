@@ -1,0 +1,54 @@
+{
+  "vol": "06",
+  "leaf": 535,
+  "page_printed": "531",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COLOM (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.",
+      "stats": {},
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COLOM (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "Dos predios en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [
+        "Felanitx"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COLOM",
+      "place_type": "isla",
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": "Mahón",
+      "description": "Isla en el archipiélago Balear, prov. y part. marítimo de Menorca, tercio de Mallorca, departamento de Cartagena. Sit. á la parte N. de la isla de Menorca, tendida de NS., forma un lado de la entrada del puerto del Grao, y un triángulo con el cabo Mola y cabo de Favaritx, distando del primero 12,000 varas, y unas 3,000 del segundo. Está separada de la costa de Menorca por un canal de poca profundidad, y de un tiro de pistola de ancho. Superficie 42,000 varas cuadradas. Al O. tiene un islotillo que nombran Arenal del Moro, al SO. las Planas y un arenal mayor (la Playa) con un pozo de agua muy buena y abundante. Antes era toda matorral; hace 3 años se ha empezado á desmontar por su dueño actual. Existen piedras con mezcla de mineral de cobre y hierro, y pizarra azul ó negruzca. Al O. el fondeadero Sesllanes, para embarcaciones de regular porte, 6-7 brazas, abrigado de todos vientos escepto NO. En 14 de abril de 1787 sirvió para cuarentena de esclavos españoles rescatados de Argel que llegaron apestados; el conde Cifuentes (cap. gen. de Baleares) dispuso colocar 12 tiendas de campaña (30 personas cada una), hospitales para apestados, enfermedades comunes y convalecientes, capilla, cementerio. Pocos perecieron del contagio.",
+      "stats": {
+        "superficie_varas_cuadradas": 42000
+      },
+      "cross_references": [
+        "Mahon",
+        "Menorca",
+        "cabo Mola",
+        "cabo de Favaritx",
+        "Grao"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

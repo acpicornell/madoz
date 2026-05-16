@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 75,
+  "page_printed": "71",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TORRE DEL REY",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "predio en la isla de Mallorca , prov.de Raleares, part. jud., térm. y jurisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 638,
+  "page_printed": "576",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TALAYOLA (la",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Santañí",
+      "description": "predio en la isla de Mallorca , prov. deRaleares, part. jud. de Manacor, térm. y jurisd. de la v. deSantagni.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

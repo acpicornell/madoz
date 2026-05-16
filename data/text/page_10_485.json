@@ -1,0 +1,35 @@
+{
+  "vol": "10",
+  "leaf": 485,
+  "page_printed": "479",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "LLAMPINOU",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María.",
+      "stats": {},
+      "cross_references": [
+        "María (de la Salud)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "LLAMPIVEY",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María.",
+      "stats": {},
+      "cross_references": [
+        "María (de la Salud)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

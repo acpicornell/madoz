@@ -1,0 +1,11 @@
+{
+  "vol": "08",
+  "leaf": 141,
+  "page_printed": "137",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FONTS (ses)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Estellenchs", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. del l. de Estellenchs.", "stats": {}, "cross_references": ["Estellenchs"], "confidence": "high"},
+    {"title": "FONTXICA", "place_type": "porción de terreno", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Una de las porciones de terreno que repartió el rey D. Jaime el Conquistador en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "high"}
+  ]
+}

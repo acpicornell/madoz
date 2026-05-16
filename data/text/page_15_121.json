@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 121,
+  "page_printed": "117",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TOSTE",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "dos predios en ia isla de Mallorca , prov. de Baleares, partido jud. de Inca , térm. y jurisd. de la villa deLloseta.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

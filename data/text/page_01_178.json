@@ -1,0 +1,31 @@
+{
+  "vol": "01",
+  "leaf": 178,
+  "page_printed": "174",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AIRÉ",
+      "place_type": "isla",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "Pequeña isla en el tercio, prov. y dist. marít. de Menorca, á cuyo SE. está sit. formando canal con las puntas de Cova de Corp y Algaret. Es muy rasa por la banda del NO. y más alta y tajada al mar por la del SE. Por aquí puede arrimarse á ella hasta casi tocar con el costado; pero por el otro lado, que es el que forma el Freo, si se pasa con embarcación de mucha cala es preciso promediarle. Su mayor fondo es de 7 á 7 1/2 brazas, pues disminuye con proporción hacia ambas orillas hasta 3 brazas, á la dist. de un cable.",
+      "stats": {},
+      "cross_references": ["Cova de Corp", "Algaret"],
+      "confidence": "high"
+    },
+    {
+      "title": "AIREFLOR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sineu. (V. Sineu.)",
+      "stats": {},
+      "cross_references": ["Sineu"],
+      "confidence": "high"
+    }
+  ]
+}

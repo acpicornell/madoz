@@ -1,0 +1,20 @@
+{
+  "vol": "16",
+  "leaf": 281,
+  "page_printed": "265",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VILLARET DE LLENAIRE ^el)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": ". pobl. desaparecida en laisla de Mallorca, part. jud. de Inca, térm. y jurisd. de la v.de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

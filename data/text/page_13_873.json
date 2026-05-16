@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 873,
+  "page_printed": "869",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SARRACÓ",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "ald. en la isla de Mallorca , prov., aud. terr.,c. g. de Baleares . part. jud. de Palma, ayunt., térm. yjunsd. de la v. de Andraix.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

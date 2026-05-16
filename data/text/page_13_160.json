@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 160,
+  "page_printed": "156",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PORQUER (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en el valle de Mastaguera, en laisla de Mallorca, prov. de Baleares, part. jud. de Inca,térm. y jurisd. de la 7. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PORQUER (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Porreras",
+      "description": "predio en la isla de Mallorca, prov. dede Baleares, part. jud. de Manacor, térm. y jurisd. de la v.de Porreras.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

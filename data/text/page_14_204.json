@@ -1,0 +1,53 @@
+{
+  "vol": "14",
+  "leaf": 204,
+  "page_printed": "200",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SERRA (i.\\",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Porreras",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, parí. jud. de Manacor, térm. y jurisd. de la v. dePorreras.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "SERRA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov., aud.terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisdicción de la v. de Algaida.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "SERRA (son)",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "ald. en la isla y dióc. de Mallorca , prov..aud. terr., c. g. de Baleares, part. jud., térm. y jurisd. dela c. de Palma: tiene una capilla con culto público.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SERRA DE MARINA (son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "alq. en la isla de Mallorca,prov. de Raleares, part. jud. de Inca, térm. y jurisd. de lav. de Sla. Margarita.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

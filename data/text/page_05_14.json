@@ -1,0 +1,21 @@
+{
+  "vol": "05",
+  "leaf": 14,
+  "page_printed": "10",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CABALLERIA ó NAUCELLES",
+      "place_type": "cabo",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Ciudadela",
+      "description": "Cabo en la isla de Menorca, prov. y part. marít. de Mahón, distr. de Ciudadela, tercio de Mallorca, departamento de Cartagena; sit. al N. á corta dist. del cabo de Levante; es bastante saliente, alto y tajado al mar, pero va siendo menos su altura para el S., de suerte que visto por parte del O. ó del E. á alguna dist., parece isla.",
+      "stats": {},
+      "cross_references": ["Mahón", "Ciudadela", "cabo de Levante"],
+      "confidence": "high",
+      "note": "OCR reads 'CABALENLA' — corrected to CABALLERIA (cap de Cavalleria)."
+    }
+  ]
+}

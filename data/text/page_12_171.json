@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 171,
+  "page_printed": "165",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NIÚ",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": ". predio en la isla de Mallorca, prov. de Baleares,part. jud. de Palma, térm y jurisd de la v. de Valideraosa.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

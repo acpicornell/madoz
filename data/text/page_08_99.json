@@ -1,0 +1,11 @@
+{
+  "vol": "08",
+  "leaf": 99,
+  "page_printed": "95",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FIGUEROL (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Felanitx", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx.", "stats": {}, "cross_references": ["Felanitx"], "confidence": "high"},
+    {"title": "FIGUEROLA (son)", "place_type": "porción de terreno", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Inca", "description": "Porción de terreno con varias casas de labranza en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.", "stats": {}, "cross_references": ["Inca"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "vol": "13",
+  "leaf": 373,
+  "page_printed": "369",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "IUMIS (Son",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Llubí",
+      "description": ": predio en la isla de Mallorca , prov. de Baleares . part. jud, de Inca , térm y jurisd. de la v. de Llubi.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAMON (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Llubí.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAMON (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": ". predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAMON (so¡",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "prédio en la isla de Mallorca, prov. de Baleares, part. jud. y térm. jurisd. déla v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RAMÜNET GROS (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "prédio en la isla de Mallorca, prov.de Baleares, part. jud. de Manacor, térm. y jurisd. de lav. de Felanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "RANDA",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "1. en la isla de Mallorca, part. jud. de Palma,prov., aud. terr., c. g. de Baleares, ayunt., térm. y jurisd,.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

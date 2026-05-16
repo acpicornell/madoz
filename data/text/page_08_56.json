@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 56,
+  "page_printed": "52",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FERRETJANS (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Puigpuñent", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.", "stats": {}, "cross_references": ["Puigpuñent"], "confidence": "high"}
+  ]
+}

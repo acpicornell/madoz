@@ -1,0 +1,23 @@
+{
+  "vol": "04",
+  "leaf": 376,
+  "page_printed": "370",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOCHORUM",
+      "place_type": "ciudad antigua",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Plinio menciona esta c. en Mallorca. En la colección de inscripciones de Masdeu se conserva una perteneciente á la misma c. Supónese haber existido á 1/4 leg. del mar, en un sitio que hoy llaman los naturales Bocar.",
+      "stats": {},
+      "cross_references": [
+        "Mallorca",
+        "Bocar"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 170,
+  "page_printed": "166",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TRUCHAS",
+      "place_type": null,
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "anguilas y bermejuelas. ind.: 2 ferrerias y 2 molinos harineros.comercio: cstraccion del fierro labrado, posl.: 100 vec,410 alm.; pero los datos particulares hacen subir la pobl.á 1,000 alm. renta líquida terr.: 7,883 rs. 4 mrs.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

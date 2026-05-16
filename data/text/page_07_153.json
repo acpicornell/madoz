@@ -1,0 +1,65 @@
+{
+  "vol": "07",
+  "leaf": 153,
+  "page_printed": "149",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COTAYNA DE CARRERAS",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Alayor",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor.",
+      "stats": {},
+      "cross_references": [
+        "Alayor",
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COTAYNA DE MASCARO",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Alayor",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor.",
+      "stats": {},
+      "cross_references": [
+        "Alayor",
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COTAYNAGRAN",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Alayor",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor.",
+      "stats": {},
+      "cross_references": [
+        "Alayor",
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COTAYNET",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Alayor",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor.",
+      "stats": {},
+      "cross_references": [
+        "Alayor",
+        "Mahon"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

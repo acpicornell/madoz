@@ -1,0 +1,9 @@
+{
+  "vol": "03",
+  "leaf": 487,
+  "page_printed": "483",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "chocr regex false positive: 'Fabrer' hit is the month abbreviation 'Febrer' in the calendar of Catalan fairs (the leaf describes the Barcelona diocese, weights/measures and feria calendar). No Balearic entry on this leaf.",
+  "entries": []
+}

@@ -1,0 +1,22 @@
+{
+  "vol": "04",
+  "leaf": 292,
+  "page_printed": "286",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BERRINA (Son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

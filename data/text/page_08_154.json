@@ -1,0 +1,11 @@
+{
+  "vol": "08",
+  "leaf": 154,
+  "page_printed": "150",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FORTEZA (so) [Puigpuñent]", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Puigpuñent", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.", "stats": {}, "cross_references": ["Puigpuñent"], "confidence": "high"},
+    {"title": "FORTEZA (so) [Manacor]", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.", "stats": {}, "cross_references": ["Manacor"], "confidence": "high"}
+  ]
+}

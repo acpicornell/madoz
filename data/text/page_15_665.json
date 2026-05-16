@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 665,
+  "page_printed": "661",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VENT (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": ".• predio en la isla de Mallorca, prov. de Baleares , part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vol": "08",
+  "leaf": 326,
+  "page_printed": "322",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "GARRIGA DE TORRELLO",
+      "place_type": "estancia",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

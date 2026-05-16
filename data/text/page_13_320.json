@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 320,
+  "page_printed": "316",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "QUINSTILANS",
+      "place_type": "lugar",
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "1. en la prov. de la Coruña, ayunt. deArnés y felig. de San Pedro de Biigallido (V.).",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

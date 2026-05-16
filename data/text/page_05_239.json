@@ -1,0 +1,20 @@
+{
+  "vol": "05",
+  "leaf": 239,
+  "page_printed": "235",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CAIMARI",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "L. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva, sit. al N. de dicha v. con buena ventilación y clima sano; las enfermedades comunes son constipados y pulmonías. Tiene una igl. parr. (la Purísima Concepción) aneja de la de Selva, erigida en 1807, servida por un vicario temporal y amovible, que nombra el diocesano, á propuesta del párroco de la matriz, un sacerdote ordenado á título de patrimonio, adscrito á la igl., para ayuda del vicario y segunda misa, un sacristán lego y 2 monacillos; y 2 escuelas de instrucción primaria, concurrida la una por 8 niños, y la otra por 15 niñas. Sus confines, calidad del terreno, prod., pobl. y riqueza (V. Selva.)",
+      "stats": {},
+      "cross_references": ["Selva"],
+      "confidence": "high"
+    }
+  ]
+}

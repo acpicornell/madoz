@@ -1,0 +1,47 @@
+{
+  "vol": "07",
+  "leaf": 630,
+  "page_printed": "626",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "EULALIA (Santa)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "EULALIA (Santa)",
+      "place_type": "cuartón",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Santa Eulalia",
+      "description": "Cuartón ó distrito municipal compuesto de las parr. de Son Cárlos, Sta. Gertrudis, Ntra. Sra. de Jesús, y Sta. Eulalia, cab. del ayunt. que forman las cuatro en la isla, part. jud. y dióc. de Ibiza, aud. terr., c. g. de Baleares, sit. al N. de la isla, de cuyo punto le combaten los vientos con frecuencia; su clima es templado y sano; las enfermedades comunes son fiebres intermitentes. La pobl. se halla dividida en 4 barrios que llaman veredas de la igl., des Coloms, de Arabi y de Calallonga, y sus casas no están unidas entre sí, aunque muy inmediatas unas de otras; tiene una de ayunt., un fortín ó torre con 2 cañones y 4 igl. parr. servidas por sus respectivos curas y sacristanes; los curatos de Sta. Eulalia y San Cárlos son de tercera clase, y los de Sta. Gertrudis y Ntra. Sra. de Jesús, de segunda. El térm. confina N. y S. el mar; E. el distrito de San Juan, y O. el de San Antonio; estendiéndose 4 leg. de N. á S. y 2 de E. á O. El terreno es generalmente montuoso y de mala calidad, á escepcion del llano del pueblo de Jesús; los montes están poblados de pinos; el r. nombrado de Sta. Eulalia, que nace de las fuentes llamadas Don Boter y Des Gort de Sadona, riega las huertas del térm., da impulso á 4 molinos de harina, y desagua en el mar. Prod.: cereales, legumbres y hortalizas; cria ganado cabrio, lanar y mular, caza de conejos y perdices y pesca del mar. Ind.: la agrícola y los mencionados molinos.",
+      "stats": {
+        "parroquias": 4,
+        "vecinos_catastro": 793,
+        "almas": 4192,
+        "molinos_harina": 4,
+        "fortines_canones": 2,
+        "cap_imp_rs": 274828
+      },
+      "cross_references": [
+        "Ibiza",
+        "Son Cárlos",
+        "Sta. Gertrudis",
+        "Ntra. Sra. de Jesús",
+        "San Juan",
+        "San Antonio"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

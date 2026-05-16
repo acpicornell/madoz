@@ -1,0 +1,20 @@
+{
+  "vol": "16",
+  "leaf": 342,
+  "page_printed": "326",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VINATER (jo)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Felanitx",
+      "description": "predio en la isla de Mallorca, part. jud. deManacor, térm. y jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

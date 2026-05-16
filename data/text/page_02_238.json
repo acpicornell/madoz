@@ -1,0 +1,20 @@
+{
+  "vol": "02",
+  "leaf": 238,
+  "page_printed": "234",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AMARRADOR DE LAS TRES ALCAZAS",
+      "place_type": "ensenada",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": null,
+      "description": "Pequeña ensenada en la isla de Menorca, sit. al S. del Cabo de Perpigna; la punta de la galera divide esta ensenada de otra no mayor llamada la Falconera.",
+      "stats": {},
+      "cross_references": ["Cabo de Perpigna", "Falconera"],
+      "confidence": "high"
+    }
+  ]
+}

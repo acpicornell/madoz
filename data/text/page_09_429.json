@@ -1,0 +1,66 @@
+{
+  "vol": "09",
+  "leaf": 429,
+  "page_printed": "425",
+  "window": 4,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Two Balearic INCA entries (part. jud. on leaf 429 + villa on leaf 430). The partido stats table on leaf 430 is OCR-mangled (column-broken layout in chocr); some totals salvaged from the bottom row but with caveats. The villa entry on leaf 430 is clean. Non-Balearic IN-entries (IMOZ Navarra, INARZA Álava, INCAPIE Salamanca, INCEDO Santander, INCIO Lugo etc.) on the surrounding leaves are skipped.",
+  "entries": [
+    {
+      "title": "INCA (part. jud.)",
+      "place_type": "partido judicial",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "Part. jud. de ascenso en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares; la parte litoral que abraza corresponde al tercio y prov. marítima de la misma isla, depart. de Cartagena. Se compone de 1 c. (Alcudia), 16 v., 8 l., 10 ald. y 9 caseríos que forman 17 ayunt. Cab. y pobl. principales: Inca (cab.), Alaró, Benisalem, Buger, Campanet, Llubí, María, Muro, Pollenza, Puebla, Sansellas, Sta. Margarita, Selva, Sinen (=Sineu), Alcudia. Distancias selectas (en leg.): Inca á Palma 5 3/4, Inca á Madrid 106 3/4, Palma á Madrid 101; Inca á Alaró 2 1/2, á Benisalem 1 1/2, á Buger 3 1/4, á Campanet 3 1/2, á Llubí 3, á María 4, á Muro 4 1/4, á Pollenza 5 1/2, á Puebla 4 1/4, á Sansellas 1, á Sta. Margarita 5 1/2, á Selva 2, á Sineu 3 1/2; Alcudia 8 leg. de Inca, 11 leg. de Palma. ESTADÍSTICA CRIMINAL. Acusados en este part. jud. en 1843: 53 (7 absueltos de la instancia, 5 libremente, 40 penados presentes, 1 contumaz, 1 reincidente en el mismo delito, 1 en otro distinto). Edades: 11 de 10-20 años, 28 de 20-40, 14 de 40+; 45 hombres y 8 mujeres; 29 solteros y 24 casados; 10 sabían leer y escribir, los demás carecían de toda instrucción; los 53 ejercían artes mecánicas. En el mismo periodo se perpetraron 10 delitos de homicidio y heridas con 2 armas blancas de uso lícito, 2 de ilícito, 1 instrumento contundente y 5 instrumentos no espresados. Estadística municipal y reemplazo (tabla anexa en leaf 430, OCR-mangled): totales aproximados — riqueza imponible total del partido ≈ 8,733,977 rs.; 47,167 alm.; 11,045 vec.; 2,164 jóvenes alistados; 17 alcaldes (uno por ayunt.); 88 contribuyentes muestrales no descifrables.",
+      "stats": {
+        "ciudades": 1,
+        "villas": 16,
+        "lugares": 8,
+        "aldeas": 10,
+        "caserios": 9,
+        "ayuntamientos": 17,
+        "acusados_1843": 53,
+        "absueltos_instancia": 7,
+        "absueltos_libremente": 5,
+        "penados_presentes": 40,
+        "contumaces": 1,
+        "delitos_homicidio_heridas": 10,
+        "riqueza_imponible_aprox": 8733977,
+        "almas_aprox": 47167,
+        "vecinos_aprox": 11045
+      },
+      "cross_references": ["Inca", "Alaró", "Benisalem", "Buger", "Campanet", "Llubí", "María", "Muro", "Pollenza", "La Puebla", "Sansellas", "Santa Margarita", "Selva", "Sineu", "Alcudia"],
+      "confidence": "medium"
+    },
+    {
+      "title": "INCA",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "V. con ayunt., cab. del part. jud. de su nombre, en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares. SITUACIÓN Y CLIMA. Se halla tendida de E. á O. sobre una loma que ocupa el centro de la isla, al pie de la cordillera de montañas que á esta cruza de NE. á SO.; defendido del N. el resto de ella. Es la primera de las pobl. de la llanura que se estiende hasta el mar por la parte S.; goza de buena ventilación, clima sano y benigno, sin enfermedades endémicas. INTERIOR DE LA POBL. Componen su casco 780 casas, formando una larga calle casi recta que la atraviesa en su mayor estension, muchas transversales, una plaza de abasto con soportales ruinosos y desiguales y un tinglado en medio bajo el cual se espenden los granos en dias de mercado, y la plaza de este nombre, bastante espaciosa aunque de figura irregular, donde se hace el tráfico de caballerías en ferias. Cuatro igl. forman la figura de una cruz en las estremidades de la pobl., recordando que ésta fué mas crecida antiguamente. Hay una escuela de instrucción primaria dotada con 598 rs. vn. (30 alumnos) y 2 particulares para niñas (labores y primeras letras). La IGL. PARR., Sta. Maria la Mayor, es antiquísima (mencionada en breve de Inocencio IV en 1247; inscripción de 1373 al pie de un retablo ant.); servida por 1 cura de término de provisión real y ordinaria, 2 vicarios temporales y amovibles, 6 beneficiados de patronato de sangre, 3 de eclesiástico, 4 de misto, 1 capellanía de sangre, 10 sacerdotes ordenados á título de patrimonio, 1 lego y 2 monacillos. El templo fué demolido en 1706 y reconstruido en el mismo lugar, mas suntuoso, de piedra sillería bruñida, con torre cuadrada anterior á la igl. terminada en capitel octógono. Altar mayor de gusto moderno con vestigios churriguerescos, con la efigie de Sta. María la Mayor (ennegrecida y pequeña, hallada en cuevas escondidas á la persecución iconoclasta). Clemente VII y Alejandro VI fueron curas de esta parr. en el principio de su carrera. CONVENTOS Y ERMITAS. En las afueras al N., conv. de monjas Gerónimas (19 religiosas) con igl. de San Bartolomé (primitiva parr.); 2 exconv. de frailes (uno de Sto. Domingo erigido 1604, enagenado para construir casas; otro de San Francisco fundado 1325, su igl. comprada por el ayunt. para conservarla al culto, con sepulcro de jaspe que conserva incorrupto el cadáver de sor Clara Andreu, muerta en opinión de santa en 1645). A 1/2 leg. en el monte de Sta. Magdalena, oratorio dedicado á la santa con fiesta anual, danzas y comida; contiguo, los restos del conv. ocupado sucesivamente por monjas Clarisas y Gerónimas y luego escuela de gramática. CEMENTERIO establecido 1820 al SE. de la v. Hubo antiguamente hospital cuyas rentas pasaron al de Palma. TÉRMINO. Confina con Selva, Puebla, Muro, Sansellas, Alaró y Benisalem; comprende 450 casas en otros tantos predios (170 habitadas por dueños ó colonos, las demás solo en temporadas de recolección). Al NE., fuente abundante conducida 400 varas por acueducto; con sus sobrantes se forman lavaderos públicos cubiertos y abrevaderos; otra fuente surte otro lavadero; pozos en varios ángulos de la v.; con las aguas perdidas se riegan dos huertos y los muchos que rodean la pobl. (otros á 1/2 leg. regados por noria). TERRENO distribuido por calidades: 5,725 fanegas de campo secano; 26 de regadío y huerta; 1,192 de olivar; 693 de viñedo; 835 de montes y selvas. La mayor parte subdividida y arbolada (cultivada como un jardín); solo el predio de Son Bordils (grande, dedicado á granos y ganado mayor y menor) y alguna otra parte carecen de arbolado. Le cruzan los torrentes Cantabon y Refal Garces (este al S. de la v.). CAMINOS. Como pobl. central, en ella se reúnen caminos de todas direcciones; Inca ocupa el medio de la carretera principal Palma-Alcudia; de él parten carreteras á Manacor, Selva, Campanet, Muro, Sineu, La Puebla, Sansellas, etc., además de transversales por la subdivisión de la propiedad. CORREOS: se reciben de la cap., con diligencia los lunes/miércoles/viernes (regresa martes/jueves/sábados). PRODUCCIONES: trigo, cebada, avena, habas, garbanzos, almendras, aceite, vino, algarrobas, higos, pasas, azafrán, frutas y hortalizas; cria ganado lanar, caballar, mular, asnal y de cerda; caza variada. INDUSTRIA: profesiones científicas, todas las artes mecánicas indispensables, fáb. de aguardiente, jabón, curtidos, telares de lienzo, 14 molinos de viento, una fonda por la empresa de diligencias y 8 mesones. COMERCIO: bastante activo (12 comerciantes por mayor, 28 por menor, 8 tiendas de abacería, 14 de todos géneros); mercados todos los jueves (concurren mercaderes de pueblos circunvecinos, Pollenza, Alcudia y Palma); ferias los tres domingos subsiguientes al 18 de octubre y la del 1.º de noviembre. POBL.: 950 vec., 4,503 alm. CAP. IMP.: 523,897. CONTR. en 1846: 100,900.",
+      "stats": {
+        "casas_casco": 780,
+        "casas_termino_predios": 450,
+        "casas_habitadas_dueños_colonos": 170,
+        "vecinos": 950,
+        "almas": 4503,
+        "riqueza_imponible": 523897,
+        "contribucion_1846": 100900,
+        "fanegas_campo_secano": 5725,
+        "fanegas_regadio_huerta": 26,
+        "fanegas_olivar": 1192,
+        "fanegas_vinedo": 693,
+        "fanegas_montes_selvas": 835,
+        "molinos_viento": 14,
+        "mesones": 8,
+        "comerciantes_por_mayor": 12,
+        "comerciantes_por_menor": 28,
+        "religiosas_geronimas": 19
+      },
+      "cross_references": ["Selva", "Puebla", "Muro", "Sansellas", "Alaró", "Benisalem", "Palma", "Alcudia", "Manacor", "Sineu", "Campanet", "Pollenza"],
+      "confidence": "high"
+    }
+  ]
+}

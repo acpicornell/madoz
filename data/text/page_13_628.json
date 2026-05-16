@@ -1,0 +1,42 @@
+{
+  "vol": "13",
+  "leaf": 628,
+  "page_printed": "624",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SALA (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "bajo esia denominación se conocen dos predios distintos en la isla de Mallorca, prov.de Baleares, part.jud. de Manacor, térm. y jurisd de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SALA(so",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": ". : predio en la isla de Mallorca, prov. de Balearespart. jud. de Manacor, térm. y jurisd. de la v. de Campos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "SALADEMUNT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca , prov. deBateares, part. jud. de Manacor, térm. y jurisd. de la v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

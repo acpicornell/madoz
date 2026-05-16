@@ -1,0 +1,32 @@
+{
+  "vol": "07",
+  "leaf": 192,
+  "page_printed": "188",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CUARENTENA",
+      "place_type": "isleta",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Isleta en la isla de Menorca, prov. de Baleares: sit. dentro del famoso puerto de Mahón, á la parte N., entre Calallonga del predio San Antonio al NO., y la punta den Cremat del terreno de Lazareto al SE.; enfrente y á la otra parte del puerto está Villacarlos. Tiene de largo desde la punta del NO. á la del SE. 744 pies castellanos, y 237 de ancho del SO. al NE. En la punta del NO. hay una llanura elevada de 6 pies sobre la superficie del agua con 8 vastos almacenes de 79 pies de largo por 18 1/2 de ancho cada uno, con puertas en las estremidades, para depositar cargamentos de granos, semillas y otros efectos no susceptibles de contagio durante el espurgo. En el resto, mas elevado, una casa de 2 pisos de 25 pies en cuadro para habitación del teniente de alcaide y del guarda fijo, y á su espalda un cuarto de 18 por 11 pies para sahumerios. En el centro un edificio de 263 pies de largo por 22 de ancho con 3 habitaciones de 2 pisos cada una para pasajeros cuarentenarios que no están obligados á hacerla en el Lazareto; piso bajo de una sirve para hornillo de fumigación de pliegos. 10 pequeños almacenes (antes principales, hoy para efectos de poco volumen y patente limpia). Circunferencia 1,846 pies, de los cuales 1,272 de muelle construido; otro pedazo de 100 pies con desembarcadero al pie de la rampa que conduce á la habitación de los empleados (único punto de desembarco permitido). 2 grandes cisternas en el centro proveen de agua á cuarentenarios y empleados.",
+      "stats": {
+        "largo_pies_castellanos": 744,
+        "ancho_pies": 237,
+        "circunferencia_pies": 1846,
+        "muelle_construido_pies": 1272,
+        "almacenes_grandes": 8,
+        "almacenes_pequenos": 10,
+        "cisternas": 2
+      },
+      "cross_references": [
+        "Mahon",
+        "Lazareto de Mahon",
+        "Villacarlos"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "vol": "12",
+  "leaf": 182,
+  "page_printed": "176",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NOGUERA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Puigpuñent",
+      "description": "predio en la isla de Mallorca, prov.,aud. terr., c. g. de Baleares, part. jud. de Palma, term. yjurisd. de la v. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "NOGUERAL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Valldemosa",
+      "description": "predio en la isla de Mallorca , prov. de Baleares , part. jud. de Palma, térm. y jurisd. de la v. de Vall-.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "NOGUERETA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov.,aud. terr., c. g. de Baleares. part. jud. de Palma , térm. yjurisd. de ía v. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

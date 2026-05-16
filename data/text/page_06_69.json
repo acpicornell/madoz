@@ -1,0 +1,48 @@
+{
+  "vol": "06",
+  "leaf": 69,
+  "page_printed": "65",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CASETA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [
+        "Lluchmayor"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CASETA DE SAN BAULO",
+      "place_type": "casilla de vigía",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Casilla de vigía á la orilla del mar en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Santa Margarita"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CASETA ROITGE (la)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Santa Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

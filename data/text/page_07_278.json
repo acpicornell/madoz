@@ -1,0 +1,48 @@
+{
+  "vol": "07",
+  "leaf": 278,
+  "page_printed": "274",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CUGOLLO DE LA TORRE",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la ciudad de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CUGOLLONOU",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CUGOLLONET",
+      "place_type": "estancia",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 699,
+  "page_printed": "695",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SALETA (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca, prov.deBaleares, part. jud de Manacor , térm. y jurisd. de la v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "SALETAS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "predio enla isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

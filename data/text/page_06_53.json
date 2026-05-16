@@ -1,0 +1,9 @@
+{
+  "vol": "06",
+  "leaf": 53,
+  "page_printed": "49",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Chocr regex hit 'CASAS DEL MONTE' is a false positive: this is a pago in Canarias (isla del Hierro), not Balearic.",
+  "entries": []
+}

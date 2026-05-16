@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 83,
+  "page_printed": "79",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BAYFAGO (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sineu. (V. Sineu.)",
+      "stats": {},
+      "cross_references": ["Sineu"],
+      "confidence": "high"
+    }
+  ]
+}

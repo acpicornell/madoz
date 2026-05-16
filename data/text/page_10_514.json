@@ -1,0 +1,11 @@
+{
+  "vol": "10",
+  "leaf": 514,
+  "page_printed": "506",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Two LLORACH entries were flagged: the Balearic LLORACH (alq. Mallorca/Inca/Sineu) is the relevant one; the homonymous LLORACH (l. cab. de ayunt. en Lérida) is non-Balearic.",
+  "entries": [
+    {"title": "LLORACH", "place_type": "alquería", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.", "stats": {}, "cross_references": ["Sineu"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 161,
+  "page_printed": "157",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PORT (el)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Soller",
+      "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. deSoller.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vol": "06",
+  "leaf": 110,
+  "page_printed": "106",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CASTELLIT",
+      "place_type": "reunión de casas",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Algaida",
+      "description": "Dos o tres casas reunidas en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Algaida.",
+      "stats": {},
+      "cross_references": [
+        "Algaida"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

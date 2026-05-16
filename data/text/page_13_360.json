@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 360,
+  "page_printed": "356",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "RACHAL ¡so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Petra",
+      "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. dePetra.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RACÓ(el)",
+      "place_type": "aldea",
+      "island": null,
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "ald. en la isla de\" Mallotca, prov., aud. terr.ye g. de Huleares, part.jud. de Palma, ayunt., térm., yjurisd. (le Deyá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

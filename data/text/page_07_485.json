@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 485,
+  "page_printed": "481",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "ENDERROCAT", "place_type": "cabo", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Palma", "description": "Cabo con una torre en la isla, tercio y prov. marítima de Mallorca, part. de Palma, departamento de Cartagena.", "stats": {"torres": 1}, "cross_references": ["Palma"], "confidence": "high"}
+  ]
+}

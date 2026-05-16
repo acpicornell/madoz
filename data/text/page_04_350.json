@@ -1,0 +1,223 @@
+{
+  "vol": "04",
+  "leaf": 350,
+  "page_printed": "344",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BINIDALI",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Pequeña cala en la prov. y distr. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. 3 millas algo mas al SE.; 1/4 E. de las peñas de Mayor: no sirve sino para barcos de pescar.",
+      "stats": {},
+      "cross_references": [
+        "Mahón"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIETRENT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Dos predios ant. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva.",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFALDO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio en la isla de Mallorca, part. jud. de Inca, térm. y felig. de la v. de Escorca: tiene una casa que habita el arrendatario y consta de tierras de sembradío, de pastos y bosque.",
+      "stats": {},
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFALET",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, enclavada dentro del térm. y jurisd. de la v. de Llubí: sit. á 1/4 de leg. al N. de esta con buena ventilación y clima sano: es pobl. pobre y su terreno contiene dos pequeños bosques y alguna plantación de árboles frutales como higueras, almendros, etc.: tiene 7 vec., 28 almas.",
+      "stats": {
+        "vecinos": 7,
+        "almas": 28
+      },
+      "cross_references": [
+        "Llubí"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFAT",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas.",
+      "stats": {},
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFAT DE BAIX",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas.",
+      "stats": {},
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFERRI",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas.",
+      "stats": {},
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFORANI",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Buñola",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola.",
+      "stats": {},
+      "cross_references": [
+        "Buñola"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIFOUBELL",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas.",
+      "stats": {},
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIGOMAR",
+      "place_type": "porción de terreno",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Porción de terreno en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollensa: es una de las que repartió el rey D. Jaime el Conquistador.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIPARRAIG",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Pequeña cala en la prov. y distr. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. á 3 millas algo mas SE., 1/4 E. de las peñas de Atayor, entre la cala de BiniDali y el cabo des Fonts; no admite sino barcos pescadores.",
+      "stats": {},
+      "cross_references": [
+        "Mahón",
+        "BiniDali"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINISAFULLA ó BINISAFAYA",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Cala en la prov. y dist. marít. de Mahón, tercio de Mallorca, departam. de Cartagena; sit. á SE. de la cala de BiniParraig, 1/4 milla: tiene dos islotes en su boca, uno en la parte del E. y otro en la del O., entre las cuales, y algo mas interior, hay un bajo cerca de la costa, por cuya causa y su poco fondo solo es buena para faluchos.",
+      "stats": {},
+      "cross_references": [
+        "Mahón",
+        "BiniParraig"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINISATS (des metge)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high",
+      "note": "OCR reads 'BIÑISATS' — corrected to BINISATS."
+    },
+    {
+      "title": "BINISETS (nu siquier)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINITAREF",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BINIXIDI",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva.",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

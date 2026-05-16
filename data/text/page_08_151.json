@@ -1,0 +1,62 @@
+{
+  "vol": "08",
+  "leaf": 151,
+  "page_printed": "147",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FORNELLS",
+      "place_type": "lugar",
+      "island": "Menorca",
+      "judicial_district": "Ciudadela",
+      "municipality": "Mercadal",
+      "description": "Lugar que forma ayunt. con Mercadal en la isla y dióc. de Menorca, prov., aud. terr., c. g. de Baleares (Palma), part. jud. de Ciudadela. Sit. al N. de la isla á orillas de un puerto grande, aunque no capaz para embarcaciones mayores por su poco fondo, y por el peligro de su entrada angosta y gravada con un escollo; para su defensa hay un castillo, una batería con algunos cañones y una torre; y otra batería y torre colocadas en una pequeña isla que está en medio del puerto; todas estas fortificaciones están ya deterioradas, pero tienen un gobernador militar; el clima es templado y sano; la pobl. compuesta de varias casas de pescadores; tiene una igl. parr. aneja de la de Mercadal, servida por un vicario.",
+      "stats": {},
+      "cross_references": [
+        "Mercadal",
+        "Ciudadela"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FORNES (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Montuiri",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Montuiri.",
+      "stats": {},
+      "cross_references": [
+        "Montuiri"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FORNES (son) [Muro]",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro.",
+      "stats": {},
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FORNES (son) [Puebla]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisdiccional de la v. de Puebla.",
+      "stats": {},
+      "cross_references": [
+        "Puebla"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

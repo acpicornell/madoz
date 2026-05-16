@@ -1,0 +1,35 @@
+{
+  "vol": "04",
+  "leaf": 365,
+  "page_printed": "359",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BLAY (Can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Pollensa.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BLAY (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

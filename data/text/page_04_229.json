@@ -1,0 +1,28 @@
+{
+  "vol": "04",
+  "leaf": 229,
+  "page_printed": "223",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "BINISALEM is a major Mallorcan villa (head of the Inca part. jud.). Article spans leaves 229–230.",
+  "entries": [
+    {
+      "title": "BINISALEM",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "V. con ayunt. en la isla, aud. terr., c. g. y dióc. de Mallorca, prov. de Baleares, part. jud. de Inca. Sit. en llano al pie de una montaña no muy elevada que la guarece de los vientos del N., ofreciendo la perspectiva más bella y pintoresca entre un inmenso plantío de viñedo y arbolado de frutales que se estiende hasta la entrada de la sierra; goza de clima benigno y saludable. Tiene 543 casas, en lo general de un solo piso y de 35 palmos de altura, de sólida construcción y aun algunas de esmerada arquitectura; 2 plazas (la Cuartera ó de la Constitución y la Mayor ó de la Iglesia); carnicería pública; escuela de instrucción primaria dotada con 600 rs. concurrida por 58 niños y otra de niñas con 53 educandas; y una igl. parr. (San Jaime), servida por un capítulo compuesto de un cura de provisión real y ordinaria, 2 vicarios temporales, 10 beneficiados de patronato particular y uno de presentación del ayunt., un sacristán lego y 2 monacillos. El templo, de orden jónico con paredes, bóvedas y torre de piedra cantería y interior guarnecido de mármoles primorosamente trabajados, mide 207 palmos de largo y 108 de ancho, dividido en 3 naves; la del medio sube á 150 palmos con 68 de ancha, formando cúpula de construcción atrevida; contiene 12 altares (notable el de la Beata por la preciosidad de la piedra, y el de la Virgen del Remedio procedente del estinguido conv. de Trinitarios de Palma). El cementerio se halla fuera de la pobl. en parage ventilado. El vecindario se surte de pozos y cisternas. Confina con Inca (3 1/2 h.), Sancellas (1 1/2), Sta. María (1 1/2) y Alaró (1). Dentro de este radio hay 4 fuentes; 3 potables y de curso perenne, y una de termales con curso periódico; al pie de la montaña existe una mina de carbón de piedra y un horno de cal en que se fabrican anualmente sobre 73,000 cuarteras (propiedades de la Sociedad de navegación é industria de Barcelona); también hay canteras de mármoles y jaspes de distintos colores. El terr. es casi todo llano, sin regadío alguno: 2,250 cuarteradas de viñedo, 860 de tierra de sembradío, 12 de huerta, 117 de monte, 14 de bosque y 1,064 de olivar. El combustible escasea y se abastece de sarmientos y de la cáscara de la almendra. Atraviesa á 5 minutos la carretera general de Palma á Alcudia. Prod. anuales aproximados: 120,000 cuartines de vino, 2,000 colambres de aceite, 4,500 cuart. de trigo, 2,500 de cebada, 1,000 de avena, 4,500 de almendras y 2,000 de habas; abundancia de frutas esquisitas (escepto naranjas) y poca hortaliza. Cria ganado lanar, cerril y de cerda; caza de perdices, conejos y liebres. Ind.: profesiones científicas, artes mecánicas (sastres, zapateros, herreros, carpinteros, picapedreros, tejedores, panaderos) y la fabricación de carbón de piedra y de cal. Comercio: estraccion de mármoles, jaspes, cerdos, higos pasos y otros artículos.",
+      "stats": {
+        "casas": 543,
+        "vecinos": 603,
+        "almas": 3027,
+        "cap_prod_rs": 1301400,
+        "cap_imp_rs": 456840,
+        "contr_rs": 31104
+      },
+      "cross_references": ["Inca", "Sancellas", "Santa María del Camí", "Alaró", "Palma", "Alcudia"],
+      "confidence": "high"
+    }
+  ]
+}

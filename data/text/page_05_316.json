@@ -1,0 +1,20 @@
+{
+  "vol": "05",
+  "leaf": 316,
+  "page_printed": "312",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CALLAR (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": ["Inca"],
+      "confidence": "high"
+    }
+  ]
+}

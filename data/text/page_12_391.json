@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 391,
+  "page_printed": "385",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ORRACH (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Inca, térm. y jurisd. de la v. deSansellas.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

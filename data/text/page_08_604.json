@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 604,
+  "page_printed": "600",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "GRUTA (la)", "place_type": "casa de campo", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Inca", "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.", "stats": {}, "cross_references": ["Inca"], "confidence": "high"}
+  ]
+}

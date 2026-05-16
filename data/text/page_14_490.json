@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 490,
+  "page_printed": "428",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SÓLERET (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manucor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

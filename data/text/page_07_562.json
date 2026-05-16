@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 562,
+  "page_printed": "558",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "ESPARDELL", "place_type": "islote", "island": "Formentera", "judicial_district": "Ibiza", "municipality": "Formentera", "description": "Islote en el Mediterráneo, perteneciente á la prov. civil de Baleares y marít. de Ibiza, tercio de Mallorca, departamento de Cartagena: sit. en la isla Formentera; es de mediana altura, parejo, y en su estremo SE., una pequeña parte está dividida por un corto arrecife; en el del N. tiene pegado otro islote chico.", "stats": {}, "cross_references": ["Formentera", "Ibiza"], "confidence": "high", "note": "OCR mangled 'Tormentera' -> Formentera."}
+  ]
+}

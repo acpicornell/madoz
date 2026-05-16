@@ -1,0 +1,10 @@
+{
+  "vol": "09",
+  "leaf": 246,
+  "page_printed": "242",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "HOSTALET", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Buñola", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola.", "stats": {}, "cross_references": ["Buñola"], "confidence": "high"}
+  ]
+}

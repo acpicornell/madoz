@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 33,
+  "page_printed": "29",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CORSO (ca)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Felanitx", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx.", "stats": {}, "cross_references": ["Felanitx"], "confidence": "high"}
+  ]
+}

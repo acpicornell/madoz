@@ -1,0 +1,31 @@
+{
+  "vol": "04",
+  "leaf": 405,
+  "page_printed": "399",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BONMASIP (vulgo Son Masip)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca: tiene una casa que habita el arrendatario y su terreno está poblado de encinas y olivos, y prod. algún trigo.",
+      "stats": {},
+      "cross_references": ["Escorca"],
+      "confidence": "high"
+    },
+    {
+      "title": "BONNABE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á una hora de la pobl., pertenece á una de las casas mas ant. de ella: es terreno fertilísimo, poblado de olivos, algarrobos y mon. con abundancia trigo, frutas y hortalizas.",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    }
+  ]
+}

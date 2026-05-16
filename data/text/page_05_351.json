@@ -1,0 +1,36 @@
+{
+  "vol": "05",
+  "leaf": 351,
+  "page_printed": "347",
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CAMPANEB (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "CAMPANET",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "V. con ayunt. en la isla y dióc. de Mallorca, part. jud. de Inca (1 1/2 leg.), prov., aud. terr., c. g. de Baleares: sit. sobre una colina de bastante elevación; le combaten los vientos del N. y E.; su CLIMA es sano, y las enfermedades mas comunes fiebres intermitentes. Tiene 572 casas inclusa la consistorial, distribuidas en 5 calles y una plaza, una pequeña cárcel, carnicería pública, 2 escuelas de instrucción primaria; una para niños, dotada con 1,100 rs., y concurrida por 30 discípulos, y otra para niñas, á la que asisten 10 alumnas, cuya maestra disfruta 220 rs. de asignación; una igl. parr. (San Miguel Arcángel), de la que son anejas las de los l. de Buger y Ullaró, servida por un capítulo compuesto de un cura de provisión real y ordinaria; un vicario temporal y amovible, que nombra el diocesano á propuesta del párroco; un beneficiado de patronato de sangre; 4 sacerdotes ordenados á título de patrimonio, acogidos á la igl. por el párroco; 2 sacerdotes de igual clase adscritos al servicio de ella sin especial obligación; un sacristán lego y 2 monacillos; fuera de la pobl., 1/2 hora dist., se halla el cementerio. El TÉRM. confina N. Pollensa; E. La Puebla; S. Buger, y O. Selva; se estiende 1 1/2 leg. de N. á S. y 3/4 de E. á O.; dentro de este radio se encuentra 1 oratorio dedicado á San Miguel con culto público, y misa en los días de precepto, cuyo patronato corresponde al ayunt., al cura, y á un vec.; y 30 predios y cas. rurales, de propiedad particular, de los cuales hay 3 que tienen oratorios, donde también se celebra misa en los días festivos. El TERRENO es de buena calidad y fértil; tiene varios montes aislados, y otro que forman parte de la cordillera, que atraviesa la isla, y en todos se ven bosques arbolados de pinos, encinas, arbustos y mata baja, y crían musgo, trébol, heno y carrizos; le minan 3 torrentes: 2 llamados de San Miguel, que, aunque mas caudaloso uno que otro, ninguno es de curso perenne; y otros que nombran de Son Corro; sobre cada cual hay un puente; sus aguas dan impulso á las ruedas de un molino, ademas de regar la parte cultivable. Los caminos son locales, carreteros y de herradura, y se hallan en mediano estado. El correo se recibe de la cap. 2 veces á la semana, y se despacha en igual forma por medio de un conductor particular. PROD.: cereales, aceite, algarrobas, almendras, higos, naranjas y demás frutas del país; cría ganado lanar y de cerda; caza de conejos, perdices y liebres. IND.: varios molinos de aceite, 6 de harina, uno de ellos de agua y 5 de viento, y arriería. POBL.: 499 vec. de catastro, 2,188 alm. CAP. IMP.: 207,074. CONTR.: en el primer semestre de este año 17,035 rs.",
+      "stats": {
+        "casas": 572,
+        "vecinos": 499,
+        "almas": 2188,
+        "riqueza_imponible": 207074,
+        "contribucion_semestre": 17035
+      },
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

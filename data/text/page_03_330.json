@@ -1,0 +1,21 @@
+{
+  "vol": "03",
+  "leaf": 330,
+  "page_printed": "326",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "BALEARES (islas de) is a cross-reference entry directing to MALLORCA for the substantive description; the article is mostly an etymological discussion of the name 'Baleares'.",
+  "entries": [
+    {
+      "title": "BALEARES (islas de)",
+      "place_type": "provincia",
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "Prov. marít. de España. (V. Mallorca.) Masdeu, siguiendo muy literalmente al poeta español Rufo Festo Avieno, dijo distinguirse las islas Gymnesias de las Baleares, atribuyendo aquel nombre á Formentera y este á Mallorca, Menorca, Dragonera y Cabrera. Otros entendieron únicamente por Baleares las islas de Mallorca y Menorca; en efecto, asi resulta de Tito Livio (lib. 28, cap. 19) y de los geógrafos de la antigüedad. Sobre la procedencia del nombre Baleares, dos opiniones se presentan: la fabulosa (un capitán llamado Baleo, compañero de Hércules) y la generalmente adoptada, según la cual proviene de la destreza de los antiguos naturales para tirar piedras con hondas (del griego ballein, arrojar). Madoz propone como hipótesis alternativa que el nombre procede de Bal/Bel, divinidad solar oriental á la que los primeros habitantes consagraron las islas. Siguiendo nuestro sistema de presentar los acontecimientos después de hacerlo de las localidades, reservamos la importante historia de estas islas para el art. Mallorca, donde ha de preceder la descripción de la prov. que hoy han venido á formar. (V. Mallorca.)",
+      "stats": {},
+      "cross_references": ["Mallorca", "Menorca", "Ibiza", "Formentera", "Dragonera", "Cabrera", "Gymnesias"],
+      "confidence": "high"
+    }
+  ]
+}

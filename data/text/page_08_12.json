@@ -1,0 +1,11 @@
+{
+  "vol": "08",
+  "leaf": 12,
+  "page_printed": "8",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FABRER (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Capdepera", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Capdepera.", "stats": {}, "cross_references": ["Capdepera"], "confidence": "high"}
+  ],
+  "note": "chocr regex flagged 'FABREGAS(San Juan de)' but that entry is non-Balearic (Barcelona). The Balearic entry on this leaf is FABRER (so), whose body spans into the continuation page."
+}

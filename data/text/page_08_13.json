@@ -1,0 +1,22 @@
+{
+  "vol": "08",
+  "leaf": 13,
+  "page_printed": "9",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FADRI (so)",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "Varias casas reunidas en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Campos.",
+      "stats": {},
+      "cross_references": [
+        "Campos"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

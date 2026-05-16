@@ -1,0 +1,31 @@
+{
+  "vol": "01",
+  "leaf": 402,
+  "page_printed": "394",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALCANA",
+      "place_type": "isla",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Pequeña isla en el tercio y prov. marít. de Mallorca, apostadero de Cartagena, distr. de la bahía y puerto de Alcudia. (V. Alcudia.)",
+      "stats": {},
+      "cross_references": ["Alcudia"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALCANADA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia. (V. Alcudia.)",
+      "stats": {},
+      "cross_references": ["Alcudia"],
+      "confidence": "high"
+    }
+  ]
+}

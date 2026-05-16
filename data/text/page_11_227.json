@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 227,
+  "page_printed": "223",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MARGARITA (Santa)", "place_type": "villa", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Santa Margarita", "description": "V. con ayunt. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares (Palma 7 1/2 leg.), part. jud. de Inca (3 1/2). Sit. en una extensa llanura entre Alcudia y Artá, á 1 leg. de la playa del mar. Vientos predominantes: N., NE., O. (invierno); E., NE., SE. (verano); clima templado, con frios intensos algunos años; enfermedades comunes fiebres intermitentes, gástricas y catarrales. 500 casas en 18 calles y 6 plazas. Igl. parr. (Sta. Catalina), servida por cura de término (provisión real y ordinaria), 2 vicarios temporales y amovibles, 5 beneficiados de distintos patronatos, 12 capellanes sin especial obligación. 3 escuelas: niños (dotada 2000 rs. vn.), niñas (400 rs.). Térm.: N. Muro; E. el mar, Artá y Petra; S. Maria; O. el mismo y Llubí. Comprende 85 predios rústicos con sus casas, 4 con oratorio público y misa en festivos. Terreno llano y muy feraz, con selvas y prados naturales para cría de toda clase de ganados. Caminos locales de herradura. Correo desde Palma. Prod.: trigo candeal, cebada, avena, higos, vino; ganado caballar, lanar, vacuno, cabrío y de cerda; caza de liebres, conejos, perdices, codornices y pesca del mar. Ind.: la agrícola, fabricación de aguardiente y molinos harineros de viento. Comercio: exportación de cereales y ganados; importación de efectos coloniales y otros artículos de consumo.", "stats": {"vecinos": 624, "almas": 2263, "cap_imp": 321070, "contr_1846": 54360, "casas": 500, "predios_rusticos": 85}, "cross_references": ["Alcudia", "Artá", "Muro", "Petra", "Maria", "Llubí", "Palma", "Inca"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "vol": "02",
+  "leaf": 248,
+  "page_printed": "244",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AMER",
+      "place_type": "punta",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Artá",
+      "description": "Punta de la isla, tercio y prov. marit. de Mallorca, apostadero de Cartagena; distr. de la bahía de Alcudia. Forma con el cabo del Ralx ó del Rache la bahía de Artá. (V. Artá.)",
+      "stats": {},
+      "cross_references": [
+        "Bahía de Alcudia",
+        "Cabo del Ralx",
+        "Bahía de Artá",
+        "Artá"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

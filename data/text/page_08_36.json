@@ -1,0 +1,37 @@
+{
+  "vol": "08",
+  "leaf": 36,
+  "page_printed": "32",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FEMENIA (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Santa Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FEMENIAS",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Tres casas de campo reunidas en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Sta. Margarita.",
+      "stats": {
+        "casas": 3
+      },
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

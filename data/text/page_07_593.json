@@ -1,0 +1,61 @@
+{
+  "vol": "07",
+  "leaf": 593,
+  "page_printed": "589",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ESTAÑY DEBAIX",
+      "place_type": "lago",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, término y jurisdicción de la v. de Muro.",
+      "stats": {},
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ESTAÑY DE SON BAULO",
+      "place_type": "lago",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ESTAÑY DE SON REAL",
+      "place_type": "lago",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ESTAÑY DEL BISBA",
+      "place_type": "lago",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

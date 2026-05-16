@@ -1,0 +1,31 @@
+{
+  "vol": "15",
+  "leaf": 609,
+  "page_printed": "605",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VALLGORNERA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca , prov. deBaleares, part. jud. de Palma, térm. jurisd. de la y. deLluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "VALLGORNERA YELL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca,prov. de Baleares , part. jud. de Palma , térm. jurisd. de lav. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

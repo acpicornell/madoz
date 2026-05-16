@@ -1,0 +1,42 @@
+{
+  "vol": "13",
+  "leaf": 381,
+  "page_printed": "377",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "RATXÓ(el)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov., aud.terr., c. g. de Raleares, part. jud. de Palma, térm. y jurisdicción de la v. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAVANELL (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "predio en la isla de Mallorca , prov. deRaleares, part. jud , térm. y jurisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "RAVELL (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Felanitx",
+      "description": "predio en la isla de Mallorca, prov. de Raleares , pait. jud. de Manacor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

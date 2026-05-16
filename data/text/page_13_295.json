@@ -1,0 +1,53 @@
+{
+  "vol": "13",
+  "leaf": 295,
+  "page_printed": "291",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PUIG",
+      "place_type": null,
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": ") servida por un cura de entrada de provisión ordinaria; esta igl. es la del exconvento demercenarios, cuyo edificio ha sido cedido por el Gobiernopara las enseñanzas, sala capitular, archivo y abadía parael cura. Los vec. se surten de 2 fuentes, una sit. en la plaza y otra inmediata á la v. denominada la Fonteta, de muybuena calidad. Confina el térm por N. con Puzol; E. elmar Mediterráneo; S Puebla de Farnals, y O. Rafelbuñol;su estension es de 1/2 leg. de N. á S., y 1 1/2 de E. á O.;en su radio comprende 2 montes, existiendo en lo alto delque está al O. restos de un cast ó fort., en donde hay unacisterna conocida por la Patada del rey D. Jaime; y á 1/ihora de dist. hácia el O. del pueblo se halla la suprimida Cartuja de Aracristi (V.), cuyoedificio ha sidoenagenado con lastierras de su inmediación que le pertenecían. El terrenoes llano y de muy buena calidad, plantado de viñas, olivos,moreras y algarrobos, y regado en su mayor parte por lahijuela de la acequia de Moneada y las aguas de algunasfuentes que hay en el térm. caminos.- pasa por el O. á cortadist. la carretera de Valencia á Rarcelona. El correo serecibe de la adm. de Valencia, prod.-. trigo, maiz, algarrobas, seda, vino, aceite, frutas, legumbres y hortalizas, ind.:la agrícola, 7 molinos harineros y arroceros, 6 almázaras,3 hornos de pan cocer, una fáb. de albayalde y 2 tiendasabacería, pobl.: 428 vec, 1,759 alm. cap. prod.: 3.237,290reales, imp.: 106,033. contr.-. 37,538.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "PUIG (can)í",
+      "place_type": "predio",
+      "island": null,
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en el valle de Can Axartell en la islade Mallorca, prov. de Raleares, part. jud. de Inca, térm. yjurisd. déla v. de Pollenza; tiene casa rural, molino deaceite y una pequeña fuente.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PUIG (el)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baleare?, part. jud. de Inca, térm. y jurisd. de Lloseta.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PUIG DE LLANAR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "predio en la isla de Mallorca , prov.de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

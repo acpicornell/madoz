@@ -1,0 +1,66 @@
+{
+  "vol": "02",
+  "leaf": 205,
+  "page_printed": "201",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "ALQUERIA (ald. Mallorca, Palma) is OCR-ambiguous: original chocr says 'sit. ea el part. jud. de Ibiza: corresponde á la jurisd. y felig. de la v. de Pálma' — 'Ibiza' here is almost certainly OCR garble (the surrounding context places this aldea under Palma jurisdiction, not Ibiza). Marked as Mallorca/Palma with confidence=medium.",
+  "entries": [
+    {
+      "title": "ALQÜERETS NOUS (los)",
+      "place_type": "fuente",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Fuente en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. de Pollenza. Tiene su nacimiento dentro del torrente de Tornellas en la misma jurisd. y, unida á las fuentes de este nombre, riega las huertas de Cubellos.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Torrente de Tornellas",
+        "Cubellos"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALQÜERETS VEIS (los)",
+      "place_type": "fuente",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Fuente en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. de Pollenza. Tiene su nacimiento en un monte del predio llamado Ternellas, de la misma jurisd., y unida con las denominadas como el predio, riegan la huerta de Cubellos.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Predio Ternellas",
+        "Cubellos"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALQUERIA (ald.)",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Ald. de la isla de Mallorca; corresponde á la jurisd. y felig. de la v. de Palma. Tiene un oratorio público servido por un teniente ó vicario delegado del cura de la matriz. (V. Palma.) [OCR original lee 'part. jud. de Ibiza' — clarament error d'OCR: l'entrada pertany al part. jud. de Palma per context.]",
+      "stats": {},
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "title": "ALQUERIA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

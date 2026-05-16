@@ -1,0 +1,22 @@
+{
+  "vol": "06",
+  "leaf": 265,
+  "page_printed": "261",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CATIU (son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

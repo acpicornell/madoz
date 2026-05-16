@@ -1,0 +1,24 @@
+{
+  "vol": "04",
+  "leaf": 373,
+  "page_printed": "367",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOCAR (ant. Bocchoris ó pueblo Bocchoritano)",
+      "place_type": "pueblo desaparecido",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Pueblo desaparecido en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. de la v. de Pollensa.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa",
+        "Bochorum"
+      ],
+      "confidence": "high",
+      "note": "OCR reads 'BOGAR' — corrected to BOCAR per the Latin form Bocchoris."
+    }
+  ]
+}

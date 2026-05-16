@@ -40,7 +40,13 @@ DB = PROJECT / "db" / "madoz.duckdb"
 PAGES_DIR = PROJECT / "data" / "pages"
 OUT_DIR = PROJECT / "data" / "vision"
 
-MODEL = "claude-sonnet-4-6"
+DEFAULT_MODEL = "claude-sonnet-4-6"
+# Pricing per million tokens (May 2026 list rates, USD).
+MODEL_PRICING = {
+    "claude-opus-4-7":           {"in": 15.00, "out": 75.00},
+    "claude-sonnet-4-6":         {"in": 3.00,  "out": 15.00},
+    "claude-haiku-4-5-20251001": {"in": 1.00,  "out": 5.00},
+}
 
 # Tool schema: the model is forced to call this with a structured list
 # of entries. Anthropic tool-use guarantees the JSON shape on success.
@@ -228,6 +234,7 @@ def extract_page(
     client: anthropic.Anthropic,
     vol: str,
     leaf: int,
+    model: str = DEFAULT_MODEL,
 ) -> dict:
     """Run a single Vision call for the given page; return the parsed result."""
     image_path = PAGES_DIR / f"tomo{vol}_leaf{leaf}.jpg"
@@ -243,7 +250,7 @@ def extract_page(
     )
 
     msg = client.messages.create(
-        model=MODEL,
+        model=model,
         max_tokens=4096,
         system=SYSTEM_PROMPT,
         tools=[TOOL],
@@ -267,7 +274,7 @@ def extract_page(
         "vol": vol,
         "leaf": leaf,
         "page_printed": page_printed,
-        "model": MODEL,
+        "model": model,
         "usage": {
             "input_tokens": msg.usage.input_tokens,
             "output_tokens": msg.usage.output_tokens,
@@ -332,6 +339,9 @@ def main() -> None:
                      help="process every page in chocr_entries not yet done")
     ap.add_argument("--overwrite", action="store_true",
                     help="re-extract pages even if their JSON already exists")
+    ap.add_argument("--model", default=DEFAULT_MODEL,
+                    choices=list(MODEL_PRICING),
+                    help=f"model to use (default {DEFAULT_MODEL})")
     args = ap.parse_args()
 
     if not os.environ.get("ANTHROPIC_API_KEY"):
@@ -352,37 +362,41 @@ def main() -> None:
         print(f"All pages: {len(pairs)}")
 
     total_in = total_out = 0
+    # When comparing models, put the model name in the filename so runs
+    # don't overwrite each other.
+    suffix = "" if args.model == DEFAULT_MODEL else f"_{args.model.split('-')[1]}"
     for vol, leaf in pairs:
-        out_path = OUT_DIR / f"page_{vol}_{leaf}.json"
+        out_path = OUT_DIR / f"page_{vol}_{leaf}{suffix}.json"
         if out_path.exists() and not args.overwrite:
             print(f"  [skip] {out_path.name} already exists")
             continue
         try:
-            print(f"  [GET]  tom{vol} leaf{leaf}...", flush=True)
-            result = extract_page(client, vol, leaf)
+            print(f"  [GET]  tom{vol} leaf{leaf} ({args.model})...", flush=True)
+            result = extract_page(client, vol, leaf, model=args.model)
         except FileNotFoundError as e:
             print(f"  [skip] {e}")
             continue
         except Exception as e:
             print(f"  [fail] tom{vol} leaf{leaf}: {e}", file=sys.stderr)
             continue
-        out = write_result(result)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2))
         ti = result["usage"]["input_tokens"]
         to = result["usage"]["output_tokens"]
         total_in += ti
         total_out += to
-        print(f"  [ok]   {out.name}: {len(result['entries'])} entries "
+        print(f"  [ok]   {out_path.name}: {len(result['entries'])} entries "
               f"(in={ti} out={to} toks)")
         # Polite small pause to avoid bursts
         time.sleep(0.2)
 
     if total_in or total_out:
-        # Sonnet 4.6 pricing: $3 / M input, $15 / M output (May 2026).
-        # Image tokens count as input.
-        cost = total_in / 1_000_000 * 3 + total_out / 1_000_000 * 15
+        rate = MODEL_PRICING[args.model]
+        cost = total_in / 1_000_000 * rate["in"] + total_out / 1_000_000 * rate["out"]
         print()
-        print(f"Tokens: in={total_in:,}  out={total_out:,}")
-        print(f"Estimated cost (non-batch Sonnet 4.6): ${cost:.4f}")
+        print(f"Tokens: in={total_in:,}  out={total_out:,}  ({args.model})")
+        print(f"Estimated cost (non-batch): ${cost:.4f}")
+        print(f"Projected for 684 pages:    ${cost / max(1, len(pairs)) * 684:.2f}")
 
 
 if __name__ == "__main__":

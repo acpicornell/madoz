@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 610,
+  "page_printed": "606",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VALLNEGRE",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "ald. en la isla y dioc. de Mallorca, prov.,aud terr. y c. g. de Baleares, part. jud. de Palma, term. yjunsd. deCalviá, de cuyo 1. depende; tiene una capilla conculto público. . n . , ,.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

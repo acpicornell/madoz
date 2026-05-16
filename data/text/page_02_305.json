@@ -1,0 +1,48 @@
+{
+  "vol": "02",
+  "leaf": 305,
+  "page_printed": "301",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ANDREU (Son)",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ANDRIA (San)",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Ciudadela",
+      "description": "Cala sit. al O. de la isla de Menorca y muy inmediata al puerto de Ciudadela por la parte del S. Tiene á su embocadura una torre abandonada.",
+      "stats": {},
+      "cross_references": [
+        "Ciudadela"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ANDRICHOL",
+      "place_type": "cabo",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "Cabo de la isla, tercio, prov. y distr. marít. de Mallorca. (V. Palma, puerto.)",
+      "stats": {},
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

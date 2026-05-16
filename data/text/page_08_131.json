@@ -1,0 +1,113 @@
+{
+  "vol": "08",
+  "leaf": 131,
+  "page_printed": "127",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FONT (la) [Maria]",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Maria.",
+      "stats": {},
+      "cross_references": [
+        "Maria"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT (la) [Lluví]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Lluví.",
+      "stats": {},
+      "cross_references": [
+        "Lluví"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT (só) [Valldemosa]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Valldemosa",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Valldemosa.",
+      "stats": {},
+      "cross_references": [
+        "Valldemosa"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT (só) [Andraix]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraix.",
+      "stats": {},
+      "cross_references": [
+        "Andraix"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT (só) [San Juan]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "San Juan",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisdicción de la v. de San Juan.",
+      "stats": {},
+      "cross_references": [
+        "San Juan"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT (só) [Petra]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Petra",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Petra.",
+      "stats": {},
+      "cross_references": [
+        "Petra"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT DE LA MENTA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Bañalbufar",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de Bañalbufar.",
+      "stats": {},
+      "cross_references": [
+        "Bañalbufar"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "FONT DELS MONJOS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Deyá",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Deyá.",
+      "stats": {},
+      "cross_references": [
+        "Deyá"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

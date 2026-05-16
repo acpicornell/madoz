@@ -1,0 +1,22 @@
+{
+  "vol": "04",
+  "leaf": 402,
+  "page_printed": "396",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BONET (Son)",
+      "place_type": "porción de terreno",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Porción de terreno en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita; antiguamente constituía parte del predio de su nombre que en el dia se halla muy dividido, pero se conserva la ant. casa y otras cercanas, todas con la misma denominación.",
+      "stats": {},
+      "cross_references": [
+        "Santa Margarita"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

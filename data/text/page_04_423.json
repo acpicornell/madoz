@@ -1,0 +1,35 @@
+{
+  "vol": "04",
+  "leaf": 423,
+  "page_printed": "417",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOSCH",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "BOSCH (Can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollensa; está sit. entre montes: tiene 2 casas que habitan los arrendatarios; su terreno poblado de olivos, cria buenos pastos, principalmente para ganado cabrio.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

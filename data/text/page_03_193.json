@@ -1,0 +1,36 @@
+{
+  "vol": "03",
+  "leaf": 193,
+  "page_printed": "189",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AXARTELL (Can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "AXARTELL (valle de)",
+      "place_type": "valle",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Antiguamente Vall de Binicrexent y ahora de Can Axartell. Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Vall de Binicrexent"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

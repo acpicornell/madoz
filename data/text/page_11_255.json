@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 255,
+  "page_printed": "251",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MARTI (son Sajst)", "place_type": "alquería", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Muro", "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, término y jurisdicción de Muro.", "stats": {}, "cross_references": ["Muro", "Inca"], "confidence": "high"}
+  ]
+}

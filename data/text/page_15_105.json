@@ -1,0 +1,31 @@
+{
+  "vol": "15",
+  "leaf": 105,
+  "page_printed": "101",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TORRES (las)",
+      "place_type": null,
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "desp. en la prov. de Avila, part. jud. deArenas de San Pedro, térm. de Lanzahita (V.).",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "TORRES (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. deAndraitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

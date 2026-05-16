@@ -385,6 +385,7 @@
 {"vol": "07", "leaf": 368, "page_printed": "364", "title": "DAVEZA l la)", "context": "predio en la isla de Mallorca, prov. de Baleares , part. jud. de Manacor, térm. y jurisd. de la v. de Artá.", "source": "regex"}
 {"vol": "07", "leaf": 368, "page_printed": "364", "title": "DAVIU so", "context": "predio en la isla de Mallorca , prov. de Balearespart. jud., térm. y jurisd. de la c. de Palma.", "source": "regex"}
 {"vol": "07", "leaf": 370, "page_printed": "366", "title": "DEGOLLAT (can)", "context": "casa desampo en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. y jurisd. dela v. de Sta. Margarita.", "source": "regex"}
+{"vol": "07", "leaf": 372, "page_printed": "368", "title": "DELEBAU (so", "context": "predio en h tela de Mallorca, prov, de Baleares, part. jud. de Palma térm. y jurisd. de la v. de Lluchmayor.", "source": "regex"}
 {"vol": "07", "leaf": 373, "page_printed": "369", "title": "DENLOSAL", "context": "alq. en la isla de Mallorca, prov. de Baleares,part. ¡ud. de Inca, térm. y jurisd. de la v. de María.", "source": "regex"}
 {"vol": "07", "leaf": 384, "page_printed": "380", "title": "DESLA", "context": "alq. en la isla de Mallorca , prov. de Baleares,part. jud. de Inca , lérm. yjurisd. de la v. de S'meu.", "source": "regex"}
 {"vol": "07", "leaf": 390, "page_printed": "386", "title": "DEYA", "context": "v. con ayunt. en la isla y dióc. de Mallorca, part.jud. de Palma, aud. terr. y c. g de Baleares, sit. en la costaá la parte NO., al pie de u", "source": "regex"}
@@ -615,6 +616,7 @@
 {"vol": "10", "leaf": 469, "page_printed": "463", "title": "LUIS (San)", "context": "1. en la isla y dióc. de Menorca , prov., aud.lerr. y c. .g. de Baleares, part. jud. y ayunt. de la c. de Mahon. sin. en unallanuraalaparteS", "source": "regex"}
 {"vol": "10", "leaf": 481, "page_printed": "475", "title": "LLABlA (son", "context": "predio en la ila de Mallorca , prov. de Baleares, part. jud. de Inca , lérm. v jurisd. de la villa deAlaró.", "source": "regex"}
 {"vol": "10", "leaf": 485, "page_printed": "479", "title": "LLAMPINOU", "context": "casa de campo en la isla de Mallorca, provincia de Baleares, part. jud. de Inca, térm. y jurisd. de lav. de Maria.", "source": "regex"}
+{"vol": "10", "leaf": 485, "page_printed": "479", "title": "LLAMPIVEY", "context": "casa de campo ea la i.sla de Mallorca, provincia de Baleares, part. jud. de luca, térm. y jurisd. de lav. de Maria.", "source": "regex"}
 {"vol": "10", "leaf": 487, "page_printed": "481", "title": "LLANERAS (sój", "context": "predio en la isla de Mallorca, prov. de Baleares, pait. jud. de Manacor, térm. y jurisd. delav.deFelanitx.", "source": "regex"}
 {"vol": "10", "leaf": 495, "page_printed": "489", "title": "LLARCH [ES)", "context": "estanque en la isla de -Mallorca, prov. deBaleare.*, part. jud. de Inca , térm. y jurisd. de la v. de Muro.", "source": "regex"}
 {"vol": "10", "leaf": 497, "page_printed": "491", "title": "LLEBBA", "context": "predio en la isla de Malloica, prov. de Baleares,part. jud. de Inca, térm. y juriíd. de la v. de la Puebla.", "source": "regex"}
@@ -868,6 +870,7 @@
 {"vol": "13", "leaf": 320, "page_printed": "316", "title": "QUINSTILANS", "context": "1. en la prov. de la Coruña, ayunt. deArnés y felig. de San Pedro de Biigallido (V.).. QUINT (so): predio en la isla de Mallorca , prov. de", "source": "regex"}
 {"vol": "13", "leaf": 359, "page_printed": "355", "title": "RABOSTÉ (el)", "context": "predio en la isla de Mallorca, prov deBaleares, part.jud.de Inca, térm. y jurisd.delav.deMaria.", "source": "regex"}
 {"vol": "13", "leaf": 360, "page_printed": "356", "title": "RACHAL ¡so)", "context": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. dePetra.", "source": "regex"}
+{"vol": "13", "leaf": 360, "page_printed": "356", "title": "RACÓ(el)", "context": "ald. en la isla de\" Mallotca, prov., aud. terr.ye g. de Huleares, part.jud. de Palma, ayunt., térm., yjurisd. (le Deyá.", "source": "regex"}
 {"vol": "13", "leaf": 361, "page_printed": "357", "title": "RADÓ (só", "context": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Porreras.", "source": "regex"}
 {"vol": "13", "leaf": 361, "page_printed": "357", "title": "RAFAEL (San)", "context": "prédio en la isla de Menorca , prov. deBaleares, part. jud. de Mahon, térm. y jurisd. de Ala y ir.", "source": "regex"}
 {"vol": "13", "leaf": 362, "page_printed": "358", "title": "RAFAL", "context": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, !érm. y jurisd de la v. de Alaró.", "source": "regex"}
@@ -1107,6 +1110,7 @@
 {"vol": "15", "leaf": 195, "page_printed": "191", "title": "UBACH", "context": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Esporlas.", "source": "regex"}
 {"vol": "15", "leaf": 210, "page_printed": "206", "title": "UGUET", "context": "predio en la isla de Mallorca, prov. de Baleares,part. jud. de Inca, térra, y jurisd. de la v. de Pollenza.", "source": "regex"}
 {"vol": "15", "leaf": 216, "page_printed": "212", "title": "ULLARÓ ó ÜYERÓ", "context": "ald. con oratorio público en la islade Mailorca, prov. de Baleares, part. jud.de Inca, térm.y iurisd. de la v. de C.nmpanel.", "source": "regex"}
+{"vol": "15", "leaf": 315, "page_printed": "311", "title": "VALENCIA (Arzobispado de)", "context": "tiene por sufragáneos losob. de Segorbe, Orihuela, Mallorca y Menorca: su dióc.confina al N. con las de Segoibe, Teruel, Zaragoza y Tortosa;", "source": "regex"}
 {"vol": "15", "leaf": 459, "page_printed": "455", "title": "YALÉNTÍ (so)", "context": "predio en la isla de Malloica, prov. deRaleares, part. jud. de Palma, térm. y jurisd. de la v.de Rañalbufar.", "source": "regex"}
 {"vol": "15", "leaf": 592, "page_printed": "588", "title": "VALLDEMOSA", "context": "v. con ayunt. en la isla y dióc de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. dePalma (2 1/2 leg.): sit. en terreno alto y d", "source": "regex"}
 {"vol": "15", "leaf": 593, "page_printed": "589", "title": "VALLUENEGRE", "context": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, térm. y jurisd. de la la v. deCalviá.", "source": "regex"}

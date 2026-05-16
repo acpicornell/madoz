@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 283,
+  "page_printed": "277",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BERNADASO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Buñola",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola. (V. Buñola.)",
+      "stats": {},
+      "cross_references": ["Buñola"],
+      "confidence": "high"
+    }
+  ]
+}

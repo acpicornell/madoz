@@ -1,0 +1,21 @@
+{
+  "vol": "02",
+  "leaf": 375,
+  "page_printed": "369",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Two ARABI entries on the leaf — only the second (punta de Ibiza) is Balearic; the first (monte en Murcia) is excluded.",
+  "entries": [
+    {
+      "title": "ARABI",
+      "place_type": "punta",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Santa Eulalia",
+      "description": "Punta de la isla, tercio, prov. y distr. marít. de Ibiza, apostadero de Cartagena. Sit. al N. 41º 30' E. del cabo Lebrell, 3 1/2 millas de dist.; es baja, oscura y saliente. Forma por la parte del E. con las islas de Sta. Eulalia la ensenada de este nombre. Al O. de ella, á 1/4 milla, hay una piedra del tamaño de una lancha, que por su parte de tierra no deja paso.",
+      "stats": {},
+      "cross_references": ["Cabo Lebrell", "Santa Eulalia (Ibiza)", "Ensenada de Santa Eulalia"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "vol": "07",
+  "leaf": 164,
+  "page_printed": "160",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COVA (la)",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. y térm. jurisd. de Mahon.",
+      "stats": {},
+      "cross_references": [
+        "Mahon"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COVA DE JANGAR (se)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COVAS (las)",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Santa Maria del Camí",
+      "description": "Aldea en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Sta. Maria.",
+      "stats": {},
+      "cross_references": [
+        "Sta. Maria"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COVAS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Santañí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santañí.",
+      "stats": {},
+      "cross_references": [
+        "Santañí"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COVAS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Campos.",
+      "stats": {},
+      "cross_references": [
+        "Campos"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

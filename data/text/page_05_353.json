@@ -1,0 +1,51 @@
+{
+  "vol": "05",
+  "leaf": 353,
+  "page_printed": "349",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CAMP DES SOLDAT (es)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "note": "OCR reads 'CAMP DES SOLDAD'; standard Catalan form is 'es Camp d'es Soldat'."
+    },
+    {
+      "title": "CAMP DEN BARBETA (es)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "note": "OCR reads 'CAMP DEU BARBETA' — corrected to CAMP DEN BARBETA."
+    },
+    {
+      "title": "CAMP DEN SERRA",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Santa Margarita"
+      ],
+      "confidence": "high",
+      "note": "OCR reads 'CAMP DEU SERRA' — corrected to CAMP DEN SERRA."
+    }
+  ]
+}

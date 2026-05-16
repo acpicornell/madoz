@@ -1,0 +1,20 @@
+{
+  "vol": "01",
+  "leaf": 555,
+  "page_printed": "547",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALGAIRENS",
+      "place_type": "playa",
+      "island": "Menorca",
+      "judicial_district": "Ciudadela",
+      "municipality": null,
+      "description": "Pequeña playa de la isla de Menorca. Sit. al O. de la isla, entre la punta Fontanellas y la de Fray Bernardo. No sirve de abrigo sino para barcos de pescadores.",
+      "stats": {},
+      "cross_references": ["Punta Fontanellas", "Punta de Fray Bernardo"],
+      "confidence": "high"
+    }
+  ]
+}

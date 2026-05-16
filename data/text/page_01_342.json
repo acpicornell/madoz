@@ -1,0 +1,31 @@
+{
+  "vol": "01",
+  "leaf": 342,
+  "page_printed": "334",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALBORAYET DE SON ESTRANY",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALBORAYET DEN ROCA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
+      "stats": {},
+      "cross_references": ["Campanet"],
+      "confidence": "high"
+    }
+  ]
+}

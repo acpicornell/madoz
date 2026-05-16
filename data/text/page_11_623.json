@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 623,
+  "page_printed": "619",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MOSCARI", "place_type": "lugar", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Selva", "description": "L. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva. Tiene un oratorio público de propiedad de los vec. Su pobl. y riqueza unida á Selva.", "stats": {}, "cross_references": ["Selva", "Inca"], "confidence": "high"}
+  ]
+}

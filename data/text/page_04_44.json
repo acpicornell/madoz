@@ -1,0 +1,23 @@
+{
+  "vol": "04",
+  "leaf": 44,
+  "page_printed": "40",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BARRANCO (huertas del)",
+      "place_type": "huerta",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Ferrerías",
+      "description": "Algunas pequeñas casillas con huertas de árboles frutales y alguna hortaliza. Sit. en el fondo de un barranco á 2 leg. de Ciudadela en la isla de Menorca, y á 1/2 leg. de la v. de Ferrerías por la parte del O.; este barranco forma el lím. de los dos términos.",
+      "stats": {},
+      "cross_references": [
+        "Ciudadela",
+        "Ferrerías"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

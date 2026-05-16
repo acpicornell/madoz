@@ -1,0 +1,10 @@
+{
+  "vol": "10",
+  "leaf": 517,
+  "page_printed": "509",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "LLORETO ó LLORITO", "place_type": "lugar", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "L. en la isla y dióc. de Mallorca, part. jud. de Inca, aud. terr. y c. g. de Baleares, ayunt. de Sineu, de cuya parr. es filial la que tiene dedicada á Nuestra Sra. de Loreto, servida por un vicario temporal y amovible que nombra el diocesano. Pobl. y riqueza (V. Sineu).", "stats": {}, "cross_references": ["Sineu"], "confidence": "high"}
+  ]
+}

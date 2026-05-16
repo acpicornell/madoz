@@ -1,0 +1,10 @@
+{
+  "vol": "06",
+  "leaf": 46,
+  "page_printed": "42",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "CASAS BELLAS", "place_type": "estancia", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Mahón", "description": "Estancia en la isla de Menorca, prov. de Baleares, térm. jurisd. de la c. de Mahón.", "stats": {}, "cross_references": ["Mahón"], "confidence": "high"}
+  ]
+}

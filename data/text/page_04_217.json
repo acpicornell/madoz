@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 217,
+  "page_printed": "211",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BENICONVELL (Gran)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Sta. Margarita. Se compone de tierras de sembradío y la mayor parte de selva.",
+      "stats": {},
+      "cross_references": ["Santa Margarita"],
+      "confidence": "high"
+    }
+  ]
+}

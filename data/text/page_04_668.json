@@ -1,0 +1,34 @@
+{
+  "vol": "04",
+  "leaf": 668,
+  "page_printed": "662",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BURGUÉ (Can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia.",
+      "stats": {},
+      "cross_references": ["Alcudia"],
+      "confidence": "high"
+    },
+    {
+      "title": "BURGUET (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubí. Sit. sobre una altura á 1/3 de leg. de la pobl.: comprende 108 cuarteradas de tierra, y tiene hermosa arboleda de frutales como higueras, almendros etc. y 25 casas para secar y beneficiar los higos.",
+      "stats": {
+        "cuarteradas": 108,
+        "casas": 25
+      },
+      "cross_references": ["Llubí"],
+      "confidence": "high"
+    }
+  ]
+}

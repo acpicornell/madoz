@@ -1,0 +1,9 @@
+{
+  "vol": "10",
+  "leaf": 508,
+  "page_printed": "500",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Leaf 508's TARGET appears to scan the same printed page (500) as leaf 506 — duplicate scan in the chocr source. The Balearic entries (LLINAS predio, LLINAS ó MOLINS DE LLINAS, LLINAS can) are already assigned to leaf 506. Empty entries here to avoid double-counting.",
+  "entries": []
+}

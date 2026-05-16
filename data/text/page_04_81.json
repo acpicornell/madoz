@@ -1,0 +1,32 @@
+{
+  "vol": "04",
+  "leaf": 81,
+  "page_printed": "77",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Two entries — first OCR'd as 'BULO (son)' but clearly 'BAULO (Son)' (Sineu); second 'BAULO (Son)' (Sta. Margarita). Both are predios named Son Baulo in different municipalities.",
+  "entries": [
+    {
+      "title": "BAULO (Son) [Sineu]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sineu. (V. Sineu.)",
+      "stats": {},
+      "cross_references": ["Sineu"],
+      "confidence": "high"
+    },
+    {
+      "title": "BAULO (Son) [Santa Margarita]",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sta. Margarita. (V. Santa Margarita.)",
+      "stats": {},
+      "cross_references": ["Santa Margarita"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 224,
+  "page_printed": "218",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BENILLANT",
+      "place_type": "cala",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Cala en la isla de Menorca, prov. y part. de Mahón, tercio de Mallorca, apostadero de Cartagena. Sit. al N. de Cala Mezquita; es poco importante.",
+      "stats": {},
+      "cross_references": ["Mahón", "Cala Mezquita"],
+      "confidence": "high"
+    }
+  ]
+}

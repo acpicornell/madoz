@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 153,
+  "page_printed": "147",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NEGRE (so",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": ": predio en la Isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 383,
+  "page_printed": "379",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "REAL (la",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": ": predio en la isla de Mallorca, prov., aud.terr., c. g. de Raleares, part. jud., térm. y jurisd. de la c.de Palma.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "REAL (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Raleares, part. jud. de Inca , térm. y jurisdicción de la v. deSineu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

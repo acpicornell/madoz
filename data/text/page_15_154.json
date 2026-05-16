@@ -1,0 +1,25 @@
+{
+  "vol": "15",
+  "leaf": 154,
+  "page_printed": "150",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TRENTAPELS (SO)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "predio en la isla de Mallorca, provincia de Baleares, partido j u d . , t é r m . y jurisd. de Manacor.",
+      "stats": {},
+      "cross_references": [
+        "Baleares",
+        "Mallorca",
+        "Manacor"
+      ],
+      "confidence": "high",
+      "source_note": "description from diccionariomadoz.com scrape (OCR title mangled or absent)"
+    }
+  ]
+}

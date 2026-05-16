@@ -1,0 +1,10 @@
+{
+  "vol": "08",
+  "leaf": 262,
+  "page_printed": "258",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FURCIMANI", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Deyá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Deyá.", "stats": {}, "cross_references": ["Deyá"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "vol": "11",
+  "leaf": 30,
+  "page_printed": "26",
+  "window": 4,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Mega-entry. Tail of MAHON ciudad article (cabotage tables 1843-1845, total imports 5.818,966 rs vn; total exports 2.818,794 rs vn) followed by start of MAHON partido judicial article. Historical section traces founding to Carthaginian general Magón, mentioned by Livy, Mela, Plinio, Ptolomeo; passes through Romans, Byzantines (Belisario), Arabs (790 sacked), reconquered by Aragón; sieged by Barbarroja 1535, Piali 1558; English possession 1708-1782 (Treaty of Utrecht, briefly French 1756-1763); title 'capital de la isla' from English period.",
+  "entries": [
+    {"title": "MAHON", "place_type": "ciudad", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Mahón", "description": "Tail of MAHON (c., cab. del part. jud.) article: tablas de comercio 1843-1845 con cabotaje, importación/exportación al extranjero y América. Erario+Partícipes año común 246,882 rs. vn. Año común buques: 440 toneladas 3031 tripulación 1663. Lugar de nacimiento del célebre médico Orfila.", "stats": {"cabotaje_entrada_total_rs": 5818966, "cabotaje_salida_total_rs": 2818794, "rs_erario_anual_comun": 246882}, "cross_references": ["Mahón (part. jud.)", "Menorca (isla)"], "confidence": "high"},
+    {"title": "MAHON", "place_type": "partido judicial", "island": "Menorca", "judicial_district": "Mahón", "municipality": null, "description": "Part. jud. de ascenso en la isla y dióc. de Menorca, prov., aud. terr. y c. g. de Baleares (Palma cap.). Compuesto de la c. de Mahón y los pueblos de Alayor, San Clemente, San Luis y Villa-Carlos. Sit. parte S. de la isla, le combaten vientos del primer cuadrante; clima templado pero vario, propenso á fiebres intermitentes, pleuresías, pulmonías y reumas. Confín N. con part. de Ciudadela, resto rodeado por mar Mediterráneo. Térm. pobladísimo de alquerías, estancias, cortijos y casas de campo de recreo. Terreno: peñasco cubierto con poca tierra pero de calidad productiva. Prod.: trigo bueno y abundante, cebada, vino, patatas, miel, lana, queso, legumbres, naranjas, limones, cáñamo y hortalizas; ganado caballar, lanar, mular y vacuno; pesca del mar incluido esquisitos mariscos del puerto. Industria: telares antiguos de tela ordinaria de hilo, cáñamo y lino. Estadística criminal 1843: 6 acusados.", "stats": {"acusados_1843": 6}, "cross_references": ["Mahón (c.)", "Alayor", "San Clemente", "San Luis", "Villa-Carlos", "Ciudadela"], "confidence": "high"}
+  ]
+}

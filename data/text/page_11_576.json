@@ -1,0 +1,11 @@
+{
+  "vol": "11",
+  "leaf": 576,
+  "page_printed": "572",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Títol al chocr OCR-mangled com 'MONTUIBI' — l'entrada real és MONTUIRI (municipi de Mallorca).",
+  "entries": [
+    {"title": "MONTUIRI", "place_type": "villa", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Montuiri", "description": "V. con ayunt. en la isla y dióc. de Mallorca, part. jud. de Manacor, prov., aud. terr. y c. g. de Baleares. Sit. sobre una colina en medio de un llano rodeado de otras por todas partes excepto por el O. Clima sano, aunque algo frío y húmedo; enfermedades comunes: fiebres intermitentes, pulmonías y reumas. 550 casas, casa consistorial, cárcel; 2 escuelas de instrucción primaria (niños 1100 rs., 40 alumnos; niñas 338 rs., 30 alumnas). Igl. parr. (La Asunta) servida por cura de segundo ascenso (provisión real y ordinaria), 2 vicarios temporales y amovibles (actualmente beneficiados de la parr.), 2 sacerdotes ordenados á título de patrimonio, 4 exclaustrados residentes (no acogidos). Térm.: N. Sineu; E. San Juan; S. Porreras y Lluchmayor; O. Algaida; se estiende 1 leg. en ambas direcciones. Muchos predios rústicos, 3 con oratorios públicos y misa en festivos. En el monte de San Miguel (á 1/2 hora) ermita de Ntra. Sra. de la Paz, con misa en festivos. Terreno arcilloso, feraz y de secano; colinas pobladas de árboles y arbustos. Caminos comarcales más carretera general de Palma. Correo desde Palma miércoles y sábados; despacho martes y viernes. Prod.: trigo, cebada, avena, legumbres, higos pasos y vino; ganado lanar, vacuno, mular y con preferencia de cerda; caza de liebres, conejos, perdices y codornices. Ind.: fáb. de aguardiente y molinos de viento harineros. Comercio: exportación de trigo, higos pasos y cerdos cebados; importación de aceite y efectos coloniales. La pobl. debió ser mucho mayor según vestigios de edificios alrededor y antiguos sepulcros en las colinas inmediatas.", "stats": {"vecinos": 448, "almas": 1867, "cap_imp": 290073, "contr_rs": 78780, "casas": 550}, "cross_references": ["Palma", "Sineu", "San Juan", "Porreras", "Lluchmayor", "Algaida", "Manacor"], "confidence": "high"}
+  ]
+}

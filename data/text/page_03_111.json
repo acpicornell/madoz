@@ -1,0 +1,31 @@
+{
+  "vol": "03",
+  "leaf": 111,
+  "page_printed": "107",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AUBA (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)",
+      "stats": {},
+      "cross_references": ["Muro"],
+      "confidence": "high"
+    },
+    {
+      "title": "AUCANELLA y AUCANELLETA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Dos predios pequeños con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Escorca, en los cuales viven sus arrendatarios. Prod.: trigo, pastos y pocas encinas. (V. Escorca.)",
+      "stats": {},
+      "cross_references": ["Escorca"],
+      "confidence": "high"
+    }
+  ]
+}

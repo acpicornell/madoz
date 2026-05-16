@@ -1,0 +1,10 @@
+{
+  "vol": "09",
+  "leaf": 673,
+  "page_printed": "669",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "JUSEP (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.", "stats": {}, "cross_references": ["Manacor"], "confidence": "high"}
+  ]
+}

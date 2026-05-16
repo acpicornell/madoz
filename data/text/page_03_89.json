@@ -1,0 +1,31 @@
+{
+  "vol": "03",
+  "leaf": 89,
+  "page_printed": "85",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ATALAYA",
+      "place_type": "torre",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Torre en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia. (V. Alcudia.)",
+      "stats": {},
+      "cross_references": ["Alcudia"],
+      "confidence": "high"
+    },
+    {
+      "title": "ATALAYA (la)",
+      "place_type": "monte",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San José",
+      "description": "Monte el más alto de la isla de Ibiza, que se levanta al SO. del l. de San José, á dist. de 1/2 leg. Llámanla Atalaya porque en tiempo de guerra ó epidemia se hacen las señales desde su cima, donde hay una casita á manera de horno, desde la cual se ven todas las calas y puertos de la costa. Cuando ocurre alguna novedad ó se divisa alguna embarcación sospechosa, se llama la atención sobre tal ó cual punto, sonando un cuerno marino. Es uno de los montes que han elegido siempre los astrónomos, que en algunas ocasiones aportan á la isla para hacer sus observaciones, porque además de descubrirse desde su cumbre toda la isla circuida de agua, se ven también la Formentera, la costa del continente desde Benidorme al cabo de Cullera, y en días claros y de horizonte despejado hasta las islas de Munculumbrete por el NO.",
+      "stats": {},
+      "cross_references": ["San José (Ibiza)", "Formentera", "Cabo de Cullera", "Munculumbrete"],
+      "confidence": "high"
+    }
+  ]
+}

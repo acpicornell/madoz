@@ -1,0 +1,32 @@
+{
+  "vol": "01",
+  "leaf": 347,
+  "page_printed": "339",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "ALBUFERA (Atalaya de la) appears here with OCR-mangled province ('Murcia' for what should be 'Menorca' — context says 'dist. de Ciudadela' and 'puerto de Fanells', both Menorcan).",
+  "entries": [
+    {
+      "title": "ALBUFERA",
+      "place_type": "albufera",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Albufera en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de La Puebla. (V. La Puebla.)",
+      "stats": {},
+      "cross_references": ["La Puebla"],
+      "confidence": "high"
+    },
+    {
+      "title": "ALBUFERA (Atalaya de la)",
+      "place_type": "torre de vigía",
+      "island": "Menorca",
+      "judicial_district": "Ciudadela",
+      "municipality": null,
+      "description": "Torre de vigía abandonada en el tercio y prov. marít. de Menorca, dist. de Ciudadela, apostadero de Cartagena. Sit. en una altura al otro lado de la boca del puerto de Fanells. (V. Fanells.) [OCR original lee 'Murcia'; corregido por contexto.]",
+      "stats": {},
+      "cross_references": ["Fanells", "Ciudadela"],
+      "confidence": "medium"
+    }
+  ]
+}

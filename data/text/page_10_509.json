@@ -1,0 +1,9 @@
+{
+  "vol": "10",
+  "leaf": 509,
+  "page_printed": "501",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Leaf 509's content duplicates leaf 507 (same printed page 501). The Balearic entries (LLOBERA Escorca, LLOBERA can LLOBERINA, LLOBERATORO can, LLOBESTS) are already assigned to leaf 507. Empty entries here to avoid double-counting.",
+  "entries": []
+}

@@ -1,0 +1,10 @@
+{
+  "vol": "09",
+  "leaf": 434,
+  "page_printed": "430",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "INÉS (Sta.)", "place_type": "lugar", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "San Antonio", "description": "L. en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr., c. g. de Baleares, perteneciente al distrito municipal de San Antonio. Pobl., riqueza y contr. (V.) Antonio (San).", "stats": {}, "cross_references": ["San Antonio (Ibiza)"], "confidence": "high"}
+  ]
+}

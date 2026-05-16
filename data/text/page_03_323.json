@@ -1,0 +1,22 @@
+{
+  "vol": "03",
+  "leaf": 323,
+  "page_printed": "319",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BALANZAT",
+      "place_type": "cuartón",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "Cuartón de España en la isla de Ibiza; es el menor de todos, y tiene 2,510 hab. Sit. en tierra quebrada y montuosa; su estensión es de 3 leg. Tiene para su defensa una compañía de 300 hombres de milicia.",
+      "stats": {
+        "habitantes": 2510
+      },
+      "cross_references": ["Ibiza"],
+      "confidence": "high"
+    }
+  ]
+}

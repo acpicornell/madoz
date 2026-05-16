@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 553,
+  "page_printed": "549",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "ESCUDER", "place_type": "monte", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Selva", "description": "Monte muy elevado en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Selva.", "stats": {}, "cross_references": ["Selva"], "confidence": "high"}
+  ]
+}

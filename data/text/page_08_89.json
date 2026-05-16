@@ -1,0 +1,12 @@
+{
+  "vol": "08",
+  "leaf": 89,
+  "page_printed": "85",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FIGUERA", "place_type": "cala", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Cala en el predio Formentor de la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Formentor", "Pollenza"], "confidence": "high"},
+    {"title": "FIGUERAL", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Campos", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Campos.", "stats": {}, "cross_references": ["Campos"], "confidence": "high"},
+    {"title": "FIGUERAS (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.", "stats": {}, "cross_references": ["Manacor"], "confidence": "high"}
+  ]
+}

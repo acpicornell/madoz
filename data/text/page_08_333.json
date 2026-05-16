@@ -1,0 +1,22 @@
+{
+  "vol": "08",
+  "leaf": 333,
+  "page_printed": "329",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "GASONS (els)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Maria.",
+      "stats": {},
+      "cross_references": [
+        "Maria"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

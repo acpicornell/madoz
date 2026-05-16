@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 216,
+  "page_printed": "212",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ULLARÓ ó ÜYERÓ",
+      "place_type": "aldea",
+      "island": null,
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "ald. con oratorio público en la islade Mailorca, prov. de Baleares, part. jud.de Inca, térm.y iurisd. de la v. de C.nmpanel.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

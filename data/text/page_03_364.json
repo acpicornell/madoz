@@ -1,0 +1,20 @@
+{
+  "vol": "03",
+  "leaf": 364,
+  "page_printed": "360",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BAÑOLS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Alaró. (V. Alaró.)",
+      "stats": {},
+      "cross_references": ["Alaró"],
+      "confidence": "high"
+    }
+  ]
+}

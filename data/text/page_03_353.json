@@ -1,0 +1,21 @@
+{
+  "vol": "03",
+  "leaf": 353,
+  "page_printed": "349",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Two chocr regex hits — BAÑA (la) is the village in León (false positive); only BAÑAL BUFA is Balearic.",
+  "entries": [
+    {
+      "title": "BAÑAL BUFA",
+      "place_type": "cala",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Pequeña cala en la isla, tercio y prov. marít. de Mallorca, dist. de Soller, apostadero de Cartagena. Sit. entre la punta de Caballo Bernet y el cabo Berger. Tiene un islotillo en su boca.",
+      "stats": {},
+      "cross_references": ["Soller", "Punta de Caballo Bernet", "Cabo Berger"],
+      "confidence": "high"
+    }
+  ]
+}

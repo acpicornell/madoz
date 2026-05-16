@@ -1,0 +1,42 @@
+{
+  "vol": "12",
+  "leaf": 820,
+  "page_printed": "814",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PERELLONET (son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Inca",
+      "description": "alq. en la isla de Mallorca, prov. deBaleares,_part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PERET (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. deLluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PERETÓ so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": ".- predio en la isla de Mallorca, prov. de Baleares , part. jud., térm. y jurisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

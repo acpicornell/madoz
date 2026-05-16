@@ -1,0 +1,35 @@
+{
+  "vol": "07",
+  "leaf": 151,
+  "page_printed": "147",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COSTES DE BELLVEURA",
+      "place_type": "cordillera",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "Cordillera en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Benisalem.",
+      "stats": {},
+      "cross_references": [
+        "Benisalem"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COSTIX",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Lugar en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas. Sit. en terreno llano; tiene una igl. parr. (La Virgen Sma.), aneja de la de dicha v., servida por un vicario temporal y amovible que nombra el diocesano á propuesta del párroco de la matriz, un sacerdote ordenado á título de patrimonio adscrito á la igl. para ayuda del vicario y segunda misa, un sacristán lego y 2 monacillos. Sus confines, calidad del terreno, prod., pobl. y riqueza (V. Sansellas).",
+      "stats": {},
+      "cross_references": [
+        "Sansellas"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

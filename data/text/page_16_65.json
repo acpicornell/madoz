@@ -1,0 +1,20 @@
+{
+  "vol": "16",
+  "leaf": 65,
+  "page_printed": "59",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "V1GUET (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manaoor, térm. y jurisd. de la v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

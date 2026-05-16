@@ -1,0 +1,20 @@
+{
+  "vol": "01",
+  "leaf": 159,
+  "page_printed": "155",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AGUILET",
+      "place_type": "islote",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "Pequeño islote de la isla, del tercio y prov. marít. de Mallorca, dist. de Andraitx. (V. Andraitx: Puerto.)",
+      "stats": {},
+      "cross_references": ["Andraitx"],
+      "confidence": "high"
+    }
+  ]
+}

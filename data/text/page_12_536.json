@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 536,
+  "page_printed": "530",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PALAT (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en la isla de Mallorca , prov. deBaleares, part. jud. de Inca, térm. y jurisd. de la v. dePollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

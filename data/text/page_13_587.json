@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 587,
+  "page_printed": "583",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "RUBERS",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "ald. en la isla de Mallorca, prov. de Bileares,part. jud. de Inca, térm. y jurisd. de la v. de Sansellas.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

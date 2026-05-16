@@ -1,0 +1,20 @@
+{
+  "vol": "16",
+  "leaf": 289,
+  "page_printed": "273",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VILLA ROTJE",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "pobl. desaparecida en la isla de Mallorca,part, jud. de loca, térm. jurisd. de la c. de Alcudia.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

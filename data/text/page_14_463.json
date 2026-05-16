@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 463,
+  "page_printed": "401",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SILLER (can)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térin. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

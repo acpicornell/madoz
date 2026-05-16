@@ -1,0 +1,36 @@
+{
+  "vol": "08",
+  "leaf": 394,
+  "page_printed": "390",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "GERONI (son)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Muro",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro.",
+      "stats": {},
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "GERTRUDIS (Sta.)",
+      "place_type": "parroquia",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Santa Eulalia",
+      "description": "Parroquia ó caserío perteneciente al distrito municipal de Sta. Eulalia en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr., c. g. de Baleares. Consta de varias casas diseminadas, y una igl. parr. (Sta. Eulalia) cuyo curato es de segunda clase.",
+      "stats": {},
+      "cross_references": [
+        "Ibiza",
+        "Sta. Eulalia"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

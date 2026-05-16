@@ -1,0 +1,10 @@
+{
+  "vol": "07",
+  "leaf": 14,
+  "page_printed": "10",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "COREMCA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Campos", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Campos.", "stats": {}, "cross_references": ["Campos"], "confidence": "high"}
+  ]
+}

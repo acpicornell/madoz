@@ -1,0 +1,25 @@
+{
+  "vol": "05",
+  "leaf": 565,
+  "page_printed": "561",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CARGADORES DE LAS SALINAS",
+      "place_type": "cargaderos",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San Francisco de Paula",
+      "description": "Sitios ó cargaderos conocidos con este nombre en la isla de Ibiza, prov. de Baleares, térm. y jurisd. de la parr. de San Francisco de Paula. Para el mas cómodo embarque de las sales de esta isla, hay en ella tres cargadores, denominados el Rojo, el Caballete y la Canal; el primero sit. al E., tiene una plaza capaz de contener mas de 50,000 fan. de esta especie; en la del segundo, que se halla al SE., apenas caben 16,000, y en el tercero, que se encuentra entre el S. y SO., pueden colocarse sobre 27,000. En cada uno hay una casita que sirve de habitación al fiel y al guarda de aquel punto. A ellos concurren á tomar el cargo los barcos menores de la matrícula de esta isla, para conducirlo á bordo de los buques mayores que acuden á comprar la sal para el estrangero, y se hallan surtos en el puerto de Ibiza, por no haber en los cargadores la suficiente agua para fondear estos. En la isla Formentera no hay mas que un cargador con el mismo objeto que los de Ibiza; su plaza puede contener cerca de 8,000 fan. de sal, y tiene también su casita con destino á los propios empleados.",
+      "stats": {
+        "capacidad_rojo_fan": 50000,
+        "capacidad_caballete_fan": 16000,
+        "capacidad_canal_fan": 27000,
+        "capacidad_formentera_fan": 8000
+      },
+      "cross_references": ["Ibiza", "San Francisco de Paula", "Formentera"],
+      "confidence": "high"
+    }
+  ]
+}

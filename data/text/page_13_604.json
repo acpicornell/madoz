@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 604,
+  "page_printed": "600",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "RUTLL0",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": ". pequeña ald. en la isla de Mallorca, part. jud.y térm. jurisd. de la c. de Palma.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

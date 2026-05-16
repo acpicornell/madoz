@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 425,
+  "page_printed": "419",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOSQUE (isla del)",
+      "place_type": "isla",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Ibiza",
+      "description": "En el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena, es una de las tres que se comprenden bajo el nombre de Conejeras y está sit. entre la Conejera grande y la punta de Piedras, tendida casi de NO. á SE. el espacio de 1/2 milla escasa; es bastante alta y acantilada por todas partes, con dos elevados pedruscos en su estremo del NO.",
+      "stats": {},
+      "cross_references": ["Ibiza", "Conejera grande", "Conejeras", "punta de Piedras"],
+      "confidence": "high"
+    }
+  ]
+}

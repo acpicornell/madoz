@@ -1,0 +1,20 @@
+{
+  "vol": "14",
+  "leaf": 207,
+  "page_printed": "203",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SERRAT (el)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov., aud.terr., c. e. de Baleares, part. jud. de Palma, térm. yjunsd. de la v de Algaida.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

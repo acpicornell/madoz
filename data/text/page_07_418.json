@@ -1,0 +1,12 @@
+{
+  "vol": "07",
+  "leaf": 418,
+  "page_printed": "414",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "DRAGO (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Porreras", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Porreras.", "stats": {}, "cross_references": ["Porreras"], "confidence": "high"},
+    {"title": "DRAGO (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Porreras", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Porreras.", "stats": {}, "cross_references": ["Porreras"], "confidence": "high", "note": "Second distinct DRAGO (so) entry in Porreras jurisdiction."},
+    {"title": "DRAGONERA", "place_type": "isla", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Andraitx", "description": "Isla en el archipiélago Balear, tercio y prov. marítima de Mallorca, distrito de Palma, departamento de Cartagena, y prov. civil de Baleares: sit. al O. de la isla de Mallorca; al N. 48° 30' O. dist. 3 millas largas de la mola de Andrache está la punta del SO.; esta isla es bastante alta y tendida de NE. SO. la dist. de 2 millas escasas; en su punto superior tiene una torre, y otra mas baja; su parte del N. es tajada al mar, y de ella para la del S., desciende con proporción hasta el mismo.", "stats": {"largo_millas": 2, "dist_andrache_millas": 3, "rumbo_punta_so": "N. 48° 30' O."}, "cross_references": ["Andraitx"], "confidence": "high"}
+  ]
+}

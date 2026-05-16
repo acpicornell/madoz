@@ -1,0 +1,31 @@
+{
+  "vol": "15",
+  "leaf": 688,
+  "page_printed": "684",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VERNISA",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "alq. en la isla de Mallorca, prov. de Baleares,part. jud. de Inca , término y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "VERNISSA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma , térm. jurisd.de la villa deLluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

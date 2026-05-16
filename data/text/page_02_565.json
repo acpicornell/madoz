@@ -1,0 +1,64 @@
+{
+  "vol": "02",
+  "leaf": 565,
+  "page_printed": "557",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district.",
+  "entries": [
+    {
+      "title": "ARIANT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ARIANT (mina de)",
+      "place_type": "mina",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Vulgo el Clot del Or d'Ariant. Mina de oro en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Ariant"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ARIANT (vulgo Caleta de Ariant)",
+      "place_type": "cala",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Cala en la isla de Mallorca, part. jud. de Inca, térm. y felig. de Escorca. Está en desp. y no se puede entrar en ella sino con el auxilio de lanchas ó barcos pequeños; su terreno es á propósito para trigos buenos, y pastos para el ganado, pero este es de una raza más pequeña que el de los demás puntos de esta isla.",
+      "stats": {},
+      "cross_references": [
+        "Escorca",
+        "Ariant"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ARIANY",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Petra",
+      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma. Sit. en una estensa llanura, libre á la influencia de todos los vientos, con cielo alegre y clima saludable. Se halla enclavado en el térm. de la v. de Petra, de cuya jurisd. y felig. depende y con la que contribuye. Tiene 1 oratorio público servido por 1 vicario del cura de la matriz. (V. Petra.)",
+      "stats": {},
+      "cross_references": [
+        "Petra"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

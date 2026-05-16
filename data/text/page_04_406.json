@@ -1,0 +1,22 @@
+{
+  "vol": "04",
+  "leaf": 406,
+  "page_printed": "400",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOQUETA (Can)",
+      "place_type": "reunión de casas",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Pequeña reunión de casas en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

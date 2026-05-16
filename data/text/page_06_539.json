@@ -1,0 +1,65 @@
+{
+  "vol": "06",
+  "leaf": 539,
+  "page_printed": "535",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "COLONIA (vulgo Coloña)",
+      "place_type": "pueblo desaparecido",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Pueblo desaparecido en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COLOÑA",
+      "place_type": "valle",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COLOÑA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "COLUBRARIA",
+      "place_type": "isla antigua",
+      "island": "Baleares",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "Isla de la costa baleárica, nombrada por Estrabón, Mela y Plinio. Llamóse así por los muchos reptiles y serpientes que la hacían inhabitable. Cuéntase como un fenómeno que llevando á esta isla tierra de la de Ibiza, y haciendo una pequeña cerca con ella, no penetraban las serpientes dentro del círculo. Hoy se llama MontColobrer.",
+      "stats": {},
+      "cross_references": [
+        "Ibiza",
+        "Estrabón",
+        "Plinio",
+        "Mela"
+      ],
+      "confidence": "high",
+      "note": "Identifies ancient Colubraria with modern MontColobrer (likely an islet of the Ibiza-Formentera group)."
+    }
+  ]
+}

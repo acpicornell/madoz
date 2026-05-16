@@ -1,0 +1,22 @@
+{
+  "vol": "08",
+  "leaf": 155,
+  "page_printed": "151",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FORTUÑY (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisdiccional de la v. de Andraix.",
+      "stats": {},
+      "cross_references": [
+        "Andraix"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

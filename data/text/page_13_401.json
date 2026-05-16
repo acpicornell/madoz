@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 401,
+  "page_printed": "397",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "REGANA",
+      "place_type": "cabo",
+      "island": null,
+      "judicial_district": null,
+      "municipality": null,
+      "description": "cabo en la ¡sla, prov. y tercio marítimo de Mallorca, departamento de Cartagena, distrito de Felanitx,térm. jurisd. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

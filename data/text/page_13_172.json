@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 172,
+  "page_printed": "168",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PORTO COLOM",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "prédio en la isla de Mallorca, prov. deBaleares, part.jud. de Manacor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

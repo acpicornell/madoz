@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 573,
+  "page_printed": "569",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BOSA (son)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "casa de campo en la isla de Mallorca, prov.de Baleares, part. jud. de Inca, térm. yjurisd.delav.deSineu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

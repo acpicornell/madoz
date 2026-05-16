@@ -1,0 +1,37 @@
+{
+  "vol": "01",
+  "leaf": 205,
+  "page_printed": "197",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ALARO",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "V. en la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. y adm. de rent. de Inca (2 leg.), dióc. de Palma (3 1/2). SITUACIÓN Y CLIMA. Sit. parte al pie y parte en la falda de un cerro, rodeado de montañas de mayor altura, libre á la influencia de todos los vientos, con clima saludable; sin embargo, se desarrollan con facilidad en la clase jornalera fiebres tercianarias por la insalubridad del terreno en que trabajan. Forma ayunt. con el l. de Consell, dependiente de su jurisd. INTERIOR. Tiene 662 casas, con más dos municipales, una escuela de instrucción primaria elemental concurrida por 60 ú 80 alumnos (el maestro está obligado á enseñar la gramática latina en horas estraordinarias á los jóvenes que á este estudio se dedican); otra de niñas (labores y primeras letras); ambas dotadas por los fondos de propios. La igl. parr. (San Bartolomé) está servida por el cura párroco (con el nombre de rector), tres tenientes, dos beneficiados y un solo titular (las demás vacantes no se proveen). Tres oratorios públicos: uno en el ant. cast. que se ve en la cima del cerro (Ntra. Sra. del Refugio), otro en el predio de Almadrá y otro en el de Son Palou; y hasta trece capillas en igual número de predios. TÉRMINO. Confina N. con Bañol; E. Benisalem; S. Sancellas; O. Sta. María. Estension de N. á S. 2 leg., de E. á O. 1 leg. Comprende el l. de Consell y los predios: Almadrá, Son Antelm, Artigues, Bañol, La Bastida, Berge, Son Borrás, Cabanatables, Cladera, Son Corro, Son Curt, Encabena, Son Fiol, Fontgarrove, Son Forteza, Son Fuster, Son Frau, Son Grau, Guinot, Son Guitart, Son Jonog, Son Llabia, Son Maynon, Oficiar, Oliveret, Son Palou, Son Peñaflor, Son Pere Antoni, Puig, Rafal, Son Sant Juan, Sollarich, Tanlero, Verguer y el Tofla (dividido en Can Geroni, Can Negret y Can Sech). Los más notables: Almadrá (que llevó en tiempos el nombre del l.), Son Sant Juan y Sollarich (da nombre á un marquesado). Especie de volcán de aire llamado el Bufiador (soplador). TERRENO cultivable de buena calidad y muy feraz; se riega con el agua de una fuente que brota en el predio de Artigues, pasa por el pueblo (saludable bebida á los vec.) y pone en movimiento hasta 10 molinos harineros. Plantaciones de moreras, olivos, almendros, higueras, algarrobas y viñedo; en lo erial y montuoso, bosques de encinas, pinos, arbustos y maleza con abundantes yerbas de pasto. CANTERAS de mármol matizado de negro y blanco con puntas semejantes á las almendras, susceptible de hermoso pulimento. PRODUCCIONES: aceite, vino, almendra, higos, algarroba, seda, trigo candeal, trigo común, cebada, legumbres, pocas hortalizas y algunas frutas; cria ganado lanar, de cerda y caballar. INDUSTRIA: 10 molinos harineros de agua, 5 de viento, 45 de aceite, 3 fáb. de aguardiente, 3 de fideos, 7 jabonerías de jabón fuerte, 4 de blanco, 1 tejar, 13 telares de lienzos ordinarios y los oficios más comunes. COMERCIO: frutos sobrantes. POBL.: 973 vec., 4,081 alm. CAP. IMP.: 493,083 rs. CONTR.: 30,290 rs. 10 mrs. vn.",
+      "stats": {
+        "casas": 662,
+        "vecinos": 973,
+        "almas": 4081,
+        "riqueza_imponible": 493083,
+        "contribucion_rs": 30290,
+        "contribucion_mrs": 10,
+        "molinos_agua": 10,
+        "molinos_viento": 5,
+        "molinos_aceite": 45,
+        "fab_aguardiente": 3,
+        "fab_fideos": 3,
+        "jabonerias_jabon_fuerte": 7,
+        "jabonerias_blanco": 4,
+        "tejares": 1,
+        "telares_lienzo": 13,
+        "alumnos_ninos": 80
+      },
+      "cross_references": ["Consell", "Bañol", "Benisalem", "Sancellas", "Santa María", "Almadrá", "Son Sant Juan", "Sollarich"],
+      "confidence": "high"
+    }
+  ]
+}

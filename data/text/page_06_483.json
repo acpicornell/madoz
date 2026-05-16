@@ -1,0 +1,40 @@
+{
+  "vol": "06",
+  "leaf": 483,
+  "page_printed": "479",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CLEDE (se)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubi.",
+      "stats": {},
+      "cross_references": [
+        "Llubi"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "CLEMENTE (San)",
+      "place_type": "aldea",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Ald. en la isla y dióc. de Menorca (Ciudadela 8 leg.), part. jud. y ayunt. de Mahon (1 1/2), aud. terr., c. g. de Baleares (Palma 33): sit. en un llano al O. de la cab. del part.; le combaten en invierno los vientos de NO. á NE. y en verano los del E.; su clima, aunque vario, es templado y saludable, y las enfermedades comunes fiebres intermitentes. Tiene 130 casas, una escuela de instrucción primaria concurrida por 30 discípulos, dotada con 3,100 rs. pagados de los fondos del ayunt. de Mahon, y una igl. parr. (San Clemente) aneja de la de dicha c., servida por un vicario perpetuo de provisión del diocesano, y un sacristán que nombra el vicario. Los vec. se surten de aguas de aljibes y de pozos. No tiene térm. propio por hallarse enclavado en el de Mahon. El terreno es peñascoso con una ligera capa de tierra, pero de buena calidad en su mayor parte, todo perfectamente cultivado, y tal vez el mas productivo de la isla; cria acebuches y mata baja. PROD.: cereales, legumbres, uvas y otras frutas; cria ganado vacuno, mular, lanar y de cerda, y caza de conejos, erizos y volatería. Nota: en visita del 16 mayo 1835 el ob. Fr. Juan Díaz Merino quiso dar limosna y no encontró ningún menesteroso en el distrito.",
+      "stats": {
+        "casas": 130,
+        "escuela_alumnos": 30,
+        "escuela_dotacion_rs": 3100
+      },
+      "cross_references": [
+        "Mahon",
+        "Ciudadela"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

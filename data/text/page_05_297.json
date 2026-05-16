@@ -1,0 +1,25 @@
+{
+  "vol": "05",
+  "leaf": 297,
+  "page_printed": "293",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CALONGE",
+      "place_type": "reunión de casas",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Santañí",
+      "description": "Reunión de unas 40 casas en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. y al E. de la v. de Santañí. Hace muchos años que sus hab. construyeron á sus espensas un oratorio, donde se celebra misa los dias festivos, no tiene ale. p., ni vicario, y es en un todo dependiente de dicha v. de Santañí. (V.)",
+      "stats": {
+        "casas": 40
+      },
+      "cross_references": [
+        "Santañí",
+        "Manacor"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

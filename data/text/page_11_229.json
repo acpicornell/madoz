@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 229,
+  "page_printed": "225",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MARIA (Santa)", "place_type": "villa", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Santa Maria del Camí", "description": "V. con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma. Sit. al N. de Palma con buena ventilación y clima sano. 600 casas. Igl. parr. (Ntra. Sra. del Buen Camino), de la que es aneja la de Sta. Eugenia, servida por cura de segundo ascenso (provisión real y ordinaria), 2 vicarios temporales y amovibles, 2 beneficiados, 5 sacerdotes adscritos al servicio (con obligación de asistir al confesonario, coro y demás). Térm. confina con Alaró, Buñola, San Marcial y Binisalem. Terreno de buena calidad; varios caminos carreteros y locales. Prod.: cereales con escasez, abundante aceite, vino y algarrobas; ganado lanar y vacuno; caza de diversas especies.", "stats": {"vecinos": 464, "almas": 1918, "contr_1846": 43974, "casas": 600}, "cross_references": ["Palma", "Alaró", "Buñola", "San Marcial", "Binisalem", "Santa Eugenia"], "confidence": "high"}
+  ]
+}

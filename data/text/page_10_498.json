@@ -1,0 +1,11 @@
+{
+  "vol": "10",
+  "leaf": 498,
+  "page_printed": "492",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "OCR title heavily garbled ('LLE.\\An\\E') but description clearly matches a predio in Pollenza, Inca. Likely 'LLENAIRE' (well-known Pollenza locality).",
+  "entries": [
+    {"title": "LLENAIRE", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "medium"}
+  ]
+}

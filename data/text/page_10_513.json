@@ -1,0 +1,78 @@
+{
+  "vol": "10",
+  "leaf": 513,
+  "page_printed": "505",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "LLODRA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Manacor",
+      "description": "Predio en la isla de Mallorca, part. jud., térm. y jurisd. de la v. de Manacor; tiene un oratorio público de propiedad y patronato particular, con misa en los días festivos, para los colonos de 8 predios rústicos de la comarca.",
+      "stats": {},
+      "cross_references": [
+        "Manacor"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "LLOGARET",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Alayor",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor.",
+      "stats": {},
+      "cross_references": [
+        "Alayor"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "LLOMBARTS",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Santañí",
+      "description": "Ald. en la isla y dióc. de Mallorca, part. jud. de Manacor, prov., aud. terr., c. g. de Baleares. Sit. en una pequeña elevación; tiene 104 casas de pobre aspecto, y un oratorio con culto público, y misa en los días festivos para unos 70 vec. de la comarca; depende en todo de la v. de Santañí, y próximo á la pobl. se hallan los predios nombrados son Amor y Rafal de San Porchs.",
+      "stats": {
+        "casas": 104
+      },
+      "cross_references": [
+        "Santañí",
+        "son Amor",
+        "Rafal de San Porchs"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "LLOMPART (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubí. (OCR: 'Lliivi'.)",
+      "stats": {},
+      "cross_references": [
+        "Llubí"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "LLOMPARDET (son)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Maria",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María.",
+      "stats": {},
+      "cross_references": [
+        "María (de la Salud)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

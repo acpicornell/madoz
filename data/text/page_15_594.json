@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 594,
+  "page_printed": "590",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VALLDURGENT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Calviá",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, térm. jurisd. de la v. deCalviá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

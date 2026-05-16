@@ -138,3 +138,49 @@ CREATE INDEX IF NOT EXISTS idx_vision_entries_island
     ON vision_entries(island);
 CREATE INDEX IF NOT EXISTS idx_vision_entries_municipality
     ON vision_entries(municipality);
+
+-- Text-extracted entries (Phase 3, OCR-text path) ----------------------
+
+-- One row per Madoz entry, populated by Claude (Sonnet via API, or Opus
+-- in-conversation under Max) reading the chocr plaintext for each leaf.
+-- Same shape as vision_entries but kept separate so we never confuse
+-- text-derived rows with image-derived ones — stats accuracy differs
+-- (OCR digit corruption vs. visual ground truth).
+CREATE SEQUENCE IF NOT EXISTS seq_text_id START 1;
+
+CREATE TABLE IF NOT EXISTS text_entries (
+    id                 INTEGER PRIMARY KEY DEFAULT nextval('seq_text_id'),
+    vol                TEXT NOT NULL,
+    leaf               INTEGER NOT NULL,
+    page_printed       TEXT,
+    title              TEXT NOT NULL,        -- as cleaned by the LLM
+    place_type         TEXT,
+    island             TEXT,
+    judicial_district  TEXT,
+    municipality       TEXT,
+    description        TEXT,
+    stats              JSON,                 -- {casas,vecinos,almas,…}
+    cross_references   TEXT[],
+    confidence         TEXT,                 -- 'high' | 'medium' | 'low'
+    -- Multi-leaf window used at extraction time. 2 = target + 1 next
+    -- leaf; 4 = mega-entry sliding window (PALMA, MAHON, …).
+    window_size        INTEGER,
+    -- Provenance for reproducibility.
+    model              TEXT,                 -- e.g. 'claude-sonnet-4-6' or
+                                             -- 'claude-opus-4-7-via-claude-code'
+    source_file        TEXT,                 -- 'data/text/page_<vol>_<leaf>.json'
+    note               TEXT,                 -- top-level "note" field, if any
+    -- Optional links back to the regex index and curated mirror.
+    chocr_entry_id     INTEGER,
+    madoz_entry_id     INTEGER,
+    extracted_at       TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_text_entries_vol_leaf
+    ON text_entries(vol, leaf);
+CREATE INDEX IF NOT EXISTS idx_text_entries_title
+    ON text_entries(title);
+CREATE INDEX IF NOT EXISTS idx_text_entries_island
+    ON text_entries(island);
+CREATE INDEX IF NOT EXISTS idx_text_entries_municipality
+    ON text_entries(municipality);

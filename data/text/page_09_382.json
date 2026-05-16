@@ -1,0 +1,12 @@
+{
+  "vol": "09",
+  "leaf": 382,
+  "page_printed": "378",
+  "window": 4,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Two IBIZA articles cross this leaf. First: tail of IBIZA city article (cabotage tables for 1844-1845, population 1233 vec/5031 alm, history mention of bishopric created 1783). Second: beginning of IBIZA partido judicial article, describing the judicial district structure (5 cuartones, now 5 municipal districts plus Formentera). Statistics table continues on next leaf.",
+  "entries": [
+    {"title": "IBIZA", "place_type": "ciudad", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "Ibiza", "description": "Tail of city article: tablas de cabotaje 1844-1845 (entrada total 4.839,311 rs. vn.; salida total 1.476,374 rs. vn.); población 1,233 vec., 5,031 alm., cap. imp.: 121,093. En 1783 D. Carlos III concedió título de Ciudad á Ibiza, erigiéndola sede episcopal sufragánea de Tarragona, siendo su primer obispo D. Fray Manuel Abad y Lasierra. Hace por armas como toda la isla, en escudo dorado las barras de Aragón.", "stats": {"vecinos": 1233, "almas": 5031, "cap_imp": 121093, "cabotaje_entrada_total_rs": 4839311, "cabotaje_salida_total_rs": 1476374}, "cross_references": ["Ibiza (isla)", "Tarragona"], "confidence": "high"},
+    {"title": "IBIZA", "place_type": "partido judicial", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": null, "description": "Part. jud. de entrada en la prov. civil, aud. terr., c. g. de Baleares; corresponde á la dióc. de su nombre y á la prov. y part. marítimo del mismo, en el tercio de Mallorca, depart. de Cartagena. Comprende las islas de Ibiza y Formentera; se compone de una c., 5 v. y 14 l., que forman 6 ayunt. La isla de Ibiza se dividía en 5 cuartones: del Llano de la v. (cab. Ibiza c.), Sta. Eulalia, Balanzat, Pormany y Salinas. Estos 5 cuartones son hoy otros tantos distritos municipales, cuyas cab. son Ibiza, San Juan Bautista, Sta. Eulalia, San José y San Antonio Abad. La isla de Formentera forma solo el distrito municipal de su nombre. Estadística criminal 1843: 58 acusados.", "stats": {"acusados_1843": 58, "ayuntamientos": 6, "ciudades": 1, "villas": 5, "lugares": 14}, "cross_references": ["Ibiza (isla)", "Formentera", "Sta. Eulalia", "San Juan Bautista", "San José", "San Antonio Abad"], "confidence": "high"}
+  ]
+}

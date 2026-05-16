@@ -1,0 +1,35 @@
+{
+  "vol": "01",
+  "leaf": 165,
+  "page_printed": "161",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AGUSTIN (escalón de S.)",
+      "place_type": "caleta",
+      "island": "Formentera",
+      "judicial_district": "Ibiza",
+      "municipality": "Formentera",
+      "description": "Caleta en la isla de Formentera, tercio, prov. y dist. marít. de Ibiza, apostadero de Cartagena. Sit. á 3/4 milla al SSO. de la punta de la Mola, en la costa del N. Llámase Escalón de S. Agustín desde que unos frailes agustinos que en siglos pasados fueron á establecerse en la Mola saltaron en tierra por este punto.",
+      "stats": {},
+      "cross_references": ["La Mola", "Formentera"],
+      "confidence": "high"
+    },
+    {
+      "title": "AGUSTIN (San)",
+      "place_type": "parroquia",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San José",
+      "description": "Parr. al O. de la isla, part. jud., adm. de rent. y dióc. de Ibiza (3 horas), prov., aud. terr. y c. g. de las Baleares, apostadero de Cartagena. Es pedáneo del pueblo de San José, con el que contribuye. Tiene una igl. parr. bajo la advocación de S. Agustín, servida por un cura párroco. Era antes hijuela de la de San José y componía una de sus 4 vendas (denominada del Yedra), pero á instancias de sus vec. se construyó y declaró independiente en el año 1790. Térm. de 3 leg., con casas esparramadas; confina N. y O. con la costa del mar, E. con el térm. de San Antonio, SO. con el de San José. En la costa, de N. á O.: punta de Chincho (entrada N. del puerto de San Antonio), cala de Bov, puerto del Torrente (donde desagua el único torrente que divide la parr. en dos mitades), la Balsa cala, punta de Rubira, cala Cante (donde se pesca el caramel más sabroso que se conoce), cala Curáis, cala Terrida y cala Molino. Sobre la punta de Rubira á 50 varas del mar hay una torre con 2 cañones de á 24 para impedir que barcos contrabandistas y corsarios se guarezcan en las islas Conejeras, Esparta y del Bosque (á 1/2 milla). Terreno entre montuoso y llano, de buena calidad. PROD.: trigo, cebada, almendra y vino, el más preferido de toda la isla. POBL.: 123 vec., 751 alm.",
+      "stats": {
+        "vecinos": 123,
+        "almas": 751,
+        "torre_canones_24": 2
+      },
+      "cross_references": ["San José", "San Antonio", "Conejeras", "Espartar", "Es Bosc"],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 152,
+  "page_printed": "146",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NEBOT (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "predio en la isla de Mallorca, prov. de Baleares , part. jud. de Inca, térm. jurisd. de la v. de Escorca.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

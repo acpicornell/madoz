@@ -1,0 +1,42 @@
+{
+  "vol": "13",
+  "leaf": 439,
+  "page_printed": "435",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "REUS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca, prov. de Baleares , part. jud. de Palma, térm. jurisd. de la v. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "REVELLAR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jua. de Manacor, térm. y jurisd. de la v. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "REVELLARET",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manacor, yjurisd. de la v. de Campos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

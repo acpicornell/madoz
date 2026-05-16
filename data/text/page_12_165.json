@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 165,
+  "page_printed": "159",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "NICOLAU (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manacor, térm. y jurisd. de la y. deCampos.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

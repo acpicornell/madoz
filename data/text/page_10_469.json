@@ -1,0 +1,10 @@
+{
+  "vol": "10",
+  "leaf": 469,
+  "page_printed": "463",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "LUIS (San)", "place_type": "lugar", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Mahón", "description": "L. en la isla y dióc. de Menorca, prov., aud. terr. y c. g. de Baleares, part. jud. y ayunt. de la c. de Mahón. Sit. en una llanura á la parte S. de la isla, con buena ventilación y clima sano. Tiene 472 casas, que forman 4 calles y 5 travesías; 2 escuelas de instrucción primaria (38 alumnos varones, dotación 1,580 rs. vn.; 34 niñas, dotación 400 rs.); igl. parr. (San Luis rey de Francia) servida por cura de ingreso de provisión real y un vicario; cementerio dist. 1/2 milla de la pobl.; aljibes y pozos. Térm. confina N. y O. Mahón, E. Villacarlos y el mar, S. el mar; se estiende 2 leg. de N. á S. y 1/2 de E. á O. Jurisd. comprende las aldeas/caseríos Binifadet, Barracas, Barqueras, Biniali, Consell, Pollestras, Paaon y Torret; 43 estancias y 8 cortijadas. Terreno llano de mediana calidad con arbolado de encinas, acebuches y lentiscos. Prod.: trigo, cebada y legumbres; ganado vacuno, mular, lanar y de cerda. Ind.: 2 molinos harineros de viento.", "stats": {"vecinos": 473, "almas": 1938, "cap_imp": 124873, "casas": 472, "molinos_viento": 2, "estancias": 43, "cortijadas": 8}, "cross_references": ["Mahón", "Villacarlos"], "confidence": "high"}
+  ]
+}

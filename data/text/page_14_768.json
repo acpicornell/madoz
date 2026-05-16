@@ -1,0 +1,31 @@
+{
+  "vol": "14",
+  "leaf": 768,
+  "page_printed": "706",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TERMENÓ",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "predio en ta isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "TERNELLAS",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": ". predio en la isla de Mallorca, prov. de Baleares , part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

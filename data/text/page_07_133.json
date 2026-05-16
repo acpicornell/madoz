@@ -1,0 +1,22 @@
+{
+  "vol": "07",
+  "leaf": 133,
+  "page_printed": "129",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CORVERA (vulgo son costa)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

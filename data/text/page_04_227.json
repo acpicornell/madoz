@@ -1,0 +1,20 @@
+{
+  "vol": "04",
+  "leaf": 227,
+  "page_printed": "221",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BENIMORRACH",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Escorca. Está sit. entre montes en parage muy frío; tiene una mala casa y prod. pastos y poco trigo.",
+      "stats": {},
+      "cross_references": ["Escorca"],
+      "confidence": "high"
+    }
+  ]
+}

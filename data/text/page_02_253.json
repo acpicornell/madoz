@@ -1,0 +1,20 @@
+{
+  "vol": "02",
+  "leaf": 253,
+  "page_printed": "249",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "AMITJER (Casa lo Amitjer)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio con cas. en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Escorca. Tiene bosque de encinas, en que se ceban muchos cerdos; hay fuentes de aguas de las más finas de la isla, y es abundante en caza de perdices, liebres y conejos. (V. Escorca.)",
+      "stats": {},
+      "cross_references": ["Escorca"],
+      "confidence": "high"
+    }
+  ]
+}

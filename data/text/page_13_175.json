@@ -1,0 +1,31 @@
+{
+  "vol": "13",
+  "leaf": 175,
+  "page_printed": "171",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PORRASSA (la)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Calviá",
+      "description": "prédio en la isla de Mallorca, prov. deBaleares , part. jud. de Palma, térm. y jurisd. de la v. deCalviá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "PORRAT (son)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "prédio en la isla de Mallorca, prov.deBaleares, part. jud. de Inca, térm. y jurisd. de la v. deSineu.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

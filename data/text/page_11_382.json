@@ -1,0 +1,52 @@
+{
+  "vol": "11",
+  "leaf": 382,
+  "page_printed": "378",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "MENORCA",
+      "place_type": "isla",
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "Isla en el mar Mediterráneo. (V. Mallorca, provincia.)",
+      "stats": {},
+      "cross_references": [
+        "Mallorca (provincia)"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "MENORCA (diócesis)",
+      "place_type": "diócesis",
+      "island": "Menorca",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "Dióc. sufragánea del arzob. de Valencia. Se compone de la isla de su nombre, una de las que forman la prov. civil de Baleares. Reside en Ciudadela la silla episcopal y la catedral, en que hay 2 dignidades, 10 canónigos y 4 pabordes, todos de presentación real y ordinaria, excepto la primera dignidad que lo es de S.M. exclusivamente. Estado eclesiástico: 11 pueblos; 8 parroquias matrices, 4 filiales/sufragáneas; capillas e iglesias de conv. suprimidos y existentes: 1 (?); 35 ermitas u oratorios públicos. Total templos: 54. Párrocos: 1 canónigo, 7 propios existentes (total 8). Tenientes: 2, vicarios: 19, beneficiados: 61. Curatos: 2 de entrada, 1 primer ascenso, 2 segundo ascenso, 2 de término (total 7). Sacristanes y dependientes: 30. Historia: Magon cartaginés rechazado de Mallorca encontró acogida aquí. Romanos, bárbaros y árabes la dominaron paralelamente con Mallorca; integrada en el reino de Aragón y luego en el reino de las Baleares. En 1708 los ingleses se apoderaron de la isla y la conservaron hasta 1782, cuando una expedición franco-española dirigida por el duque de Crillon desembarcó en Mahón y, tras el sitio del cast. de San Felipe, rindió la plaza el 4 de febrero de 1782. Recuperada por los ingleses en noviembre de 1798 durante la campaña de Egipto de Bonaparte; restituida a España por la paz de Amiens (1802).",
+      "stats": {
+        "pueblos": 11,
+        "parroquias_matrices": 8,
+        "parroquias_filiales": 4,
+        "ermitas_oratorios": 35,
+        "templos_total": 54,
+        "dignidades": 2,
+        "canonigos": 10,
+        "pabordes": 4,
+        "parrocos_propios": 8,
+        "tenientes": 2,
+        "vicarios": 19,
+        "beneficiados": 61,
+        "curatos_total": 7
+      },
+      "cross_references": [
+        "Mallorca",
+        "Ciudadela",
+        "Mahón",
+        "Valencia (dióc.)"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

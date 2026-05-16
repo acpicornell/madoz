@@ -1,0 +1,42 @@
+{
+  "vol": "13",
+  "leaf": 81,
+  "page_printed": "77",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "PLANA GRAN (la)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "prédio en el va le den March, en laisla de Mallorca, prov. de Baleares, part. jud. de Inca,térm. yjui isd.de la v. de Podenza; tiene un molino deaceite.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "PLANA PETITA (la)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "predio en el valle den March , en laisla de Mallorca, prov. de Baleares, part. jud. de Inca, term.y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "PLANAS (las)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud., térm. y jurisd. de la v. de Menacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

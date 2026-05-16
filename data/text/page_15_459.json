@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 459,
+  "page_printed": "455",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "YALÉNTÍ (so)",
+      "place_type": "predio",
+      "island": null,
+      "judicial_district": "Palma",
+      "municipality": "Bañalbufar",
+      "description": "predio en la isla de Malloica, prov. deRaleares, part. jud. de Palma, térm. y jurisd. de la v.de Rañalbufar.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vol": "05",
+  "leaf": 15,
+  "page_printed": "11",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CABANA",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Binisalem",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Binisalem.",
+      "stats": {},
+      "cross_references": [
+        "Binisalem"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

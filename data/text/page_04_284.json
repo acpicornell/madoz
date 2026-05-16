@@ -1,0 +1,22 @@
+{
+  "vol": "04",
+  "leaf": 284,
+  "page_printed": "278",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "BERNAT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Llubí. Está sit. en una altura á 1/2 cuarto de leg. de la pobl., y consta de 85 cuarteradas de tierra llana, de secano, poblada de medianos algarrobos con 2 pequeños bosques. Tiene casa rústica, y le cruza un torrente por la parte del N.",
+      "stats": {
+        "cuarteradas": 85
+      },
+      "cross_references": ["Llubí"],
+      "confidence": "high"
+    }
+  ]
+}

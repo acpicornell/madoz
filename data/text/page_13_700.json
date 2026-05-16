@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 700,
+  "page_printed": "696",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SALI (so)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": null,
+      "description": "prédio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    }
+  ]
+}

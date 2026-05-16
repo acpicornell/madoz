@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 689,
+  "page_printed": "685",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "VERTAHENT",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

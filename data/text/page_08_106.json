@@ -1,0 +1,13 @@
+{
+  "vol": "08",
+  "leaf": 106,
+  "page_printed": "102",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FIOL (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Palma", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.", "stats": {}, "cross_references": ["Palma"], "confidence": "high"},
+    {"title": "FIOL (son) [Alaró]", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alaró", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaró.", "stats": {}, "cross_references": ["Alaró"], "confidence": "high"},
+    {"title": "FIOL (son) [Inca]", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Inca", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.", "stats": {}, "cross_references": ["Inca"], "confidence": "high"},
+    {"title": "FIOL (son) [Llubí]", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Llubí", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubí.", "stats": {}, "cross_references": ["Llubí"], "confidence": "high"}
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "vol": "02",
+  "leaf": 298,
+  "page_printed": "294",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "ANDRAIX/ANDRACHE article spans leaves 298–299 (full description, term., port, terreno, ind., pobl. block extracted across both leaves).",
+  "entries": [
+    {
+      "title": "ANDRAIX ó ANDRACHE",
+      "place_type": "villa con ayuntamiento",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "V. con ayunt. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. y dióc. de la Palma (5 1/4 leg.). Sit. al O. de la isla, en la falda de un cerro donde le combaten libremente todos los vientos; su clima es naturalmente sano, pero las exhalaciones mefíticas que con el calor del verano se levantan de las aguas detenidas en una laguna que hay próxima al mar, desarrollan en aquella estación muchas tercianas. Forman la pobl. 715 casas de buena fáb., distribuidas en calles espaciosas y limpias, y en plazas de grandes dimensiones, y adornadas de buenos edificios. Hay una aduana de cuarta clase con sus correspondientes empleados; una escuela de instrucción primaria elemental bien concurrida y dotada decorosamente por los fondos de propios, y una igl. parr. bajo la advocación de San Bartolomé, servida por 1 cura, 2 vicarios, un beneficiado, 6 sacerdotes ordenados á título de patrimonio, acogidos para confesar y agonizar; 6 también ordenados al mismo título adscritos á la igl. sin especial obligación; 1 sacristán y 2 monacillos. El curato es de 2.º ascenso, y se provee por S. M. ó el diocesano, previa oposición en concurso general. Ademas de la igl. parr. hay abiertas con culto público una capilla del Sto. Cristo de la Racó, dist. 3/4 de hora de aquella, y 3 oratorios rurales de propiedad particular con misa en los días festivos. El térm. confina por N. con el de Puigpuñent (5/4 leg.), por E. con el Calviá (1), y por S. y O. con el mar. Dentro de este radio se encuentran 4 masías, 129 casas de campo y de recreo, la laguna ó albufera arriba mencionada á 1 hora al O., á 1/2 en la misma dirección el puerto, y al frente de esta y separado por un pequeño canal de poco más de 1/4 de ancho, la isla de la Dragonera. El puerto corresponde al tercio y prov. marít. de Mallorca, apostadero de Cartagena: está sit. al O. entre la Mola llamada también de Andrache y el cabo Falcon, á 2 millas de la v.; es puerto de cuarta clase y cab. de su distr. marít., cuenta 380 hombres matriculados y 114 pescadores; el número de buques de aquella matrícula asciende á 11 de primera clase, 25 de segunda, 17 de tercera y 21 de cuarta. Terreno: en general escabroso y de menos que mediana calidad, escaso de aguas; en lo cultivado crecen muchos olivos, algarrobos, frutales y poco viñedo; los montes están poblados de encina, pinos, arbustos y ricas yerbas de pasto, y en diferentes parages hay canteras de un mármol muy esquisito de mezcla entre rojo y blanco. Prod.: trigo, cebada, avena, legumbres, aceite, algarrobas, poco vino pero muy esquisito, y algunas frutas y hortalizas; cria ganado lanar, cabrio, vacuno y de cerda. Ind.: la pesca (114 personas), hilado de estambre y lino (387 mujeres), telares de lienzos ordinarios, 2 alfarerías, 3 molinos de aceite, la arriería y las profesiones y oficios mecánicos mas generales. Comercio: importación y esportación por su puerto.",
+      "stats": {
+        "casas": 715,
+        "vecinos": 1155,
+        "almas": 4609,
+        "cap_imp_rs": 633789,
+        "contr_rs": 14800,
+        "contr_mrs": 17,
+        "matriculados": 380,
+        "pescadores": 114,
+        "buques_1": 11,
+        "buques_2": 25,
+        "buques_3": 17,
+        "buques_4": 21
+      },
+      "cross_references": [
+        "Puigpuñent",
+        "Calviá",
+        "Dragonera",
+        "Palma",
+        "Mola de Andrache",
+        "Cabo Falcon"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

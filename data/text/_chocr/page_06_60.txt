@@ -1,0 +1,130 @@
+# tom06 leaf 60  printed page 56  window=2
+# chocr-indexed Balearic entries on this leaf (2):
+#   - CASAS NOVAS (ses)  (regex)
+#   - CASASNOVAS  (regex)
+
+=== TARGET LEAF ===
+56 GAS
+
+Estadística criminal. Los acusados en este part. jud. enel año 1843, fueron 237 : absueltos de la instancia 11; libremente 45; penados presentes 135; contumaces 46 ; reincidentes en el mismo delito 4 ; en otro diferente 5; de los acusados, 76 contaban de 10 á 20 años de edad ; 100 de 20 á 40;37 de 40 en adelante, ignorándose la edad de 25: 212 eranhombres y 25 mujeres: 153 solteros y 00 casados; tampocoaparece el sexo de 24: 25 sabían leer; 32 leer y escribir;176 carecían de toda instrucción , y de 4 no consta esta circunstancia: 2 ejercían profesión científica ó arte liberal; 211artes mecánicas, y no se sabe la ocupación de 24.
+
+En el mismo período se perpetraron 49 delitos de homicidio y de heridas: 10 con armas de fuego de uso .lícito, y 4de ilícito; 6 con armas blancas permitidas y 8 con prohibídas; 16 con instrumentos contundentes, y 5 con otros instrumentos ó medios no espresados.
+
+CASASLONGAS: ald. en la prov. de la Coruña , ayunt.de Laracha y felig. de Sta. Maria Magdalena de Montemayor. (V.)
+
+CASASLONGAS : 1. en la prov. de Lugo, ayunt. de Jove,felig. de Sta. Eulalia de Lago. pobl. : 11 vec., 55 almas.
+
+CASASMORALES : quinterías en la prov. de CiudadReal,part. ]ud. y térm. de Manzanares.
+
+CASAS NOVAS (ses): predio en la isla de Mallorca, prov.de Baleares, part. jud. de Inca , térm. y jurisd. de lav. deSelva.
+
+CASASNOVAS : ald. en la prov. de la Coruña , ayunt.de Carballo y felig. de San Esteban de Goyanes.
+
+CASAS NOVAS : I. en la prov. de la Coruña, ayunt. deValdovíño y felig. de San Martin de Valdetires. (V.)
+
+CASASNOVAS : 1. en la prov. de la Coruña, ayunt. yfelig. de Sta. Eu'alia de Valdoviño. (V.)
+
+CASAS NOVAS: I. en la prov. de Lugo, ayunt. de Ceibo, yfelig. de Sta. Maria de Cei bo.
+
+CASASNOVAS : ald. en la prov. de la Coruña , ayunt. deTordoya y felig. de Sta. Marina de Angeris. (V.)
+
+CASASNOVAS: I. en la prov. de la Coruña , ayunt. dí Ferie y felig. de San Esteban de Perito. (V.) pobl. : 3 vec. y 6almas.
+
+CASASNOVAS : 1. en la prov. de la Coruña, ayunt. de Arteijo y felig. de San Esteban de Larin. (V.)
+
+CASASNOVAS : ald. en la prov. de la Coruña, ayunt. deCarballo y felig. de San Lorenzo de Verdillo.(V.)
+
+CASAS NOVAS: ald. en la prov. de la Coruna, ayunt. deMalpica y felig. de Santiago de Mens. (V.)
+
+CASASNOVAS: ald. en la prov. de la Coruña , ayunt. yfelig. de San Andrés de Tallo. (V.)
+
+CASAS NOVAS : ald. en la prov. de la Coruña , ayunt. deLage y felig. de San Esteban de Soesl. (V.)
+
+CASASNOVAS: l.en la prov. de la Coruña, ayunt. de Roisy felig. de San Pedro úeErbajo. (V.)
+
+CASASNOVAS: ald. en la pfov. de la Coruña , ayunt. deVimianzo y felig. de San Pedro de Berdoyas.
+
+CASASNOVAS: ald. en la prov. de la Coruña , ayunt. deZas y felig. de San Adrián de Castro. (V.)
+
+CASASNOVAS : ald. en la prov. de la Coruña, ayunt. deMujía y felig. de San Julián de Moraime. (V.)
+
+CASASNOVAS : ald. en la prov. de la Coruña , ayunt. deMujia y felig. de San Ciprian de Villaestose. (V.)
+
+CASASNOVAS : ald. en la prov. de la Coruña, ayunt. deCaraariñas y felig. de San Pedro del Puerto. (Y.)
+
+GASASNOVAS: I. en la prov. de Lugo, ayunt. y felig. deSan Pedro de Muras, pobl. : 2 vec, 10 almas.
+
+CASAS NOVAS: 1. en la prov. de Lugo, ayunt. de Saviñao y felig. de Sta. Maria de Ousende (V.). pobí. : 6 vec., 35almas.
+
+CASASNOVAS: 1. en la prov. de Lugo, ayunt. de Lugo yfelig. de Santiago de Piesgos. pobl. : 1 vec., 5 almas.
+
+CASASNOVAS : 1. en la prov. de Lugo , ayunt. y felig. deSta. María de Metra (V.). pobl. : 4 vec., 24 almas.
+
+CASASNOVAS : 1. en la prov. de Lugo , ayunt. y felig. deSantiago de Foz. (V.)
+
+CASASNOVAS : 1. en la prov. de Lugo , ayunt. de Cospeito y felig. de San Juan de Sistallo. pobl. : 2 vec., 10 alm.
+
+CASASNOVAS: 1. en la prov. de Lugo, ayunt. de Germadey felig. de San Andrés de Lousada. pobl. : 3 vec., 15 almas.
+
+CASASNOVAS: 1. en la prov. de Lugo, ayunt. de Germadey felig. de San Julián de Cazás.vovi.: 6 vec., 30 almas.
+
+CAS
+
+CASASNOVAS: I. en la prov. de Lugo , ayunt. de Cospeito y fetlg. de Sta. Maria de Germade. pobl.: 3 vec, 14 almas.
+
+CASAS NOVAS : I. en la prov. de Lugo , ayunt. de Villalba y felig. de San Juan de Alba. pobl. : 4 vec. , 20 almas.
+
+CASASNOVAS: ald. en la prov. de Orense, ayunt. deJunqutira de Ambia y felig. de San Salvador de Armariz(V.). poul. : 3 vec. , 14 almas.
+
+CASASNOVAS: ald. en la prov. do Orense, ayunt. de Cenlle y felig. de San Félix de Navio. (V.)
+
+CASASNOVAS: 1. en la prov. de Pontevedra, ayunt. yfelig. de Randufe de la misma c. (V.)
+
+CASASNOVAS: I. en la prov. de Pontevedra , ayunt. deCambados y felig. de San Adrián de Villárino. (V.)
+
+CASASNOVAS: ald. en la prov. de Pontevedra , ayunt. deLalin y felig. de San Miguel de Gogas (V.) pobl. 4 vec , 20almas.
+
+CASASNOVAS: col. red., desp. de la prov. de Huesca, part.jud. de Fraga , térm. jurisd. de Binaced , corresponde al serenísimo Sr. D. Francisco de Paula, infante de España, y secree fué desp. en tiempo de las guerras de sucesión : aun conserva un murallon muy fuerte que se conoce á primera vista,procede de una gran casa á la cual conducía un ancho caminoque sube circunvalando el monte, y al N. de esta elevación seencuentran paredes derruidas y alli estuvo el pueblo que llamaron Casasnovas; su térm., prod. y demás (V. Binaced.)
+
+CASASNOVAS: predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, term. jurisd. de la v. de Esporlas.
+
+CASASNOVAS: predio en la isla de Mallorca, prov. de Baleares, part. jud de Mauacor, térm. jurisd. de la v. deSanlañí.
+
+CASASNUEVAS : cas. y labor en la prov. de Cuenca, part.jud. de Cañete, térm. jurisd. de Salvacañete. (V.)
+
+CASAS NUEVAS DE TORRENTE: 1. de la prov. y part.jud. de Valencia (l leg.), ayunt. de Payporta: sit. á muy pocos pasos hácia el S. de este 1., del que únicamente le separael barranco de Chiva ó de Torrente con unas 60 casas, muchas de ellas arruinadas, 12 calles , una plaza grande, un estanco, algunos pozos de buena agua de la que se surte el vecindario , y en las inmediaciones hubo un conv. de Agustinostitulado de San Joaquín , el cual fué demolido con su igl. hace8 años, quedando solo el huerto. El terreno que circuye áeste I. es secano de buena calidad , y prod. trigo, aceite , algarrobas , guijos y guisantes, y hay alguna caza de codornices , tórtolas y otras aves de paso. pobl. : 50 vec., 260 alm.Este pueblo ha sido conocido siempre con el nombre de CasasNuevas, que hubo de tomar cuando se construyeron las primeras ó cuando sufrió alguna renovación, cuyas épocas se ignoran. Posteriormente le han llamado unos Casas Nuevas de Torrente , que es el nombre mas vulgar, por pertenecer á la encomienda ó señorío de este nombre, y otros Casas Nuevas dePicaña, por ser anejo de su parr. En lo ant, se le conoció también con el de Portugalet, y aun en el día conserva esta denominación en la adm. de rent. estancadas de la prov., donde laespendeduria de tabacos de este pueblo, es conocida por el estanco de Portugalet, siendo tradición entre los vec. mas ant.,que debió este últ. nombre á los muchos fueros de que gozabasu ayunt., como el no poder la justicia de Payporta pisar suterr. ni aun para la persecución de delincuentes ; el ser francala venta de carnes, vino y aguardiente que en Payporta estaba pechada, y otros. De aqui resulta que en otro tiempo fuéestel. una pobl. independiente; pero después fué agregada áPicaña considerándose como una ald. suya: recientementesolicitaron sus hab. el depeuder de la municipalidad de Payporta por su mayor proximidad, y lo consiguieron en 1deenero de 1841, si bien únicamente eu cuanto á lo civil, pues enel orden eclesiástico dependen de la parr. de Picaña.
+
+CASAS QUEMADAS : cortijos en la prov. de Badajoz, part.jud. de Fregenal de la Sierra, térm. de Segura de León.
+
+CASASUERTES: 1. eu la prov. y dióc. de León, part. jud.de Riaño, aud. terr. y c. g. de Villadolid, ayunt. de Buron:sit. : en un estremo del valle titulado de las Regueras, en lomas alto de él rodeado de peñas y altas montañas que solo dejan libre la entrada por la parte del S,; su clima es frió, perosano. Tiene igl. parr. (Ntra. Sra. de la Asunción) servida porun cura de ingreso, y presentación de S. M. en los meses apostólicos y casos de reservas, y en los ordinarios del arcedianode Mayorga, dignidad de la catedral de León. Confina N.Cuenabresj E. Espinazo del Perro; S, Lario, y O. Retuerto.
+
+=== CONTINUATION LEAF +1 ===
+CAS
+
+El terreno es bastante estéril, solo abunda en pastos, las demás producciones sun escasas. Su principal ind., es la construccion de aperos para la labranza que llevan á tierra deCampos, retornando pan, vino y oíros arlieulos de consumo.í'Obl.: 30 vec., 80 alm. contr. con el ayunt.
+
+CASASVELLAS: ald. en la prov. de Pontevedra, ayunt.de Laliu y felig. de Santiago de Catasós. (V.) pobl. : 1 vec,5 almas.
+
+. CASAS VIEJAS: ald. en la prov., parr. jud. y térm. jumd.■de Alba te te.
+
+CASAS VIEJAS: cas. en la prov. de Albacete, part. jud. deHellin, térra. jurisd.de Tovarra, á 3/4 de leg. NO. de lapoblación. '
+
+CASAS VIEJAS: v. con ayunt. de la prov., adm. de rent.y dióc. de Avila (9 hor.), part. jud. de Arenas de San Pedro■{5), aud. terr. de Madrid (15), c. g. de Castilla la Vieja (Vadladoliu 30): sit. en la mésela y ladera S. de un elevado oterodel valle de Adrada , y á la der. de la garganta de su nombre:la combaten todos los vientos y su cuma es sano, padeciéndosesin embargo fiebres intermitentes y dolores de costado: tiene315 casas de un piso bajo en su mayor parle, algunas de dos,todas con buena distribución interior, y las mas con jardines óhuertos ; se hallan distribuidas en 17 calles empedradas, en lasque se observa regular policía urbana; hay en el centro unaplaza mal empedrada, con algunos soportales, casa de ayunt.en la que está la cárcel; uu pósito, G fuentes de buenas aguas,■escuela de instrucción primaria común á ambos sexos, á cargo de un maestro dotado con 5 rs. diarios que se satisfacen tleJos fondos de propios, mas la retribución de uno ó dos rs.¡según su clase, de leer escribir o contar que pagan los 50 aluminas que á ella concurren, y una igl, parr. (San Juan Bautista)servida por un párroco cuyo curato es de término y de presentación de 3. M. en los meses apostólicos y del obispo enlos ordinarios; el cementerio inmediato á la igl.es bastantecapaz: en los afueras de la pobl , al S. se encuentra una mánílica fuente de agua potable abundante y cristalina, con 2 caños y un pilón de cantería labrada y figura cuadrilonga, y otrasvarias naturales y perennes en diferentes puntos; confina eltéum. N. Pedro Bernardo; E. Piedralabes y Adrada; S. LaHiguera de las Dueñas ,y O. Mijares y Gavilanes; mucha parte de este térm. se halla cubierto de pinos; escelentes plantíosúe olivos, viñas, infinitos hutrtos y prados ó cercas para sernJjrar trigo tremesino , centeno y otros granos; de las vertientes de dos altas sierras del N. (continuación de las de Paraxnta. de Avila) se forma la garganta Gasas Viejas, ya mencionada, la que dirige su curso de N. á S., pasa por la izq. de lapobl. y desemboca en el r. Tieta por bajo del pueblo de la Hi-¡guera délas Dueñas: después de 2 hor. y 1/2 de marcha sus•aguas y las de otros varios arroyuelos mas pequeños, que por■do quiera se presentan, riegan innumerables posesiones cercabas y dan movimiento á varios molinos harineros y á un lagar•de aceite,; tiene un puente de madera con estribos de piedra.El terreno es quebrado, montuoso y de mediana calidad: hay■un monte de encina , y otro de pinos, caminos: los de pueblo:á pueblo en mal estado. El correo se recibe de Talavera porbaligero, los lunes y jueves, y sale en los mismos dias. prod.:"trigo, cebada, centeno, aceite, vino, lino, caslañas legumbresy fruta: mantiene mucho ganado cabrio , vacuno, algún lanary de cerda, con grangeria de colmenas; cria caza de perdices yconejos: pesca menor y anguilas, ind.: telares de paño basto ylienzo para el consumo del pueblo, molinos do harina y aceitey cria gusanos de seda, comercio: esportacion de los frutossobrantes a las prov. de Madrid y Toledo, y de la seda á Ta1¿ vera de la Reina, pobl.: 348 vec., 1187 alm. cap. prod.:588,250 rs. imp.: 23,530. IND. y fabril 21,850. CONTR.16,158 rs. con 32 ras.
+
+CASASVIEJAS: pequeña pobl. de unas 150 chozas de mezcla y castañuela, con ermita y ventorrillo , formada por loscolonos de los diversos ranchos que hay en el sitio de aquelnombre, prov de Cádiz, part. jud. y térm. jurisd. de Medina-■Sidonia. (V.)
+
+CASAS Y SUINLLE : I. en la prov. de la Coruña, ayunt. de!las Somozas y felig. de Sta. Maria de Recemil. (V.)
+
+CASAU: l. con ayunt. en la prov. de Lérida (40 horas), part.jud. de Viella (20 minutos), aud. terr. y c. g. de Cataluña(Barcelona 62 hor.), dióc. de Seo deürgel(l9), oficialato delvalle de Arau: se halla sit. á la falda de un elevado monte perfectamente ventilado: el cuma frió, produce catarros ypulmoTOMO VI.
+
+CAS 57
+
+nias. Tiene 24 casas las mas cubiertas de pizarra, la del ayunt.cárcel y una bonita fuente de ja cual se surten sus habitantes:la igl. parr. (San Andrés), la sirve un cura párroco de nombramiento del pueblo y aprobación del diocesano, en concursogeneral entre los hijos del pueblo ó naturales del valle. Confinael térm. con Gausach y Viella, y los puertos de este mismonombre y Benasque: se encuentran en él otras varias fuentesde aguas de buena calidad, las cuales se aprovechan para riego de pequeños prados. El terreno es montuoso y quebrado,hallándose en él algunos bosques arbolados y mucha yerbade pastos : los caminos en mediano estado conducen á los pueblos inmediatos: la correspondencia la reciben en Viella losinteresados al dia siguiente á su llegada, prod. : poco trigo,centeno, patatas y pastos; se cria de toda clase deganadoy haybastante caza mayor y menor, pobl. : 18 vec, 115 alm. cap.imp.: 19,429 rs. contr.: el 14, 28 por 100 de esta riqueza.
+
+CASAVEDRA: 1. en la prov. de Lugo, ayunt. de Villalba yfelig. de Santiago de Sancobad. pobl. : 1 vec. 5 almas.
+
+CASAYO ó CASOYO: r. poco caudaloso de la prov. de Orense, part. jud de Valdeorras: el cual tiene su nacimiento en elestremo oriental de la prov., ayunt. de Carballeda: durantesu curso de E. á N., baña las felig. de su nombre, da impulo ádistiutos molinos hariueros y á una lab. de hierro perteneciente á la casa grande de Villoría en el I. de Puentenuevo,.confluyendo después en el r. Sil su cauce es profundo, por lotual es necesario levantar las aguas por medio de presas; criamuchas truchas, anguilas y otros peces.
+
+CASAYO (Sta. María): felig. en laprov. de Orense (16 leg.),part. jud de Valdeorras (3), ayunt. de Carballeda : sit. á lader. del r. Casoyo en una hondonada circuida al ES. y O. pollos altos y estensos montes de CampoRomo, San Gil y PicoMauro. La combaten con mas frecuencia los aires del N. y O.;el cuma es bastante sano, pues no se esperimentan otras enfermedades comunes que fiebres gástricas é intermitentes. Tiene 102 casas rústicamente construidas, repartidas en 4 barrios llamados CasayoSuso, Gadanaya , Runima, y Somozá,cuyas calles son de difícil tránsito y bastante sucias en algunos parages: y una escuela de primeras letras frecuentada por60 niños de ambos sexos, y dotada con las rentas de una piamemoria fundada al efecto. La igl. parr. titulada La Asunciónde Ntra. Sra., se construyó en 1818, pero sin orden ni gusto en su arquitectura: tiene por aneja la de San Tirso de Lardeira ; y sirve el culto un cura de primer ascenso, de libreprovisión. La ant. igl. sirve de cementerio. Tanto en el pueblocomo en el térm. existen 3 capillas dedicadas á San Isidro, SanMames y á San Gil, cuya festividad se celebra con gran solemnidad por los vec. del pueblo y de todos los de la comarca.Confina el térm. por N felig. de Riodolas; E. la de Lardeira;S. la linea culminante de montañas, que separan esta prov. delas de León y Zamora, y por O. con las felig. de Soutadoiro yRio de Olas; de cuyos Jim. dista 1/2 leg., escepto por el S.que cuenta mas de 5. Las montañas que dijimos, circundanla hondonada en que se halla el pueblo, son ramificaciones óestribos de Peña Treviaca y forman una estension fragosa,que merece el nombre de desierto, donde abundan todos losanimales montaraces que se conocen en la Península, comolobos, osos, javalies, garduñas, zorras , gatos monteses etc.De aqui que el terreno es poco llano, pero bastante fértil,especialmente en las orillas del espresado r. Casoyo ó Casayo,el cual pasa al O. de la pobl.; sus aguas ofrecen pequeñaspero esquisitas truchas, y dan riego á algunos prados, é impulso á 2 molinos harineros, habiendo sobre el mismo 3 puentes de madera. Los caminos son locales y malos : el correose recibe en la cap. del ayunt. prod. : trigo, centeno, legumbres, lino, castañas, miel, vino, poco aceite, frutas de variasclases , y muchos pastos, en particular heno, para manutención del ganado vacuno, de cerda, lanar y cabrio, ind. ycomercio: la agricultura, ganadería, molinos harineros yadichos, y telares de lienzos ordinarios y de ropa de lana llamada en elpais jerga, la cual abatanada sirve para vestirselas mujeres, haciéndose también de ella chalecos para los .hombres ; las operaciones comerciales consisten en la importaciónde géneros y comestibles necesarios; y estraccion de frutossobrantes y de lienzos , é indicada tela de lana, que suelenvenderse en la feria de Puente de Domingo Florez. pobl. : 102vec, 524 alm. contr.; con su ayunt. (V.)
+
+CASBAS: v. conayunt. déla prov., part. jud. adm. de rent.y dióc. de Huesca (4 leg.), aud. terr. y c. g. de Zaragoza (16):

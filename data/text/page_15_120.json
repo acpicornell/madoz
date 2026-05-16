@@ -1,0 +1,20 @@
+{
+  "vol": "15",
+  "leaf": 120,
+  "page_printed": "116",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TOSES",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "predio en la isla de Mallorca , prov. de Baleares,part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

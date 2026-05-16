@@ -1,0 +1,81 @@
+{
+  "vol": "01",
+  "leaf": 436,
+  "page_printed": "428",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "note": "Five Balearic entries: chocr regex indexed 4 but actually there are 2 distinct ALCARIABLANCA (Santanyí lugar + Lluví predios).",
+  "entries": [
+    {
+      "title": "ALCARIABLANCA",
+      "place_type": "lugar",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Santañí",
+      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma, térm. jurisd. y felig. de la v. de Santanyí con la que contribuye. Tiene un oratorio público servido por un vicario dependiente de la igl. matriz. POBL.: 173 vec., 620 alm.",
+      "stats": {
+        "vecinos": 173,
+        "almas": 620
+      },
+      "cross_references": [
+        "Santanyí"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALCARIABLANCA (dos predios)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Llubí",
+      "description": "Dos predios en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Lluví. Sit. á 3 1/2 cuartos de leg. del espresado l.; tiene cada uno su casa y, distribuido entre ambos, una sierra plana y una cañada ó llano á la parte del E. de mediana calidad, muy á propósito para trigo y avena. En el año próximo pasado se distribuyó por cuarteradas, y desde entonces los poseen los vec. de Lluví, María, Sta. Margarita y Muro.",
+      "stats": {},
+      "cross_references": [
+        "Lluví",
+        "María",
+        "Santa Margarita",
+        "Muro"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALCARIA DEL COMPTE AMPURIAS",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Soller",
+      "description": "Ald. en la isla de Mallorca, prov. de las Baleares, part. jud. de Palma; sit. al NE. de la v. de Soller, de quien depende. (V. Soller.)",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALCARIA ROJA",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Campos",
+      "description": "Ald. en la isla de Mallorca, prov. de las Baleares, part. jud. de Manacor; sit. al NO. de Campos, del cual depende. (V. Campos.)",
+      "stats": {},
+      "cross_references": [
+        "Campos"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "ALCARIAS (las)",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Santa Eugenia",
+      "description": "Ald. en la isla de Mallorca, prov. de las Baleares, part. jud. de Palma; sit. al N. del l. de Sta. Eugenia del cual depende. (V. Santa Eugenia.)",
+      "stats": {},
+      "cross_references": [
+        "Santa Eugenia"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "12",
+  "leaf": 310,
+  "page_printed": "304",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ORELLET (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Porreras",
+      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manacor, térm. y jurisd. de la v.de Porreras.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "vol": "06",
+  "leaf": 576,
+  "page_printed": "572",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "COPANY (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Montuiri", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Montuiri.", "stats": {}, "cross_references": ["Montuiri"], "confidence": "high"}
+  ]
+}

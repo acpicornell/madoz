@@ -1,0 +1,22 @@
+{
+  "vol": "06",
+  "leaf": 63,
+  "page_printed": "59",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "CASCANAR",
+      "place_type": "caserío",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas.",
+      "stats": {},
+      "cross_references": [
+        "Sansellas"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vol": "08",
+  "leaf": 128,
+  "page_printed": "124",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "FONS (ses)",
+      "place_type": "huerta",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Huertas grandes en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

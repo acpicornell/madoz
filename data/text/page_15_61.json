@@ -1,0 +1,64 @@
+{
+  "vol": "15",
+  "leaf": 61,
+  "page_printed": "57",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "TORRA (La)'",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Valldemosa",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Valldemosa.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "TORRA (la)",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Valldemosa",
+      "description": "': predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Valldemosa.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "TORRA DEN MOREY",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": null,
+      "description": "alq. en la isla de Mallorca, prov.de Baleares, part. jud. de Inca, térm. y jurisd. de la v. doSta. Margarita.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    },
+    {
+      "title": "TORTOVA",
+      "place_type": null,
+      "island": "Mallorca",
+      "judicial_district": null,
+      "municipality": "Manacor",
+      "description": ". predio en 1? isla de Mallorca , prov. de Baleares, part. jud., térm. v jurisd. de la v. de Manacor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
+    },
+    {
+      "title": "TORTUGA",
+      "place_type": "predio",
+      "island": null,
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "predio en la i¿la de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. deFelanitx.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

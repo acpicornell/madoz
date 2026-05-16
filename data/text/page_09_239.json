@@ -1,0 +1,13 @@
+{
+  "vol": "09",
+  "leaf": 239,
+  "page_printed": "235",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "HORT", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Artá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá.", "stats": {}, "cross_references": ["Artá"], "confidence": "high"},
+    {"title": "HORT DE DAGUI", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Soller", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la villa de Soller.", "stats": {}, "cross_references": ["Soller"], "confidence": "high"},
+    {"title": "HORT DE SAN JUAN", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Palma", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.", "stats": {}, "cross_references": ["Palma"], "confidence": "high"},
+    {"title": "HORT DE VIVES", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Campos", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de Campos.", "stats": {}, "cross_references": ["Campos"], "confidence": "high"}
+  ]
+}

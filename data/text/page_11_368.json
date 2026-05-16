@@ -1,0 +1,10 @@
+{
+  "vol": "11",
+  "leaf": 368,
+  "page_printed": "364",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "MELSION (can.)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza", "Inca"], "confidence": "high"}
+  ]
+}

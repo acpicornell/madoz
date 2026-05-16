@@ -1,0 +1,11 @@
+{
+  "vol": "08",
+  "leaf": 169,
+  "page_printed": "165",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {"title": "FRANCISCO DE PAULA (San)", "place_type": "parroquia", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "San José", "description": "Parroquia ó caserío del distrito municipal de San José en la isla, part. jud. y dióc. de Ibiza (1 2/3 leg.), aud. terr., c. g. de Baleares. Tiene una igl. parr. de igual nombre, servida por un cura de ingreso, y un oratorio en que se celebra misa durante la época de la estraccion de la sal, por hallarse en su térm. las salinas de la isla.", "stats": {}, "cross_references": ["Ibiza", "San José"], "confidence": "high"},
+    {"title": "FRANCISCO JAVIER (San)", "place_type": "parroquia", "island": "Formentera", "judicial_district": "Ibiza", "municipality": "San Francisco Javier", "description": "Parroquia ó caserío en la isla de Formentera; distrito municipal que comprende toda ella en la prov., aud. terr., c. g. de Baleares, part. jud. y dióc. de Ibiza. Compónese de varias casas y una igl. parr. de igual nombre servida por un cura de término.", "stats": {"vecinos_catastro": 270, "almas": 1512, "cap_imp_rs": 107394}, "cross_references": ["Formentera", "Ibiza"], "confidence": "high"}
+  ]
+}

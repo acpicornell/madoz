@@ -1,0 +1,20 @@
+{
+  "vol": "13",
+  "leaf": 861,
+  "page_printed": "857",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "SANUTJES (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Bañalbufar",
+      "description": "predio en la isla de Mallorca, prov. deBaleares , part. jud. de Palma , térm. y jurisd. de la v. deBañalbufar.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "vol": "02",
+  "leaf": 615,
+  "page_printed": "607",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ARTIGAS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Predio con 1 casa en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Alaró. Tiene una fuente muy copiosa que sirve para el abasto del pueblo de Alaró, para regar algunos huertos que hay dentro del mismo, algunas de sus tierras contiguas, y aun provee á 10 almazaras de aceite y todas las fáb. de jabón. (V. Alaró.)",
+      "stats": {},
+      "cross_references": ["Alaró"],
+      "confidence": "high"
+    }
+  ]
+}

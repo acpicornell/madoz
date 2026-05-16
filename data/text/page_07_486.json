@@ -1,0 +1,23 @@
+{
+  "vol": "07",
+  "leaf": 486,
+  "page_printed": "482",
+  "window": 2,
+  "model": "claude-opus-4-7-via-claude-code",
+  "entries": [
+    {
+      "title": "ENFELIU",
+      "place_type": "cala",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Cala en el predio Formentor en la isla, tercio y prov. marít. de Mallorca, departamento de Cartajena, térm. de la v. de Pollensa.",
+      "stats": {},
+      "cross_references": [
+        "Pollensa",
+        "Formentor"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

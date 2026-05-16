@@ -34,6 +34,16 @@ FIXES: list[tuple[int, str, int | None]] = [
     (7885, "ALCARIA-BLANCA",                4309),   # was 4312 (the predios)
     (8860, "SALAS (can)",                   39167),  # was 39163 (the isleta)
     (8079, "CAMPANER (son)",                21818),  # was 21824 (CAMPANET vila)
+    # Second wave (2026-05-16, audit follow-up): missing hyphens and
+    # OCR mangles in the title that survived the first cleanup.
+    (8232, "CUEVA-LARGA",                   None),   # add hyphen
+    (8008, "BINI-BECA",                     None),   # add hyphen
+    (7991, "BENISALEM",                     None),   # Madoz's spelling (his 'e', not modern 'i')
+    (8021, "BINISAFULLA ó BINI-SAFAYA",     None),   # hyphen in second alt
+    # LLUGALGARI is OCR for LLUCALCARI (hamlet in Deyá, the aldea
+    # described in the chocr text) — NOT LLUCALARI (SAN ANTONIO DE)
+    # which is the nearby feligresía. Re-link accordingly.
+    (8545, "LLUCALCARI",                    116020),  # was 116018 (LLUCALARI SAN ANTONIO DE)
 ]
 
 

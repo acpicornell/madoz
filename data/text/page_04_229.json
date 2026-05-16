@@ -7,7 +7,7 @@
   "note": "BINISALEM is a major Mallorcan villa (head of the Inca part. jud.). Article spans leaves 229–230.",
   "entries": [
     {
-      "title": "BINISALEM",
+      "title": "BENISALEM",
       "place_type": "villa",
       "island": "Mallorca",
       "judicial_district": "Inca",
@@ -21,7 +21,14 @@
         "cap_imp_rs": 456840,
         "contr_rs": 31104
       },
-      "cross_references": ["Inca", "Sancellas", "Santa María del Camí", "Alaró", "Palma", "Alcudia"],
+      "cross_references": [
+        "Inca",
+        "Sancellas",
+        "Santa María del Camí",
+        "Alaró",
+        "Palma",
+        "Alcudia"
+      ],
       "confidence": "high"
     }
   ]

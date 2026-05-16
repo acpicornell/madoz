@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CUEVALARGA", "place_type": "fondeadero", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "Ibiza", "description": "Fondeadero en la isla de Ibiza, prov. de Baleares: sit. en el cargador nombrado de la Canal (V. Cargadores de las salinas); en él suelen refugiarse en caso de necesidad las embarcaciones que van ó salen del puerto, ó bien á esperar el dia las que emprenden su navegación á última hora de la tarde.", "stats": {}, "cross_references": ["Cargadores de las salinas", "Canal"], "confidence": "high"}
+    {
+      "title": "CUEVA-LARGA",
+      "place_type": "fondeadero",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Ibiza",
+      "description": "Fondeadero en la isla de Ibiza, prov. de Baleares: sit. en el cargador nombrado de la Canal (V. Cargadores de las salinas); en él suelen refugiarse en caso de necesidad las embarcaciones que van ó salen del puerto, ó bien á esperar el dia las que emprenden su navegación á última hora de la tarde.",
+      "stats": {},
+      "cross_references": [
+        "Cargadores de las salinas",
+        "Canal"
+      ],
+      "confidence": "high"
+    }
   ]
 }

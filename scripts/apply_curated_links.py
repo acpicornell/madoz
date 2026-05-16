@@ -72,7 +72,9 @@ CURATED = {
     "VERI (soN": "VERI (SO)",
     "ROSSIÑOL (so)": "RUSINOL (so)",
     # fuzzy-low: high-confidence OCR variants
-    "LLUGALGARI": "LLUCALARI (SAN ANTONIO DE)",
+    # LLUGALGARI → LLUCALCARI (the hamlet in Deyá; NOT LLUCALARI San
+    # Antonio de, which is the nearby feligresía). Audited 2026-05-16.
+    "LLUGALGARI": "LLUCALCARI",
     "VINAYELLA": "VIÑA VELLA",
     "BASEBA (Cana)": "BASERA (CANA)",
     "CUYEBA (so)": "CUYERA (SO)",

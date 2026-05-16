@@ -12,7 +12,9 @@
       "judicial_district": "Mahón",
       "municipality": "San Luis",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. del l. de San Luis.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGALARI NOU",
@@ -21,7 +23,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGALARI VELL",
@@ -30,7 +34,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGALARI (San Antonio de)",
@@ -39,16 +45,22 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
-      "title": "LLUGALGARI",
+      "title": "LLUCALCARI",
       "place_type": "aldea",
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Deyá",
       "description": "Ald. en la isla y dióc. de Mallorca, part. jud. de Palma, prov., aud. terr., c. g. de Baleares; depende en todo de la v. de Deyá (V.). Es patria del capitán de navío D. Felipe Bauza, director que fue del real depósito Hidrográfico de Madrid, y uno de sus mas célebres matemáticos.",
-      "stats": {}, "cross_references": ["Deyá"], "confidence": "medium"
+      "stats": {},
+      "cross_references": [
+        "Deyá"
+      ],
+      "confidence": "medium"
     },
     {
       "title": "LLUGASALDENS MAYOR",
@@ -57,7 +69,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUCASALDENT",
@@ -66,7 +80,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGASALDENTET",
@@ -75,7 +91,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGMASANAS (cortijo)",
@@ -84,7 +102,9 @@
       "judicial_district": "Mahón",
       "municipality": "Mahón",
       "description": "Cortijo en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGMASANAS (predio)",
@@ -93,7 +113,9 @@
       "judicial_district": "Mahón",
       "municipality": "Mahón",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGMASANAS DE OLIVES",
@@ -102,7 +124,9 @@
       "judicial_district": "Mahón",
       "municipality": "Mahón",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGMASANET DE CARRERAS",
@@ -111,7 +135,9 @@
       "judicial_district": "Mahón",
       "municipality": "Mahón",
       "description": "Dos predios del mismo nombre en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUGMASANET DE ORFILA",
@@ -120,7 +146,9 @@
       "judicial_district": "Mahón",
       "municipality": "Mahón",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUCH (predio)",
@@ -129,7 +157,9 @@
       "judicial_district": "Inca",
       "municipality": "Escorca",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUCH (v. y colegio)",
@@ -138,7 +168,11 @@
       "judicial_district": "Inca",
       "municipality": "Escorca",
       "description": "V. y colegio de este nombre en la isla de Mallorca. (V. Escorca.)",
-      "stats": {}, "cross_references": ["Escorca"], "confidence": "high"
+      "stats": {},
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high"
     },
     {
       "title": "LLUCHMAYOR",
@@ -154,7 +188,8 @@
         "riqueza_imponible": 665832,
         "contribucion_1846": 118860
       },
-      "cross_references": [], "confidence": "high"
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUENT (son)",
@@ -163,7 +198,9 @@
       "judicial_district": "Inca",
       "municipality": "Santa Margarita",
       "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Santa Margarita.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUIS (Su)",
@@ -172,7 +209,9 @@
       "judicial_district": "Manacor",
       "municipality": "Campos",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Campos.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUIS (so)",
@@ -181,7 +220,9 @@
       "judicial_district": "Palma",
       "municipality": "Andraitx",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraitx.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUMENA NOU",
@@ -190,7 +231,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUMENA DE NETTO",
@@ -199,7 +242,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor. [Original OCR dice 'isla de Mallorca' pero el contexto admin. — Mahón / Alayor — es Menorca; corregido.]",
-      "stats": {}, "cross_references": [], "confidence": "medium"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "medium"
     },
     {
       "title": "LLUMENA DE NICOLÁS",
@@ -208,7 +253,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     },
     {
       "title": "LLUMENA DE LA GRAVA",
@@ -217,7 +264,9 @@
       "judicial_district": "Mahón",
       "municipality": "Alayor",
       "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor.",
-      "stats": {}, "cross_references": [], "confidence": "high"
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high"
     }
   ]
 }

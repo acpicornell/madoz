@@ -2,13 +2,14 @@
 ``(son)`` Mallorquí suffix got OCR-mangled into ``j`` / ``i`` / ``1`` /
 ``l`` / ``N`` (e.g. ``OLIVER (soj`` → ``OLIVER (so)``).
 
-Audit 2026-05-16 (follow-up to fix_ocr_digit_titles.py). This script
-covers the five rows where we have a curated diccionariomadoz.com title
-linked via ``madoz_entry_id``, so the disambiguation between ``(so)``
-and ``(son)`` is grounded — not guessed. The remaining four mangled
-rows in this category have no curated link (8756 PUSA, 8790 RAMON,
-8899 SARD, 8904 SASTRE) and need image verification via the new
-per-row IA facsimile link in the web table.
+Audit 2026-05-16 (follow-up to fix_ocr_digit_titles.py). Two batches:
+
+1. Five rows linked to a curated diccionariomadoz.com entry — the
+   disambiguation between ``(so)`` and ``(son)`` is grounded against
+   the curated title.
+2. Four rows with no curated link (PUSA, RAMON, SARD, SASTRE) —
+   resolved by manually inspecting the IA facsimile via the per-row
+   IA link in the web explorer.
 
 Same shape as ``fix_ocr_digit_titles.py``: dry-run by default,
 ``--apply`` writes both the DB and the source JSON. Idempotent.
@@ -26,14 +27,20 @@ import duckdb
 PROJECT = Path(__file__).resolve().parent.parent
 DB = PROJECT / "db" / "madoz.duckdb"
 
-# (text_entry_id, new_title). All five linked to a madoz_entries row
-# whose curated title is ``X (SO)`` — disambiguating against ``(son)``.
+# (text_entry_id, new_title).
 FIXES: list[tuple[int, str]] = [
+    # Batch 1 — curated diccionariomadoz.com link gives the (so) reading.
     (8623, "NADAL (so)"),    # was 'NADAL (so1)' — Felanitx predio; curated 116537 = NADAL (SO)
     (8624, "NADAL (so)"),    # was 'NADAL (sol'  — Andraitx predio; curated 116539 = NADAL (SO)
     (8641, "OLIVER (so)"),   # was 'OLIVER (soj' — Campos predio; curated 120236 = OLIVER (SO)
     (8869, "SALOM (so)"),    # was 'SALOM (soi'  — Campos predio; curated 39529  = SALOM (so)
-    (9045, "VERI (so)"),     # was 'VERI (soN'   — Valldemosa predio; curated 93252 = VERI (SO). The trailing capital 'N' in the chocr OCR suggested '(son)' but the curated mirror reads it as '(so)'; can be re-revised if the facsimile contradicts.
+    (9045, "VERI (so)"),     # was 'VERI (soN'   — Valldemosa predio; curated 93252 = VERI (SO)
+    # Batch 2 — no curated link; readings confirmed by inspecting the IA
+    # facsimile via the per-row IA link in the explorer.
+    (8756, "PUSA (son)"),    # was 'PUSA (soNj'   — facsimile reads (son)
+    (8790, "RAMON (son)"),   # was 'RAMON (so¡'   — facsimile reads (son)
+    (8899, "SARD (so)"),     # was 'SARD (soj'    — facsimile reads (so)
+    (8904, "SASTRE (so)"),   # was 'SASTRE (so¡v)' — facsimile reads (so)
 ]
 
 

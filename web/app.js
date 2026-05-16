@@ -200,6 +200,21 @@ function toggleExpand(tr) {
     : `<span class="text-muted">(sense article corresponent a diccionariomadoz.com)</span>`;
   const noteHtml = e.note ? `<p class="entry-note"><em>Nota:</em> ${esc(e.note)}</p>` : "";
 
+  // Mega-article complement: when diccionariomadoz.com has significantly
+  // more text than our OCR, offer a toggle to read their fuller version.
+  // Marked clearly as external transcription, not our facsimile-faithful OCR.
+  const supplementHtml = e.madoz_content
+    ? `<details class="madoz-supplement">
+        <summary>📖 Versió ampliada de diccionariomadoz.com
+          (${fmt(e.madoz_content.length)} caràcters vs. ${fmt((e.description || '').length)} els nostres)</summary>
+        <div class="madoz-supplement-body">${esc(e.madoz_content)}</div>
+        <p class="madoz-supplement-note">
+          Transcripció web de tercers, no del nostre OCR. Sovint més completa per articles
+          grans (villes amb ayuntamiento) però amb errors propis de transcripció.
+        </p>
+      </details>`
+    : "";
+
   const exp = document.createElement("tr");
   exp.className = "madoz-expand";
   exp.innerHTML = `<td colspan="8">
@@ -208,6 +223,7 @@ function toggleExpand(tr) {
       ${statsHtml}
       ${crefsHtml}
       ${noteHtml}
+      ${supplementHtml}
       <p class="madoz-source">
         <span>Tom ${esc(e.vol)} · full ${esc(e.leaf)} · pàg. ${esc(e.page_printed || "?")}</span>
         · ${madozLink}

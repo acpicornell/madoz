@@ -51,6 +51,10 @@ def main() -> None:
                     help=("show every flagged pair (default keeps only the ones "
                           "where our title differs from theirs — i.e. likely "
                           "mis-links rather than just-partial-OCR captures)"))
+    ap.add_argument("--titles-same", action="store_true",
+                    help=("inverse filter: only show pairs where titles MATCH "
+                          "but descriptions differ — useful once mis-links are "
+                          "resolved to spot content gaps in our OCR captures"))
     args = ap.parse_args()
 
     con = duckdb.connect(str(DB), read_only=True)
@@ -88,8 +92,17 @@ def main() -> None:
     # By default only keep pairs whose titles differ — the same-title
     # rows are overwhelmingly "long village article on their side, intro
     # fragment on ours" (correct link, just length asymmetry) and
-    # they're noise for a mis-link audit. Pass --all-pairs to undo.
-    if not args.all_pairs:
+    # they're noise for a mis-link audit. Pass --all-pairs to undo,
+    # or --titles-same to invert the filter (only same-title pairs).
+    if args.titles_same:
+        before = len(flagged)
+        flagged = [
+            p for p in flagged
+            if normalize(p["title"]) == normalize(p["mtit"])
+        ]
+        print(f"\nFilter «titles match»: {before} → {len(flagged)} pairs kept "
+              f"(content-asymmetry candidates).")
+    elif not args.all_pairs:
         before = len(flagged)
         flagged = [
             p for p in flagged
@@ -117,9 +130,11 @@ def main() -> None:
     print(f"  mega-article fragments: {mega}")
     print(f"  one-to-one (more likely real divergence): {len(flagged) - mega}")
 
-    # Compact table: just the two titles side by side so you can spot
-    # bad pairings at a glance. Sim + flags as small badges.
+    # Compact table. In titles-differ mode (default) show just the
+    # two titles; in titles-same mode show description excerpts since
+    # the titles are by definition identical.
     OUT_HTML.parent.mkdir(parents=True, exist_ok=True)
+    show_content = args.titles_same
     rows_html = []
     for p in flagged:
         r = p["ratio"]
@@ -139,7 +154,32 @@ def main() -> None:
         ia = (f'https://archive.org/details/diccionariogeogr{p["vol"]}mado'
               f'/page/n{p["leaf"]}/mode/2up')
         murl = escape(p["murl"] or "")
-        rows_html.append(f"""
+        if show_content:
+            # Title once, content side-by-side.
+            rows_html.append(f"""
+        <tr class="{band}">
+          <td class="sim">{r:.2f}</td>
+          <td class="title-cell">
+            <strong>{escape(p['title'])}</strong>
+            <span class="ctx">{escape(p['island'] or '—')} · tom {escape(p['vol'])}/{p['leaf']}</span>
+            <div class="links">
+              <a href="{ia}" target="_blank">facsímil ↗</a> ·
+              <a href="{murl}" target="_blank">scrape ↗</a>
+              {('· ' + flags_html) if flags_html else ''}
+            </div>
+          </td>
+          <td class="content-cell">
+            <div class="lab">El nostre OCR <span class="len">({p['len_ours']}c.)</span></div>
+            <div class="body">{escape(p['desc'])}</div>
+          </td>
+          <td class="content-cell theirs-content">
+            <div class="lab">diccionariomadoz.com <span class="len">({p['len_theirs']}c.)</span></div>
+            <div class="body">{escape(p['content'])}</div>
+          </td>
+        </tr>""")
+        else:
+            # Title-comparison mode: just the two titles.
+            rows_html.append(f"""
         <tr class="{band}">
           <td class="sim">{r:.2f}</td>
           <td class="ours"><a href="{ia}" target="_blank">{escape(p['title'])}</a>
@@ -174,6 +214,16 @@ def main() -> None:
            font-size: 0.78em; border-radius: 3px; font-weight: 700; margin-right: 2px; }}
   .flag-mega {{ background: #fff3cd; color: #856404; }}
   .flag-short {{ background: #d1ecf1; color: #0c5460; }}
+  /* Content-comparison columns (titles-same mode) */
+  td.title-cell {{ width: 14em; vertical-align: top; }}
+  td.title-cell strong {{ display: block; font-size: 1.02em; }}
+  td.title-cell .links {{ font-size: 0.78em; margin-top: 4px; color: #888; }}
+  td.title-cell .links a {{ color: #c14a2c; }}
+  td.content-cell {{ width: 36%; padding: 0.6em 0.7em; vertical-align: top; }}
+  td.theirs-content {{ background: #fcfaf3; border-left: 1px solid #eee; }}
+  td.content-cell .lab {{ font-size: 0.74em; color: #888; margin-bottom: 0.3em; font-weight: 600; text-transform: uppercase; }}
+  td.content-cell .lab .len {{ color: #bbb; font-weight: normal; }}
+  td.content-cell .body {{ white-space: pre-wrap; font-size: 0.88em; line-height: 1.45; max-height: 12em; overflow-y: auto; }}
 </style>
 </head><body>
 <h1>Auditoria de parelles — Madoz</h1>
@@ -194,10 +244,14 @@ def main() -> None:
 </div>
 <table>
   <thead><tr>
-    <th class="sim">Sim</th>
-    <th>El nostre títol (→ facsímil IA)</th>
-    <th>diccionariomadoz.com</th>
-    <th></th>
+    {(
+      '<th class="sim">Sim</th><th>Entrada</th>'
+      '<th>El nostre OCR</th><th>diccionariomadoz.com</th>'
+      if show_content else
+      '<th class="sim">Sim</th>'
+      '<th>El nostre títol (→ facsímil IA)</th>'
+      '<th>diccionariomadoz.com</th><th></th>'
+    )}
   </tr></thead>
   <tbody>{''.join(rows_html)}</tbody>
 </table>

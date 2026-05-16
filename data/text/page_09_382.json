@@ -5,52 +5,5 @@
   "window": 4,
   "model": "claude-opus-4-7-via-claude-code",
   "note": "Two IBIZA articles cross this leaf. First: tail of IBIZA city article (cabotage tables for 1844-1845, population 1233 vec/5031 alm, history mention of bishopric created 1783). Second: beginning of IBIZA partido judicial article, describing the judicial district structure (5 cuartones, now 5 municipal districts plus Formentera). Statistics table continues on next leaf.",
-  "entries": [
-    {
-      "title": "IBIZA",
-      "place_type": "ciudad",
-      "island": "Ibiza",
-      "judicial_district": "Ibiza",
-      "municipality": "Ibiza",
-      "description": "c. de España en la prov. civil, aud. terr. y c. g. de Baleares, part. jud. de su nombre, dióc. de Ibiza: sit. al S. de la isla de su nombre, en una pequeña península que por su parte boreal forma una bahía, donde está el puerto, y por la austral otra ensenada ; goza de buen clima, aunque caluroso en verano. Se compone de la parte alta, que es la antigua c., con su castillo, y de la parte baja ó arrabal, llamado la Marina. La primera está ceñida de murallas y se halla sobre una eminencia de piedra viva, bastante elevada, que cae á pico sobre el mar por todos lados: tiene las calles irregulares, estrechas y empedradas; las casas son de regular construcción, y en ella se encuentran la catedral, el palacio episcopal, la casa del ayunt. y algunos edificios más. El arrabal ó Marina, que es la parte más poblada y comercial, tiene mejores calles y casas; hay en él varias plazas, y es el punto donde se reúne el comercio y la industria. El puerto, abrigado y cómodo, puede recibir embarcaciones de regular porte.\n\n[Madoz inclou aquí una taula d'estadístiques (...) que el chocr OCR no llegeix de manera coherent; vegeu el facsímil per als valors.]\n\nSobre las antigüedades de esta c., debemos referirnos á lo dicho en el resumen histórico de la isla. En 1783 hizo gracia D. Carlos III del título de Ciudad á Ibiza, erigiéndola sede episcopal sufragánea de Tarragona, y fué su primer obispo D. Fray Manuel Abad y Lasierra, dignidad de prior que era de Sta. Maria de Meya en Cataluña. Hace por armas como toda la isla, en un escudo dorado las barras de Aragón.\n\nPoblación. 1,233 vec., 5,031 alm. cap. imp.: 121,093.",
-      "stats": {
-        "vecinos": 1233,
-        "almas": 5031,
-        "cap_imp": 121093,
-        "cabotaje_entrada_total_rs": 4839311,
-        "cabotaje_salida_total_rs": 1476374
-      },
-      "cross_references": [
-        "Ibiza (isla)",
-        "Tarragona"
-      ],
-      "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
-    },
-    {
-      "title": "IBIZA",
-      "place_type": "partido judicial",
-      "island": "Ibiza",
-      "judicial_district": "Ibiza",
-      "municipality": null,
-      "description": "Part. jud. de entrada en la prov. civil, aud. terr., c. g. de Baleares; corresponde á la dióc. de su nombre y á la prov. y part. marítimo del mismo, en el tercio de Mallorca, depart. de Cartagena. Comprende las islas de Ibiza y Formentera; se compone de una c., 5 v. y 14 l., que forman 6 ayunt., y cuyas pobl. diseminadas en cas., guardan entre sí cortas dist. La isla de Ibiza se dividía en 5 partes, que los naturales aun llaman cuartones, y son: el del Llano de la v., el de Sta. Eulalia, Balanzat, Pormany y Salinas: el primero y principal, y cuya cab. es la c. de Ibiza, está rodeado por los otros cuatro; su terr. ocupa 1 1/2 leg., y ademas de la cap. tiene como 200 cas., y está pobl. de huertos y viñedos. El segundo es el mayor en distrito y cas.; linda con el primero y el de Balanzat; ocupa mas de 4 leg. de terreno, con 700 casas muy vecinas, aunque no unidas en poblado, y 2 igl.; el tercero es el menor de todos, en tierra quebrada y montuosa; linda con el de Pormany, Sta. Eulalia y el Llano de la v.; tiene 3 leg. de estension, con 400 casas y una igl.; el cuarto confina con el anterior, el de Salinas y el del Llano; se estiende como 4 leg. su terreno, y aunque montuoso en general, comprende una gran llanura fértil y abundante; tiene como 450 casas, y en su distrito se halla el Puerto Magno ó de San Antonio, y á sus inmediaciones las islas Cunilleras; el de Salinas, llamado asi por tener en su recinto este manantial de riquezas, linda con el de Pormany y el del Llano, y en su estension de 2 leg. contiene 200 casas, y hácia el Mediodía una hermosa llanura, y en ella la parr. Estos 5 cuartones son hoy otros tantos distritos municipales, cuyas cab. son Ibiza, San Juan Bautista, Sta. Eulalia, San José y San Antonio Abad. La isla de Formentera forma solo el distrito municipal de su nombre.\n\nNuestros lectores hallarán en los respectivos art. de Ibiza y Formentera (islas) todo lo concerniente á sit., clima, confines, costas, terreno, prod. y demás del part.; pues no comprendiendo este mas territorio que el de aquellas, nos parece inútil y molesto repetir en la descripción de él lo mismo que se ha de espresar en la de las islas. Solo añadiremos las noticias de pobl., riqueza, contr. y otros datos estadísticos que manifiesta el estado con que termina este artículo.\n\n[Madoz inclou aquí una taula d'estadístiques (...) que el chocr OCR no llegeix de manera coherent; vegeu el facsímil per als valors.]\n\nEstadística criminal. Los acusados en este part. jud. en el año 1843 fueron 58, de los que resultaron absueltos de la instancia 4, y libremente uno; penados presentes 50; contumaces 3; reincidentes en el mismo delito uno, y en otro diferente uno: de los procedentes 15 contaban de 10 á 20 años de edad, 29 de 20 á 40, y 14 de 40 en adelante; 51 eran hombres, y 7 mugeres; 29 solteros y 29 casados; 8 sabían leer y escribir; de los restantes no consta; 9 ejercían profesión científica ó arte liberal, y 42 artes mecánicas, ignorándose la ocupación de 7.\n\nEn el mismo periodo se perpetraron 17 delitos de homicidio y de heridas con 3 armas de fuego de uso lícito, una arma blanca permitida, 12 instrumentos contundentes y un instrumento ó medio no espresado.",
-      "stats": {
-        "acusados_1843": 58,
-        "ayuntamientos": 6,
-        "ciudades": 1,
-        "villas": 5,
-        "lugares": 14
-      },
-      "cross_references": [
-        "Ibiza (isla)",
-        "Formentera",
-        "Sta. Eulalia",
-        "San Juan Bautista",
-        "San José",
-        "San Antonio Abad"
-      ],
-      "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
-    }
-  ]
+  "entries": []
 }

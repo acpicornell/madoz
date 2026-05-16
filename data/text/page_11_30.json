@@ -7,7 +7,7 @@
   "note": "Mega-entry. Tail of MAHON ciudad article (cabotage tables 1843-1845, total imports 5.818,966 rs vn; total exports 2.818,794 rs vn) followed by start of MAHON partido judicial article. Historical section traces founding to Carthaginian general Magón, mentioned by Livy, Mela, Plinio, Ptolomeo; passes through Romans, Byzantines (Belisario), Arabs (790 sacked), reconquered by Aragón; sieged by Barbarroja 1535, Piali 1558; English possession 1708-1782 (Treaty of Utrecht, briefly French 1756-1763); title 'capital de la isla' from English period.",
   "entries": [
     {
-      "title": "MAHON",
+      "title": "MAHON (part. jud.)",
       "place_type": "ciudad",
       "island": "Menorca",
       "judicial_district": "Mahón",
@@ -26,7 +26,7 @@
       "note": "Re-extracted from chocr by recover_municipality_articles.py."
     },
     {
-      "title": "MAHON",
+      "title": "MAHON (part. jud.)",
       "place_type": "partido judicial",
       "island": "Menorca",
       "judicial_district": "Mahón",

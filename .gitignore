@@ -5,6 +5,8 @@ data/txt_djvu/
 
 # Page images (downloaded on demand for phase 3)
 data/pages/
+# Resized image cache produced by extract_vision.py for Batch API submits
+data/pages_resized/
 
 # Vision output (regenerable by extract_vision.py — but each rerun has
 # a non-trivial dollar cost, so consider committing the final batch

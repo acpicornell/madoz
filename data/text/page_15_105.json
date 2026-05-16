@@ -6,17 +6,6 @@
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
     {
-      "title": "TORRES (las)",
-      "place_type": null,
-      "island": null,
-      "judicial_district": null,
-      "municipality": null,
-      "description": "desp. en la prov. de Avila, part. jud. deArenas de San Pedro, térm. de Lanzahita (V.).",
-      "stats": {},
-      "cross_references": [],
-      "confidence": "medium"
-    },
-    {
       "title": "TORRES (so)",
       "place_type": "predio",
       "island": "Mallorca",

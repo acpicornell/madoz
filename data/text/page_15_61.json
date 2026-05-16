@@ -18,7 +18,7 @@
     },
     {
       "title": "TORRA (la)",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Valldemosa",
@@ -40,7 +40,7 @@
     },
     {
       "title": "TORTOVA",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": "Manacor",

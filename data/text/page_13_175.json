@@ -7,7 +7,7 @@
   "entries": [
     {
       "title": "PORRASSA (la)",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Calviá",
@@ -18,7 +18,7 @@
     },
     {
       "title": "PORRAT (son)",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Sineu",

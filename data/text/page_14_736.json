@@ -29,7 +29,7 @@
     },
     {
       "title": "TAULEBA (la)",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
@@ -51,7 +51,7 @@
     },
     {
       "title": "TAULERA",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": null,

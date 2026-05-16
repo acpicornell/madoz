@@ -18,7 +18,7 @@
     },
     {
       "title": "RAFAL AMAGA!'",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Menorca",
       "judicial_district": null,
       "municipality": null,
@@ -29,7 +29,7 @@
     },
     {
       "title": "RAFAL COLOM DE BINIMAIMUT",
-      "place_type": null,
+      "place_type": "predio",
       "island": null,
       "judicial_district": null,
       "municipality": null,
@@ -40,7 +40,7 @@
     },
     {
       "title": "RAFAL COLOM DE PONS",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Menorca",
       "judicial_district": null,
       "municipality": null,
@@ -79,7 +79,7 @@
     },
     {
       "title": "RAFAL DE LA MORT MENOR",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Santa Margarita",
@@ -101,7 +101,7 @@
     },
     {
       "title": "RAFAL FORT",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Menorca",
       "judicial_district": "Mahón",
       "municipality": null,
@@ -112,7 +112,7 @@
     },
     {
       "title": "RAFAL NOU",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Maria",
@@ -134,7 +134,7 @@
     },
     {
       "title": "RAFAL RLBÍ VÉLL",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Menorca",
       "judicial_district": null,
       "municipality": null,
@@ -156,7 +156,7 @@
     },
     {
       "title": "RAFAL RUBÍ NOU",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Menorca",
       "judicial_district": "Mahón",
       "municipality": null,
@@ -167,7 +167,7 @@
     },
     {
       "title": "RAFAL VELL",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Menorca",
       "judicial_district": null,
       "municipality": null,

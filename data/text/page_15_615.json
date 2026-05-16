@@ -7,7 +7,7 @@
   "entries": [
     {
       "title": "VANALHUFAR ó BANALBUFAR",
-      "place_type": null,
+      "place_type": "villa",
       "island": null,
       "judicial_district": "Palma",
       "municipality": null,
@@ -18,7 +18,7 @@
     },
     {
       "title": "VAQUER (so)",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Porreras",

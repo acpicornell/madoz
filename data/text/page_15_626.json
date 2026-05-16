@@ -4,17 +4,5 @@
   "page_printed": "622",
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
-  "entries": [
-    {
-      "title": "VEGA (la)",
-      "place_type": null,
-      "island": null,
-      "judicial_district": null,
-      "municipality": null,
-      "description": "barrio en la prov. de Oviedo, ayunt. de Villaviciosa y felig. de San Juan Bautista do Castiello (V.).",
-      "stats": {},
-      "cross_references": [],
-      "confidence": "medium"
-    }
-  ]
+  "entries": []
 }

@@ -40,7 +40,7 @@
     },
     {
       "title": "PEROT (son)",
-      "place_type": null,
+      "place_type": "alquería",
       "island": null,
       "judicial_district": "Inca",
       "municipality": "Maria",
@@ -73,7 +73,7 @@
     },
     {
       "title": "PLROT (son)",
-      "place_type": null,
+      "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": "Llubí",

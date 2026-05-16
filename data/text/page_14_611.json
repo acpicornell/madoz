@@ -6,17 +6,6 @@
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
     {
-      "title": "TAEDO",
-      "place_type": null,
-      "island": null,
-      "judicial_district": null,
-      "municipality": null,
-      "description": "t. en la prov. dOviedo, ayuut. de Piioña y felig.de Sin. María de Anaya (V.).",
-      "stats": {},
-      "cross_references": [],
-      "confidence": "medium"
-    },
-    {
       "title": "TAFAL (LA)",
       "place_type": "predio",
       "island": "Mallorca",

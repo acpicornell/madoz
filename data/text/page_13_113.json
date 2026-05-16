@@ -7,7 +7,7 @@
   "entries": [
     {
       "title": "POLI.ENTIA",
-      "place_type": null,
+      "place_type": "ciudad antigua",
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
@@ -18,7 +18,7 @@
     },
     {
       "title": "POLLENZA",
-      "place_type": null,
+      "place_type": "villa",
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,

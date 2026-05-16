@@ -29,9 +29,10 @@ _PROV_LIST = (
     r"huesca|malaga|m[áa]laga|castell[óo]n|alicante|valencia|teruel|le[óo]n|"
     r"granada|c[áa]diz|sevilla|burgos|salamanca|toledo|murcia|barcelona|"
     r"gerona|girona|l[ée]rida|lleida|c[óo]rdoba|navarra|zaragoza|tarragona|"
-    r"albacete|almer[íi]a|badajoz|c[áa]ceres|ciudad real|cuenca|guadalajara|"
-    r"ja[ée]n|logro[ñn]o|lugo|orense|asturias|palencia|pontevedra|santander|"
-    r"segovia|soria|valladolid|vizcaya|zamora|huelva|alava|guipuzcoa"
+    r"albacete|almer[íi]a|badajoz|c[áa]ceres|ciudad real|cu[ea]?[dn]ca|"  # cuenca + "CueDca" OCR
+    r"guadalajara|ja[ée]n|logro[ñn]o|lugo|orense|asturias|oviedo|palencia|"
+    r"pontevedra|santander|segovia|soria|valladolid|vizcaya|zamora|huelva|"
+    r"[áa]vila|alava|guipuzcoa"
 )
 # Match "prov." within ~40 chars of a non-Balearic province name.
 # Permissive on the fill chars to catch real Madoz forms like:
@@ -47,7 +48,29 @@ PROVINCES_RE = re.compile(
 )
 
 
-def is_non_balearic(desc: str | None) -> bool:
+# Titles of entries that are unambiguously non-Balearic but whose
+# description fragment doesn't cite a province explicitly (often the
+# OCR window grabbed the *tail* of a peninsular article, so the
+# province name lives upstream of what we captured). These were
+# audited manually:
+#   TRUCHAS    — iron works (León), "ferrerias y molinos harineros"
+#   VILLAFRANCA — Zumalacárregui / Carlist War, Navarra
+#   VILANOVA   — Pico Sacro, Galicia (Pontevedra)
+#   SEGURA     — peninsular village fragment, no Balearic markers
+#   PUIG       — El Puig (Valencia): Puzol, Puebla de Farnals, Rafelbuñol
+CURATED_TITLES_TO_PURGE = {
+    "TRUCHAS",
+    "VILLAFRANCA",
+    "VILANOVA",
+    "SEGURA",
+    "PUIG",
+    "TAEDO",  # "prov. dOviedo" — apostrophe lost, regex \b can't see boundary
+}
+
+
+def is_non_balearic(desc: str | None, title: str | None = None) -> bool:
+    if title in CURATED_TITLES_TO_PURGE:
+        return True
     if not desc:
         return False
     return bool(PROVINCES_RE.search(desc))
@@ -63,7 +86,7 @@ def main() -> None:
         "SELECT id, title, description, source_file FROM text_entries"
     ).fetchall()
     targets = [(tid, title, src) for tid, title, desc, src in rows
-               if is_non_balearic(desc)]
+               if is_non_balearic(desc, title)]
 
     print(f"Found {len(targets)} non-Balearic entries to purge.")
     for tid, title, src in targets:

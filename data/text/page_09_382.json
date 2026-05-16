@@ -6,7 +6,51 @@
   "model": "claude-opus-4-7-via-claude-code",
   "note": "Two IBIZA articles cross this leaf. First: tail of IBIZA city article (cabotage tables for 1844-1845, population 1233 vec/5031 alm, history mention of bishopric created 1783). Second: beginning of IBIZA partido judicial article, describing the judicial district structure (5 cuartones, now 5 municipal districts plus Formentera). Statistics table continues on next leaf.",
   "entries": [
-    {"title": "IBIZA", "place_type": "ciudad", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "Ibiza", "description": "Tail of city article: tablas de cabotaje 1844-1845 (entrada total 4.839,311 rs. vn.; salida total 1.476,374 rs. vn.); población 1,233 vec., 5,031 alm., cap. imp.: 121,093. En 1783 D. Carlos III concedió título de Ciudad á Ibiza, erigiéndola sede episcopal sufragánea de Tarragona, siendo su primer obispo D. Fray Manuel Abad y Lasierra. Hace por armas como toda la isla, en escudo dorado las barras de Aragón.", "stats": {"vecinos": 1233, "almas": 5031, "cap_imp": 121093, "cabotaje_entrada_total_rs": 4839311, "cabotaje_salida_total_rs": 1476374}, "cross_references": ["Ibiza (isla)", "Tarragona"], "confidence": "high"},
-    {"title": "IBIZA", "place_type": "partido judicial", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": null, "description": "Part. jud. de entrada en la prov. civil, aud. terr., c. g. de Baleares; corresponde á la dióc. de su nombre y á la prov. y part. marítimo del mismo, en el tercio de Mallorca, depart. de Cartagena. Comprende las islas de Ibiza y Formentera; se compone de una c., 5 v. y 14 l., que forman 6 ayunt. La isla de Ibiza se dividía en 5 cuartones: del Llano de la v. (cab. Ibiza c.), Sta. Eulalia, Balanzat, Pormany y Salinas. Estos 5 cuartones son hoy otros tantos distritos municipales, cuyas cab. son Ibiza, San Juan Bautista, Sta. Eulalia, San José y San Antonio Abad. La isla de Formentera forma solo el distrito municipal de su nombre. Estadística criminal 1843: 58 acusados.", "stats": {"acusados_1843": 58, "ayuntamientos": 6, "ciudades": 1, "villas": 5, "lugares": 14}, "cross_references": ["Ibiza (isla)", "Formentera", "Sta. Eulalia", "San Juan Bautista", "San José", "San Antonio Abad"], "confidence": "high"}
+    {
+      "title": "IBIZA",
+      "place_type": "ciudad",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Ibiza",
+      "description": "c. de España en la prov. civil, aud. terr. y c. g. de Baleares, part. jud. de su nombre, dióc. de Ibiza: sit. al S. de la isla de su nombre, en una pequeña península que por su parte boreal forma una bahía capaz de contener buques de todos portes, y por la parte meridional otra menor; la rodean por todas partes corrientes de aire, disfrutando de clima templado y saludable.\n\nSobre las antigüedades de esta c., debemos referirnos á lo dicho en el resumen histórico de la isla. En 1783 hizo gracia D. Carlos III del título de Ciudad á Ibiza, erigiéndola sede episcopal sufragánea de Tarragona, y fué su primer obispo D. Fray Manuel Abad y Lasierra, dignidad de prior que era de Sta. Maria de Meya en Cataluña. Hace por armas como toda la isla, en un escudo dorado las barras de Aragón.\n\nPoblación. 1,233 vec., 5,031 alm. cap. imp.: 121,093.\n\n[Madoz inclou aquí una taula d'estadístiques (...) que el chocr OCR no llegeix de manera coherent; vegeu el facsímil per als valors.]",
+      "stats": {
+        "vecinos": 1233,
+        "almas": 5031,
+        "cap_imp": 121093,
+        "cabotaje_entrada_total_rs": 4839311,
+        "cabotaje_salida_total_rs": 1476374
+      },
+      "cross_references": [
+        "Ibiza (isla)",
+        "Tarragona"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    },
+    {
+      "title": "IBIZA",
+      "place_type": "partido judicial",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "c. de España en la prov. civil, aud. terr. y c. g. de Baleares, part. jud. de su nombre, dióc. de Ibiza: sit. al S. de la isla de su nombre, en una pequeña península que por su parte boreal forma una bahía capaz de contener buques de todos portes, y por la parte meridional otra menor; la rodean por todas partes corrientes de aire, disfrutando de clima templado y saludable.\n\nSobre las antigüedades de esta c., debemos referirnos á lo dicho en el resumen histórico de la isla. En 1783 hizo gracia D. Carlos III del título de Ciudad á Ibiza, erigiéndola sede episcopal sufragánea de Tarragona, y fué su primer obispo D. Fray Manuel Abad y Lasierra, dignidad de prior que era de Sta. Maria de Meya en Cataluña. Hace por armas como toda la isla, en un escudo dorado las barras de Aragón.\n\nPoblación. 1,233 vec., 5,031 alm. cap. imp.: 121,093.\n\n[Madoz inclou aquí una taula d'estadístiques (...) que el chocr OCR no llegeix de manera coherent; vegeu el facsímil per als valors.]",
+      "stats": {
+        "acusados_1843": 58,
+        "ayuntamientos": 6,
+        "ciudades": 1,
+        "villas": 5,
+        "lugares": 14
+      },
+      "cross_references": [
+        "Ibiza (isla)",
+        "Formentera",
+        "Sta. Eulalia",
+        "San Juan Bautista",
+        "San José",
+        "San Antonio Abad"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    }
   ]
 }

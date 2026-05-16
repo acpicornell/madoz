@@ -5,6 +5,33 @@
   "window": 4,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "MANACOR", "place_type": "villa", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "V. cab. del part. jud. de su nombre, en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares. Sit. en un fértil llano, sobre una pequeña altura desnivelada; le combaten con más frecuencia los vientos del E.; clima húmedo pero sano; enfermedades comunes son fiebres intermitentes y oftalmías. 2,500 casas (algunas antiquísimas, entre ellas un palacio que fue de los reyes de Mallorca). Calles espaciosas y varias plazas. Casa consistorial y cárcel trasladadas al exconv. de frailes Dominicos. Escuela primaria dotada 2,500 rs. vn., 80 niños; otra para 50 niñas con maestra dotada 400 rs. Igl. parr. (Ntra. Sra. de los Dolores) — cura propio (actualmente vacante, regida por ecónomo), 3 vicarios temporales, 21 beneficiados de sangre, 1 ecl., 4 sacerdotes ordenados á título de patrimonio para agonizantes, 5 más adscritos; igl. del exconv. Dominicos abierta al culto como ayuda. Hospital y casa de beneficencia en centro de pobl. Térm. confina NO. Petra, E. el mar, S. Felanitx, O. Petra. Comprende el l. de San Lorenzo Descardasar y muchos predios rústicos, varios con oratorios públicos (Son Mesquida, Son Juan Masía, Rafal Puclent, Mandía, Llodrá, Son Sureda). Cala de Manacor con torre en la punta SO. (poco fondo, sólo para embarcaciones costeras). Terreno arenoso, cordilleras poco elevadas. Cinco carreteras hacia Artá, Felanitx, Palma, Porreras y la marina. Prod.: cereales, legumbres, poco aceite, mucho vino (inferior calidad), higos secos; ganado lanar y mular; pesca del mar. Industria: 1 fáb. de cardenillo, 23 alambiques de aguardientes, 45 molinos de viento, 2 de agua. Comercio: cereales, ganados, lana, legumbres; importa arroz, aceite, patatas, hortalizas. Tres ferias los tres primeros domingos de septiembre (ganados).", "stats": {"vecinos": 2215, "almas": 10315, "cap_imp": 1487513, "contr_1846": 216680, "casas": 2500, "molinos_viento": 45, "molinos_agua": 2, "alambiques": 23}, "cross_references": ["Petra", "Felanitx", "Artá", "Palma", "Porreras", "San Lorenzo Descardasar"], "confidence": "high"}
+    {
+      "title": "MANACOR",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Manacor",
+      "description": "V. cab. del part. jud. de su nombre, en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares. Sit. en un fértil llano, sobre una pequeña altura desnivelada; le combaten con más frecuencia los vientos del E.; su clima es húmedo, pero sano; las enfermedades comunes son fiebres intermitentes y oftalmías. Forman la pobl. 2,500 casas, grandes en general y de hermosas fachadas, aunque algunas antiquísimas, entre ellas una, que fué palacio de los reyes de Mallorca; se hallan distribuidas en calles espaciosas y varias plazas; en una de estas, estaba la casa consistorial y la cárcel, que se han trasladado al exconvento de frailes Dominicos, por la incapacidad de los edificios que ocupaban; hay una escuela de instrucción primaria dotada con 2,500 rs. vellón anuales, concurrida por 80 niños, y otra de igual clase asistida por 50 alumnas, cuya maestra disfruta la pensión de 400 rs.; una igl. parr. (Ntra. Sra. de los Dolores), que estaba servida por un cura propio de patronato real y ordinario, 3 vicarios temporales y amovibles de nombramiento del diocesano, 21 beneficiados de patronato de sangre, 1 de ecl., 4 sacerdotes ordenados á título de patrimonio, y acogidos para el cargo de agonizantes, y 5 sacerdotes de igual clase, adscritos al servicio de la igl. sin especial obligación; hoy se halla vacante el curato, y lo desempeña en calidad de ecónomo, un sacerdote esclaustrado; los 3 vicarios efectivos son ordenados á título de patrimonio, y hay ademas 2 supernumerarios, 3 titulares y 4 esclaustrados acogidos á lo adventicio, con obligación de asistir al confesonario y divinos oficios, 4 titulares adscritos al servicio, pero no acogidos, y 4 esclaustrados de igual clase, que asisten en la igl. del exconvento de Dominicos, que se halla abierta al culto público, para ayuda de la parr., con dependencia del cura; en el centro de la pobl. está un edificio destinado para hospital y casa de beneficencia. El térm. confina NO. Petra (3/4 leg.); E. el mar (2 1/2); S. Felanitx (2 1/4), y O. el mismo Petra (1/2): en él se comprenden, ademas del l. de S. Lorenzo Descardasar, muchos predios rústicos de propiedad particular, entre los cuales hay varios que tienen oratorios públicos, con misa en los dias festivos, para los colonos de los predios inmediatos, y son los nombrados Son Mesquida, Son Juan Masía, el Rafal Puclent, Mandía, Llodrá y Son Sureda; en la parte de costa que abraza el térm., está la cala á que da nombre la v., con una torre sobre su punta del SO., que sirve para conocerla, pues no hay otra en todo este tránsito, y es muy oportuna, porque siendo toda tierra baja y pareja es dificultoso distinguir la boca de la cala, que mora al SE., girando después al NO., N. y NE. de 3 á 4 cables, de suerte que se halla abrigada de todos vientos, pero tiene poco fondo y es estrecha; de modo que solo sirve para embarcaciones costeras. El terreno es generalmente arenoso, con algunas cord. poco elevadas y de menos consideración pobladas de matas; le cruzan cinco carreteras que conducen á Artá, Felanitx, Palma, Porreras, y á la marina. El correo se recibe de la cap., sin dia fijo. prod.: cereales, legumbres, poco aceite, mucho vino, aunque de inferior calidad, é higos secos; cria ganado de toda especie, con preferencia el lanar y mular; caza de conejos, perdices y liebres, y pesca del mar. ind.: 1 fáb. de cardenillo, 23 alambiques de aguardientes, 45 molinos de viento y 2 de agua. comercio: esportacion de cereales, ganados, lana y legumbres, é importación de arroz, aceite, patatas y hortalizas; se celebran 3 ferias en los 3 primeros domingos del mes de setiembre, cuyo tráfico principal es de ganados. pobl.: 2,215 vec., 10,315 alm. cap. imp.: 1.487,513. contr. en el año 1846: 216,680 rs.",
+      "stats": {
+        "vecinos": 2215,
+        "almas": 10315,
+        "cap_imp": 1487513,
+        "contr_1846": 216680,
+        "casas": 2500,
+        "molinos_viento": 45,
+        "molinos_agua": 2,
+        "alambiques": 23
+      },
+      "cross_references": [
+        "Petra",
+        "Felanitx",
+        "Artá",
+        "Palma",
+        "Porreras",
+        "San Lorenzo Descardasar"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    }
   ]
 }

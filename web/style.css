@@ -892,7 +892,7 @@ footer p { margin: 0; }
 .conf-medium { color: #b87333; }
 .conf-low { color: var(--text-muted); }
 
-/* Link mark (★) next to titles that have a scrape backing */
+/* Link mark (★) next to titles that also exist on diccionariomadoz.com */
 .link-mark { color: var(--accent); margin-left: 0.3em; font-size: 0.85em; }
 
 /* Stat cards on Estadístiques tab */

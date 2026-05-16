@@ -16,28 +16,141 @@
 </header>
 
 <nav class="tabs tabs-main">
-  <button class="tab active" data-toptab="explore">Explorar</button>
+  <button class="tab active" data-toptab="home">Inici</button>
+  <button class="tab" data-toptab="explore">Explorar</button>
   <button class="tab" data-toptab="stats">Estadístiques</button>
 </nav>
 
+<!-- ===== HOME / INICI ===== -->
+<section id="tab-home" class="tab-content active" data-toptab="home">
+  <div class="home-hero">
+    <h1>Diccionari Madoz · Balears</h1>
+    <p class="lead">El primer gran diccionari geogràfic-estadístic-històric d'Espanya del segle XIX. Aquesta web extreu, organitza i fa cercable cada un dels articles balears.</p>
+    <div class="home-stats">
+      <div class="home-stat"><span class="num" id="home-stat-entries">…</span><span class="label">articles balears</span></div>
+      <div class="home-stat"><span class="num">16</span><span class="label">volums (1845–1850)</span></div>
+      <div class="home-stat"><span class="num">5</span><span class="label">illes documentades</span></div>
+      <div class="home-stat"><span class="num" id="home-stat-types">…</span><span class="label">tipus de lloc</span></div>
+    </div>
+  </div>
+
+  <div class="home-prose">
+    <h2>Què és el Madoz</h2>
+    <p>
+      El <em>Diccionario geográfico-estadístico-histórico de España y sus posesiones de Ultramar</em>
+      —simplement <strong>"el Madoz"</strong>— és l'obra de referència del segle XIX per conèixer,
+      poble a poble i predi a predi, la geografia, l'economia i la demografia d'Espanya i les seves
+      colònies. Setze volums publicats a Madrid entre <strong>1845 i 1850</strong>, ordenats
+      alfabèticament, amb prop de <strong>70.000 entrades</strong>. Continua una línia iniciada
+      per Sebastián Miñano (1826–1829) però l'amplia en escala i en detall estadístic.
+    </p>
+    <p>
+      L'obra apareix al moment culminant del règim liberal d'Isabel II, una dècada després de la
+      <strong>desamortització de Mendizábal (1836)</strong> i cinc anys abans que el mateix Madoz,
+      ja com a ministre d'Hisenda, signés la <strong>seva pròpia desamortització</strong> (1r de
+      maig de 1855), que enviaria a subhasta gran part dels béns dels municipis i les corporacions
+      religioses. El diccionari documenta el país <em>just abans</em> d'aquesta transformació.
+    </p>
+
+    <h2>Pascual Madoz</h2>
+    <p>
+      <strong>Pascual Madoz Ibáñez</strong> (Pamplona, 1806 – Gènova, 1870) fou advocat, periodista
+      i polític <em>progressista</em>. Diputat per Lleida, exiliat a França pels seus posicionaments
+      durant la Dècada Moderada, alcalde de Madrid, governador civil de Barcelona, governador de les
+      Canàries, president de les Corts i, breument, ministre d'Hisenda al govern Espartero (1855).
+      La seva desamortització general posà a la venda terrenys municipals, eclesiàstics i d'ordres
+      militars per finançar el ferrocarril i el deute públic. El diccionari fou la seva obra civil
+      i va comprometre-hi prop de vint anys de redacció amb un equip de col·laboradors regionals.
+    </p>
+
+    <h2>Què té aquesta web</h2>
+    <p>
+      Una extracció completa dels articles <strong>balears</strong> del Madoz, treballada en dues
+      passades: primer, un escanejat OCR (chocr d'<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>)
+      identifica els articles del territori illenc; després, un model de llenguatge (Claude Opus
+      4.7) llegeix el text dels 742 fulls de Madoz que contenen entrades balears i en treu el camp
+      estructurat: títol, tipus de lloc, illa, partit judicial, municipi, descripció, estadístics
+      (vecinos, almas, contribución…) i referències creuades. Els resultats es coteggen amb la
+      transcripció web de <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>
+      i passen per un pipeline de scripts de neteja —<code>purge_non_balearic.py</code>,
+      <code>normalize_*</code>— que elimina falsos positius (homònims peninsulars que s'havien
+      colat) i unifica les variants OCR.
+    </p>
+  </div>
+
+  <div class="sources-grid">
+    <div class="source-card">
+      <h3>Mallorca</h3>
+      <p><span class="num" id="home-src-mallorca">…</span> entrades. Tres partits judicials (Palma, Inca, Manacor) i ~45 municipis amb predios, alquerías i talaies.</p>
+    </div>
+    <div class="source-card">
+      <h3>Menorca</h3>
+      <p><span class="num" id="home-src-menorca">…</span> entrades. Mahón i Ciudadela com a partits judicials, amb predios de la part oriental.</p>
+    </div>
+    <div class="source-card">
+      <h3>Eivissa</h3>
+      <p><span class="num" id="home-src-ibiza">…</span> entrades. Partit judicial únic, organitzat en quartons històrics.</p>
+    </div>
+    <div class="source-card">
+      <h3>Formentera</h3>
+      <p><span class="num" id="home-src-formentera">…</span> entrades. Formentera i San Francisco Javier.</p>
+    </div>
+    <div class="source-card">
+      <h3>Cabrera</h3>
+      <p><span class="num" id="home-src-cabrera">…</span> entrada. Article propi com a illa menor.</p>
+    </div>
+    <div class="source-card">
+      <h3>Articles província-wide</h3>
+      <p><span class="num" id="home-src-balears">…</span> entrades. Audiencia, capitania general, correus, tercio naval, província marítima, diòcesi.</p>
+    </div>
+  </div>
+
+  <div class="home-prose">
+    <h2>Per on començar</h2>
+  </div>
+  <div class="home-actions">
+    <button class="home-action" data-goto="explore"><strong>Explorar →</strong><span>Filtrar les ~1.180 entrades per illa, partit, municipi, tipus de lloc, volum i confiança.</span></button>
+    <button class="home-action" data-goto="stats"><strong>Estadístiques →</strong><span>Recomptes per illa, tipus de lloc, partit judicial, top municipis i cobertura per volum.</span></button>
+  </div>
+
+  <div class="home-prose">
+    <h2>Sobre les dades i el codi</h2>
+    <p>
+      Font primària: l'edició original de Madoz a Madrid (1845–1850), 16 volums, digitalitzada per
+      l'<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a> (chocr =
+      compressed hOCR). Cotejada amb la transcripció moderna article-per-article de
+      <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>.
+    </p>
+    <p>
+      L'extracció estructurada s'ha fet amb <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude Opus 4.7</a>
+      (Anthropic) llegint el text OCR de cada full. Web 100% estàtica: HTML + CSS + un sol fitxer
+      JSON (~750 KB), JS vanilla, sense backend ni WASM. Codi obert.
+    </p>
+    <p style="font-size:0.88em;color:var(--text-muted)">
+      Per saber-ne més: <a href="https://es.wikipedia.org/wiki/Diccionario_geogr%C3%A1fico-estad%C3%ADstico-hist%C3%B3rico_de_Espa%C3%B1a_y_sus_posesiones_de_Ultramar" target="_blank" rel="noopener">Wikipedia: Diccionario de Madoz</a>
+      · <a href="https://es.wikipedia.org/wiki/Pascual_Madoz" target="_blank" rel="noopener">Wikipedia: Pascual Madoz</a>
+      · <a href="https://en.wikipedia.org/wiki/Spanish_confiscation" target="_blank" rel="noopener">Spanish confiscation (desamortización)</a>
+    </p>
+  </div>
+</section>
+
 <!-- ===== EXPLORE ===== -->
-<section id="tab-explore" class="tab-content active" data-toptab="explore">
+<section id="tab-explore" class="tab-content" data-toptab="explore">
   <div class="source-stats" data-source="madoz">
     <span><strong id="stat-text">…</strong> entrades extretes</span>
-    <span><strong id="stat-madoz">…</strong> articles del scrape</span>
+    <span><strong id="stat-madoz">…</strong> articles a diccionariomadoz.com</span>
     <span><strong id="stat-volumes">…</strong> volums</span>
     <span><strong id="stat-islands">…</strong> illes</span>
     <span><strong id="stat-types">…</strong> tipus de lloc</span>
   </div>
   <div class="modern-intro">
     <p>
-      Aquesta web mostra les <strong>entrades balears del Madoz extretes del text complet</strong>
-      (chocr de l'Internet Archive) — predios, viles, cales, talaies, partits judicials i articles
-      institucionals. Cada entrada té tipus de lloc, illa, partit judicial i municipi inferits del
-      Madoz canònic, més la descripció sencera, els estadístics (vecinos, almas, contribución...)
-      i les referències creuades. Filtra des de la barra esquerra; clica una fila per veure el text
-      complet de l'article. La columna <strong>Vol/Full</strong> indica on viu l'entrada al Madoz
-      original (16 volums, 1845–1850).
+      Filtra des de la barra esquerra; clica una fila per veure el text complet de l'article. Cada
+      entrada té tipus de lloc, illa, partit judicial i municipi inferits del text OCR del Madoz
+      original, més la descripció sencera, els estadístics (vecinos, almas, contribución…) i les
+      referències creuades. La columna <strong>Vol/Full</strong> indica on viu l'entrada als 16
+      volums originals (1845–1850). L'estrella ★ marca les entrades que també apareixen a
+      diccionariomadoz.com (un altre projecte de transcripció, útil per cotejar).
     </p>
   </div>
   <div class="modern-explorer">
@@ -77,7 +190,7 @@
         </select>
       </div>
       <div class="filter-group">
-        <label class="checkbox-line"><input id="f-only-madoz" type="checkbox"> Només amb article del scrape</label>
+        <label class="checkbox-line"><input id="f-only-madoz" type="checkbox"> Només amb article a diccionariomadoz.com</label>
       </div>
       <button id="f-clear" class="ghost">Netejar filtres</button>
       <button id="f-export" class="ghost btn-export" title="Descarrega un CSV amb tots els resultats actuals">Descarregar CSV</button>
@@ -140,9 +253,9 @@
       <table id="stat-by-vol"><tbody><tr><td class="empty">—</td></tr></tbody></table>
     </div>
     <div class="stat-card stat-card-wide">
-      <h3>Connexió amb el scrape canònic</h3>
+      <h3>Solapament amb diccionariomadoz.com</h3>
       <p style="color:var(--text-muted);font-size:0.88em;margin:0 0 0.6em">
-        Quantes entrades del text OCR tenen el seu corresponent a diccionariomadoz.com.
+        Quantes entrades del nostre OCR també tenen article a diccionariomadoz.com (l'altre projecte de transcripció).
       </p>
       <table id="stat-links"><tbody><tr><td class="empty">—</td></tr></tbody></table>
     </div>

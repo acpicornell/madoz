@@ -33,60 +33,95 @@ function norm(s) {
 }
 
 // === TABS ===
+function gotoTab(t) {
+  document.querySelectorAll(".tabs .tab").forEach(b =>
+    b.classList.toggle("active", b.dataset.toptab === t));
+  document.querySelectorAll(".tab-content").forEach(sec =>
+    sec.classList.toggle("active", sec.dataset.toptab === t));
+  if (t === "stats") renderStats();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 function initTabs() {
   document.querySelectorAll(".tabs .tab").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const t = btn.dataset.toptab;
-      document.querySelectorAll(".tabs .tab").forEach(b =>
-        b.classList.toggle("active", b.dataset.toptab === t));
-      document.querySelectorAll(".tab-content").forEach(sec =>
-        sec.classList.toggle("active", sec.dataset.toptab === t));
-      if (t === "stats") renderStats();
-    });
+    btn.addEventListener("click", () => gotoTab(btn.dataset.toptab));
+  });
+  // "Per on començar" call-to-action buttons on the home tab.
+  document.querySelectorAll(".home-action").forEach(btn => {
+    btn.addEventListener("click", () => gotoTab(btn.dataset.goto));
   });
 }
 
 // === FILTERS ===
-function populateFilters() {
-  const counts = (key, sort = "n") => {
-    const m = new Map();
+// Each dropdown key maps to a state slot + an entry field. Used by both
+// the cascading refill and the predicate that filters the table.
+const FILTER_DEFS = [
+  { id: "f-island",       stateKey: "island",       field: "island",            allLabel: "— Totes —" },
+  { id: "f-district",     stateKey: "district",     field: "judicial_district", allLabel: "— Tots —" },
+  { id: "f-municipality", stateKey: "municipality", field: "municipality",      allLabel: "— Tots —" },
+  { id: "f-type",         stateKey: "type",         field: "place_type",        allLabel: "— Tots —" },
+  { id: "f-vol",          stateKey: "vol",          field: "vol",               allLabel: "— Tots —" },
+  { id: "f-conf",         stateKey: "conf",         field: "confidence",        allLabel: "— Totes —" },
+];
+
+// True if `e` matches all currently-active filters EXCEPT the one
+// identified by `exceptKey` (so a dropdown can list options as if its
+// own filter were not applied).
+function matchesExcept(e, exceptKey) {
+  for (const f of FILTER_DEFS) {
+    if (f.stateKey === exceptKey) continue;
+    const v = state[f.stateKey];
+    if (v && e[f.field] !== v) return false;
+  }
+  if (state.only_madoz && !e.madoz_url) return false;
+  if (state.search) {
+    const hay = norm((e.title || "") + " " + (e.description || ""));
+    if (!hay.includes(norm(state.search))) return false;
+  }
+  return true;
+}
+
+// Repopulate every dropdown with the values that exist in the subset
+// of entries matching all OTHER active filters. If the currently
+// selected value disappears (e.g. you select Formentera and the
+// previously-chosen Manacor district vanishes), clear it.
+function refillFilters() {
+  for (const f of FILTER_DEFS) {
+    const counts = new Map();
     for (const e of state.entries) {
-      const v = e[key];
-      if (!v) continue;
-      m.set(v, (m.get(v) || 0) + 1);
+      if (!matchesExcept(e, f.stateKey)) continue;
+      const v = e[f.field];
+      if (v == null || v === "") continue;
+      counts.set(v, (counts.get(v) || 0) + 1);
     }
-    const arr = [...m.entries()];
-    if (sort === "n") arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-    else arr.sort((a, b) => a[0].localeCompare(b[0], "ca", { numeric: true }));
-    return arr;
-  };
-  const fill = (id, arr, allLabel) => {
-    $(id).innerHTML = `<option value="">${allLabel}</option>` +
-      arr.map(([v, n]) => `<option value="${esc(v)}">${esc(v)} (${n})</option>`).join("");
-  };
-  fill("f-island", counts("island"), "— Totes —");
-  fill("f-district", counts("judicial_district"), "— Tots —");
-  fill("f-municipality", counts("municipality"), "— Tots —");
-  fill("f-type", counts("place_type"), "— Tots —");
-  fill("f-vol", counts("vol", "key"), "— Tots —");
+    const arr = [...counts.entries()];
+    if (f.id === "f-vol" || f.id === "f-municipality") {
+      arr.sort((a, b) => a[0].localeCompare(b[0], "ca", { numeric: true }));
+    } else if (f.id === "f-conf") {
+      const order = { high: 0, medium: 1, low: 2 };
+      arr.sort((a, b) => (order[a[0]] ?? 9) - (order[b[0]] ?? 9));
+    } else {
+      arr.sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    }
+    // Drop selection if it no longer fits the current cascade.
+    const cur = state[f.stateKey];
+    if (cur && !counts.has(cur)) state[f.stateKey] = "";
+
+    const labelMap = f.id === "f-conf"
+      ? { high: "Alta", medium: "Mitjana", low: "Baixa" }
+      : null;
+    const opts = arr.map(([v, n]) => {
+      const label = labelMap ? (labelMap[v] || v) : v;
+      return `<option value="${esc(v)}">${esc(label)} (${n})</option>`;
+    }).join("");
+    const sel = $(f.id);
+    sel.innerHTML = `<option value="">${f.allLabel}</option>` + opts;
+    sel.value = state[f.stateKey] || "";
+  }
 }
 
 function applyFilters() {
-  const q = norm(state.search);
-  state.filtered = state.entries.filter(e => {
-    if (state.island && e.island !== state.island) return false;
-    if (state.district && e.judicial_district !== state.district) return false;
-    if (state.municipality && e.municipality !== state.municipality) return false;
-    if (state.type && e.place_type !== state.type) return false;
-    if (state.vol && e.vol !== state.vol) return false;
-    if (state.conf && e.confidence !== state.conf) return false;
-    if (state.only_madoz && !e.madoz_url) return false;
-    if (q) {
-      const hay = norm((e.title || "") + " " + (e.description || ""));
-      if (!hay.includes(q)) return false;
-    }
-    return true;
-  });
+  state.filtered = state.entries.filter(e => matchesExcept(e, null));
   sortFiltered();
 }
 
@@ -115,7 +150,7 @@ function renderTable() {
   const slice = state.filtered.slice(0, 500);
   const dot = c => c === "high" ? "●" : c === "medium" ? "◐" : c === "low" ? "○" : "—";
   tbody.innerHTML = slice.map(e => {
-    const mark = e.madoz_url ? '<span class="link-mark" title="Enllaçat al scrape canònic">★</span>' : "";
+    const mark = e.madoz_url ? '<span class="link-mark" title="També té article a diccionariomadoz.com">★</span>' : "";
     return `<tr data-id="${e.id}" class="madoz-row">
       <td><strong>${esc(e.title)}</strong> ${mark}</td>
       <td>${esc(e.place_type || "—")}</td>
@@ -161,7 +196,7 @@ function toggleExpand(tr) {
   }
   const madozLink = e.madoz_url
     ? `<a href="${esc(e.madoz_url)}" target="_blank" rel="noopener">Veure a diccionariomadoz.com →</a>`
-    : `<span class="text-muted">(sense article al scrape)</span>`;
+    : `<span class="text-muted">(sense article corresponent a diccionariomadoz.com)</span>`;
   const noteHtml = e.note ? `<p class="entry-note"><em>Nota:</em> ${esc(e.note)}</p>` : "";
 
   const exp = document.createElement("tr");
@@ -197,23 +232,27 @@ function initSort() {
   });
 }
 
+function update() {
+  refillFilters();
+  renderTable();
+}
+
 function bindFilters() {
   let t;
   $("f-search").addEventListener("input", e => {
     clearTimeout(t);
-    t = setTimeout(() => { state.search = e.target.value.trim(); renderTable(); }, 180);
+    t = setTimeout(() => { state.search = e.target.value.trim(); update(); }, 180);
   });
-  const sel = (id, key) => $(id).addEventListener("change", e => { state[key] = e.target.value; renderTable(); });
+  const sel = (id, key) => $(id).addEventListener("change", e => { state[key] = e.target.value; update(); });
   sel("f-island", "island"); sel("f-district", "district"); sel("f-municipality", "municipality");
   sel("f-type", "type"); sel("f-vol", "vol"); sel("f-conf", "conf");
-  $("f-only-madoz").addEventListener("change", e => { state.only_madoz = e.target.checked; renderTable(); });
+  $("f-only-madoz").addEventListener("change", e => { state.only_madoz = e.target.checked; update(); });
   $("f-clear").addEventListener("click", () => {
     Object.assign(state, { search: "", island: "", district: "", municipality: "",
                             type: "", vol: "", conf: "", only_madoz: false });
     $("f-search").value = "";
-    ["f-island", "f-district", "f-municipality", "f-type", "f-vol", "f-conf"].forEach(id => $(id).value = "");
     $("f-only-madoz").checked = false;
-    renderTable();
+    update();
   });
   $("f-export").addEventListener("click", exportCSV);
 }
@@ -272,10 +311,10 @@ function renderStats() {
   const total = state.entries.length;
   const linked = state.entries.filter(e => e.madoz_url).length;
   fill("stat-links", [
-    ["Total text_entries", total],
-    ["Enllaçats al scrape canònic", linked],
-    ["Sense article al scrape", total - linked],
-    ["Total madoz_entries (scrape)", state.madozTotal],
+    ["Total d'entrades del nostre OCR", total],
+    ["També presents a diccionariomadoz.com", linked],
+    ["Només al nostre OCR", total - linked],
+    ["Total d'articles a diccionariomadoz.com", state.madozTotal],
   ], ([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${fmt(v)}</td></tr>`);
 }
 
@@ -288,15 +327,32 @@ async function main() {
     const payload = await res.json();
     state.entries = payload.entries;
     state.madozTotal = payload.madoz_total;
-    document.querySelector("#stat-text").textContent = fmt(payload.text_total);
-    document.querySelector("#stat-madoz").textContent = fmt(payload.madoz_total);
-    document.querySelector("#stat-volumes").textContent = fmt(new Set(state.entries.map(e => e.vol)).size);
-    document.querySelector("#stat-islands").textContent = fmt(new Set(state.entries.map(e => e.island).filter(Boolean)).size);
-    document.querySelector("#stat-types").textContent = fmt(new Set(state.entries.map(e => e.place_type).filter(Boolean)).size);
-    populateFilters();
+
+    // Explore-tab stat bar.
+    const types = new Set(state.entries.map(e => e.place_type).filter(Boolean)).size;
+    $("stat-text").textContent = fmt(payload.text_total);
+    $("stat-madoz").textContent = fmt(payload.madoz_total);
+    $("stat-volumes").textContent = fmt(new Set(state.entries.map(e => e.vol)).size);
+    $("stat-islands").textContent = fmt(new Set(state.entries.map(e => e.island).filter(Boolean)).size);
+    $("stat-types").textContent = fmt(types);
+
+    // Home-tab hero + per-island cards.
+    $("home-stat-entries").textContent = fmt(payload.text_total);
+    $("home-stat-types").textContent = fmt(types);
+    const byIsland = state.entries.reduce((m, e) => {
+      const k = e.island || "_none";
+      m[k] = (m[k] || 0) + 1;
+      return m;
+    }, {});
+    $("home-src-mallorca").textContent = fmt(byIsland.Mallorca || 0);
+    $("home-src-menorca").textContent = fmt(byIsland.Menorca || 0);
+    $("home-src-ibiza").textContent = fmt(byIsland.Ibiza || 0);
+    $("home-src-formentera").textContent = fmt(byIsland.Formentera || 0);
+    $("home-src-cabrera").textContent = fmt(byIsland.Cabrera || 0);
+    $("home-src-balears").textContent = fmt(byIsland.Baleares || 0);
     bindFilters();
     initSort();
-    renderTable();
+    update();
   } catch (err) {
     console.error(err);
     $("tbody-madoz").innerHTML =

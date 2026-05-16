@@ -115,15 +115,86 @@ BODY_MARKER = re.compile(
     re.IGNORECASE,
 )
 
-PAT_BALEAR = re.compile(
+# Balearic filter — double-signal rule:
+#
+#   - Single CANONICAL match (incl. abbreviations) → accept
+#   - Otherwise, accept only if 2+ DISTINCT mentions exist in the body
+#     (canonical and/or fuzzy). Two different mangles or one canonical
+#     + one fuzzy both count.
+#
+# Rationale: a real Balearic entry always says "isla de X, prov. de
+# Baleares..." so it has at minimum 2 references close together; a
+# continental entry that hits one fuzzy by chance has only the spurious
+# match. Empirically, a single-signal fuzzy filter ran 1 TP / 11 FP on
+# six volumes; double-signal flipped it to 3 TP / 0 FP across all 16.
+
+# Canonical pattern: a Madoz geographic marker within 40 chars of a
+# Balearic name (exact or legitimate abbreviation).
+PAT_BALEAR_CANON = re.compile(
     r'\b(?:isla|isl\.|prov\.|adm\.|dióc\.|partido|cala|punta|cabo|sierra|'
     r'valle|bahia|bahía|monte|playa|puerto|tercio|distr\.|distrito|'
     r'mar[ií]t(?:imo)?\.?|aud\.|c\. g\.)\.?'
     r'.{0,40}?'
     r'(?:Mallorca|Menorca|Ibiza|Iviza|Formentera|Cabrera|'
-    r'Baleares|Raleares|Paleares|Balea\b)',
+    r'Baleares|Raleares|Paleares|Balea\b|'
+    r'Mall\.|Men\.|Form\.|Cabr\.)',
     re.IGNORECASE | re.DOTALL,
 )
+
+# Fuzzy-only mentions. Anchored with \b on both ends to avoid matching
+# substrings inside continental words (e.g. "Elvira" → "lvira" used to
+# trigger the Iviza fuzzy; "pulcros" triggered Baleares fuzzy). The
+# Baleares position-1 class stays restrictive at [a4] (the "Huleares"
+# case is handled by an explicit alternative below).
+PAT_BALEAR_FUZZY = re.compile(
+    r'\b(?:'
+        r'M[aá][li1!|tj]{2}[oa0][rnti][ceoa][aá]|'          # Mallorca-mangled
+        r'M[eé][ni1!|m]{1,2}[oa0][rnti][ceoa][aá]|'          # Menorca-mangled
+        r'[Ili1!|jJ][bdh][i1!|jl][zsxv][a4o]|'               # Ibiza-mangled
+        r'[Ili1!|jJ]v[i1!|jl][zsxv][a4]|'                    # Iviza-mangled
+        r'F[oa0]rm[eé][nuim]t[ecoa][rnti][a4o]|'             # Formentera-mangled
+        r'C[a4]br[ecoa][rnti][a4]|'                          # Cabrera-mangled
+        # Baleares with documented mangles: position 1 is conservative
+        # ([a4]) plus an explicit "Huleares" alt; capital class catches
+        # B/R/P/D/I/H/S confusion.
+        r'[BRPDIS][a4]l[ecoa]{1,2}r[ecoa]s|'
+        r'H[ua]l[ecoa]{1,2}r[ecoa]s|'                        # Huleares-style (u allowed only after H)
+        r'[BRPDIS][a4]l[ecoa][a4]'                           # Balea-mangled
+    r')\b',
+    re.IGNORECASE,
+)
+
+# Any-mention pattern (canonical OR fuzzy), used to count distinct hits.
+PAT_BALEAR_ANY = re.compile(
+    r'\b(?:'
+        r'Mallorca|Menorca|Ibiza|Iviza|Formentera|Cabrera|'
+        r'Baleares|Raleares|Paleares|Balea|'
+        r'Mall\.|Men\.|Form\.|Cabr\.|'
+        r'M[aá][li1!|tj]{2}[oa0][rnti][ceoa][aá]|'
+        r'M[eé][ni1!|m]{1,2}[oa0][rnti][ceoa][aá]|'
+        r'[Ili1!|jJ][bdh][i1!|jl][zsxv][a4o]|'
+        r'[Ili1!|jJ]v[i1!|jl][zsxv][a4]|'
+        r'F[oa0]rm[eé][nuim]t[ecoa][rnti][a4o]|'
+        r'C[a4]br[ecoa][rnti][a4]|'
+        r'[BRPDIS][a4]l[ecoa]{1,2}r[ecoa]s|'
+        r'H[ua]l[ecoa]{1,2}r[ecoa]s|'
+        r'[BRPDIS][a4]l[ecoa][a4]'
+    r')\b',
+    re.IGNORECASE,
+)
+
+
+def passes_balear(body_search: str) -> bool:
+    """Double-signal Balearic filter.
+
+    Accept if either (a) canonical match exists near a Madoz marker, or
+    (b) two distinct mentions (canonical+fuzzy or fuzzy+fuzzy) coexist
+    in the body. Distinct = different match text (case-insensitive).
+    """
+    if PAT_BALEAR_CANON.search(body_search):
+        return True
+    hits = {m.group(0).lower() for m in PAT_BALEAR_ANY.finditer(body_search)}
+    return len(hits) >= 2
 
 # Titles that are not entries (front matter, indices, pure OCR garbage).
 TITLE_BLACKLIST = {
@@ -251,7 +322,7 @@ def index_volume(vol: str) -> list[dict]:
             r'cabo|sierra|valle|bahia|bahía|monte|playa|puerto|tercio|distrito|'
             r'distr|dióc|adm)',
             r'\1 \2', body, flags=re.IGNORECASE)
-        if not PAT_BALEAR.search(body_search):
+        if not passes_balear(body_search):
             continue
         entries.append({
             "vol": vol,

@@ -147,6 +147,42 @@
       "stats": {},
       "cross_references": [],
       "confidence": "high"
+    },
+    {
+      "title": "REFALET",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Algaida",
+      "description": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Algaida.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th."
+    },
+    {
+      "title": "REFALET",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th."
+    },
+    {
+      "title": "REFALET",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Artá",
+      "description": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Artá.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th."
     }
   ]
 }

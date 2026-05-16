@@ -7,7 +7,7 @@
   "note": "Five Balearic entries: chocr regex indexed 4 but actually there are 2 distinct ALCARIABLANCA (Santanyí lugar + Lluví predios).",
   "entries": [
     {
-      "title": "ALCARIABLANCA",
+      "title": "ALCARIA-BLANCA",
       "place_type": "lugar",
       "island": "Mallorca",
       "judicial_district": "Manacor",
@@ -23,7 +23,7 @@
       "confidence": "high"
     },
     {
-      "title": "ALCARIABLANCA (dos predios)",
+      "title": "ALCARIA-BLANCA (dos predios)",
       "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Inca",

@@ -15,6 +15,18 @@
       "stats": {},
       "cross_references": [],
       "confidence": "medium"
+    },
+    {
+      "title": "PORTO COLOM",
+      "place_type": "puerto",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "puerto ó cala en la isla de Mallorca, tercio marítimo de este nombre, distrito de Felanitx, sit. á 2 leg. de esta v. en su térm. jurisd.; pertenece al departamento de Cartagena.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: second PORTO COLOM article on leaf 13/172 (the puerto/cala, distinct from the predio)."
     }
   ]
 }

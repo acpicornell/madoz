@@ -6,7 +6,7 @@
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
     {
-      "title": "SALAS ^cax)",
+      "title": "SALAS (can)",
       "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Inca",
@@ -15,6 +15,18 @@
       "stats": {},
       "cross_references": [],
       "confidence": "high"
+    },
+    {
+      "title": "SALAS",
+      "place_type": "isleta",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "isleta en la isla, prov. y tercio marítimo de Mallorca, térm. de la c. de Palma, perteneciente al distr. de Andraitx, departamento de Cartagena: está sit. á 4 millas de la isla de la Caleta, y á igual dist. del cabo de Cala Figuera.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: the Claude-text pass on leaf 13/684 captured only SALAS (Can), missing this second Balearic entry on the same leaf. Description re-transcribed from chocr."
     }
   ]
 }

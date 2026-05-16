@@ -15,6 +15,66 @@
       "stats": {},
       "cross_references": [],
       "confidence": "medium"
+    },
+    {
+      "title": "REFAL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Bañalbufar",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Bañalbufar.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/399 has ~9 distinct REFAL articles for different villages; the LLM only captured the two collapsed ones (Manacor and Artá). This is one of the missing single-predio articles."
+    },
+    {
+      "title": "REFAL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/399 has ~9 distinct REFAL articles for different villages; the LLM only captured the two collapsed ones (Manacor and Artá). This is one of the missing single-predio articles."
+    },
+    {
+      "title": "REFAL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Santa Maria del Camí",
+      "description": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Sta. Maria.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/399 has ~9 distinct REFAL articles for different villages; the LLM only captured the two collapsed ones (Manacor and Artá). This is one of the missing single-predio articles."
+    },
+    {
+      "title": "REFAL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/399 has ~9 distinct REFAL articles for different villages; the LLM only captured the two collapsed ones (Manacor and Artá). This is one of the missing single-predio articles."
+    },
+    {
+      "title": "REFAL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Porreras",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Porreras.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: leaf 13/399 has ~9 distinct REFAL articles for different villages; the LLM only captured the two collapsed ones (Manacor and Artá). This is one of the missing single-predio articles."
     }
   ]
 }

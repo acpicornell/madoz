@@ -133,7 +133,7 @@
       "confidence": "high"
     },
     {
-      "title": "RAFAL RLBÍ VÉLL",
+      "title": "RAFAL RUBÍ VELL",
       "place_type": "predio",
       "island": "Menorca",
       "judicial_district": null,
@@ -208,6 +208,18 @@
       "stats": {},
       "cross_references": [],
       "confidence": "high"
+    },
+    {
+      "title": "RAFAL NOU",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered manually 2026-05-16: second RAFAL NOU article on leaf 13/362, the Menorca homonym (we already have the Mallorca one at id=8777)."
     }
   ]
 }

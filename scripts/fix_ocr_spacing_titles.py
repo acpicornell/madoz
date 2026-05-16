@@ -9,9 +9,10 @@ batches:
 2. Unlinked but the spacing/abbreviation is unambiguous.
 
 One row (8847 ROTGER(Sax)) carried an extra letter-level OCR error
-beyond the spacing: the curated mirror read ``(San)`` but the
-facsimile confirms ``Son Rotger`` is the toponym, so the fix uses
-``(son)``. Both the chocr ``Sax`` and the curated ``San`` were wrong.
+beyond the spacing: facsimile inspection confirms the printed title
+in Madoz is literally ``San Rotger`` (almost certainly a typo for
+``Son Rotger`` — the Pollença predio — but we preserve what is in
+the source, not what we think the author meant).
 
 Same shape as the previous fix scripts: dry-run by default, ``--apply``
 writes both the DB and the source JSON. Idempotent.
@@ -33,7 +34,7 @@ DB = PROJECT / "db" / "madoz.duckdb"
 FIXES: list[tuple[int, str]] = [
     # Batch 1 — curated link grounds the reading.
     (8794, "RATXÓ (el)"),     # was 'RATXÓ(el)';   curated 35068 = RATXÓ (El)
-    (8847, "ROTGER (son)"),   # was 'ROTGER(Sax)'; facsimile confirms 'Son Rotger' — both the chocr 'Sax' and the curated mirror's '(San)' are wrong
+    (8847, "ROTGER (san)"),   # was 'ROTGER(Sax)'; facsimile prints literally 'San Rotger' — a Madoz typo for 'Son Rotger', but preserved as printed
     (8954, "SUREDA (can)"),   # was 'SUREDA(can)'; curated 106715 = SUREDA (CAN)
     (9002, "TONI PAU (can)"), # was 'TONI PAU(can)'; curated 85298 = TONI PAU (CAN)
     # Batch 2 — unlinked but unambiguous.

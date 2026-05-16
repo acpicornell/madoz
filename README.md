@@ -218,4 +218,10 @@ working notebook, not a contributor onboarding doc.
 
 ## License
 
-TBD.
+Code is licensed under **AGPL-3.0-or-later** (see `LICENSE`). If you run
+a modified version of this software as a network service, you must
+offer the source of your modifications to the users of that service.
+
+Underlying data carries the licence of its origin: the Madoz facsimile
+(Internet Archive scans of an 1845–1850 work) is public domain;
+diccionariomadoz.com's transcriptions are credited where used.

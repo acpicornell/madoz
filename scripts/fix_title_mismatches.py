@@ -44,6 +44,8 @@ FIXES: list[tuple[int, str, int | None]] = [
     # described in the chocr text) — NOT LLUCALARI (SAN ANTONIO DE)
     # which is the nearby feligresía. Re-link accordingly.
     (8545, "LLUCALCARI",                    116020),  # was 116018 (LLUCALARI SAN ANTONIO DE)
+    (8187, "CAS-CONCOS",                    None),    # add hyphen
+    (8875, "SAN LORENZO ó LLORENS DESCARDASAR", None),  # ÜES → DES (OCR mangle)
 ]
 
 

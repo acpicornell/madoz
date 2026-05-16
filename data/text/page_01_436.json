@@ -12,7 +12,7 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Santañí",
-      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma, térm. jurisd. y felig. de la v. de Santanyí con la que contribuye. Tiene un oratorio público servido por un vicario dependiente de la igl. matriz. POBL.: 173 vec., 620 alm.",
+      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma, térm. jurisd. y felig. de la v. de Santañí con la que contribuye. Tiene un oratorio público servido por un vicario dependiente de la igl. matriz; pobl. 173 vec., 620 alm.",
       "stats": {
         "vecinos": 173,
         "almas": 620
@@ -20,7 +20,8 @@
       "cross_references": [
         "Santanyí"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     },
     {
       "title": "ALCARIA-BLANCA (dos predios)",
@@ -36,7 +37,8 @@
         "Santa Margarita",
         "Muro"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Five Balearic entries: chocr regex indexed 4 but actually there are 2 distinct ALCARIABLANCA (Santanyí lugar + Lluví predios)."
     },
     {
       "title": "ALCARIA DEL COMPTE AMPURIAS",
@@ -49,7 +51,8 @@
       "cross_references": [
         "Soller"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Five Balearic entries: chocr regex indexed 4 but actually there are 2 distinct ALCARIABLANCA (Santanyí lugar + Lluví predios)."
     },
     {
       "title": "ALCARIA ROJA",
@@ -62,7 +65,8 @@
       "cross_references": [
         "Campos"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Five Balearic entries: chocr regex indexed 4 but actually there are 2 distinct ALCARIABLANCA (Santanyí lugar + Lluví predios)."
     },
     {
       "title": "ALCARIAS (las)",
@@ -75,7 +79,8 @@
       "cross_references": [
         "Santa Eugenia"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Five Balearic entries: chocr regex indexed 4 but actually there are 2 distinct ALCARIABLANCA (Santanyí lugar + Lluví predios)."
     }
   ]
 }

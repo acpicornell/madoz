@@ -66,10 +66,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": "1. en la isla de Mallorca, part. jud. de Palma,prov., aud. terr., c. g. de Baleares, ayunt., térm. y jurisd,.",
+      "description": "l. en la isla de Mallorca, part. jud. de Palma, prov., aud. terr., c. g. de Baleares, ayunt., térm. y jurisd. de Algaida. Tiene una igl. parr., aneja de la de esta v., dedicada al Beato Raimundo, servida por un vicario temporal y amovible que nombra el diocesano. Su pobl. y riqueza. V. unida á Algaida.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

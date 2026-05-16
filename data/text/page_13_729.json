@@ -33,10 +33,11 @@
       "island": null,
       "judicial_district": null,
       "municipality": null,
-      "description": "1. en laisla y dióc. de Mallorca ¡Palma 9 1/2leg.),part jud y ayunt.de Manacor (I 1/2), aud. terr. y c. g. de Baleares: sit. enuna fértil llanura, le combaten con frecuencia los vientosdel N. y E.; su clima es templado y húmedo y propenso áíiebres intermilentes y reumas. Tiene ¿81 casas; una escuela de inslrucion primaria, dotada con 530 rs. vn.; unaigl. parr. ^San Lorenzo) filial de la de Manacor, servida porun vicario temporal y amovible, que nombra el diocesano ápropuesta del párroco de la matriz, y un sacerdote ordenado á titulo de patrimonio. El térm. confina por N. y O conel de Manacor; S. este mismo y el mar, y E. la v. de Artá.El terreno es generalmente arenisco; en sus montes , queson de poca consideración, solo se cria mata baja, y escasopasto para ganados; le cruza un torrente que pasa por unángulo de la pobl., cuyas aguas se estancan por ciertospuntos, y hacen insalubre este terr. Hay un camino queconduce á la Cala de Manacor, y la carretera general queatraviesa la isla desde Palma á Artá prod.: trigo candeal,cebada, avena, higos v vino; cria ganado lanar y mular, ycaza de conejos y perdices. Su pobl. y riqueza va unida áManacor.",
+      "description": "l. en la isla y dióc. de Mallorca (Palma 9 1/2 leg.), part. jud. y ayunt. de Manacor (1 1/2), aud. terr. y c. g. de Baleares: sit. en una fértil llanura, le combaten con frecuencia los vientos del N. y E.; su clima es templado y húmedo y propenso á fiebres intermitentes y reumas. Tiene 281 casas; una escuela de instruccion primaria, dotada con 530 rs. vn.; una igl. parr. (San Lorenzo) filial de la de Manacor, servida por un vicario temporal y amovible, que nombra el diocesano á propuesta del párroco de la matriz, y un sacerdote ordenado á titulo de patrimonio. El térm. confina por N. y O. con el de Manacor; S. este mismo y el mar, y E. la v. de Artá. El terreno es generalmente arenisco; en sus montes, que son de poca consideración, solo se cria mata baja, y escaso pasto para ganados; le cruza un torrente que pasa por un ángulo de la pobl., cuyas aguas se estancan por ciertos puntos, y hacen insalubre este terr. Hay un camino que conduce á la Cala de Manacor, y la carretera general que atraviesa la isla desde Palma á Artá. prod.: trigo candeal, cebada, avena, higos y vino; cria ganado lanar y mular, y caza de conejos y perdices. Su pobl. y riqueza va unida á Manacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     },
     {
       "title": "SAN MATEO",

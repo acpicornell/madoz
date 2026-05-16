@@ -5,7 +5,39 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CRISTOBAL (San)", "place_type": "parroquia", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "Ibiza", "description": "Parr. en la isla, part. jud. y dióc. de Ibiza, aud. terr., c. g. de Baleares; comprende una pequeña parte de la pobl. de la c., y toda la del campo que tiene esta denominación, ocupada casi en su totalidad de huertos donde se coge abundante y esquisita verdura, y rica fresa aunque en corta cantidad; también se cultiva el escelente algodón, que algún tiempo produjera muchos miles, y en la actualidad apenas sufraga los gastos de las labores por el bajo precio á que se vende. La sociedad de Amigos del Pais, instalada recientemente, trata de introducir el plantío de la morera multicaulis ó filipina, para la cría del gusano de seda, cuyo ensayo acaba de verificarse con muy buenos resultados.", "stats": {}, "cross_references": ["Ibiza"], "confidence": "high"},
-    {"title": "CRISTOBAL (San)", "place_type": "lugar", "island": "Menorca", "judicial_district": "Ciudadela", "municipality": "Mercadal", "description": "L. en la isla y dióc. de Menorca, prov., aud. terr. y c. g. de Baleares (Palma 21 leg.), part. jud. de Ciudadela (1), ayunt. de Mercadal (2): sit. en una altura á la libre influencia de los vientos, con clima sano; las enfermedades comunes son fiebres intermitentes. Tiene una igl. parr. (San Cristóbal Mártir), servida por un cura de ingreso de provisión real, 2 vicarios y un sacristán nombrado por el párroco; 2 oratorios públicos de propiedad particular en 2 casas de campo; una escuela de instrucción primaria dotada con 400 rs. vn. concurrida por 50 alumnos; y varios pozos y cisternas de escelentes aguas. Confina N. Mercadal; E. Alayor; S. el mar, y O. Ferrerías. Caseríos Mastay y la Figareña. Un solo monte (Fontsredonas) al N. 1/2 leg. de la pobl. Dos arroyos dan impulso á varios molinos y desaguan en el mar. Prod.: cereales, ganado vacuno, lanar, cabrio, mular y de cerda, caza de conejos y perdices, pesca. Industria: molinos de agua y viento, uno de aceite, otro para lavar ropa de lana. Comercio: esportacion de trigo, legumbres, caza y ganado.", "stats": {"escuela_alumnos": 50, "escuela_dotacion_rs": 400}, "cross_references": ["Mercadal", "Ciudadela", "Alayor", "Ferrerías"], "confidence": "high", "note": "OCR mangled 'CRISTORAL' -> CRISTOBAL throughout."}
+    {
+      "title": "CRISTOBAL (San)",
+      "place_type": "parroquia",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Ibiza",
+      "description": "Parr. en la isla, part. jud. y dióc. de Ibiza, aud. terr., c. g. de Baleares; comprende una pequeña parte de la pobl. de la c., y toda la del campo que tiene esta denominación, ocupada casi en su totalidad de huertos donde se coge abundante y esquisita verdura, y rica fresa aunque en corta cantidad; también se cultiva el escelente algodón, que algún tiempo produjera muchos miles, y en la actualidad apenas sufraga los gastos de las labores por el bajo precio á que se vende. La sociedad de Amigos del Pais, instalada recientemente, trata de introducir el plantío de la morera multicaulis ó filipina, para la cría del gusano de seda, cuyo ensayo acaba de verificarse con muy buenos resultados.",
+      "stats": {},
+      "cross_references": [
+        "Ibiza"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    },
+    {
+      "title": "CRISTOBAL (San)",
+      "place_type": "lugar",
+      "island": "Menorca",
+      "judicial_district": "Ciudadela",
+      "municipality": "Mercadal",
+      "description": "L. en la isla y dióc. de Menorca, prov., aud. terr. y c. g. de Baleares (Palma 21 leg.), part. jud. de Ciudadela (1), ayunt. de Mercadal (2): sit. en una altura á la libre influencia de los vientos, con clima sano; las enfermedades comunes son fiebres intermitentes. Tiene una igl. parr. (San Cristóbal Mártir), servida por un cura de ingreso de provisión real, 2 vicarios y un sacristán nombrado por el párroco; 2 oratorios públicos de propiedad particular en 2 casas de campo; una escuela de instrucción primaria dotada con 400 rs. vn. concurrida por 50 alumnos; y varios pozos y cisternas de escelentes aguas para el surtido y uso común del vecindario. El térm. confina N. Mercadal; E. Alayor; S. el mar, y O. Ferrerías, estendiéndose 3/4 de leg. por los 4 puntos; en él se encuentran los cas. nombrados, Mastay y la Fígareña. El terreno es desigual y de mediana calidad; con un solo monte llamado Fontsredonas á la parte N. y 1/2 leg. de la pobl.; corren por él dos arroyos cuyas aguas dan impulso á varios molinos, y desaguan en el mar. Los caminos dirigen á Mahon y á la cab. del part., y se hallan en mal estado. prod.: cereales, y toda clase de frutos; cria ganado vacuno, lanar, cabrio, mular y de cerda, caza de conejos, perdices y pesca del mar. ind.: varios molinos de agua y de viento para moler trigo, uno de aceite, y otro para lavar ropa de lana. comercio: esportacion de trigo, legumbres, caza y ganado, é importación de los art. que faltan. pobl., riqueza y contr.: unido á Mercadal.",
+      "stats": {
+        "escuela_alumnos": 50,
+        "escuela_dotacion_rs": 400
+      },
+      "cross_references": [
+        "Mercadal",
+        "Ciudadela",
+        "Alayor",
+        "Ferrerías"
+      ],
+      "confidence": "high",
+      "note": "OCR mangled 'CRISTORAL' -> CRISTOBAL throughout."
+    }
   ]
 }

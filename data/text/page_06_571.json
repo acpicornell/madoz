@@ -11,7 +11,7 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Alaró",
-      "description": "Lugar en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares (Palma), part. jud. de Inca, ayunt. de Alaró: sit. en llano con buena ventilación y clima saludable. Tiene una igl. parr. (La Visitación de Ntra. Sra.) aneja de la de Alaró, servida por un vicario temporal y amovible que nombra el diocesano á propuesta del párroco de la matriz; un sacerdote ordenado á título de patrimonio adscrito al servicio de la igl. para ayuda del vicario y segunda misa en los días festivos; un sacristán lego y 2 monacillos. El térm. confina con el de su matriz, Benisalem, Sta. Eugenia, Biniali y Sta. Maria; le cruza la carretera que conduce de Palma á la Alcudia, pasando por la v. de Inca. El terreno, prod., pobl., riqueza y contr. (V. Alaró).",
+      "description": "Lugar en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares (Palma), part. jud. de Inca, ayunt. de Alaró: sit. en llano con buena ventilación y clima saludable. Tiene una igl. parr. (La Visitación de Ntra. Sra.) aneja de la de Alaró, servida por un vicario temporal y amovible, que nombra el diocesano á propuesta del párroco de la matriz; un sacerdote ordenado á título de patrimonio, adscrito al servicio de la igl. para ayuda del vicario y segunda misa en los dias festivos; un sacristán lego y 2 monacillos. El térm. confina con el de su matriz, Benisalem, Sta. Eugenia, Biniali y Sta. Maria; le cruza la carretera que conduce de Palma á la Alcudia, pasando por la v. de Inca. El terreno, prod., pobl., riqueza y contr. (V. Alaró).",
       "stats": {},
       "cross_references": [
         "Alaró",
@@ -20,7 +20,8 @@
         "Biniali",
         "Sta. Maria"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     },
     {
       "title": "CONSELL",
@@ -34,7 +35,8 @@
         "San Luis",
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

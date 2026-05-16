@@ -4,17 +4,5 @@
   "page_printed": "707",
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
-  "entries": [
-    {
-      "title": "SALT",
-      "place_type": "lugar",
-      "island": null,
-      "judicial_district": null,
-      "municipality": null,
-      "description": "1. con ayunt. en la prov., parí. jud. y dióc de.",
-      "stats": {},
-      "cross_references": [],
-      "confidence": "medium"
-    }
-  ]
+  "entries": []
 }

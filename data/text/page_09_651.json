@@ -5,9 +5,64 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "JUAN ARNAU (Son)", "place_type": "alquería", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.", "stats": {}, "cross_references": ["Sineu"], "confidence": "high"},
-    {"title": "JUAN BAUTISTA (San)", "place_type": "villa", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "San Juan Bautista", "description": "V., cab. de ayunt. que forma con los l. de San Lorenzo y San Miguel, en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr. y c. g. de Baleares: sit. á 6 leg. de la cap.", "stats": {"vecinos": 613, "almas": 3552, "cap_imp": 247612}, "cross_references": ["San Lorenzo (Ibiza)", "San Miguel (Ibiza)", "Ibiza (part. jud.)"], "confidence": "high"},
-    {"title": "JUAN JAUNE", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisdicción de la villa de Manacor.", "stats": {}, "cross_references": ["Manacor"], "confidence": "high"},
-    {"title": "JUAN JAUME (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Sineu.", "stats": {}, "cross_references": ["Sineu"], "confidence": "high"}
+    {
+      "title": "JUAN ARNAU (Son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "JUAN BAUTISTA (San)",
+      "place_type": "villa",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "San Juan Bautista",
+      "description": "V., cab. de ayunt. que forma con los l. de San Lorenzo y San Miguel, en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr. y c. g. de Baleares: sit. á 6 leg. de la cap. pobl.: 613 vec., 3,552 almas. cap. imp.: 247,612. contr.: (V. Ibiza part.).",
+      "stats": {
+        "vecinos": 613,
+        "almas": 3552,
+        "cap_imp": 247612
+      },
+      "cross_references": [
+        "San Lorenzo (Ibiza)",
+        "San Miguel (Ibiza)",
+        "Ibiza (part. jud.)"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    },
+    {
+      "title": "JUAN JAUNE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Manacor",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisdicción de la villa de Manacor.",
+      "stats": {},
+      "cross_references": [
+        "Manacor"
+      ],
+      "confidence": "high"
+    },
+    {
+      "title": "JUAN JAUME (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high"
+    }
   ]
 }

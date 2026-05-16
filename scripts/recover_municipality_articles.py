@@ -82,7 +82,10 @@ wrapping, no markdown.
 """
 
 
-def fetch_targets(con: duckdb.DuckDBPyConnection, ids: list[int] | None):
+def fetch_targets(con: duckdb.DuckDBPyConnection,
+                  ids: list[int] | None,
+                  all_munis: bool = False,
+                  include_done: bool = False):
     sql = """
       SELECT t.id, t.vol, t.leaf, t.page_printed, t.title, t.place_type,
              t.island, t.judicial_district, t.municipality,
@@ -98,8 +101,15 @@ def fetch_targets(con: duckdb.DuckDBPyConnection, ids: list[int] | None):
     if ids:
         sql += f" AND t.id IN ({','.join('?'*len(ids))})"
         params.extend(ids)
+    elif all_munis:
+        # Every municipality-style entry, regardless of truncation.
+        # Skip ones already re-extracted unless --include-done is passed.
+        if not include_done:
+            sql += (" AND (t.note IS NULL "
+                    "OR t.note NOT LIKE '%Re-extracted from chocr%' "
+                    "AND t.note NOT LIKE '%Manually re-extracted%')")
     else:
-        # default: truncated mega-articles
+        # default: truncated mega-articles only
         sql += """
           AND m.content_text IS NOT NULL
           AND length(m.content_text) > 2 * length(t.description)
@@ -149,6 +159,12 @@ def main() -> None:
                     help="actually write the updates back")
     ap.add_argument("--ids", type=int, nargs="+",
                     help="only process these specific text_entries.id")
+    ap.add_argument("--all-municipalities", action="store_true",
+                    help=("process every villa/ciudad/lugar/partido entry "
+                          "regardless of truncation, except those already "
+                          "marked Re-extracted (unless --include-done)"))
+    ap.add_argument("--include-done", action="store_true",
+                    help="also re-process entries already marked as re-extracted")
     ap.add_argument("--limit", type=int,
                     help="cap how many entries to process this run")
     args = ap.parse_args()
@@ -158,7 +174,7 @@ def main() -> None:
     client = anthropic.Anthropic()
 
     con = duckdb.connect(str(DB), read_only=not args.apply)
-    rows = fetch_targets(con, args.ids)
+    rows = fetch_targets(con, args.ids, args.all_municipalities, args.include_done)
     if args.limit:
         rows = rows[:args.limit]
     print(f"Found {len(rows)} candidate entries.")
@@ -186,12 +202,16 @@ def main() -> None:
         if not new_desc:
             continue
 
-        # Patch source JSON
+        # Patch source JSON. Match on (title, place_type) to keep
+        # homonyms on the same leaf — e.g. MAHON c. vs MAHON part. jud.
+        # — distinct; matching on title alone would overwrite both.
         src = PROJECT / row[10]
+        place_type = row[5]
         if src.exists():
             data = json.loads(src.read_text(encoding="utf-8"))
             for e in data.get("entries", []):
-                if e.get("title") == title:
+                if (e.get("title") == title
+                        and e.get("place_type") == place_type):
                     e["description"] = new_desc
                     e.setdefault(
                         "note", "Re-extracted from chocr by recover_municipality_articles.py."

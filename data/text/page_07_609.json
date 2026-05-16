@@ -5,6 +5,30 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "ESTELLENCHS", "place_type": "villa", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Estellenchs", "description": "Villa con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma. Sit. al O. de la isla cerca de la playa del mar; le combaten los vientos del NE. y S. Su clima es sano, y las enfermedades comunes son fiebres intermitentes. Tiene 170 casas, una escuela de instrucción primaria, dotada con 500 rs. vn., varias fuentes de buenas aguas para el surtido y uso común del vecindario, y una igl. parr. (la Degollación de San Juan Bautista), aneja de la de Puigpuñent, servida por un vicario temporal y amovible que nombra el diocesano á propuesta del párroco de la matriz, un sacerdote adscrito al servicio de la igl., un sacristán y 2 monacillos nombrados por el vicario; el cementerio se halla 1/4 de leg. dist. de la pobl., de modo que no perjudica á la salud pública. El térm. confina N. Bañalbufar; E. Puigpuñent, S. Andrache, y O. el mar: se estiende 1 1/2 leg. de N. á S., é igual dist. de E. á O.: contiene muchos predios y casas de campo, y comprende una pequeña parte de la costa, en la cual se halla el puerto que es un caleton con un pedrusco en su boca. El terreno, aunque con alguna parte llana, es bastante montuoso, con bosques de encina y matas bajas, y plantío de algarrobos y olivar; corre por él un torrente ó arroyo que baja de los montes del lado del S. y desagua en el mar. Prod.: granos, algarrobas, bellotas y aceite; cria ganado lanar, y caza de conejos y perdices. Ind.: hay 3 molinos de harina, y se ejercen las artes mecánicas indispensables.", "stats": {"casas": 170, "vecinos": 151, "almas": 588, "escuela_dotacion_rs": 500, "molinos_harina": 3, "cap_imp_rs": 92832, "contr_1846_s1_rs": 8880}, "cross_references": ["Palma", "Puigpuñent", "Bañalbufar", "Andraitx"], "confidence": "high"}
+    {
+      "title": "ESTELLENCHS",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Estellenchs",
+      "description": "Villa con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma. Sit. al O. de la isla cerca de la playa del mar; le combaten los vientos del NE. y S. Su clima es sano, y las enfermedades comunes son fiebres intermitentes. Tiene 170 casas, una escuela de instrucción primaria, dotada con 500 rs. vn., varias fuentes de buenas aguas para el surtido y uso común del vecindario, y una igl. parr. (la Degollación de San Juan Bautista), aneja de la de Puigpuñent, servida por un vicario temporal y amovible que nombra el diocesano á propuesta del párroco de la matriz, un sacerdote adscrito al servicio de la igl., un sacristán y 2 monacillos nombrados por el vicario; el cementerio se halla 1/4 de leg. dist. de la pobl., de modo que no perjudica á la salud pública. El térm. confina N. Bañalbufar; E. Puigpuñent, S. Andrache, y O. el mar: se estiende 1 1/2 leg. de N. á S., é igual dist. de E. á O.: contiene muchos predios y casas de campo, y comprende una pequeña parte de la costa, en la cual se halla el puerto que es un caletón con un pedrusco en su boca. El terreno, aunque con alguna parte llana, es bastante montuoso, con bosques de encina y matas bajas, y plantío de algarrobos y olivar; corre por él un torrente ó arroyo que baja de los montes del lado del S. y desagua en el mar. Los caminos son locales y de herradura. prod.: granos, algarrobas, bellotas y aceite; cría ganado lanar, y caza de conejos y perdices. ind.: hay 3 molinos de harina, y se ejercen las artes mecánicas indispensables. pobl.: 151 vec. y 588 alm. cap. imp.: 92,832. contr.: del primer semestre de 1846, 8,880.",
+      "stats": {
+        "casas": 170,
+        "vecinos": 151,
+        "almas": 588,
+        "escuela_dotacion_rs": 500,
+        "molinos_harina": 3,
+        "cap_imp_rs": 92832,
+        "contr_1846_s1_rs": 8880
+      },
+      "cross_references": [
+        "Palma",
+        "Puigpuñent",
+        "Bañalbufar",
+        "Andraitx"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    }
   ]
 }

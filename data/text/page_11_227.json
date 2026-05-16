@@ -5,6 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "MARGARITA (Santa)", "place_type": "villa", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Santa Margarita", "description": "V. con ayunt. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares (Palma 7 1/2 leg.), part. jud. de Inca (3 1/2). Sit. en una extensa llanura entre Alcudia y Artá, á 1 leg. de la playa del mar. Vientos predominantes: N., NE., O. (invierno); E., NE., SE. (verano); clima templado, con frios intensos algunos años; enfermedades comunes fiebres intermitentes, gástricas y catarrales. 500 casas en 18 calles y 6 plazas. Igl. parr. (Sta. Catalina), servida por cura de término (provisión real y ordinaria), 2 vicarios temporales y amovibles, 5 beneficiados de distintos patronatos, 12 capellanes sin especial obligación. 3 escuelas: niños (dotada 2000 rs. vn.), niñas (400 rs.). Térm.: N. Muro; E. el mar, Artá y Petra; S. Maria; O. el mismo y Llubí. Comprende 85 predios rústicos con sus casas, 4 con oratorio público y misa en festivos. Terreno llano y muy feraz, con selvas y prados naturales para cría de toda clase de ganados. Caminos locales de herradura. Correo desde Palma. Prod.: trigo candeal, cebada, avena, higos, vino; ganado caballar, lanar, vacuno, cabrío y de cerda; caza de liebres, conejos, perdices, codornices y pesca del mar. Ind.: la agrícola, fabricación de aguardiente y molinos harineros de viento. Comercio: exportación de cereales y ganados; importación de efectos coloniales y otros artículos de consumo.", "stats": {"vecinos": 624, "almas": 2263, "cap_imp": 321070, "contr_1846": 54360, "casas": 500, "predios_rusticos": 85}, "cross_references": ["Alcudia", "Artá", "Muro", "Petra", "Maria", "Llubí", "Palma", "Inca"], "confidence": "high"}
+    {
+      "title": "MARGARITA (Santa)",
+      "place_type": "villa",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "V. con ayunt. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares (Palma 7 1/2 leg.), part. jud. de Inca (3 1/2): sit. en una estensa llanura, que media entre la c. de Alcudia y la v. de Artá, y como á una leg. dist. de la playa del mar; los vientos mas reinantes en invierno, son los del N., NE. y O., y en verano los del E., NE. y SE., el clima es templado, aunque suelen ser intensos los frios algunos años; las enfermedades comunes son fiebres intermitentes, gástricas y catarrales. Forman el casco de la pobl. 500 casas, distribuidas en 18 calles y 6 plazas; una igl. parr. (Sta. Catalina), servida por un cura de término, de provisión real y ordinaria, 2 vicarios temporales y amovibles, 5 beneficiados de distintos patronatos, y 12 capellanes sin especial obligación; hay 3 escuelas de primeras letras, una para niños, dotada con 2,000 rs. vn., y otra para niñas, con 400 rs. El térm. confina N. Muro; E. el mar, Artá y Petra; S. Maria, y O. el mismo y Llubí; en él se encuentran 85 predios rústicos con sus casas, y en cuatro de estas hay oratorio público con misa en los dias festivos. El terreno es llano y muy feraz; contiene selvas y prados naturales, para la cria de toda clase de ganados, por sus abundantes pastos. Los caminos son locales, de herradura. El correo se recibe de la cap. de la prov. prod.: trigo candeal, cebada, avena, higos y vino; cria ganado caballar, lanar, vacuno, cabrío y de cerda; caza de liebres, conejos, perdices, codornices y pesca del mar. ind.: la agrícola, fabricación de aguardiente y molinos harineros de viento. comercio: esportacion de cereales y ganados, é importación de efectos coloniales y otros artículos de consumo. pobl.: 624 vec., 2,263 almas. cap. imp.: 321,070. contr.: en el año de 1846, 54,360 rs. vn.",
+      "stats": {
+        "vecinos": 624,
+        "almas": 2263,
+        "cap_imp": 321070,
+        "contr_1846": 54360,
+        "casas": 500,
+        "predios_rusticos": 85
+      },
+      "cross_references": [
+        "Alcudia",
+        "Artá",
+        "Muro",
+        "Petra",
+        "Maria",
+        "Llubí",
+        "Palma",
+        "Inca"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    }
   ]
 }

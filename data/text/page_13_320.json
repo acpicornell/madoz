@@ -11,10 +11,11 @@
       "island": null,
       "judicial_district": null,
       "municipality": null,
-      "description": "1. en la prov. de la Coruña, ayunt. de Arnés y felig. de San Pedro de Biigallido (V.).",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma., térm. y jurisd. de la v. de Esporlas.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

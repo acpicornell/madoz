@@ -16,7 +16,8 @@
       "cross_references": [
         "Alayor"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     },
     {
       "title": "JOSE (San)",
@@ -24,7 +25,7 @@
       "island": "Menorca",
       "judicial_district": "Ibiza",
       "municipality": "San José",
-      "description": "V., cab. de ayunt. que forma con los l. de San Jorge, San Antonio y San Francisco de Paula, en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr., c. g. de Baleares: sit. á 3 leg. de la cap.",
+      "description": "V., cab. de ayunt. que forma con los l. de San Jorge, San Antonio y San Francisco de Paula, en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr., c. g. de Baleares: sit. á 3 leg. de la cap. pobl.: 565 vec., 2,911 alm. cap. imp.: 255,327 rs. contr.: (V. Ibiza, part.)",
       "stats": {
         "vecinos": 565,
         "almas": 2941,
@@ -36,7 +37,8 @@
         "San Francisco de Paula (Ibiza)",
         "Ibiza (part. jud.)"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

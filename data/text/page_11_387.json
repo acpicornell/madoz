@@ -5,6 +5,32 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "MERCADAL", "place_type": "villa", "island": "Menorca", "judicial_district": "Ciudadela", "municipality": "Mercadal", "description": "V. cab. de ayunt., que forma con los pueblos de Fornells y San Juan de las Huertas ó de Carbonell, en la isla y dióc. de Menorca, part. jud. de Ciudadela, prov., aud. terr. y c. g. de Baleares. Sit. casi en el centro de la isla, al pie del monte Toro, en terreno muy bajo y circuida de otras alturas; por lo cual no goza de libre ventilación y su clima es algo insalubre; enfermedades comunes: fiebres intermitentes y apoplegías. 197 casas. Igl. parr. (San Martin), servida por cura de segundo ascenso (patronato real), 2 vicarios, 1 sacristán, 1 campanero; templo espacioso y de buena arquitectura. Cementerio fuera de la v. en parage ventilado. Térm.: E. Alayor; O. Ferrerías; resto con San Cristóbal y el mar. 80 alquerías o caseríos rurales. El monte Toro es el punto más culminante y de más hermosas vistas de la isla; tiene en la cima 1 igl. con un exconvento de frailes Agustinos (ambos hoy de propiedad particular); tradición de aparición milagrosa de imagen de la Virgen, hoy trasladada a la igl. parr. de la v. Cabos de Caballería, Pantinal y Salayró; cala de Sanitje con torre de vigía homónima; islote de la isla deis Porros. Terreno montuoso (alturas, colinas), parte cultivable, parte bosques con leña abundante. Cruzan dos arroyos: de Tirant y de Salayró, que desaguan en las playas homónimas. Carretera general de la isla cruza el térm. y la pobl., con posada parador de la diligencia Mahón-Ciudadela. Prod.: trigo y cebada abundantes, algún lino, batatas, frutas, poco vino; ganado de varias especies; caza de perdices y conejos. Comercio: exportación de frutos sobrantes, importación de artículos de primera necesidad.", "stats": {"casas": 197, "alquerias": 80, "vecinos_grupo_3": 629, "almas_grupo_3": 2620, "cap_imp_grupo_3": 316214}, "cross_references": ["Fornells", "San Juan de las Huertas", "San Juan de Carbonell", "Ciudadela", "Alayor", "Ferrerías", "San Cristóbal", "Mahón"], "confidence": "high"}
+    {
+      "title": "MERCADAL",
+      "place_type": "villa",
+      "island": "Menorca",
+      "judicial_district": "Ciudadela",
+      "municipality": "Mercadal",
+      "description": "v. cab. de ayunt., que forma con los pueblos de Fornells y San Juan de las Huertas ó de Carbonell, en la isla y dióc. de Menorca, part. jud. de Ciudadela, prov., aud. terr. y c. g. de Baleares. Sit. casi en el centro de la isla, al pié del monte Toro, en terreno muy bajo, y circuida de otras alturas; por lo cual, no goza de libre ventilación, y su clima es algo insalubre; las enfermedades comunes, son fiebres intermitentes y apoplegías. Tiene 197 casas, una igl. parr. (San Martin), servida por un cura de segundo ascenso de patronato real, 2 vicarios, un sacristán y un campanero; el templo es bastante espacioso y de buena arquitectura, y el cementerio se halla fuera de la v. en parage ventilado. El térm. confina por el E. con Alayor; por O. con Ferrerias, y en lo restante con San Cristóbal y el mar; en él se encuentran 80 alquerías ó caseríos rurales, y el monte Toro, que es el punto mas culminante, y de mas hermosas vistas de la isla, tiene en su cima una igl., que sin ser grande es muy hermosa, á la que está unido un exconvento de frailes Agustinos; ambos edificios son hoy de propiedad particular; la tradición da á esta igl. mucha antigüedad, y aun cierto origen milagroso, por la aparición de una efigie de la Virgen Santísima, que se conserva trasladada á la igl. parr. de la v., y á la cual profesan los menorquines mucha devoción; en la parte de costa que el térm. comprende, se hallan los cabos de Caballería, Panlinal y Salayró; la cala de Sanitje, con la torre de vigía del mismo nombre, y el islote nombrado isla deis Porros. El terreno es en general montuoso, compuesto de alturas y colinas, muchas cultivables, y otras pobladas de bosques, que dan mucha leña para el combustible; le cruzan dos arroyos, llamados de Tirant y Salayró, que desaguan en las playas de iguales denominaciones. La carretera general de la isla cruza el térm. y la pobl. en la que hay una posada parador de la diligencia establecida de Mahon á Ciudadela. prod.: trigo y cebada en abundancia, algún lino, batatas y frutas, y poco vino; cria ganado de varias especies, y caza de perdices y conejos. comercio: esportacion de frutos sobrantes, é importacion de artículos de primera necesidad. pobl. y riqueza unidas las de Fornells y San Juan de las Huertas: 629 vec., 2,620 almas. cap. imp.: 316,214. contr.: en el año 1846. (V. Mahon).",
+      "stats": {
+        "casas": 197,
+        "alquerias": 80,
+        "vecinos_grupo_3": 629,
+        "almas_grupo_3": 2620,
+        "cap_imp_grupo_3": 316214
+      },
+      "cross_references": [
+        "Fornells",
+        "San Juan de las Huertas",
+        "San Juan de Carbonell",
+        "Ciudadela",
+        "Alayor",
+        "Ferrerías",
+        "San Cristóbal",
+        "Mahón"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+    }
   ]
 }

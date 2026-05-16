@@ -24,12 +24,13 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Sansellas",
-      "description": "Lugar en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas. Sit. en terreno llano; tiene una igl. parr. (La Virgen Sma.), aneja de la de dicha v., servida por un vicario temporal y amovible que nombra el diocesano á propuesta del párroco de la matriz, un sacerdote ordenado á título de patrimonio adscrito á la igl. para ayuda del vicario y segunda misa, un sacristán lego y 2 monacillos. Sus confines, calidad del terreno, prod., pobl. y riqueza (V. Sansellas).",
+      "description": "Lugar en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas. Sit. en terreno llano; tiene una igl. parr. (La Virgen Sma.), aneja de la de dicha v., servida por un vicario temporal y amovible, que nombra el diocesano á propuesta del párroco de la matriz, un sacerdote ordenado á titulo de patrimonio, adscrito á la igl. para ayuda del vicario y segunda misa, un sacristán lego y 2 manacillos. Sus confines, calidad del terreno, PROD., POBL. Y RIQUEZA (V. SANCELLAS.)",
       "stats": {},
       "cross_references": [
         "Sansellas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

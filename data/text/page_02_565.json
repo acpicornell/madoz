@@ -17,7 +17,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district."
     },
     {
       "title": "ARIANT (mina de)",
@@ -31,7 +32,8 @@
         "Pollenza",
         "Ariant"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district."
     },
     {
       "title": "ARIANT (vulgo Caleta de Ariant)",
@@ -45,7 +47,8 @@
         "Escorca",
         "Ariant"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district."
     },
     {
       "title": "ARIANY",
@@ -53,12 +56,13 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Petra",
-      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma. Sit. en una estensa llanura, libre á la influencia de todos los vientos, con cielo alegre y clima saludable. Se halla enclavado en el térm. de la v. de Petra, de cuya jurisd. y felig. depende y con la que contribuye. Tiene 1 oratorio público servido por 1 vicario del cura de la matriz. (V. Petra.)",
+      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma: sit. en una estensa llanura, libre á la influencia de todos los vientos, con cielo alegre y clima saludable. Se halla enclavado en el térm. de la v. de Petra, de cuya jurisd. y felig. depende y con la que contribuye (V.). Tiene 1 oratorio público servido por 1 vicario del cura de la matriz.",
       "stats": {},
       "cross_references": [
         "Petra"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

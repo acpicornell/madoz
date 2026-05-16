@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": "1. en la isla y dióc de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma (5 hor.), ayunt.de Buñola (2). sit. en un valle circuido de altos montes,poblados de encinas y pinos ; su clima es frió, pero sano,y las enfermedades comunes son catarros. Tiene 50 casas;1 escuela de instrucción primaria , concurrida por 20 a'umnos; 1 igl. parr. (S. Jorge), aneja de la de Buñola, servidapor 1 vicario temporal y amovible , que nombra el diocesano; 1 cementerio fuera de la pobl. El térm. confina N.Lluch ó Escorca; E. Alaró ; S. Buñola, y O. Soller. El terreno es muy feraz generalmente ; le cruzan varios caminoslocales , que se hallan en mal estado, prod.: trigo, aceite,bellota, nueces y seda; cria ganado lanar, asnal y de cerda (V. el cuadro sinóptico.).",
+      "description": "1. en la isla y dióc de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma (5 hor.), ayunt. de Buñola (2). sit. en un valle circuido de altos montes, poblados de encinas y pinos; su clima es frió, pero sano, y las enfermedades comunes son catarros. Tiene 50 casas; 1 escuela de instrucción primaria, concurrida por 20 alumnos; 1 igl. parr. (S. Jorge), aneja de la de Buñola, servida por 1 vicario temporal y amovible, que nombra el diocesano; 1 cementerio fuera de la pobl. El térm. confina N. Lluch ó Escorca; E. Alaró; S. Buñola, y O. Soller. El terreno es muy feraz generalmente; le cruzan varios caminos locales, que se hallan en mal estado. prod.: trigo, aceite, bellota, nueces y seda; cria ganado lanar, asnal y de cerda (V. el cuadro sinóptico.).",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

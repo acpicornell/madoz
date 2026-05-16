@@ -13,7 +13,9 @@
       "municipality": "Campanet",
       "description": "Vulgo Sancasia den Pascual. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
       "stats": {},
-      "cross_references": ["Campanet"],
+      "cross_references": [
+        "Campanet"
+      ],
       "confidence": "high"
     },
     {
@@ -24,7 +26,9 @@
       "municipality": "Santa Margarita",
       "description": "Vulgo Sencaria des Conta. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.)",
       "stats": {},
-      "cross_references": ["Santa Margarita"],
+      "cross_references": [
+        "Santa Margarita"
+      ],
       "confidence": "high"
     },
     {
@@ -35,7 +39,9 @@
       "municipality": "Campanet",
       "description": "Vulgo Angaria den Grau. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
       "stats": {},
-      "cross_references": ["Campanet"],
+      "cross_references": [
+        "Campanet"
+      ],
       "confidence": "high"
     },
     {
@@ -44,10 +50,14 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Soller",
-      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud., adm. de rent. y dióc. de Palma. Sit. al pie de la cord. de montañas llamadas de Enfabeya, en el hermoso y fértil valle de Soller. Es l. ped. de la v. de este nombre, en cuyo térm. se halla enclavado, y en su felig. tiene una capilla servida por un vicario ó teniente delegado del cura párroco de la matriz. (V. Soller.)",
+      "description": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud., adm. de rent. y dióc. de Palma: sit. al pie de la cord. de montañas, llamadas de Enfabeya, en el hermoso y fértil valle de Soller; es l. ped. de la v. de este nombre, en cuyo térm. se halla enclavado, y en su felig. tiene una capilla servida por un vicario, ó teniente delegado del cura párroco de la matriz. (V).",
       "stats": {},
-      "cross_references": ["Soller", "Cord. de Enfabeya"],
-      "confidence": "high"
+      "cross_references": [
+        "Soller",
+        "Cord. de Enfabeya"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

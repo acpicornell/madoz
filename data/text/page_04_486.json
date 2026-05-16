@@ -11,15 +11,21 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Buger",
-      "description": "V. con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares, part. de Inca (1 leg.). Sit. en una altura donde le combaten los vientos del E. y O.; goza de clima templado y sano, y solo se padecen por lo común, algunas fiebres intermitentes. Tiene sobre 345 casas y la consistorial, distribuidas en varias calles y una plaza: una escuela de instrucción primaria dotada con 797 rs. vn., á la que concurren 21 niños: otra con la asignación de 106 rs. asistida por 15 niñas, y una igl. parr. (San Pedro), filial de la de la v. de Campanet, servida por un vicario, temporal y amovible, que nombra el diocesano, á propuesta del párroco de la matriz, 3 sacerdotes ordenados á título de patrimonio, un sacristán y 2 monacillos: el cementerio está sit. al N. de la pobl. en parage ventilado. El térm. confina N. Campanet; E. la Puebla; S. Inca y O. el antedicho y Selva, estendiéndose 1/2 leg. por los 4 puntos: en él hay 3 pozos de aguas buenas para el surtido y uso común del vecindario. El terreno es muy fértil, tanto para el cultivo de cereales, como para plantaciones de viñedo y arbolado. Los caminos son locales, y se hallan en estado regular. El correo se recibe por peones los martes y viernes, y se despacha miércoles y sábados, prod.: trigo, cebada avena, habas, garbanzos, almendras, uvas, higos y algarrobas, siendo su principal cosecha la de almendras; cria ganado vacuno y con preferencia el de cerda, y caza de conejos y perdices, ind.: 7 molinos harineros de viento y 3 de agua, y fabricación de cucharas de palo, comercio, hay 2 tiendas de varios efectos; se esportan cerdos, almendras y cucharas, y se importa vino, aguardiente y aceite, pobl.: 385 vec., 1,115 alm. contr.: 6,425 rs.",
+      "description": "V. con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares, part. de Inca (1 leg.). Sit. en una altura donde le combaten los vientos del E. y O.; goza de clima templado y sano, y solo se padecen por lo común, algunas fiebres intermitentes. Tiene sobre 345 casas y la consistorial, distribuidas en varias calles y una plaza: una escuela de instrucción primaria dotada con 797 rs. vn., á la que concurren 21 niños: otra con la asignación de 106 rs. asistida por 15 niñas, y una igl. parr. (San Pedro), filial de la de la v. de Campanet, servida por un vicario, temporal y amovible, que nombra el diocesano, á propuesta del párroco de la matriz, 3 sacerdotes ordenados á título de patrimonio, un sacristán y 2 monacillos: el cementerio está sit. al N. de la pobl. en parage ventilado. El térm. confina N. Campanet; E. la Puebla; S. Inca y O. el antedicho y Selva, estendi éndose 1/2 leg. por los 4 puntos: en él hay 3 pozos de aguas buenas para el surtido y uso común del vecindario. El terreno es muy fértil, tanto para el cultivo de cereales, como para plantaciones de viñedo y arbolado. Los caminos son locales, y se hallan en estado regular. El correo se recibe por peones los martes y viernes, y se despacha miércoles y sábados. PROD.: trigo, cebada, avena, habas, garbanzos, almendras, uvas, higos y algarrobas, siendo su principal cosecha la de almendras; cria ganado vacuno y con preferencia el de cerda, y caza de conejos y perdices. IND.: 7 molinos harineros de viento y 3 de agua, y fabricación de cucharas de palo. COMERCIO: hay 2 tiendas de varios efectos; se esportan cerdos, almendras y cucharas, y se importa vino, aguardiente y aceite. POBL.: 385 vec., 1,445 alm. CONTR.: 6,425 rs.",
       "stats": {
         "casas": 345,
         "vecinos": 385,
         "almas": 1115,
         "contr_rs": 6425
       },
-      "cross_references": ["Inca", "Campanet", "Selva", "la Puebla"],
-      "confidence": "high"
+      "cross_references": [
+        "Inca",
+        "Campanet",
+        "Selva",
+        "la Puebla"
+      ],
+      "confidence": "high",
+      "note": "Re-extracted from chocr by recover_municipality_articles.py."
     }
   ]
 }

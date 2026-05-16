@@ -49,6 +49,13 @@ def main() -> None:
         # cross_references arrives as a list already
         if d["cross_references"] is None:
             d["cross_references"] = []
+        # Facsimile link to the Internet Archive scan. Page-level (one
+        # leaf can hold several entries), not paragraph-level — the UI
+        # makes that clear.
+        d["ia_url"] = (
+            f"https://archive.org/details/diccionariogeogr{d['vol']}mado"
+            f"/page/n{d['leaf']}/mode/2up"
+        )
         # Only include the diccionariomadoz.com content when it's
         # significantly longer than our description (i.e. they have
         # content we don't). Saves ~3-5 MB of redundant JSON.

@@ -22,7 +22,7 @@ const COLS = ["title", "place_type", "island", "judicial_district",
 function esc(s) {
   if (s == null) return "";
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+    .replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 }
 function $(id) { return document.getElementById(id); }
 function fmt(n) { return Number(n).toLocaleString("ca-ES"); }
@@ -152,13 +152,16 @@ function renderTable() {
   const dot = c => c === "high" ? "●" : c === "medium" ? "◐" : c === "low" ? "○" : "—";
   tbody.innerHTML = slice.map(e => {
     const mark = e.madoz_url ? '<span class="link-mark" title="També té article a diccionariomadoz.com">★</span>' : "";
+    const volLeaf = e.ia_url
+      ? `<a href="${esc(e.ia_url)}" target="_blank" rel="noopener" class="ia-link" title="Obre el facsímil a Internet Archive (pàgina sencera)">${esc(e.vol)}/${esc(e.leaf)} ↗</a>`
+      : `${esc(e.vol)}/${esc(e.leaf)}`;
     return `<tr data-id="${e.id}" class="madoz-row">
       <td><strong>${esc(e.title)}</strong> ${mark}</td>
       <td>${esc(e.place_type || "—")}</td>
       <td>${esc(e.island || "—")}</td>
       <td>${esc(e.judicial_district || "—")}</td>
       <td>${esc(e.municipality || "—")}</td>
-      <td>${esc(e.vol)}/${esc(e.leaf)}</td>
+      <td>${volLeaf}</td>
       <td>${esc(e.page_printed || "—")}</td>
       <td class="conf-${esc(e.confidence || "")}">${dot(e.confidence)}</td>
     </tr>`;
@@ -166,7 +169,10 @@ function renderTable() {
     ? `<tr><td colspan="8" class="empty">Mostrant 500 de ${fmt(total)}. Afina els filtres per veure menys.</td></tr>`
     : "");
   tbody.querySelectorAll("tr.madoz-row").forEach(tr =>
-    tr.addEventListener("click", () => toggleExpand(tr)));
+    tr.addEventListener("click", ev => {
+      if (ev.target.closest("a")) return;  // let inline links (IA, etc.) navigate
+      toggleExpand(tr);
+    }));
 }
 
 function toggleExpand(tr) {

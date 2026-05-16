@@ -1,0 +1,36 @@
+# Cloudflare Pages headers config. One rule per block, path + indented
+# header lines. Glob '*' supported.
+#
+# Strategy: every asset revalidates on every request. Cloudflare attaches
+# an ETag automatically, so unchanged files come back as 304 Not Modified
+# (no payload re-download). New deploys propagate instantly — no stale
+# data.json after we run scripts/export_web_data.py and push.
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.json
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/*.css
+  Cache-Control: public, max-age=0, must-revalidate
+
+# Security headers — site is read-only static, no auth, no forms.
+#
+# CSP notes:
+# - script-src 'self' (no inline scripts in any file; app.js loads from
+#   same origin) — kills the main XSS vector dead.
+# - style-src 'self' 'unsafe-inline' — index.html and app.js use inline
+#   style="…" for a handful of one-off touches. Accepted: CSS-only XSS
+#   has very limited impact on a read-only site without auth.
+# - img-src 'self' data: — favicon is an inline SVG via data: URI.
+# - external archive.org / diccionariomadoz.com links are navigational
+#   (<a href>), not embedded resources, so they don't need CSP allowances.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()

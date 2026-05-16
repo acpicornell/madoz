@@ -22,7 +22,7 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": "Santa Margarita",
-      "description": "predio en la isla de Mallorca, prov. deRaleares, part. jud. do Inca, térm. y jurisd. de la v. deSta. Margarita.",
+      "description": "predio en la isla de Mallorca, prov. de Raleares, part. jud. do Inca, térm. y jurisd. de la v. de Sta. Margarita.",
       "stats": {},
       "cross_references": [],
       "confidence": "high"
@@ -33,7 +33,7 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": ". predio en la isla de Mallorca, prov. deBaleares, part. jud. de Palma, térm. y jurisd. de la v. de.",
+      "description": ". predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de.",
       "stats": {},
       "cross_references": [],
       "confidence": "medium"
@@ -44,7 +44,7 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Felanitx",
-      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manacor, térm. y jurisd. de la v. deEelanitx.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Eelanitx.",
       "stats": {},
       "cross_references": [],
       "confidence": "high"
@@ -66,7 +66,7 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": null,
-      "description": "predio en la isla de Mallorca, prov. deBaleares, part. jud. de Manacor, térm. y jurisd. de la v.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v.",
       "stats": {},
       "cross_references": [],
       "confidence": "high"

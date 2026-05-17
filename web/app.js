@@ -519,6 +519,21 @@ function renderDemografia() {
     ? svgParallel(parRows, "Rang per ànimes", "Rang per riquesa imp.")
     : '<p class="empty">Sense dades.</p>';
 
+  // === Riquesa per ànima (renda per capita) — same 20 munis as the slope ===
+  const percapRiqRows = parRows
+    .map(r => [
+      r.label,
+      +(r.rightValue / r.leftValue).toFixed(2),
+      `${fmtCompact(r.rightValue)} / ${fmt(r.leftValue)}`,
+    ])
+    .sort((a, b) => b[1] - a[1]);
+  $("demo-chart-percap-riq").innerHTML = percapRiqRows.length
+    ? svgBars(percapRiqRows, {
+        colour: "#0f766e",
+        fmt: v => `${v.toFixed(0)} rs.`,
+      })
+    : '<p class="empty">Sense dades.</p>';
+
   // === Population aggregated per island ===
   const islandTotals = new Map();
   for (const e of withAlmas) {

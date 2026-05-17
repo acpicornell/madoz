@@ -9,13 +9,16 @@ without inventing new content — every correction is grounded in
 either an unambiguous OCR-noise pattern, a sibling chocr entry on
 the same leaf, or the curated diccionariomadoz.com title.
 
-Three parallel lists:
+Four parallel lists:
   - TITLE_FIXES:      (id, new_title) for OCR-mangled titles.
   - PLACE_TYPE_FIXES: (id, new_place_type) for rows misclassified by
     the LLM (rare).
   - DESC_FIXES:       (id, new_description) for description cleanups.
+  - PP_FIXES:         (id, new_page_printed) for entries whose printed
+    page was unknown/'?' in the chocr index but is now verified from
+    the facsimile.
 
-All three are independent; a row can appear in any combination.
+All four are independent; a row can appear in any combination.
 
 Same shape as the previous fix scripts: dry-run by default, ``--apply``
 writes the DB and the source JSON. Idempotent.
@@ -71,6 +74,16 @@ TITLE_FIXES: list[tuple[int, str]] = [
 PLACE_TYPE_FIXES: list[tuple[int, str]] = [
     (8759, "predio"),        # paired with the title fix above — QUINT (so) is a predio
     (8876, "feligresía"),    # SAN MATEO: previously 'aldea' (the LLM mistakenly extracted the Gerona aldea entry); the Balearic SAN MATEO is the Ibiza feligresía linked via 39871
+]
+
+
+# (text_entry_id, new_page_printed) — rows where chocr left page_printed
+# as NULL/'?' and the facsimile resolves the actual printed page.
+PP_FIXES: list[tuple[int, str]] = [
+    (7908, "7"),  # ALICANTI MAYOR (vol 02, chocr leaf 11) — user-verified on facsimile page 7
+    (7909, "7"),  # ALICANTI MENOR (vol 02, chocr leaf 11) — same leaf, user-verified
+    (8622, "8"),  # NABOT (so) (vol 12, chocr leaf 12) — user-verified on facsimile page 8
+    (8696, "7"),  # PI DE LA POSADE (el) (vol 13, chocr leaf 11) — user-verified on facsimile page 7
 ]
 
 
@@ -234,6 +247,21 @@ def main() -> None:
             continue
         pt_plan.append((tid, opt, npt, src))
 
+    pp_plan = []
+    for tid, npp in PP_FIXES:
+        row = con.execute(
+            "SELECT page_printed, source_file FROM text_entries WHERE id=?",
+            [tid],
+        ).fetchone()
+        if not row:
+            print(f"  [skip-PP] id={tid} not found")
+            continue
+        opp, src = row
+        if opp == npp:
+            print(f"  [skip-PP] id={tid} page_printed already fixed")
+            continue
+        pp_plan.append((tid, opp, npp, src))
+
     d_plan = []
     for tid, nd in DESC_FIXES:
         row = con.execute(
@@ -257,12 +285,16 @@ def main() -> None:
     for tid, opt, npt, src in pt_plan:
         print(f"  id={tid:5}  place_type: {opt!r} -> {npt!r}")
 
+    print(f"\n{len(pp_plan)} page_printed changes:")
+    for tid, opp, npp, src in pp_plan:
+        print(f"  id={tid:5}  pp: {opp!r} -> {npp!r}")
+
     print(f"\n{len(d_plan)} description changes:")
     for tid, title, od, nd, src in d_plan:
         print(f"  id={tid:5}  {title!r}  desc {len(od)}->{len(nd)} chars")
 
     if not apply:
-        if t_plan or pt_plan or d_plan:
+        if t_plan or pt_plan or pp_plan or d_plan:
             print("\nDRY RUN — pass --apply to commit.")
         return
 
@@ -303,6 +335,28 @@ def main() -> None:
         )
         print(f"  ✓ PT id={tid}")
 
+    # Resolve page_printed fixes by id — match in JSON by current title
+    # since titles may have just been updated above.
+    for tid, opp, npp, src in pp_plan:
+        row = con.execute(
+            "SELECT title FROM text_entries WHERE id=?", [tid]
+        ).fetchone()
+        cur_title = row[0] if row else None
+        path = PROJECT / src
+        if path.exists() and cur_title:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            for e in data.get("entries", []):
+                if e.get("title") == cur_title:
+                    e["page_printed"] = npp
+            path.write_text(
+                json.dumps(data, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+        con.execute(
+            "UPDATE text_entries SET page_printed=? WHERE id=?", [npp, tid]
+        )
+        print(f"  ✓ PP id={tid}")
+
     for tid, title, od, nd, src in d_plan:
         path = PROJECT / src
         if path.exists():
@@ -330,7 +384,7 @@ def main() -> None:
 
     print(
         f"\nApplied {len(t_plan)} title + {len(pt_plan)} place_type + "
-        f"{len(d_plan)} description fixes."
+        f"{len(pp_plan)} page_printed + {len(d_plan)} description fixes."
     )
 
 

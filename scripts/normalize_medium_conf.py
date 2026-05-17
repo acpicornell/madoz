@@ -52,6 +52,18 @@ TITLE_FIXES: list[tuple[int, str]] = [
     (9038, "VERDERA (so)"),  # was 'VERDERA' — the description (starting with '(so):') is actually for VERDERA (so) Llubí; curated has two VERDERA (SO) rows
     # Post-batch user correction
     (8970, "TAULERA (la)"),  # was 'TAULEBA (la)' — chocr regex misread of 'TAULERA (la)'. Confirmed by user; this row (Palma district) corresponds to curated 107899 = TAULERA (LA) Bañalbufar
+    (8413, "GIÑEN"),         # was 'GIUNEN' — chocr regex misread 'Ñ' as 'UN'. Confirmed by user; GIÑEN is the Balearic "pobl. desaparecida" near Pollensa
+    # Title-sweep fixes (OCR garbage in high-conf rows)
+    (8686, "PEROT (so)"),    # was 'PERO! (so)' — chocr read final T as '!'
+    (8690, "PEROT (so)"),    # was 'PEROT vso' — chocr read '(so)' as 'vso'
+    (8736, "PUIG (can)"),    # was 'PUIG (can)í' — stray trailing 'í'
+    (8778, "RAFAL PULIT"),   # was 'RAFAL PULlT' — lowercase 'l' OCR misread of 'I'
+    (8839, "PIPA (can)"),    # was 'PIPA cani' — chocr read '(can)' as 'cani'
+    (8911, "SEMOLA (so)"),   # was 'SEMOLA íso' — chocr read '(so)' as 'íso'
+    (9000, "TONI COLL (so)"),# was 'TON! COLL (so)' — chocr read 'I' as '!'
+    (9015, "TORRA (la)"),    # was "TORRA (La)'" — stray trailing apostrophe, qualifier normalized to lowercase '(la)'
+    (8724, "POS VERD (so)"), # was 'POS YERL) \\So)' — chocr badly garbled this title; Tesseract over the facsimile (leaf 175) confirms 'POS VERD (so)'
+    (8844, "ROSELLETS"),     # was 'ROiELLETS' — chocr read 'S' as lowercase 'i'. User-confirmed; sibling of ROSELLO (so) / ROSELLS predios in Felanitx
 ]
 
 

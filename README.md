@@ -21,14 +21,17 @@ text. Concretely, every entry should have:
   *"Madoz, t. II, p. 595"* and verified against the facsimile.
 - Structured place metadata (place_type, island, judicial district,
   municipality) where the article supports it.
+- Structured statistics (vecinos, almas, riqueza imponible,
+  contribución, productive infrastructure counts) where they appear
+  inline in the article prose.
 
 Other transcriptions of Madoz exist online — most notably
 [diccionariomadoz.com](https://diccionariomadoz.com), a careful
 WordPress-based mirror we cross-reference throughout the pipeline.
 This project is not a replacement for that work; it's a parallel
 effort with a different shape (Balearic-only, primary-source index,
-LLM-extracted structured fields, machine-readable export). Where
-useful, both can be consulted side by side.
+LLM-extracted structured fields, machine-readable export, demographic
+charts). Where useful, both can be consulted side by side.
 
 ## What lives where
 
@@ -61,9 +64,8 @@ side, complementary rather than competing:
 ```
 db/madoz.duckdb
 ├── madoz_entries           ← scraped from diccionariomadoz.com (1152 rows)
-├── chocr_entries           ← regex parse of IA hOCR              (1194 rows)
-├── text_entries            ← Claude-extracted article bodies     (1190 rows)
-└── vision_entries          ← Claude-Vision experiment (abandoned)
+├── chocr_entries           ← regex parse of IA hOCR              (1198 rows)
+└── text_entries            ← Claude-extracted article bodies     (1183 rows)
 ```
 
 `madoz_entries` carries a parallel human transcription and structured
@@ -76,7 +78,7 @@ it back to `madoz_entries` for side-by-side display.
 
 ## Pipeline
 
-Six phases. The earlier ones build a clean index; the later ones turn
+Five phases. The earlier ones build a clean index; the later ones turn
 that index into structured article bodies and ship them.
 
 ### Phase 1 — Index from chOCR (deterministic, free)
@@ -94,7 +96,7 @@ class="ocr_par">`), not as concatenated characters: each Madoz entry is
 essentially one paragraph, so paragraph boundaries give free entry
 segmentation. A regex pair (strict separator + loose fallback with
 body-marker safeguard) plus a Balearic-context filter pull out the
-Balearic paragraphs (currently 1165 rows in `data/index/all.jsonl`).
+Balearic paragraphs.
 
 Output → `data/index/tomo<vol>.jsonl`, merged into
 `data/index/all.jsonl`. One row per entry:
@@ -114,23 +116,13 @@ requests, exponential backoff on 429/5xx).
 `recover_missing.py` then takes the curated entries that Phase 1
 missed and fuzzy-matches each title against paragraph heads in the
 chocr. Hits are tagged `source='scrape'` and written to
-`data/index/from_scrape.jsonl` (33 rows on the last run); misses go
-to `unrecoverable.jsonl`.
+`data/index/from_scrape.jsonl`; misses go to `unrecoverable.jsonl`.
 
-### Phase 3 — Vision experiment (abandoned)
+### Phase 3 — Claude text extraction over chocr (canonical path)
 
-We sent the Balearic page JPEGs to Claude Sonnet 4.6 via the Anthropic
-Batch API (50% discount, async) asking for structured output per page:
-title, place_type, island, judicial_district, municipality,
-description, stats. **The results were bad enough to discard.**
-`vision_entries` is kept in the schema for posterity and the scripts
-(`extract_vision.py`, `load_vision.py`) still run, but the output is
-not used by the website. See "Difficulties" below.
-
-### Phase 4 — Claude text extraction over chocr (current canonical path)
-
-`scripts/extract_text.py` walks every Balearic leaf and asks Claude
-Sonnet 4.6 to:
+`scripts/stage_chocr.py` writes per-leaf chocr windows under
+`data/text/_chocr/`. `scripts/extract_text.py` then walks every
+Balearic leaf and asks Claude Sonnet 4.6 to:
 
 - Locate the target entries on that leaf in the chocr text.
 - Clean OCR glue (`deBaleares` → `de Baleares`, `v.dePalma` → `v. de
@@ -146,7 +138,7 @@ One JSON file per leaf goes to `data/text/page_<vol>_<leaf>.json`;
 extraction prompt explicitly **skips numeric stats tables** (the chocr
 mangles them; see "Difficulties").
 
-### Phase 5 — Recovery + corrections (idempotent)
+### Phase 4 — Recovery + corrections (idempotent)
 
 Several scripts patch the leaf-by-leaf output after the fact:
 
@@ -155,29 +147,46 @@ Several scripts patch the leaf-by-leaf output after the fact:
 | `recover_municipality_articles.py` | Mega-articles (PALMA, MAHON, IBIZA, ALCUDIA, …) truncated because the per-leaf cap clipped them mid-article. Reads a ±4-leaf chocr window and re-extracts the full body. Idempotent: rows already marked `Re-extracted from chocr` are skipped unless `--include-done`. |
 | `recover_palma.py` | Hand-transcribed PALMA `part. jud.` + PALMA `c.` (the LLM had attached tail-of-peninsular-article noise; manually replaced with the actual Balearic text from chocr leaves 12/586 + 12/588). |
 | `recover_homonym_extras.py`, `recover_refal_extras.py`, `recover_refalet_extras.py`, `recover_salas_isleta.py` | Recover specific homonyms the leaf parse missed (multiple distinct articles sharing one leaf). |
-| `fix_title_mismatches.py` | Hand-maintained list of OCR-title corrections (`CASCONCOS` → `CAS-CONCOS`, `BENISALEM` → `BENISALEM` linked to the right `madoz_entries` row, `LLUCALCARI` re-linked from Menorcan homonym to Mallorcan, …). |
-| `clean_descriptions.py` | Regex-deterministic OCR-glue cleanup over the `description` column. |
+| `dedup_municipality_articles.py` | Detect and merge duplicate municipality rows extracted from neighbouring leaves (e.g. MAHON 8585 ↔ 8594). |
+| `fix_title_mismatches.py` | Hand-maintained list of OCR-title corrections (`CASCONCOS` → `CAS-CONCOS`, `LLUCALCARI` re-linked from Menorcan homonym to Mallorcan, …). |
+| `fix_ocr_*.py` (open-paren, close-paren, accent-abbrev, digit, spacing, replaced-open-paren) | Class-by-class OCR-title fixups, each script handling one error pattern. |
+| `clean_descriptions.py`, `normalize_ocr_regex.py` | Regex-deterministic OCR-glue cleanup over the `description` column. |
+| `move_bracketed_notes.py` | Strip bracketed editorial annotations out of `description` into the dedicated `note` field. |
+| `fill_medium_conf_fields.py`, `fill_missing_islands.py`, `normalize_municipalities.py`, `normalize_judicial_districts.py`, `normalize_place_types.py`, `normalize_medium_conf.py`, `infer_place_types.py` | Backfill / canonicalise structured fields when the extraction left them blank or non-standard. |
 | `link_text_entries.py`, `apply_curated_links.py` | Maintain the `text_entries.madoz_entry_id` foreign key for cross-source verification. |
-| `audit_similarity.py`, `audit_homonyms.py` | Generate HTML reports under `data/reports/` flagging suspicious title/content divergence. |
+| `purge_non_balearic.py` | Drop rows whose article body, on inspection, turned out to be a peninsular homonym. |
+| `audit_similarity.py`, `audit_homonyms.py`, `audit_leaf_drift.py` | Generate HTML reports under `data/reports/` flagging suspicious title/content divergence and leaf-vs-printed-page drift. |
 
-### Phase 6 — Web export + static site
+### Phase 5 — Web export + static site
 
 `scripts/export_web_data.py` flattens `text_entries ⋈ madoz_entries`
-into a single `web/data.json` (~1 MB, 1190 entries). The site is a
+into a single `web/data.json` (~1.1 MB, 1183 entries). The site is a
 plain SPA — vanilla JS, no framework, no DuckDB-WASM — that filters
 and renders entries with their volume/page provenance, OCR-fix notes,
 and (when meaningfully longer) a "📖 Versió ampliada de
 diccionariomadoz.com" supplement for cross-reference.
 
+Tabs: **Home** (project intro), **Explore** (search + faceted filter),
+**Estadístiques** (coverage tables: by island, place type, judicial
+district, top 20 munis, volume coverage, overlap with the curated
+mirror), **Demografia** (inline SVG charts: top 20 munis by ànimes and
+by riquesa imponible, ànimes-vs-riquesa slope graph, riquesa per
+capita, aggregated population by island, productive infrastructure,
+contribution per inhabitant), **Notes** (working notebook).
+
 ## Current status
 
 | Metric | Value |
 |---|---:|
-| `text_entries` rows | **1190** |
-| Mallorca / Menorca / Ibiza / Formentera / Cabrera | 985 / 114 / 40 / 8 / 1 |
-| Linked to a `madoz_entries` row | 1049 (88%) |
-| Entries with structured `stats` | 87 (7%) |
-| `madoz_entries` total (curated mirror) | 1152 |
+| `text_entries` rows | **1 183** |
+| Mallorca / Menorca / Ibiza / Formentera / Cabrera | 994 / 115 / 41 / 8 / 1 |
+| Distinct `(vol, leaf)` pairs covered | 693 |
+| Linked to a `madoz_entries` row | 1 042 (88 %) |
+| Entries with structured `stats` | 99 (8 %) |
+| Entries with `almas` figure | 61 |
+| Entries with `riqueza_imponible` figure | 47 |
+| `madoz_entries` total (curated mirror) | 1 152 |
+| `chocr_entries` total (raw OCR index) | 1 198 |
 
 ## Difficulties (what didn't work, and why)
 
@@ -192,40 +201,55 @@ Balearic set). Result: Sonnet routinely extracted **the wrong
 peninsular homonym** sharing a column with our target (e.g. `PORCUNA`
 instead of `POQUET (son)`), invented or skipped sections, and was
 inconsistent across runs. The output was unsalvageable; the batch was
-discarded. The chocr-text path with a careful system prompt gives much
-better cleanups, presumably because the model can rely on linear
-positional cues (article ordering, leaf boundaries) instead of
-spatially decoding a two-column 350-dpi facsimile.
+discarded and the Vision tables removed from the maintained pipeline.
+The chocr-text path with a careful system prompt gives much better
+cleanups, presumably because the model can rely on linear positional
+cues (article ordering, leaf boundaries) instead of spatially decoding
+a two-column 350-dpi facsimile.
 
 Lesson: for serial OCR'd prose, **clean the text input then prompt
 carefully** beats Vision on the raw image, at least at current model
 strength.
 
-### 2. Numeric stats tables: chocr-mangled, can't trust them
+### 2. Local OCR-only LLMs were a fiasco
+
+We briefly evaluated running local-OCR models on the JPEGs as a
+cheaper alternative to either ABBYY hOCR or Claude (DeepSeek OCR,
+OLM-OCR variants, MLX 8-bit quantisations on the Mac). All of them
+performed substantially worse than ABBYY on 19th-century column-set
+Spanish prose: dropped lines, hallucinated content, slow throughput.
+The benchmarks and weights are not retained.
+
+Lesson: **don't replace ABBYY for this corpus.** For pre-modern
+typography in column layouts, a tuned classical OCR is still ahead of
+generalist vision-language models.
+
+### 3. Numeric stats tables: chocr-mangled, can't trust them
 
 Madoz's per-municipality statistics tables (casas, vecinos, almas,
 riqueza imponible, contribución, molinos…) are typeset as multi-column
 numeric grids that ABBYY hOCR garbles unrecoverably. The extraction
-prompt now explicitly **skips them** and inserts a bracketed
-`[Madoz inclou aquí una taula d'estadístiques…]` placeholder; the
-`stats` JSON column is only populated when the LLM finds the figures
-inline in prose. Coverage ended up at 87 / 1190 entries (7%), enough
-to spot-check but not enough for quantitative analysis. Re-running
-Vision over only the tables was considered and rejected (cost
-vs. payoff: too few entries care).
+prompt now explicitly **skips them** and inserts a bracketed `[Madoz
+inclou aquí una taula d'estadístiques…]` placeholder; the `stats` JSON
+column is only populated when the figures appear inline in prose. A
+regex pass over `description` recovers a few more (`pobl.: X vec., Y
+alm.`, `CONTR.: X rs.`, `RIQ. IMP.: …`), bringing total coverage to
+99 / 1 183 (8 %) — enough to power the Demografia charts and
+spot-check, but not enough for quantitative whole-archipelago
+analysis.
 
 Lesson: **don't promise quantitative figures from OCR'd 19th-century
 statistical tables.** Either pay for proper Vision + human review, or
 mark the column unavailable.
 
-### 3. Multi-leaf mega-articles got silently truncated
+### 4. Multi-leaf mega-articles got silently truncated
 
 PALMA, MAHON, IBIZA, ALCUDIA, MANACOR (part. jud.), CIUDADELA, … are
-multi-leaf articles. The leaf-by-leaf extraction in Phase 4 caps
+multi-leaf articles. The leaf-by-leaf extraction in Phase 3 caps
 output per call, so anything past the first leaf's allowance was cut.
 The per-leaf JSON file looked "complete" but the article body was
 truncated, sometimes severely (PALMA captured the wrong paragraph
-entirely; see case 4 below).
+entirely; see case 5 below).
 
 Fix: `recover_municipality_articles.py` reads a ±4-leaf chocr window
 around each candidate so the model can see continuation, and re-asks
@@ -238,7 +262,7 @@ Lesson: **always size the context window to the article, not to the
 page.** Where articles cross leaves, sliding-window context beats
 strict per-leaf isolation.
 
-### 4. PALMA was completely wrong
+### 5. PALMA was completely wrong
 
 The two PALMA rows (`part. jud.` + `c.`) had captured the tail of the
 peninsular article *Valles y Revilla; Peral y Pinilla* + raw OCR table
@@ -252,7 +276,20 @@ Lesson: **for landmark articles, keep a small `recover_<name>.py`
 escape hatch with hand-verified text.** Cheaper than tightening the
 general prompt.
 
-### 5. OCR titles disagree with the canonical form
+### 6. MAHON ended up triplicated
+
+MAHON city was extracted three times — once correctly from leaf 25,
+once as a duplicate from leaf 30, once as half of a leaf 30 pair — and
+the duplicate carried the "HISTORIA" section the original lacked.
+Spotted only when the Demografia bar chart showed `MAHON 13 280` twice
+in the top 20. Fix: extract the missing HISTORIA from the duplicate,
+append to the canonical row, delete the dup, re-export. The pattern
+made it into `dedup_municipality_articles.py` for any future copies.
+
+Lesson: **chart your own data.** A duplicate that looks fine in the
+table jumps out instantly in a sorted bar chart.
+
+### 7. OCR titles disagree with the canonical form
 
 Cases hit so far: `CASCONCOS` → `CAS-CONCOS`, `BINIBECA` →
 `BINI-BECA`, `BINISALEM` (Madoz actually prints `BENISALEM`),
@@ -262,18 +299,27 @@ Cases hit so far: `CASCONCOS` → `CAS-CONCOS`, `BINIBECA` →
 `madoz_entry_id` re-pointed because the curated mirror's title used
 the corrected spelling but our index used the OCR one.
 
-`fix_title_mismatches.py` carries the canonical fix list as a
-`FIXES = [(text_entry_id, new_title, new_madoz_entry_id), …]` tuple
-so the same correction never needs hand-applying twice. The
-`audit_similarity.py` report (`data/reports/similarity_audit.html`) is
-how we surface new ones: side-by-side compare of our description
-vs. the curated mirror, ordered by SequenceMatcher delta.
+`fix_title_mismatches.py` carries the canonical fix list as a `FIXES =
+[(text_entry_id, new_title, new_madoz_entry_id), …]` tuple so the same
+correction never needs hand-applying twice. The `fix_ocr_*` family
+handles whole classes of mechanical OCR errors (unmatched parens,
+misread digits in titles, accent-abbrev confusions, spacing). The
+`audit_similarity.py` report
+(`data/reports/similarity_audit.html`) is how we surface new ones:
+side-by-side compare of our description vs. the curated mirror,
+ordered by SequenceMatcher delta.
+
+Note on policy: we preserve Madoz's own typos verbatim (the IA
+facsimile is the source of truth, not the curated mirror's "natural"
+reading). The audit catches OCR misreads; it does not "correct"
+Madoz.
 
 Lesson: **for OCR-derived titles, treat any below-threshold similarity
-hit as either a real typo to fix or a real homonym to verify.** Don't
-silently let the index carry an OCR-only title forever.
+hit as either a real OCR typo to fix or a real homonym to verify.**
+Don't silently let the index carry an OCR-only title forever; don't
+silently "improve" Madoz either.
 
-### 6. Homonyms across volumes
+### 8. Homonyms across volumes
 
 `LLUCALCARI` (aldea de Mallorca, depende de Deyá, mid=116020) vs.
 `LLUCALARI (SAN ANTONIO DE)` (Menorca/Alayor, mid=116018) — easy to
@@ -286,7 +332,7 @@ per leaf in chocr against `text_entries` and flags missing ones.
 Lesson: **a place can share a name with another place; verify against
 the article body, not just the title.**
 
-### 7. Volume 10 lives at a different IA identifier
+### 9. Volume 10 lives at a different IA identifier
 
 Volume 10 is hosted under `diccionariogeogr10madouoft` instead of the
 regular `diccionariogeogr10mado`. The current `fetch_volume.py` will
@@ -304,7 +350,7 @@ uv venv && uv pip install -e .
 ```
 
 Set `ANTHROPIC_API_KEY` in `.env` if you intend to re-run the LLM
-phases.
+extraction phase.
 
 ### Full rebuild from scratch
 
@@ -321,7 +367,7 @@ python scripts/scrape_madoz_extras.py    # only mis-categorised slugs
 python scripts/scrape_madoz.py           # full scrape; ~30 min
 python scripts/recover_missing.py        # locate misses in the chocr
 
-# 4. Load both regex + scrape into DuckDB
+# 4. Load regex + scrape into DuckDB
 python scripts/load_chocr_index.py
 
 # 5. LLM extraction over chocr text (costs API credits)
@@ -336,8 +382,11 @@ python scripts/recover_refal_extras.py --apply
 python scripts/recover_refalet_extras.py --apply
 python scripts/recover_salas_isleta.py --apply
 python scripts/recover_municipality_articles.py --all-municipalities --apply
+python scripts/dedup_municipality_articles.py --apply
 python scripts/fix_title_mismatches.py --apply
 python scripts/clean_descriptions.py --apply
+python scripts/normalize_ocr_regex.py --apply
+python scripts/move_bracketed_notes.py --apply
 python scripts/link_text_entries.py
 python scripts/apply_curated_links.py
 
@@ -361,6 +410,9 @@ python scripts/export_web_data.py
 # Inspect divergence vs. the curated mirror
 python scripts/audit_similarity.py --titles-same
 open data/reports/similarity_audit.html
+
+# Serve the site locally
+python -m http.server -d web 8000
 ```
 
 ## Language convention

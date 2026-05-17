@@ -6,7 +6,42 @@
   "model": "claude-opus-4-7-via-claude-code",
   "note": "Tail of MALLORCA prov. (correos section) plus MALLORCA audiencia territorial article begins here.",
   "entries": [
-    {"title": "MALLORCA (correos)", "place_type": "correos", "island": "Baleares", "judicial_district": null, "municipality": null, "description": "Para este servicio se halla establecido un buque de vapor, que conduce á esta prov. la correspondencia de la Península; sale del puerto de Barcelona los sábados, llega al de Palma los domingos, y regresa los miércoles; desde este último se distribuye á todas las islas, conducida por embarcaciones de vela destinadas á este objeto.", "stats": {}, "cross_references": ["Palma", "Barcelona"], "confidence": "high"},
-    {"title": "MALLORCA (audiencia territorial)", "place_type": "audiencia territorial", "island": "Baleares", "judicial_district": null, "municipality": null, "description": "No abraza más territorio que el que compone las prov. de las Baleares. Real decreto de Felipe V de 28 noviembre 1715 reformó la aud., compuesta entonces de 5 ministros y 1 fiscal con presidencia del comandante general. Actualmente: 2 salas con 1 regente, 2 presidentes de sala, 5 magistrados, 1 fiscal. Conoce apelación vista y revista de causas de los 7 juzgados de primera instancia del territorio (1 de término, 3 de ascenso, 2 de entrada). Presupuesto detallado por puesto. Análisis breve sobre influencia de la situación topográfica en la estadística criminal balear, comparando con Canarias y Málaga.", "stats": {"salas": 2, "presidentes_sala": 2, "magistrados": 5, "fiscal": 1, "regente": 1, "juzgados_primera_instancia": 7, "presupuesto_total_rs": 451670}, "cross_references": ["Palma"], "confidence": "high"}
+    {
+      "title": "MALLORCA (correos)",
+      "place_type": "correos",
+      "island": "Baleares",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "Para este servicio se halla establecido un buque de vapor, que conduce á esta prov. la correspondencia de la Península; sale del puerto de Barcelona los sábados, llega al de Palma los domingos, y regresa los miércoles; desde este último se distribuye á todas las islas, conducida por embarcaciones de vela destinadas á este objeto.",
+      "stats": {},
+      "cross_references": [
+        "Palma",
+        "Barcelona"
+      ],
+      "confidence": "high",
+      "description_raw": "Para este servicio se halla establecido un buque de vapor, que conduce á esta prov. la correspondencia de la Península; sale del puerto de Barcelona los sábados, llega al de Palma los domingos, y regresa los miércoles; desde este último se distribuye á todas las islas, conducida por embarcaciones de vela destinadas á este objeto."
+    },
+    {
+      "title": "MALLORCA (audiencia territorial)",
+      "place_type": "audiencia territorial",
+      "island": "Baleares",
+      "judicial_district": null,
+      "municipality": null,
+      "description": "No abraza más territorio que el que compone las prov. de las Baleares. Real decreto de Felipe V de 28 noviembre 1715 reformó la aud., compuesta entonces de 5 ministros y 1 fiscal con presidencia del comandante general. Actualmente: 2 salas con 1 regente, 2 presidentes de sala, 5 magistrados, 1 fiscal. Conoce apelación vista y revista de causas de los 7 juzgados de primera instancia del territorio (1 de término, 3 de ascenso, 2 de entrada). Presupuesto detallado por puesto. Análisis breve sobre influencia de la situación topográfica en la estadística criminal balear, comparando con Canarias y Málaga.",
+      "stats": {
+        "salas": 2,
+        "presidentes_sala": 2,
+        "magistrados": 5,
+        "fiscal": 1,
+        "regente": 1,
+        "juzgados_primera_instancia": 7,
+        "presupuesto_total_rs": 451670
+      },
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high",
+      "description_raw": "No abraza más territorio que el que compone las prov. de las Baleares. Real decreto de Felipe V de 28 noviembre 1715 reformó la aud., compuesta entonces de 5 ministros y 1 fiscal con presidencia del comandante general. Actualmente: 2 salas con 1 regente, 2 presidentes de sala, 5 magistrados, 1 fiscal. Conoce apelación vista y revista de causas de los 7 juzgados de primera instancia del territorio (1 de término, 3 de ascenso, 2 de entrada). Presupuesto detallado por puesto. Análisis breve sobre influencia de la situación topográfica en la estadística criminal balear, comparando con Canarias y Málaga."
+    }
   ]
 }

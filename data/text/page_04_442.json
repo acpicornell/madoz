@@ -13,8 +13,11 @@
       "municipality": "Alcudia",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia.",
       "stats": {},
-      "cross_references": ["Alcudia"],
-      "confidence": "high"
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia."
     }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Buñola",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola. (V. Buñola.)",
       "stats": {},
-      "cross_references": ["Buñola"],
-      "confidence": "high"
+      "cross_references": [
+        "Buñola"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola. (V. Buñola.)"
     }
   ]
 }

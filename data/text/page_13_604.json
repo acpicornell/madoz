@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
-      "description": ". pequeña ald. en la isla de Mallorca, part. jud.y térm. jurisd. de la c. de Palma.",
+      "description": "pequeña ald. en la isla de Mallorca, part. jud. y térm. jurisd. de la c. de Palma.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". pequeña ald. en la isla de Mallorca, part. jud.y térm. jurisd. de la c. de Palma."
     }
   ]
 }

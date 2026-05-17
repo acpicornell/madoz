@@ -14,8 +14,11 @@
       "municipality": "Escorca",
       "description": "Predio de la isla de Mallorca, prov. de Baleares, part. jud. de Inca, jurisd. de la v. de Escorca. Tiene un edificio casi destruido que llaman ermita, porque antiguamente era habitado por ermitaños; y algunas fuentes de aguas frescas y saludables. Sus prod. y demás (V. Escorca.)",
       "stats": {},
-      "cross_references": ["Escorca"],
-      "confidence": "high"
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio de la isla de Mallorca, prov. de Baleares, part. jud. de Inca, jurisd. de la v. de Escorca. Tiene un edificio casi destruido que llaman ermita, porque antiguamente era habitado por ermitaños; y algunas fuentes de aguas frescas y saludables. Sus prod. y demás (V. Escorca.)"
     }
   ]
 }

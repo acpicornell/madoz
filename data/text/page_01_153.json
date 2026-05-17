@@ -13,8 +13,13 @@
       "municipality": null,
       "description": "Punta de poca consideración en la isla, tercio, prov. y dist. marít. de Menorca, apostadero de Cartagena, sit. entre el cabo denominado la Mola y el Negro. Entre aquel y la punta de las Águilas hay una ensenada llamada los Freos con muchos pedruscos pegados á tierra.",
       "stats": {},
-      "cross_references": ["La Mola", "Cabo Negro", "Los Freos"],
-      "confidence": "high"
+      "cross_references": [
+        "La Mola",
+        "Cabo Negro",
+        "Los Freos"
+      ],
+      "confidence": "high",
+      "description_raw": "Punta de poca consideración en la isla, tercio, prov. y dist. marít. de Menorca, apostadero de Cartagena, sit. entre el cabo denominado la Mola y el Negro. Entre aquel y la punta de las Águilas hay una ensenada llamada los Freos con muchos pedruscos pegados á tierra."
     }
   ]
 }

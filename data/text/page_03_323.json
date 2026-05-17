@@ -15,8 +15,11 @@
       "stats": {
         "habitantes": 2510
       },
-      "cross_references": ["Ibiza"],
-      "confidence": "high"
+      "cross_references": [
+        "Ibiza"
+      ],
+      "confidence": "high",
+      "description_raw": "Cuartón de España en la isla de Ibiza; es el menor de todos, y tiene 2,510 hab. Sit. en tierra quebrada y montuosa; su estensión es de 3 leg. Tiene para su defensa una compañía de 300 hombres de milicia."
     }
   ]
 }

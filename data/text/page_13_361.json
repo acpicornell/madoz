@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Porreras.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Porreras."
     },
     {
       "title": "RAFAEL (San)",
@@ -22,10 +23,11 @@
       "island": "Menorca",
       "judicial_district": "Mahón",
       "municipality": null,
-      "description": "prédio en la isla de Menorca , prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de Ala y ir.",
+      "description": "predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de Alayor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "prédio en la isla de Menorca , prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de Ala y ir."
     }
   ]
 }

@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": ". prédio en la isla de Mallorca, prov., aud. terr., c g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Algaida.",
+      "description": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Algaida.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". prédio en la isla de Mallorca, prov., aud. terr., c g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Algaida."
     }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Lloseta",
       "description": "Predio con cas. y cond. de su nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Lloseta. (V. Lloseta.)",
       "stats": {},
-      "cross_references": ["Lloseta"],
-      "confidence": "high"
+      "cross_references": [
+        "Lloseta"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. y cond. de su nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Lloseta. (V. Lloseta.)"
     }
   ]
 }

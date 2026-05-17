@@ -5,6 +5,20 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "EBUSUS", "place_type": "isla", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": "Ibiza", "description": "Así se llama en los ant. las islas de Ibiza.", "stats": {}, "cross_references": ["Ibiza"], "confidence": "high", "note": "Nombre antiguo de Ibiza (Ebusus en latín)."}
+    {
+      "title": "EBUSUS",
+      "place_type": "isla",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": "Ibiza",
+      "description": "Así se llama en los ant. las islas de Ibiza.",
+      "stats": {},
+      "cross_references": [
+        "Ibiza"
+      ],
+      "confidence": "high",
+      "note": "Nombre antiguo de Ibiza (Ebusus en latín).",
+      "description_raw": "Así se llama en los ant. las islas de Ibiza."
+    }
   ]
 }

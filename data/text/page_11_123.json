@@ -27,7 +27,8 @@
         "Cabrera",
         "Bellver"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Décimo tercio distrito militar, reducido á la prov. de su nombre, que comprende las islas de Mallorca, Menorca, Ibiza, Formentera, Cabrera y Conejera. Tiene 14 gobiernos militares: las plazas de Palma, Alcudia, Mahón, Ciudadela, Fornells é Ibiza, y los cast. de San Carlos, Bellver, Cap de Pera, Pollenza, Soller, Porto Petro, Piedra Picada é isla Cabrera. Comandancias de artillería en Mallorca, Menorca é Ibiza. Plazas fortificadas: Palma, Alcudia, Ciudadela é Ibiza. Palma (residencia del cap. gen.): muralla sencilla de piedra arenosa con 13 baluartes, 8 puertas, foso seco, falsa braga; guarnición actual: 1 regimiento infantería, escuadrón caballería, brigada artillería, batería de lomo. Alcudia: murallas siglo XIV, 2 fuertes castillos, foso. Ciudadela: parte de murallas árabes + resto siglo XVI, 7 bastiones, 5 puertas, cast. San Nicolás en boca del puerto. Ibiza: fortaleza de Carlos V, planta hexagonal irregular."
     },
     {
       "title": "MALLORCA (Tercio naval de)",
@@ -42,7 +43,8 @@
         "Mahón",
         "Ibiza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Se compone de la prov. marítima de su nombre, y de las denominadas de Ibiza y de Mahón. La primera se divide en cuatro distritos: Andraix, Alcudia, Felanitx y Soller. La segunda forma sola el part. y distrito militar de marina. A la tercera pertenece 1 de Ciudadela."
     },
     {
       "title": "MALLORCA (diócesis)",
@@ -64,7 +66,8 @@
         "Palma",
         "Valencia (dióc.)"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Sufragánea de la de Valencia. La constituye la isla toda de su nombre, sin pertenencia fuera de ella ni enclavado extraño dentro. Catedral empezada á edificar en Palma en 1230 en el local de 7 casas que dio el rey D. Jaime I, cerca de la puerta de las Cadenas; cuenta 5 dignidades, 23 canónigos, 4 racioneros y 131 presbíteros sirvientes. 58 pueblos, 39 parr. matrices, 32 feligresías, 41 capillas, 5 ermitas, 200 oratorios (total 317 templos). 16 párrocos propios + 23 ecónomos, 90 vicarios amovibles, 551 beneficiados de patronato. Curatos: 1 entrada, 1 primer ascenso, 15 segundo ascenso, 22 término. Tabla de conventos suprimidos en 1835 (frailes) y 1836 (monjas) con fechas de fundación desde 1230."
     }
   ]
 }

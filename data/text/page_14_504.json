@@ -15,7 +15,8 @@
       "stats": {},
       "cross_references": [],
       "confidence": "medium",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "l. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud., ayunt., term. y jurisd. de Palma. Tiene una igl. parr. (San Jaime), aneja de la de igual advocación de dicha c., servida por un vicario temporal y amovible que nombra el diocesano. Su pobl. y riqueza unida á Palma."
     },
     {
       "title": "SON SERVERA",
@@ -27,7 +28,8 @@
       "stats": {},
       "cross_references": [],
       "confidence": "medium",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "v., cab. de ayunt. que forma con la ald. de Peña Rotja en la isla y dióc. de Mallorca, (Palma 12 hor.), part. jud. de Manacor (3), prov., aud. terr., c. g. de Baleares: sit. al estremo oriental de la isla, al pie del monte llamado Es puig de se Font, en un suelo ó plano inclinado y desigual, dist. unos 20 minutos de la orilla del mar; goza de buena ventilación y clima templado y sano; las enfermedades comunes, son fiebres intermitentes, gastritis, y algunas apoplegias. Tiene 471 casas, de un solo piso alto en general, construidas de manipostería, y formando 11 calles desempedradas, y regularmente anchas, y una plaza que sirve para el mercado: hay una escuela de instrucción primaria dotada con 1,100 rs. vn., concurrida por 30 alumnos; una igl. parr. (San Juan Bautista) filial de la parr. de Artá, servida por un vicario temporal y amovible que nombra el diocesano, y un capellán de patronato de sangre. El térm. confina N. Artá; E. Capdepera; S. el mar, y O. San Lorenzo Descardasar; en él se encuentra la citada ald. de Peña Rotja, y diferentes predios rústicos de propiedad particular. El terreno participa de secano y regadío; sus montes forman una cord. de N. á E., cuyas vertientes dividen este térm. del de Capdepera; crian pinos y mata baja; le cruzan algunos torrentes de escaso caudal de aguas, y contiene canteras de piedra. Los caminos son locales, y se hallan en mal estado. prod.: trigo, geja, cebada, avena, legumbres, algarrobas, aceite, vino, almendras, cáñamo, hortalizas y frutas; cria ganado de todas especies, con preferencia el lanar; caza de conejos, liebres, perdices y codornices y pesca común del mar. ind.: 8 molinos de viento harineros, 4 de agua, 14 de aceite, y un tejar. comercio: esportacion de frutos sobrantes, é importación de los ultramarinos. pobl.: 399 vec., 1,925 alm. cap. imp.: 150,773 rs. Contr. en el año de 1846: 27,940."
     },
     {
       "title": "SON PIERAS",
@@ -35,10 +37,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
-      "description": "ald. en la isla y dióc de Mallorca, partidojud. de Palma, prov., aud. terr., c. g. de Baleares, térm. y jurisd. déla v. de Calviá.",
+      "description": "ald. en la isla y dióc. de Mallorca, partido jud. de Palma, prov., aud. terr., c. g. de Baleares, térm. y jurisd. de la v. de Calvià.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. en la isla y dióc de Mallorca, partidojud. de Palma, prov., aud. terr., c. g. de Baleares, térm. y jurisd. déla v. de Calviá."
     }
   ]
 }

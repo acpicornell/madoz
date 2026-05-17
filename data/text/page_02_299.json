@@ -14,8 +14,13 @@
       "municipality": "Ciudadela",
       "description": "Cala de la isla, tercio y prov. marít. de Menorca, distr. de Ciudadela, apostadero de Cartagena. Sit. al S. del puerto de Ciudadela entre las calas del Degollador y la Blanca; sirve solo para jabeques chiquitos. En ella son travesía los vientos del tercer cuadrante, y meten mucha mar, por lo que es necesario buenas amarras ó barar como lo hacen los pescadores.",
       "stats": {},
-      "cross_references": ["Ciudadela", "Cala del Degollador", "Cala Blanca"],
-      "confidence": "high"
+      "cross_references": [
+        "Ciudadela",
+        "Cala del Degollador",
+        "Cala Blanca"
+      ],
+      "confidence": "high",
+      "description_raw": "Cala de la isla, tercio y prov. marít. de Menorca, distr. de Ciudadela, apostadero de Cartagena. Sit. al S. del puerto de Ciudadela entre las calas del Degollador y la Blanca; sirve solo para jabeques chiquitos. En ella son travesía los vientos del tercer cuadrante, y meten mucha mar, por lo que es necesario buenas amarras ó barar como lo hacen los pescadores."
     }
   ]
 }

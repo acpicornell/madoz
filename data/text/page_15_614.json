@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, tórm. y jurisd. de la v. de Calviá.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, tórm. y jurisd. de la v. de Calviá."
     },
     {
       "title": "VALLVERD",
@@ -22,10 +23,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": "ald. en la isla y dióc. de Mallorca, prov.,aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y ijurrsd. de la v. de Calviá, tiene una capilla con culto público; su pobl. y riqueza unida á la de dicha v.",
+      "description": "ald. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Calvià, tiene una capilla con culto público; su pobl. y riqueza unida á la de dicha v.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. en la isla y dióc. de Mallorca, prov.,aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y ijurrsd. de la v. de Calviá, tiene una capilla con culto público; su pobl. y riqueza unida á la de dicha v."
     },
     {
       "title": "VANSELL (son)",
@@ -36,7 +38,8 @@
       "description": "alq. en la isla de Mallorca, prov. de Baleares , part jud. de Inca , térm. y jurisd. déla v. de Sineu.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "alq. en la isla de Mallorca, prov. de Baleares , part jud. de Inca , térm. y jurisd. déla v. de Sineu."
     }
   ]
 }

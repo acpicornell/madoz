@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": null,
-      "description": "ald. ó cas. en la isla de Mallorca, part. jud.. de Manacor, prov., aud. terr. y c. g. de Baleares, térm. jurisd_. de la v. de Son Servera.",
+      "description": "ald. ó cas. en la isla de Mallorca, part. jud. de Manacor, prov., aud. terr. y c. g. de Baleares, térm. jurisd. de la v. de Son Servera.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. ó cas. en la isla de Mallorca, part. jud.. de Manacor, prov., aud. terr. y c. g. de Baleares, térm. jurisd_. de la v. de Son Servera."
     }
   ]
 }

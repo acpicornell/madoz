@@ -56,6 +56,9 @@ def main() -> None:
                 e.get("judicial_district"),
                 e.get("municipality"),
                 e.get("description"),
+                # Preserve the LLM's first-pass extraction if present;
+                # falls back to description for legacy JSON files.
+                e.get("description_raw") or e.get("description"),
                 json.dumps(stats, ensure_ascii=False) if stats else None,
                 xrefs,
                 e.get("confidence"),
@@ -74,10 +77,10 @@ def main() -> None:
     con.executemany(
         """INSERT INTO text_entries
            (vol, leaf, page_printed, title, place_type, island,
-            judicial_district, municipality, description, stats,
-            cross_references, confidence, window_size, model,
+            judicial_district, municipality, description, description_raw,
+            stats, cross_references, confidence, window_size, model,
             source_file, note, chocr_entry_id, madoz_entry_id)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         payload,
     )
     con.execute("COMMIT")

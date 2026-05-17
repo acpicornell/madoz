@@ -6,6 +6,19 @@
   "model": "claude-opus-4-7-via-claude-code",
   "note": "chocr regex flagged GARAS (arrabal de la Coruña — non-Balearic). Actual Balearic entry on leaf is GARAU (son).",
   "entries": [
-    {"title": "GARAU (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Campanet", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Campanet.", "stats": {}, "cross_references": ["Campanet"], "confidence": "high"}
+    {
+      "title": "GARAU (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Campanet."
+    }
   ]
 }

@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "GURGUT (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Petra", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Petra.", "stats": {}, "cross_references": ["Petra"], "confidence": "high"}
+    {
+      "title": "GURGUT (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Petra",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Petra.",
+      "stats": {},
+      "cross_references": [
+        "Petra"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Petra."
+    }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Sineu",
       "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sineu. (V. Sineu.)",
       "stats": {},
-      "cross_references": ["Sineu"],
-      "confidence": "high"
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sineu. (V. Sineu.)"
     }
   ]
 }

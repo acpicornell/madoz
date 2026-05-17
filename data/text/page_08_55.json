@@ -16,7 +16,8 @@
       "cross_references": [
         "Santañí"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santañí."
     },
     {
       "title": "FERRERIAS",
@@ -37,7 +38,8 @@
         "San Cristóbal"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "Villa con ayunt. en la isla y dióc. de Menorca, part. jud. de Ciudadela (1 1/4 millas), prov., aud. terr., c. g. de Baleares (Palma): sit. al S. á corta dist. del camino real que atraviesa la isla y rodeada de alturas, con buena ventilación, cielo triste y clima poco sano. Tiene una igl. parr. (San Bartolomé) servida por un cura de segundo ascenso de patronato real, 2 vicarios y un sacristán, 6 oratorios públicos de propiedad de particulares en otras tantas casas de campo. El térm. confina N. el mar; E. Mercadal; S. San Cristóbal, y O. Ciudadela; en la parte de costa que comprende se halla el cabo del Toro, y muy inmediato á la pobl., sobre el monte de la Inclusa, una torre vigia abandonada y algunos vestigios de otros edificios. El terreno es de mediana calidad; lleno de cerros y lomas, aunque entre estos se ven algunas pequeñas llanuras muy fértiles; corren por él dos arroyos de curso perenne, uno llamado de Sta. Galdama que limita el térm. de Ciudadela, y otro Tribulnge que separa el de San Cristóbal. Hay caminos locales de herradura y la carretera mencionada que cruza la isla. prod.: trigo, cebada, lino, batatas, frutas; cria ganado y caza de varias especies. pobl.: 225 vec., 1,128 alm. cap. imp.: 135,509."
     }
   ]
 }

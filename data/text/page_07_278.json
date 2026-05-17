@@ -16,7 +16,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la ciudad de Mahon."
     },
     {
       "title": "CUGOLLONOU",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     },
     {
       "title": "CUGOLLONET",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Estancia en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     }
   ]
 }

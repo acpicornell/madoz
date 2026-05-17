@@ -17,7 +17,8 @@
         "Campanet"
       ],
       "confidence": "high",
-      "note": "OCR reads 'CAMP DES SOLDAD'; standard Catalan form is 'es Camp d'es Soldat'."
+      "note": "OCR reads 'CAMP DES SOLDAD'; standard Catalan form is 'es Camp d'es Soldat'.",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
     },
     {
       "title": "CAMP DEN BARBETA (es)",
@@ -31,7 +32,8 @@
         "Campanet"
       ],
       "confidence": "high",
-      "note": "OCR reads 'CAMP DEU BARBETA' — corrected to CAMP DEN BARBETA."
+      "note": "OCR reads 'CAMP DEU BARBETA' — corrected to CAMP DEN BARBETA.",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
     },
     {
       "title": "CAMP DEN SERRA",
@@ -45,7 +47,8 @@
         "Santa Margarita"
       ],
       "confidence": "high",
-      "note": "OCR reads 'CAMP DEU SERRA' — corrected to CAMP DEN SERRA."
+      "note": "OCR reads 'CAMP DEU SERRA' — corrected to CAMP DEN SERRA.",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Sta. Margarita."
     }
   ]
 }

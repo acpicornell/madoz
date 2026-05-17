@@ -11,10 +11,11 @@
       "island": null,
       "judicial_district": "Inca",
       "municipality": null,
-      "description": "ald. con oratorio público en la islade Mailorca, prov. de Baleares, part. jud.de Inca, térm. y iurisd. de la v. de C.nmpanel.",
+      "description": "ald. con oratorio público en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. con oratorio público en la islade Mailorca, prov. de Baleares, part. jud.de Inca, térm. y iurisd. de la v. de C.nmpanel."
     }
   ]
 }

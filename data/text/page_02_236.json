@@ -13,8 +13,11 @@
       "municipality": "Muro",
       "description": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)",
       "stats": {},
-      "cross_references": ["Muro"],
-      "confidence": "high"
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high",
+      "description_raw": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)"
     }
   ]
 }

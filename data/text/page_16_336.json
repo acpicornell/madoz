@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Llubí",
-      "description": "granja en la isla de Mallorca, part. jud.de Inca , térm. y jurisd. de la v. de Llubí.",
+      "description": "granja en la isla de Mallorca, part. jud. de Inca, térm. y jurisd. de la v. de Llubí.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "granja en la isla de Mallorca, part. jud.de Inca , térm. y jurisd. de la v. de Llubí."
     }
   ]
 }

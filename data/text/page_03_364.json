@@ -13,8 +13,11 @@
       "municipality": "Alaró",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Alaró. (V. Alaró.)",
       "stats": {},
-      "cross_references": ["Alaró"],
-      "confidence": "high"
+      "cross_references": [
+        "Alaró"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Alaró. (V. Alaró.)"
     }
   ]
 }

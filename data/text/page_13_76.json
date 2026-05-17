@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
-      "description": ": predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. la v. de Santagni.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santagny.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ": predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. la v. de Santagni."
     }
   ]
 }

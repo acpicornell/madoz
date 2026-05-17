@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Pollenza",
-      "description": "cueva en el predio de Ariant, en la isla de Mallorca , prov. de Baleares, part. jud. de Inca,térm. y jurisd. de la v. de Pollenza: en su entrada tiene unsalón muy eslenso, y en su pavimento se ven las bocas devarias cavernas, pero se ignora si ha habido persona que seha va atrevido á bajar á ellas.",
+      "description": "cueva en el predio de Ariant, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza: en su entrada tiene un salón muy estenso, y en su pavimento se ven las bocas de varias cavernas, pero se ignora si ha habido persona que se haya atrevido á bajar á ellas.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "cueva en el predio de Ariant, en la isla de Mallorca , prov. de Baleares, part. jud. de Inca,térm. y jurisd. de la v. de Pollenza: en su entrada tiene unsalón muy eslenso, y en su pavimento se ven las bocas devarias cavernas, pero se ignora si ha habido persona que seha va atrevido á bajar á ellas."
     },
     {
       "title": "PORGATORI",
@@ -25,7 +26,8 @@
       "description": "predio en la isla ele Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmavor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla ele Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmavor."
     },
     {
       "title": "PORMAÑY",
@@ -33,10 +35,11 @@
       "island": "Ibiza",
       "judicial_district": null,
       "municipality": null,
-      "description": "cuartón en la isla de Ibiza \\\\. el art. de dicha isla).",
+      "description": "cuartón en la isla de Ibiza (V. el art. de dicha isla).",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "cuartón en la isla de Ibiza \\\\. el art. de dicha isla)."
     }
   ]
 }

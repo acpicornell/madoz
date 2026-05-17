@@ -14,8 +14,13 @@
       "municipality": "Santa Eulalia",
       "description": "Punta de la isla, tercio, prov. y distr. marít. de Ibiza, apostadero de Cartagena. Sit. al N. 41º 30' E. del cabo Lebrell, 3 1/2 millas de dist.; es baja, oscura y saliente. Forma por la parte del E. con las islas de Sta. Eulalia la ensenada de este nombre. Al O. de ella, á 1/4 milla, hay una piedra del tamaño de una lancha, que por su parte de tierra no deja paso.",
       "stats": {},
-      "cross_references": ["Cabo Lebrell", "Santa Eulalia (Ibiza)", "Ensenada de Santa Eulalia"],
-      "confidence": "high"
+      "cross_references": [
+        "Cabo Lebrell",
+        "Santa Eulalia (Ibiza)",
+        "Ensenada de Santa Eulalia"
+      ],
+      "confidence": "high",
+      "description_raw": "Punta de la isla, tercio, prov. y distr. marít. de Ibiza, apostadero de Cartagena. Sit. al N. 41º 30' E. del cabo Lebrell, 3 1/2 millas de dist.; es baja, oscura y saliente. Forma por la parte del E. con las islas de Sta. Eulalia la ensenada de este nombre. Al O. de ella, á 1/4 milla, hay una piedra del tamaño de una lancha, que por su parte de tierra no deja paso."
     }
   ]
 }

@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "HOMAR (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Buñola", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Buñola.", "stats": {}, "cross_references": ["Buñola"], "confidence": "high"}
+    {
+      "title": "HOMAR (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Buñola",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Buñola.",
+      "stats": {},
+      "cross_references": [
+        "Buñola"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Buñola."
+    }
   ]
 }

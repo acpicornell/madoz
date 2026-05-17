@@ -13,8 +13,11 @@
       "municipality": "Campanet",
       "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
       "stats": {},
-      "cross_references": ["Campanet"],
-      "confidence": "high"
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)"
     },
     {
       "title": "ALBORAYET DEN ROCA",
@@ -24,8 +27,11 @@
       "municipality": "Campanet",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)",
       "stats": {},
-      "cross_references": ["Campanet"],
-      "confidence": "high"
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)"
     }
   ]
 }

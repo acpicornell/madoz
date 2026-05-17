@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares , part. jud. de Palma, térm. jurisd. de la v. de Lluchmayor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares , part. jud. de Palma, térm. jurisd. de la v. de Lluchmayor."
     },
     {
       "title": "REVELLAR",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jua. de Manacor, térm. y jurisd. de la v. de Campos.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jua. de Manacor, térm. y jurisd. de la v. de Campos."
     },
     {
       "title": "REVELLARET",
@@ -36,7 +38,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, y jurisd. de la v. de Campos.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, y jurisd. de la v. de Campos."
     }
   ]
 }

@@ -14,8 +14,12 @@
       "municipality": "Formentera",
       "description": "Punta de la isla de Formentera, tercio, prov. y distr. marít. de Ibiza, apostadero de Cartagena. Sit. á 130 millas al NE. 12 grados al ES. del estremo merid. de la Mola, cosa de 1/4 de hora al SO. del estremo occidental merid. de la playa del Mediodía; es de mediana elevación, pareja y cortada á pique.",
       "stats": {},
-      "cross_references": ["Mola de Formentera", "Playa del Mediodía"],
-      "confidence": "high"
+      "cross_references": [
+        "Mola de Formentera",
+        "Playa del Mediodía"
+      ],
+      "confidence": "high",
+      "description_raw": "Punta de la isla de Formentera, tercio, prov. y distr. marít. de Ibiza, apostadero de Cartagena. Sit. á 130 millas al NE. 12 grados al ES. del estremo merid. de la Mola, cosa de 1/4 de hora al SO. del estremo occidental merid. de la playa del Mediodía; es de mediana elevación, pareja y cortada á pique."
     }
   ]
 }

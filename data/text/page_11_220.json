@@ -5,8 +5,50 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "MARCH (anteig. Benitiger)", "place_type": "valle", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza", "Inca"], "confidence": "high"},
-    {"title": "MARCH (redol de son)", "place_type": "reunión de casas", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Reunión de casas ant. á las del predio de este nombre, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza", "Inca"], "confidence": "high"},
-    {"title": "MARCIAL (San)", "place_type": "aldea o parroquia", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Marratxí", "description": "Ald. ó parr. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Marratxí.", "stats": {}, "cross_references": ["Marratxí", "Palma"], "confidence": "high"}
+    {
+      "title": "MARCH (anteig. Benitiger)",
+      "place_type": "valle",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
+    },
+    {
+      "title": "MARCH (redol de son)",
+      "place_type": "reunión de casas",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Reunión de casas ant. á las del predio de este nombre, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza",
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Reunión de casas ant. á las del predio de este nombre, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
+    },
+    {
+      "title": "MARCIAL (San)",
+      "place_type": "aldea o parroquia",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Marratxí",
+      "description": "Ald. ó parr. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Marratxí.",
+      "stats": {},
+      "cross_references": [
+        "Marratxí",
+        "Palma"
+      ],
+      "confidence": "high",
+      "description_raw": "Ald. ó parr. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Marratxí."
+    }
   ]
 }

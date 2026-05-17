@@ -13,8 +13,11 @@
       "municipality": "Andraitx",
       "description": "Pequeño islote de la isla, del tercio y prov. marít. de Mallorca, dist. de Andraitx. (V. Andraitx: Puerto.)",
       "stats": {},
-      "cross_references": ["Andraitx"],
-      "confidence": "high"
+      "cross_references": [
+        "Andraitx"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeño islote de la isla, del tercio y prov. marít. de Mallorca, dist. de Andraitx. (V. Andraitx: Puerto.)"
     }
   ]
 }

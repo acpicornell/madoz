@@ -13,8 +13,11 @@
       "municipality": "Sineu",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sineu. (V. Sineu.)",
       "stats": {},
-      "cross_references": ["Sineu"],
-      "confidence": "high"
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sineu. (V. Sineu.)"
     }
   ]
 }

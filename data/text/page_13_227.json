@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Andraitx",
-      "description": ". predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraitx.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraitx.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraitx."
     },
     {
       "title": "PRIM (son)",
@@ -25,7 +26,8 @@
       "description": "predio en]laislade Mallorca,prov. de Baleares , part. jud. de Inca, térm. y jurisd. de la v. de Llubi.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en]laislade Mallorca,prov. de Baleares , part. jud. de Inca, térm. y jurisd. de la v. de Llubi."
     }
   ]
 }

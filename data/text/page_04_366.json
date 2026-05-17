@@ -17,7 +17,8 @@
         "Felanich",
         "Cabrera"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Pequeña isleta en el tercio y prov. marítima de Mallorca, distrito de Felanich, situada al S. de la Cabrera en el tránsito de la isla imperial al cabo ventoso; es rasa pegada á tierra, hay en ella dos calas, una al N. que llaman la Olla, y otra al S. denominada de Berri, buena solo para pescar. Entre la isla y el cabo hay una gran ensenada."
     },
     {
       "title": "BLEDA MAYOR",
@@ -32,7 +33,8 @@
         "Bleda plana",
         "Bledas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Isleta en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena: es una de las conocidas con el nombre común de Bledas; está sit. á 1/2 milla al S. 17° E. de la Bleda plana; es su figura redonda con alguna mas elevación y limpia que las otras. Entre esta isla y la Bleda plana por un lado y por otro entre ella y la de Gorra, hay paso para cualquier clase de bajel."
     },
     {
       "title": "BLEDA PLANA",
@@ -48,7 +50,8 @@
         "Bledas",
         "Redondas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Isleta en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena. Es una de las cinco comprendidas bajo su nombre común de Bledas; está sit. al S.SO., de la mas meridional de las Redondas, de las cuales la separa un canal con arrecife descontinuado, aunque de la misma altura es mas larga que aquellas. A muy corta dist. de ella al SO. hay dos islotillos y á su continuación un arrecife de un cable de largo, y al S. SO. en su medianía á igual dist. dos bajos casi unidos. Entre esta isla y la Bleda mayor hay paso para cualquier género de bajel."
     },
     {
       "title": "BLEDAS (islas, Ibiza)",
@@ -66,7 +69,8 @@
         "Bleda mayor",
         "Cargola"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Islas en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena; se da aquel nombre á un grupo de cinco pequeñas islas situadas á 2 1/2 millas al O. SO. de la Curegera grande; se denominan dos de ellas las Redondas, y las otras Bleda plana, Bleda mayor y la Cargola. (V.)"
     },
     {
       "title": "BLEDAS (isletas, Ciudadela)",
@@ -82,7 +86,8 @@
         "Nitje",
         "Salairo"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Grupo de dos pequeñas isletas en la prov. y part. marítimo de Mahón, distr. de Ciudadela, tercio de Mallorca, departamento de Cartagena. Están situadas al SO. 1/4 S. de la isla de Nitje á menos de un tiro de fusil del cabo de Salairo; la mayor es alta y de mediana magnitud no franqueando paso por la parte de tierra sino para faluchos; la otra es muy pequeña; entre ellas y la espresada de Nitje, hay una grande ensenada."
     }
   ]
 }

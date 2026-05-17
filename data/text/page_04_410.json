@@ -13,8 +13,11 @@
       "municipality": "Inca",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca.",
       "stats": {},
-      "cross_references": ["Inca"],
-      "confidence": "high"
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca."
     }
   ]
 }

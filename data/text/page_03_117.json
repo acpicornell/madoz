@@ -13,8 +13,13 @@
       "municipality": "Cabrera",
       "description": "Cabo en la isla de Cabrera, tercio, prov. y distr. marít. de Mallorca. Sit. á 1 3/4 milla al S. 15º O. del cabo de Lebeche; es el más meridional occidental de la isla; hace cala con 1 isleta en su boca, con el cabo de Picamoscas, la cual es inútil, y solo sirve á los pescadores que cuando reina el E. van á pescar.",
       "stats": {},
-      "cross_references": ["Cabrera", "Cabo de Lebeche", "Cabo de Picamoscas"],
-      "confidence": "high"
+      "cross_references": [
+        "Cabrera",
+        "Cabo de Lebeche",
+        "Cabo de Picamoscas"
+      ],
+      "confidence": "high",
+      "description_raw": "Cabo en la isla de Cabrera, tercio, prov. y distr. marít. de Mallorca. Sit. á 1 3/4 milla al S. 15º O. del cabo de Lebeche; es el más meridional occidental de la isla; hace cala con 1 isleta en su boca, con el cabo de Picamoscas, la cual es inútil, y solo sirve á los pescadores que cuando reina el E. van á pescar."
     }
   ]
 }

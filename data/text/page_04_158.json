@@ -14,8 +14,12 @@
       "municipality": "Artá",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá. Tiene un oratorio público donde se celebra misa los días festivos y es propiedad del marqués de su mismo título.",
       "stats": {},
-      "cross_references": ["Artá", "Marqués de Bellpuig"],
-      "confidence": "high"
+      "cross_references": [
+        "Artá",
+        "Marqués de Bellpuig"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá. Tiene un oratorio público donde se celebra misa los días festivos y es propiedad del marqués de su mismo título."
     }
   ]
 }

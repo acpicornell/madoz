@@ -11,10 +11,11 @@
       "island": null,
       "judicial_district": null,
       "municipality": null,
-      "description": "cala pequeña en la isla, tercio y prov. marítima de Mallorca, distrito de Andraitxdel part. de Cartagena , sit. al E. de la c. de Palma.",
+      "description": "cala pequeña en la isla, tercio y prov. marítima de Mallorca, distrito de Andraitx, del part. de Cartagena, sit. al E. de la c. de Palma.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "cala pequeña en la isla, tercio y prov. marítima de Mallorca, distrito de Andraitx, del part. de Cartagena, sit. al E. de la c. de Palma."
     }
   ]
 }

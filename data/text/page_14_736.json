@@ -14,7 +14,8 @@
       "description": "casa de campo en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. y jurisd. de lav, de Sta. Margarita.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "casa de campo en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. y jurisd. de lav, de Sta. Margarita."
     },
     {
       "title": "TAULADA (son)",
@@ -25,10 +26,11 @@
       "description": "predio en la isla de Mallorca, prov. de Raleares, part. jud. do Inca, térm. y jurisd. de la v. de Sta. Margarita.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Raleares, part. jud. do Inca, térm. y jurisd. de la v. de Sta. Margarita."
     },
     {
-      "title": "TAULEBA (la)",
+      "title": "TAULERA (la)",
       "place_type": "predio",
       "island": "Mallorca",
       "judicial_district": "Palma",
@@ -36,7 +38,8 @@
       "description": ". predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de."
     },
     {
       "title": "TAULER (so)",
@@ -47,7 +50,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Eelanitx.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Eelanitx."
     },
     {
       "title": "TAULERA",
@@ -55,10 +59,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": null,
-      "description": ".- predio en la isla de Mallorca , prov. de Baleares , part. jud. de Inca , térm. y jurisd. de la villa de.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ".- predio en la isla de Mallorca , prov. de Baleares , part. jud. de Inca , térm. y jurisd. de la villa de."
     },
     {
       "title": "TAULERA (la)",
@@ -69,7 +74,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v."
     }
   ]
 }

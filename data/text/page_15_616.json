@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Pollenza",
-      "description": ". prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "VARIX (redol de)",
@@ -22,10 +23,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Pollenza",
-      "description": "reunión de casas contiguas á las delprédio de esle nombre, en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "description": "reunión de casas contiguas á las del predio de este nombre, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "reunión de casas contiguas á las delprédio de esle nombre, en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     }
   ]
 }

@@ -5,7 +5,34 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "MAS (son)", "place_type": "alquería", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Inca", "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.", "stats": {}, "cross_references": ["Inca"], "confidence": "high"},
-    {"title": "MAS (son)", "place_type": "casa de campo", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Santa Margarita", "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.", "stats": {}, "cross_references": ["Santa Margarita", "Inca"], "confidence": "high"}
+    {
+      "title": "MAS (son)",
+      "place_type": "alquería",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca."
+    },
+    {
+      "title": "MAS (son)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Santa Margarita",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita.",
+      "stats": {},
+      "cross_references": [
+        "Santa Margarita",
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
+    }
   ]
 }

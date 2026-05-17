@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CORRO (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alaró", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaró.", "stats": {}, "cross_references": ["Alaró"], "confidence": "high"},
-    {"title": "CORRO (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Campanet", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.", "stats": {}, "cross_references": ["Campanet"], "confidence": "high"}
+    {
+      "title": "CORRO (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaró.",
+      "stats": {},
+      "cross_references": [
+        "Alaró"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaró."
+    },
+    {
+      "title": "CORRO (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
+    }
   ]
 }

@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca, prov. aud. terr., c. g. de Baleares , part. jud. de Manacor, térm. y jurisd. de la v. de Artá.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. aud. terr., c. g. de Baleares , part. jud. de Manacor, térm. y jurisd. de la v. de Artá."
     },
     {
       "title": "PENXETÁ (son)",
@@ -22,10 +23,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": "Inca",
-      "description": ".- alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "description": "alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ".- alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca."
     }
   ]
 }

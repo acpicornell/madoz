@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": null,
-      "description": "prédio en el va le den March, en laisla de Mallorca, prov. de Baleares, part. jud. de Inca,térm. yjui isd.de la v. de Podenza; tiene un molino deaceite.",
+      "description": "predio en el valle den March, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza; tiene un molino de aceite.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "predio en el valle den March, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza; tiene un molino de aceite."
     },
     {
       "title": "PLANA PETITA (la)",
@@ -25,7 +26,8 @@
       "description": "predio en el valle den March , en laisla de Mallorca, prov. de Baleares, part. jud. de Inca, term. y jurisd. de la v. de Pollenza.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en el valle den March , en laisla de Mallorca, prov. de Baleares, part. jud. de Inca, term. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "PLANAS (las)",
@@ -36,7 +38,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Menacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Menacor."
     }
   ]
 }

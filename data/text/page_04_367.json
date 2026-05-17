@@ -13,8 +13,14 @@
       "municipality": "Ciudadela",
       "description": "Cala de la prov. marítima de Mahón, distr. de Ciudadela, tercio de Mallorca, departamento de Cartagena, sit. al S. de la cab. del dist. entre la cala de San Andrés y la Punta negra; sirve solo para pescadores por su poco fondo y estrechez.",
       "stats": {},
-      "cross_references": ["Mahón", "Ciudadela", "San Andrés", "Punta negra"],
-      "confidence": "high"
+      "cross_references": [
+        "Mahón",
+        "Ciudadela",
+        "San Andrés",
+        "Punta negra"
+      ],
+      "confidence": "high",
+      "description_raw": "Cala de la prov. marítima de Mahón, distr. de Ciudadela, tercio de Mallorca, departamento de Cartagena, sit. al S. de la cab. del dist. entre la cala de San Andrés y la Punta negra; sirve solo para pescadores por su poco fondo y estrechez."
     }
   ]
 }

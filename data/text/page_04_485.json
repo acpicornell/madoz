@@ -13,8 +13,12 @@
       "municipality": "Mahón",
       "description": "Punta en la isla de Menorca, prov. y part. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. al N. de Cala Mezquita; es muy poco importante.",
       "stats": {},
-      "cross_references": ["Mahón", "Cala Mezquita"],
-      "confidence": "high"
+      "cross_references": [
+        "Mahón",
+        "Cala Mezquita"
+      ],
+      "confidence": "high",
+      "description_raw": "Punta en la isla de Menorca, prov. y part. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. al N. de Cala Mezquita; es muy poco importante."
     }
   ]
 }

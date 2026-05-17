@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "GILI (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Lloseta", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Lloseta.", "stats": {}, "cross_references": ["Lloseta"], "confidence": "high"}
+    {
+      "title": "GILI (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Lloseta",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Lloseta.",
+      "stats": {},
+      "cross_references": [
+        "Lloseta"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Lloseta."
+    }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Muro",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)",
       "stats": {},
-      "cross_references": ["Muro"],
-      "confidence": "high"
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)"
     },
     {
       "title": "AUCANELLA y AUCANELLETA",
@@ -24,8 +27,11 @@
       "municipality": "Escorca",
       "description": "Dos predios pequeños con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Escorca, en los cuales viven sus arrendatarios. Prod.: trigo, pastos y pocas encinas. (V. Escorca.)",
       "stats": {},
-      "cross_references": ["Escorca"],
-      "confidence": "high"
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "description_raw": "Dos predios pequeños con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Escorca, en los cuales viven sus arrendatarios. Prod.: trigo, pastos y pocas encinas. (V. Escorca.)"
     }
   ]
 }

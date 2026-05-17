@@ -5,6 +5,20 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "MATAGROSA (sé)", "place_type": "casa de campo", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Campanet", "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.", "stats": {}, "cross_references": ["Campanet", "Inca"], "confidence": "high"}
+    {
+      "title": "MATAGROSA (sé)",
+      "place_type": "casa de campo",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Campanet",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
+      "stats": {},
+      "cross_references": [
+        "Campanet",
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
+    }
   ]
 }

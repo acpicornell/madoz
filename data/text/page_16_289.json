@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
-      "description": "pobl. desaparecida en la isla de Mallorca,part, jud. de loca, térm. jurisd. de la c. de Alcudia.",
+      "description": "pobl. desaparecida en la isla de Mallorca, part. jud. de Inca, térm. jurisd. de la c. de Alcudia.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "pobl. desaparecida en la isla de Mallorca,part, jud. de loca, térm. jurisd. de la c. de Alcudia."
     }
   ]
 }

@@ -16,7 +16,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "CLOT DELS ASES",
@@ -30,7 +31,8 @@
         "Mahon",
         "lazareto de Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Pedazo de muelle en la isla de Menorca dentro del puerto de Mahon; parte es natural y parte artificial, y forma una pequeña ensenada; pueden los buques atracar su costado á tierra por mucho que sea su porte; está sit. al SSO. del lazareto; tiene 8 norais para asegurar los buques que se atracan para alijar sus cargamentos é introducirlos en aquel establecimiento por su puerta llamada del Clot dels Ases, de cuyo muelle dista esta 27 varas; en el mismo, y á 52 varas de la referida puerta, y 20 del mar, existe una fuente de la cual se proveen de agua los buques."
     },
     {
       "title": "CLOTAL (el)",
@@ -43,7 +45,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     }
   ]
 }

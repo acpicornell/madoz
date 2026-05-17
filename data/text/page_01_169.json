@@ -13,8 +13,16 @@
       "municipality": null,
       "description": "Pequeña isla sit. al S. de la punta y torre de las Portas, punto el más meridional de la isla de Ibiza. Es de mediana altura, pareja y abraza el espacio de 1/4 milla N. 9° 38' O. y al contrario. Por su lado setentrional forma con la isla Redonda un canal llamado Freo del Medio que permite paso para embarcaciones de mediano porte. Viniendo de O. para entrar en este Freo hay un bajo llamado la Barqueta, en el que rompe la mar por poca que haya; está al S. 26° O. de la torre de las Portas y al OSO. 1/4 milla de la isla Redonda. Por su estremo meridional constituye con la isla Grande Negra el Freo mayor. Este canal corre SSE. 1/8 S. (y al contrario) el espacio de una milla en fondo de 9 brazas por su medianía, disminuyendo en proporción para Formentera desde 6 brazas á un cable de la costa, hasta 4 brazas á igual distancia de la isla de los Ahorcados; pero aumenta hasta 13 á 1/2 cable de la isla Negra.",
       "stats": {},
-      "cross_references": ["Torre de las Portas", "Isla Redonda", "Isla Grande Negra", "Freo del Medio", "Freo Mayor", "Formentera"],
-      "confidence": "high"
+      "cross_references": [
+        "Torre de las Portas",
+        "Isla Redonda",
+        "Isla Grande Negra",
+        "Freo del Medio",
+        "Freo Mayor",
+        "Formentera"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeña isla sit. al S. de la punta y torre de las Portas, punto el más meridional de la isla de Ibiza. Es de mediana altura, pareja y abraza el espacio de 1/4 milla N. 9° 38' O. y al contrario. Por su lado setentrional forma con la isla Redonda un canal llamado Freo del Medio que permite paso para embarcaciones de mediano porte. Viniendo de O. para entrar en este Freo hay un bajo llamado la Barqueta, en el que rompe la mar por poca que haya; está al S. 26° O. de la torre de las Portas y al OSO. 1/4 milla de la isla Redonda. Por su estremo meridional constituye con la isla Grande Negra el Freo mayor. Este canal corre SSE. 1/8 S. (y al contrario) el espacio de una milla en fondo de 9 brazas por su medianía, disminuyendo en proporción para Formentera desde 6 brazas á un cable de la costa, hasta 4 brazas á igual distancia de la isla de los Ahorcados; pero aumenta hasta 13 á 1/2 cable de la isla Negra."
     }
   ]
 }

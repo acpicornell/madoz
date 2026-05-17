@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": "Maria",
-      "description": "granja en la isla de Mallorca, prov. de Raleares, part. jud. de inca, térm. y jurisd. de la v. de Maria.",
+      "description": "granja en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Maria.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "granja en la isla de Mallorca, prov. de Raleares, part. jud. de inca, térm. y jurisd. de la v. de Maria."
     }
   ]
 }

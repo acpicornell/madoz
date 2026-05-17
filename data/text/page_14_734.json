@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": null,
-      "description": "•. casa de campo en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. v jurisd. de la v. de Buger.",
+      "description": "casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "•. casa de campo en la isla de Mallorca,prov. de Baleares, part. jud. de Inca, térm. v jurisd. de la v. de Buger."
     }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Buger",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Buger. (V. Buger.)",
       "stats": {},
-      "cross_references": ["Buger"],
-      "confidence": "high"
+      "cross_references": [
+        "Buger"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Buger. (V. Buger.)"
     }
   ]
 }

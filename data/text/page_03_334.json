@@ -12,8 +12,11 @@
       "municipality": null,
       "description": "Cala en el tercio marit. de Mallorca, prov. y distr. de Ibiza, apostadero de Cartagena, sit. á 2 millas escasas al SO. 5° O. del cabo Negrete en el puerto Magno ó de San Antonio (V.).",
       "stats": {},
-      "cross_references": ["San Antonio"],
-      "confidence": "high"
+      "cross_references": [
+        "San Antonio"
+      ],
+      "confidence": "high",
+      "description_raw": "Cala en el tercio marit. de Mallorca, prov. y distr. de Ibiza, apostadero de Cartagena, sit. á 2 millas escasas al SO. 5° O. del cabo Negrete en el puerto Magno ó de San Antonio (V.)."
     },
     {
       "title": "BALSA DE SAN VICENTE (antiguamente Basa terrera)",
@@ -23,8 +26,11 @@
       "municipality": "Muro",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Muro (V.).",
       "stats": {},
-      "cross_references": ["Muro"],
-      "confidence": "high"
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Muro (V.)."
     }
   ]
 }

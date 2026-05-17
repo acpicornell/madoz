@@ -16,7 +16,8 @@
       "cross_references": [
         "Campanet"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Vulgo Sancasia den Pascual. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)"
     },
     {
       "title": "ALQUERIA (la) — Sencaria des Conta",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Santa Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Vulgo Sencaria des Conta. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.)"
     },
     {
       "title": "ALQUERIA (la) — Angaria den Grau",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Campanet"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Vulgo Angaria den Grau. Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Campanet. (V. Campanet.)"
     },
     {
       "title": "ALQUERIA DEL CONDE DE AMPURIAS",
@@ -57,7 +60,8 @@
         "Cord. de Enfabeya"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud., adm. de rent. y dióc. de Palma: sit. al pie de la cord. de montañas, llamadas de Enfabeya, en el hermoso y fértil valle de Soller; es l. ped. de la v. de este nombre, en cuyo térm. se halla enclavado, y en su felig. tiene una capilla servida por un vicario, ó teniente delegado del cura párroco de la matriz. (V)."
     }
   ]
 }

@@ -17,7 +17,8 @@
         "Alayor",
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor."
     },
     {
       "title": "COTAYNA DE MASCARO",
@@ -31,7 +32,8 @@
         "Alayor",
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor."
     },
     {
       "title": "COTAYNAGRAN",
@@ -45,7 +47,8 @@
         "Alayor",
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor."
     },
     {
       "title": "COTAYNET",
@@ -59,7 +62,8 @@
         "Alayor",
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. jurisd. de la v. de Alayor."
     }
   ]
 }

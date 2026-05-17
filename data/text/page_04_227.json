@@ -13,8 +13,11 @@
       "municipality": "Escorca",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Escorca. Está sit. entre montes en parage muy frío; tiene una mala casa y prod. pastos y poco trigo.",
       "stats": {},
-      "cross_references": ["Escorca"],
-      "confidence": "high"
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Escorca. Está sit. entre montes en parage muy frío; tiene una mala casa y prod. pastos y poco trigo."
     }
   ]
 }

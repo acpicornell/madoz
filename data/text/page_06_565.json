@@ -5,6 +5,25 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CONEJERA", "place_type": "isla", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": null, "description": "Isla en el archipiélago balear, correspondiente á la prov. civil de Baleares, prov. y part. marít. de Ibiza, tercio de Mallorca, departamento de Cartagena. Sit. junto á la costa occidental de la de Ibiza, casi al S. de Porto Magno; es de mediana altura, regularmente pareja, y la mayor y mas alta de todas las islas inmediatas á la Cabrera; comprende como una milla de largo tendida de NNE. y SSO.; forma ensenada en la parte del E. y en la punta del SE., y á su abrigo hay un regular fondeadero. Lo mas septentrional está 4 1/3 millas al S., 61° O. del cabo Nono, y lo mas occidental 8 millas al N., 2° E. de lo mas oriental del Bedrá. Paso franco con 10 ó 12 brazas de fondo para toda especie de embarcación, por los freos que se forman entre esta isla, la Cabrera y la Redonda. Del estremo NNE., y en la misma dirección, hay 4 islotes inmediatos entre sí; á los 3 primeros nombran las islas Planas, y al último Ne Furadade (porque está taladrado); todos son chicos y por sus canales solo hay paso para faluchos. Llámase Conejera por la abundancia de conejos que en ella se cria.", "stats": {"longitud_milla": 1}, "cross_references": ["Ibiza", "Cabrera", "Redonda", "Bedrá", "islas Planas"], "confidence": "high"}
+    {
+      "title": "CONEJERA",
+      "place_type": "isla",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "Isla en el archipiélago balear, correspondiente á la prov. civil de Baleares, prov. y part. marít. de Ibiza, tercio de Mallorca, departamento de Cartagena. Sit. junto á la costa occidental de la de Ibiza, casi al S. de Porto Magno; es de mediana altura, regularmente pareja, y la mayor y mas alta de todas las islas inmediatas á la Cabrera; comprende como una milla de largo tendida de NNE. y SSO.; forma ensenada en la parte del E. y en la punta del SE., y á su abrigo hay un regular fondeadero. Lo mas septentrional está 4 1/3 millas al S., 61° O. del cabo Nono, y lo mas occidental 8 millas al N., 2° E. de lo mas oriental del Bedrá. Paso franco con 10 ó 12 brazas de fondo para toda especie de embarcación, por los freos que se forman entre esta isla, la Cabrera y la Redonda. Del estremo NNE., y en la misma dirección, hay 4 islotes inmediatos entre sí; á los 3 primeros nombran las islas Planas, y al último Ne Furadade (porque está taladrado); todos son chicos y por sus canales solo hay paso para faluchos. Llámase Conejera por la abundancia de conejos que en ella se cria.",
+      "stats": {
+        "longitud_milla": 1
+      },
+      "cross_references": [
+        "Ibiza",
+        "Cabrera",
+        "Redonda",
+        "Bedrá",
+        "islas Planas"
+      ],
+      "confidence": "high",
+      "description_raw": "Isla en el archipiélago balear, correspondiente á la prov. civil de Baleares, prov. y part. marít. de Ibiza, tercio de Mallorca, departamento de Cartagena. Sit. junto á la costa occidental de la de Ibiza, casi al S. de Porto Magno; es de mediana altura, regularmente pareja, y la mayor y mas alta de todas las islas inmediatas á la Cabrera; comprende como una milla de largo tendida de NNE. y SSO.; forma ensenada en la parte del E. y en la punta del SE., y á su abrigo hay un regular fondeadero. Lo mas septentrional está 4 1/3 millas al S., 61° O. del cabo Nono, y lo mas occidental 8 millas al N., 2° E. de lo mas oriental del Bedrá. Paso franco con 10 ó 12 brazas de fondo para toda especie de embarcación, por los freos que se forman entre esta isla, la Cabrera y la Redonda. Del estremo NNE., y en la misma dirección, hay 4 islotes inmediatos entre sí; á los 3 primeros nombran las islas Planas, y al último Ne Furadade (porque está taladrado); todos son chicos y por sus canales solo hay paso para faluchos. Llámase Conejera por la abundancia de conejos que en ella se cria."
+    }
   ]
 }

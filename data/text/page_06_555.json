@@ -16,7 +16,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Prado común en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "COMUNS (ells)",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Selva"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Varios predios contiguos en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva."
     }
   ]
 }

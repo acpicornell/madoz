@@ -20,7 +20,8 @@
         "Ibiza"
       ],
       "confidence": "high",
-      "note": "OCR mangled 'ESPALMADOB' -> ESPALMADOR."
+      "note": "OCR mangled 'ESPALMADOB' -> ESPALMADOR.",
+      "description_raw": "Islote en el Mediterráneo, perteneciente á la prov. civil de Baleares y marítima de Ibiza, tercio de Mallorca, departamento de Cartagena; sit. cerca de la isla Formentera; en él se construyó una torre, próxima á la punta de su mismo nombre, para seguridad de la almadraba, que había en otra nombrada de las Portas; en el dia no tiene uso por el total abandono de aquella útil pesquería; la punta del Espalmador, es de mediana altura, pareja, roja y cortada á pique."
     },
     {
       "title": "ESPALMER NOU",
@@ -34,7 +35,8 @@
         "Mahon"
       ],
       "confidence": "high",
-      "note": "Madoz text says 'isla de Mallorca' but the Mahon municipality is on Menorca; likely OCR/typesetting error — semantically belongs to Menorca."
+      "note": "Madoz text says 'isla de Mallorca' but the Mahon municipality is on Menorca; likely OCR/typesetting error — semantically belongs to Menorca.",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     },
     {
       "title": "ESPALMER VELL",
@@ -48,7 +50,8 @@
         "Mahon"
       ],
       "confidence": "high",
-      "note": "OCR mangled 'ESPALMER \\ELL' -> ESPALMER VELL."
+      "note": "OCR mangled 'ESPALMER \\ELL' -> ESPALMER VELL.",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     }
   ]
 }

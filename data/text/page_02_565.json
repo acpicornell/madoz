@@ -18,7 +18,8 @@
         "Pollenza"
       ],
       "confidence": "high",
-      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district."
+      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district.",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)"
     },
     {
       "title": "ARIANT (mina de)",
@@ -33,7 +34,8 @@
         "Ariant"
       ],
       "confidence": "high",
-      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district."
+      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district.",
+      "description_raw": "Vulgo el Clot del Or d'Ariant. Mina de oro en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Pollenza. (V. Pollenza.)"
     },
     {
       "title": "ARIANT (vulgo Caleta de Ariant)",
@@ -48,7 +50,8 @@
         "Ariant"
       ],
       "confidence": "high",
-      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district."
+      "note": "Chocr regex hits include three ARIANT variants (predio, mina, caleta) on Mallorca plus ARIANY in Manacor district.",
+      "description_raw": "Cala en la isla de Mallorca, part. jud. de Inca, térm. y felig. de Escorca. Está en desp. y no se puede entrar en ella sino con el auxilio de lanchas ó barcos pequeños; su terreno es á propósito para trigos buenos, y pastos para el ganado, pero este es de una raza más pequeña que el de los demás puntos de esta isla."
     },
     {
       "title": "ARIANY",
@@ -62,7 +65,8 @@
         "Petra"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "L. de la isla de Mallorca, prov., aud. terr. y c. g. de las Baleares, part. jud. de Manacor, dióc. de Palma: sit. en una estensa llanura, libre á la influencia de todos los vientos, con cielo alegre y clima saludable. Se halla enclavado en el térm. de la v. de Petra, de cuya jurisd. y felig. depende y con la que contribuye (V.). Tiene 1 oratorio público servido por 1 vicario del cura de la matriz."
     }
   ]
 }

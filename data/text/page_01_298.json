@@ -13,8 +13,11 @@
       "municipality": "Escorca",
       "description": "Valle en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Escorca; vulgo 'esclot de Albarca'. Tiene varios predios con caserío; es muy abundante de pastos, y sus prod. son trigo y aceite esquisito. Hay un hoyo profundo llamado el Clót del Arám por haberse esplotado cobre de él; en otros parages del valle se ha encontrado carbón de piedra y azufre, aunque en poca cantidad.",
       "stats": {},
-      "cross_references": ["Escorca"],
-      "confidence": "high"
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "description_raw": "Valle en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Escorca; vulgo 'esclot de Albarca'. Tiene varios predios con caserío; es muy abundante de pastos, y sus prod. son trigo y aceite esquisito. Hay un hoyo profundo llamado el Clót del Arám por haberse esplotado cobre de él; en otros parages del valle se ha encontrado carbón de piedra y azufre, aunque en poca cantidad."
     }
   ]
 }

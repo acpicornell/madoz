@@ -5,6 +5,21 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "FALCON", "place_type": "cabo", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Andraitx", "description": "Cabo en la isla, tercio y prov. marít. de Mallorca, prov. civil de Baleares: sit. cerca de la Mola de Andrache.", "stats": {}, "cross_references": ["Andraitx", "Mola de Andrache"], "confidence": "high", "note": "OCR mangled 'BALCON' -> FALCON (alphabetical placement between FALCES and FALCON granja confirms it)."}
+    {
+      "title": "FALCON",
+      "place_type": "cabo",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Andraitx",
+      "description": "Cabo en la isla, tercio y prov. marít. de Mallorca, prov. civil de Baleares: sit. cerca de la Mola de Andrache.",
+      "stats": {},
+      "cross_references": [
+        "Andraitx",
+        "Mola de Andrache"
+      ],
+      "confidence": "high",
+      "note": "OCR mangled 'BALCON' -> FALCON (alphabetical placement between FALCES and FALCON granja confirms it).",
+      "description_raw": "Cabo en la isla, tercio y prov. marít. de Mallorca, prov. civil de Baleares: sit. cerca de la Mola de Andrache."
+    }
   ]
 }

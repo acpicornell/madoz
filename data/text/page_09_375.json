@@ -6,6 +6,24 @@
   "model": "claude-opus-4-7-via-claude-code",
   "note": "Mega-entry: IBIZA (isla) — major historical/geographical article on the island of Ibiza spans multiple leaves (375 onwards). This leaf contains the opening of the article with situation, dimensions, climate, coastal description (capes, bays, islets, points around the island). Continues on subsequent leaves.",
   "entries": [
-    {"title": "IBIZA", "place_type": "isla", "island": "Ibiza", "judicial_district": "Ibiza", "municipality": null, "description": "Isla en el mar Mediterráneo, la mayor de las conocidas antiguamente por Pitiusas; y la mas occidental de las tres principales de las Baleares, correspondiente á la prov. civil, aud. terr., c. g. de esta denominación, part. jud., dióc., prov. y part. marítimo de su nombre, en el tercio de Mallorca, departamento de Cartagena. Se halla comprendida entre los paralelos de 38° 49' 40\" de lat., en que está el cabo Falcon, y 39° 7' 22\" en que se halla la punta Denserra. Se estiende de NE. á SO. formando un pentágono, cuya mayor estension es de 7 1/4 leg., con 3 1/4 en su mayor anchura; tiene á 1 leg. S. la de Formentera, y dista unas 16 1/2 leg. de la costa oriental de España. La temperatura es benigna y saludable; en su recinto no se cria animal alguno ponzoñoso.", "stats": {}, "cross_references": ["Formentera", "Mallorca", "Baleares", "San Antonio (puerto)", "Bedrá", "Tagomago"], "confidence": "high"}
+    {
+      "title": "IBIZA",
+      "place_type": "isla",
+      "island": "Ibiza",
+      "judicial_district": "Ibiza",
+      "municipality": null,
+      "description": "Isla en el mar Mediterráneo, la mayor de las conocidas antiguamente por Pitiusas; y la mas occidental de las tres principales de las Baleares, correspondiente á la prov. civil, aud. terr., c. g. de esta denominación, part. jud., dióc., prov. y part. marítimo de su nombre, en el tercio de Mallorca, departamento de Cartagena. Se halla comprendida entre los paralelos de 38° 49' 40\" de lat., en que está el cabo Falcon, y 39° 7' 22\" en que se halla la punta Denserra. Se estiende de NE. á SO. formando un pentágono, cuya mayor estension es de 7 1/4 leg., con 3 1/4 en su mayor anchura; tiene á 1 leg. S. la de Formentera, y dista unas 16 1/2 leg. de la costa oriental de España. La temperatura es benigna y saludable; en su recinto no se cria animal alguno ponzoñoso.",
+      "stats": {},
+      "cross_references": [
+        "Formentera",
+        "Mallorca",
+        "Baleares",
+        "San Antonio (puerto)",
+        "Bedrá",
+        "Tagomago"
+      ],
+      "confidence": "high",
+      "description_raw": "Isla en el mar Mediterráneo, la mayor de las conocidas antiguamente por Pitiusas; y la mas occidental de las tres principales de las Baleares, correspondiente á la prov. civil, aud. terr., c. g. de esta denominación, part. jud., dióc., prov. y part. marítimo de su nombre, en el tercio de Mallorca, departamento de Cartagena. Se halla comprendida entre los paralelos de 38° 49' 40\" de lat., en que está el cabo Falcon, y 39° 7' 22\" en que se halla la punta Denserra. Se estiende de NE. á SO. formando un pentágono, cuya mayor estension es de 7 1/4 leg., con 3 1/4 en su mayor anchura; tiene á 1 leg. S. la de Formentera, y dista unas 16 1/2 leg. de la costa oriental de España. La temperatura es benigna y saludable; en su recinto no se cria animal alguno ponzoñoso."
+    }
   ]
 }

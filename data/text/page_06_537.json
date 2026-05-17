@@ -5,8 +5,47 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "COLOMBAR (es)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alcudia", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Alcudia.", "stats": {}, "cross_references": ["Alcudia"], "confidence": "high"},
-    {"title": "COLOME", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.", "stats": {}, "cross_references": ["Sineu"], "confidence": "high"},
-    {"title": "COLOMER (el)", "place_type": "islote", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Pollenza", "description": "Islote en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.", "stats": {}, "cross_references": ["Pollenza"], "confidence": "high"}
+    {
+      "title": "COLOMBAR (es)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Alcudia.",
+      "stats": {},
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Alcudia."
+    },
+    {
+      "title": "COLOME",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
+    },
+    {
+      "title": "COLOMER (el)",
+      "place_type": "islote",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Pollenza",
+      "description": "Islote en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "stats": {},
+      "cross_references": [
+        "Pollenza"
+      ],
+      "confidence": "high",
+      "description_raw": "Islote en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
+    }
   ]
 }

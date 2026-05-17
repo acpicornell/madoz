@@ -17,7 +17,8 @@
         "Escorca"
       ],
       "confidence": "high",
-      "note": "OCR 'COSCONAB' -> COSCONAR (typical r/B confusion)."
+      "note": "OCR 'COSCONAB' -> COSCONAR (typical r/B confusion).",
+      "description_raw": "Torre de vigía en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca."
     },
     {
       "title": "COSCOY (can)",
@@ -30,7 +31,8 @@
       "cross_references": [
         "Muro"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro."
     },
     {
       "title": "COSCOYA",
@@ -43,7 +45,8 @@
       "cross_references": [
         "Muro"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Monte en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Muro."
     },
     {
       "title": "COSCOYA",
@@ -56,7 +59,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Sierra en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "COSCOYS (es)",
@@ -69,7 +73,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     }
   ]
 }

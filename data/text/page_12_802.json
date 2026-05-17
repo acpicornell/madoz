@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "PERA ANTONI (can)",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, provde Baleares, part. jud. de loca, térm. v jurisd. de la v. de Benisalem.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, provde Baleares, part. jud. de loca, térm. v jurisd. de la v. de Benisalem."
     },
     {
       "title": "PERA DE LLORITO (son)",
@@ -36,7 +38,8 @@
       "description": "casa de campo en ia isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "casa de campo en ia isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     }
   ]
 }

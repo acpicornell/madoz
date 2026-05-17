@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Porreras",
-      "description": ". predio en la isla de Mallorca, prov. de Baleares , part. jud. de Manacor, térm. y jurisd. de la v. de Porreras.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Porreras.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". predio en la isla de Mallorca, prov. de Baleares , part. jud. de Manacor, térm. y jurisd. de la v. de Porreras."
     }
   ]
 }

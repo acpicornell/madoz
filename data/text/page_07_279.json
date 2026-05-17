@@ -17,7 +17,8 @@
         "Mahon"
       ],
       "confidence": "high",
-      "note": "OCR 'GUGOLLONET' / 'Manon' normalized to CUGOLLONET / Mahon. Distinct Madoz entry from the 'estancia' on previous leaf."
+      "note": "OCR 'GUGOLLONET' / 'Manon' normalized to CUGOLLONET / Mahon. Distinct Madoz entry from the 'estancia' on previous leaf.",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     },
     {
       "title": "CUGULLUTX",
@@ -31,7 +32,8 @@
         "San Juan",
         "Manacor"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan."
     }
   ]
 }

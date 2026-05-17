@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": ". predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm y jurisd de la v. de Valideraosa.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Valldemosa.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": ". predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm y jurisd de la v. de Valideraosa."
     }
   ]
 }

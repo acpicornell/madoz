@@ -16,7 +16,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Pueblo desaparecido en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "COLOÑA",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "COLOÑA",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "COLUBRARIA",
@@ -59,7 +62,8 @@
         "Mela"
       ],
       "confidence": "high",
-      "note": "Identifies ancient Colubraria with modern MontColobrer (likely an islet of the Ibiza-Formentera group)."
+      "note": "Identifies ancient Colubraria with modern MontColobrer (likely an islet of the Ibiza-Formentera group).",
+      "description_raw": "Isla de la costa baleárica, nombrada por Estrabón, Mela y Plinio. Llamóse así por los muchos reptiles y serpientes que la hacían inhabitable. Cuéntase como un fenómeno que llevando á esta isla tierra de la de Ibiza, y haciendo una pequeña cerca con ella, no penetraban las serpientes dentro del círculo. Hoy se llama MontColobrer."
     }
   ]
 }

@@ -13,8 +13,12 @@
       "municipality": "San José",
       "description": "Cala en el tercio marít. de Mallorca, prov. y distr. de Ibiza, apostadero de Cartagena. Sit. al S. 1/4 SO. de la punta de Piedras á 3 1/2 millas; su boca estrecha se interna al E. y luego al SE. con fondo de 6 á 10 brazas con buen tenedero; sirve para buques de porte regular, conservándolos al abrigo de todos los vientos.",
       "stats": {},
-      "cross_references": ["Punta de Piedras", "Ibiza"],
-      "confidence": "high"
+      "cross_references": [
+        "Punta de Piedras",
+        "Ibiza"
+      ],
+      "confidence": "high",
+      "description_raw": "Cala en el tercio marít. de Mallorca, prov. y distr. de Ibiza, apostadero de Cartagena. Sit. al S. 1/4 SO. de la punta de Piedras á 3 1/2 millas; su boca estrecha se interna al E. y luego al SE. con fondo de 6 á 10 brazas con buen tenedero; sirve para buques de porte regular, conservándolos al abrigo de todos los vientos."
     }
   ]
 }

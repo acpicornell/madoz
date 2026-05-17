@@ -16,7 +16,8 @@
       "cross_references": [
         "Selva"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)"
     },
     {
       "title": "ANDRIA (San)",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Ciudadela"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cala sit. al O. de la isla de Menorca y muy inmediata al puerto de Ciudadela por la parte del S. Tiene á su embocadura una torre abandonada."
     },
     {
       "title": "ANDRICHOL",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Palma"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cabo de la isla, tercio, prov. y distr. marít. de Mallorca. (V. Palma, puerto.)"
     }
   ]
 }

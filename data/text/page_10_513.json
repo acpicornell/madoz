@@ -16,7 +16,8 @@
       "cross_references": [
         "Manacor"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, part. jud., térm. y jurisd. de la v. de Manacor; tiene un oratorio público de propiedad y patronato particular, con misa en los días festivos, para los colonos de 8 predios rústicos de la comarca."
     },
     {
       "title": "LLOGARET",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Alayor"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor."
     },
     {
       "title": "LLOMBARTS",
@@ -46,7 +48,8 @@
         "son Amor",
         "Rafal de San Porchs"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Ald. en la isla y dióc. de Mallorca, part. jud. de Manacor, prov., aud. terr., c. g. de Baleares. Sit. en una pequeña elevación; tiene 104 casas de pobre aspecto, y un oratorio con culto público, y misa en los días festivos para unos 70 vec. de la comarca; depende en todo de la v. de Santañí, y próximo á la pobl. se hallan los predios nombrados son Amor y Rafal de San Porchs."
     },
     {
       "title": "LLOMPART (son)",
@@ -59,7 +62,8 @@
       "cross_references": [
         "Llubí"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubí. (OCR: 'Lliivi'.)"
     },
     {
       "title": "LLOMPARDET (son)",
@@ -72,7 +76,8 @@
       "cross_references": [
         "María (de la Salud)"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María."
     }
   ]
 }

@@ -11,10 +11,11 @@
       "island": null,
       "judicial_district": "Manacor",
       "municipality": null,
-      "description": "hay dos predios de igual nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor , térm. y jurisd de la v. de Artá.",
+      "description": "hay dos predios de igual nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "hay dos predios de igual nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor , térm. y jurisd de la v. de Artá."
     },
     {
       "title": "REFAL AXAT",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan."
     },
     {
       "title": "REFAL CENAS",
@@ -33,10 +35,11 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Santañí",
-      "description": "con esta denominación se conocen dospredios distintos en la isla de Mallorca, prov. Je Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santagny'.",
+      "description": "con esta denominación se conocen dos predios distintos en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santagny.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "con esta denominación se conocen dospredios distintos en la isla de Mallorca, prov. Je Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santagny'."
     },
     {
       "title": "REFAL DE LOS PORES",
@@ -47,7 +50,8 @@
       "description": "predio en la isla de Mallorca,prov. de Baleares, part. jud de Manacor, térm. y jurisd. dela v. de Santagny.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca,prov. de Baleares, part. jud de Manacor, térm. y jurisd. dela v. de Santagny."
     },
     {
       "title": "REFAL DE SAREN",
@@ -58,7 +62,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger."
     },
     {
       "title": "REFAL DEN MASCARÓ",
@@ -69,7 +74,8 @@
       "description": "alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger."
     },
     {
       "title": "REFAL DEN SION",
@@ -80,7 +86,8 @@
       "description": "alq. en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "alq. en la isla de Mallorca , prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
     },
     {
       "title": "REFAL DES POBLÉ",
@@ -88,10 +95,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": null,
-      "description": "predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanct.",
+      "description": "predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanct."
     },
     {
       "title": "REFAL NOU",
@@ -102,7 +110,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Manacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Manacor."
     },
     {
       "title": "REFAL PALLA GROS",
@@ -113,7 +122,8 @@
       "description": "predio en la isla de Mallorca, provde Baleares, part. jud. de Manacor, térm. y jurisd. de la vde Santagny.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, provde Baleares, part. jud. de Manacor, térm. y jurisd. de la vde Santagny."
     },
     {
       "title": "REFALET",
@@ -121,10 +131,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
-      "description": "con este nombre se conocen dos predios distintos en la isla de Mallorca , prov. de Baleares , part. jud.,térm. y jurisd. de h v. de Manacor.",
+      "description": "con este nombre se conocen dos predios distintos en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "con este nombre se conocen dos predios distintos en la isla de Mallorca , prov. de Baleares , part. jud.,térm. y jurisd. de h v. de Manacor."
     },
     {
       "title": "REFALET PALLA",
@@ -135,7 +146,8 @@
       "description": "predio en la isla de Mallorca , prov.,de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santagny.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov.,de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santagny."
     },
     {
       "title": "REFALOT",
@@ -146,7 +158,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud., térm. y jurisd. de la v. de Manacor."
     },
     {
       "title": "REFALET",
@@ -158,7 +171,8 @@
       "stats": {},
       "cross_references": [],
       "confidence": "high",
-      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th."
+      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th.",
+      "description_raw": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Algaida."
     },
     {
       "title": "REFALET",
@@ -170,7 +184,8 @@
       "stats": {},
       "cross_references": [],
       "confidence": "high",
-      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th."
+      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th.",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Lluchmayor."
     },
     {
       "title": "REFALET",
@@ -182,7 +197,8 @@
       "stats": {},
       "cross_references": [],
       "confidence": "high",
-      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th."
+      "note": "Recovered manually 2026-05-16: leaf 13/400 has 4 distinct REFALET predios (Manacor, Algaida, Lluchmayor, Artá). The Claude-text pass captured only the Manacor one; this is the missing N-th.",
+      "description_raw": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Artá."
     }
   ]
 }

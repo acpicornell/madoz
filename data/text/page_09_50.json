@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "GUAL (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "San Juan", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan.", "stats": {}, "cross_references": ["San Juan"], "confidence": "high"},
-    {"title": "GUAL (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Inca", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.", "stats": {}, "cross_references": ["Inca"], "confidence": "high"}
+    {
+      "title": "GUAL (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "San Juan",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan.",
+      "stats": {},
+      "cross_references": [
+        "San Juan"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de San Juan."
+    },
+    {
+      "title": "GUAL (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Inca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca.",
+      "stats": {},
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la v. de Inca."
+    }
   ]
 }

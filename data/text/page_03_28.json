@@ -13,8 +13,11 @@
       "municipality": "Sansellas",
       "description": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sansellas. (V. Sansellas.)",
       "stats": {},
-      "cross_references": ["Sansellas"],
-      "confidence": "high"
+      "cross_references": [
+        "Sansellas"
+      ],
+      "confidence": "high",
+      "description_raw": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sansellas. (V. Sansellas.)"
     }
   ]
 }

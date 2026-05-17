@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "HORTOLA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Puigpuñent", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.", "stats": {}, "cross_references": ["Puigpuñent"], "confidence": "high"},
-    {"title": "HORTS", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Selva", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva.", "stats": {}, "cross_references": ["Selva"], "confidence": "high"}
+    {
+      "title": "HORTOLA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Puigpuñent",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [
+        "Puigpuñent"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent."
+    },
+    {
+      "title": "HORTS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Selva",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva.",
+      "stats": {},
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva."
+    }
   ]
 }

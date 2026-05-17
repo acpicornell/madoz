@@ -13,8 +13,12 @@
       "municipality": "Soller",
       "description": "Atalaya y punta en la isla, tercio y prov. marít. de Mallorca, distr. de Soller, apostadero de Cartagena. Sit. al E. de Cala Casdere.",
       "stats": {},
-      "cross_references": ["Soller", "Cala Casdere"],
-      "confidence": "high"
+      "cross_references": [
+        "Soller",
+        "Cala Casdere"
+      ],
+      "confidence": "high",
+      "description_raw": "Atalaya y punta en la isla, tercio y prov. marít. de Mallorca, distr. de Soller, apostadero de Cartagena. Sit. al E. de Cala Casdere."
     }
   ]
 }

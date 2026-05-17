@@ -14,8 +14,12 @@
       "municipality": "Ciudadela",
       "description": "Cabo occidental de la isla de Menorca, una de las Baleares, inmediato al puerto de Ciudadela por la parte del NO.",
       "stats": {},
-      "cross_references": ["Menorca", "Ciudadela"],
-      "confidence": "high"
+      "cross_references": [
+        "Menorca",
+        "Ciudadela"
+      ],
+      "confidence": "high",
+      "description_raw": "Cabo occidental de la isla de Menorca, una de las Baleares, inmediato al puerto de Ciudadela por la parte del NO."
     }
   ]
 }

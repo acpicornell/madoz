@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "JULIA (Son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu. [El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'.]", "stats": {}, "cross_references": ["Sineu"], "confidence": "medium"}
+    {
+      "title": "JULIA (Son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu. [El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'.]",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "medium",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu. [El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'.]"
+    }
   ]
 }

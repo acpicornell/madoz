@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. y jurisd. del 1. de Monturi.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. y jurisd. del 1. de Monturi."
     },
     {
       "title": "TONI MAS (so)",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud., térm. yjurid. déla v. de Manacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud., térm. yjurid. déla v. de Manacor."
     },
     {
       "title": "TONI PAU (can)",
@@ -33,10 +35,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Pollenza",
-      "description": "predio \"en la isla de Mallorca , prov. de Baleares , part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "predio \"en la isla de Mallorca , prov. de Baleares , part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "TONI PENT (so)",
@@ -47,7 +50,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraitx.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraitx."
     }
   ]
 }

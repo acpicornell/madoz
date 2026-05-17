@@ -16,7 +16,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     },
     {
       "title": "DRAGONERA (se)",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     }
   ]
 }

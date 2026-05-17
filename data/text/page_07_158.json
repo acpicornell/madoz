@@ -5,8 +5,47 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "COTONER (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Puigpuñent", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.", "stats": {}, "cross_references": ["Puigpuñent"], "confidence": "high"},
-    {"title": "COTONER (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Establiments", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Establiments.", "stats": {}, "cross_references": ["Establiments"], "confidence": "high"},
-    {"title": "COTONER DE VALL (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Puigpuñent", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.", "stats": {}, "cross_references": ["Puigpuñent"], "confidence": "high"}
+    {
+      "title": "COTONER (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Puigpuñent",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [
+        "Puigpuñent"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent."
+    },
+    {
+      "title": "COTONER (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Establiments",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Establiments.",
+      "stats": {},
+      "cross_references": [
+        "Establiments"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Establiments."
+    },
+    {
+      "title": "COTONER DE VALL (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Puigpuñent",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.",
+      "stats": {},
+      "cross_references": [
+        "Puigpuñent"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent."
+    }
   ]
 }

@@ -16,7 +16,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Santa Margarita."
     },
     {
       "title": "FEMENIAS",
@@ -31,7 +32,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Tres casas de campo reunidas en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Sta. Margarita."
     }
   ]
 }

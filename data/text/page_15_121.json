@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": null,
-      "description": "dos predios en ia isla de Mallorca , prov. de Baleares, partido jud. de Inca , térm. y jurisd. de la villa de Lloseta.",
+      "description": "dos predios en la isla de Mallorca, prov. de Baleares, partido jud. de Inca, térm. y jurisd. de la villa de Lloseta.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "dos predios en ia isla de Mallorca , prov. de Baleares, partido jud. de Inca , térm. y jurisd. de la villa de Lloseta."
     }
   ]
 }

@@ -158,7 +158,8 @@ CREATE TABLE IF NOT EXISTS text_entries (
     island             TEXT,
     judicial_district  TEXT,
     municipality       TEXT,
-    description        TEXT,
+    description        TEXT,                 -- normalised; what the web shows
+    description_raw    TEXT,                 -- LLM's first-pass extraction, kept for provenance; NEVER shown on the web
     stats              JSON,                 -- {casas,vecinos,almas,…}
     cross_references   TEXT[],
     confidence         TEXT,                 -- 'high' | 'medium' | 'low'

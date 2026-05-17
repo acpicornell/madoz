@@ -14,8 +14,13 @@
       "municipality": "Soller",
       "description": "Pequeña cala en la isla, tercio y prov. marít. de Mallorca, dist. de Soller, apostadero de Cartagena. Sit. entre la punta de Caballo Bernet y el cabo Berger. Tiene un islotillo en su boca.",
       "stats": {},
-      "cross_references": ["Soller", "Punta de Caballo Bernet", "Cabo Berger"],
-      "confidence": "high"
+      "cross_references": [
+        "Soller",
+        "Punta de Caballo Bernet",
+        "Cabo Berger"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeña cala en la isla, tercio y prov. marít. de Mallorca, dist. de Soller, apostadero de Cartagena. Sit. entre la punta de Caballo Bernet y el cabo Berger. Tiene un islotillo en su boca."
     }
   ]
 }

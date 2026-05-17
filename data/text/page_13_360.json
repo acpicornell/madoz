@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Petra.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Petra."
     },
     {
       "title": "RACÓ (el)",
@@ -22,10 +23,11 @@
       "island": null,
       "judicial_district": "Palma",
       "municipality": null,
-      "description": "ald. en la isla de\" Mallotca, prov., aud. terr.ye g. de Huleares, part. jud.. de Palma, ayunt., térm., y jurisd. (le Deyá.",
+      "description": "ald. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, ayunt., térm. y jurisd. de Deyá.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. en la isla de\" Mallotca, prov., aud. terr.ye g. de Huleares, part. jud.. de Palma, ayunt., térm., y jurisd. (le Deyá."
     }
   ]
 }

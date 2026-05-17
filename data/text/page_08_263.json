@@ -16,7 +16,8 @@
       "cross_references": [
         "Palma"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma."
     },
     {
       "title": "FUSTER (son)",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Selva"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva."
     },
     {
       "title": "GABALLI GRAN",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Campanet"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
     },
     {
       "title": "GABALLI PETIT",
@@ -55,7 +58,8 @@
       "cross_references": [
         "Campanet"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alquería en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
     }
   ]
 }

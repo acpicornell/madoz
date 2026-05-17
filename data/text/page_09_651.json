@@ -16,7 +16,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "JUAN BAUTISTA (San)",
@@ -36,7 +37,8 @@
         "Ibiza (part. jud.)"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "V., cab. de ayunt. que forma con los l. de San Lorenzo y San Miguel, en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr. y c. g. de Baleares: sit. á 6 leg. de la cap. pobl.: 613 vec., 3,552 almas. cap. imp.: 247,612. contr.: (V. Ibiza part.)."
     },
     {
       "title": "JUAN JAUNE",
@@ -49,7 +51,8 @@
       "cross_references": [
         "Manacor"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisdicción de la villa de Manacor."
     },
     {
       "title": "JUAN JAUME (son)",
@@ -62,7 +65,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Sineu."
     }
   ]
 }

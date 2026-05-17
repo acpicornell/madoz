@@ -13,8 +13,11 @@
       "municipality": "Alcudia",
       "description": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia.",
       "stats": {},
-      "cross_references": ["Alcudia"],
-      "confidence": "high"
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia."
     },
     {
       "title": "ALBUFERA MENOR",
@@ -24,8 +27,11 @@
       "municipality": "Alcudia",
       "description": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia.",
       "stats": {},
-      "cross_references": ["Alcudia"],
-      "confidence": "high"
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Laguna en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia."
     }
   ]
 }

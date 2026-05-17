@@ -19,7 +19,8 @@
         "Torrente de Tornellas",
         "Cubellos"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Fuente en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. de Pollenza. Tiene su nacimiento dentro del torrente de Tornellas en la misma jurisd. y, unida á las fuentes de este nombre, riega las huertas de Cubellos."
     },
     {
       "title": "ALQÜERETS VEIS (los)",
@@ -34,7 +35,8 @@
         "Predio Ternellas",
         "Cubellos"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Fuente en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. de Pollenza. Tiene su nacimiento en un monte del predio llamado Ternellas, de la misma jurisd., y unida con las denominadas como el predio, riegan la huerta de Cubellos."
     },
     {
       "title": "ALQUERIA (ald.)",
@@ -47,7 +49,8 @@
       "cross_references": [
         "Palma"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "Ald. de la isla de Mallorca; corresponde á la jurisd. y felig. de la v. de Palma. Tiene un oratorio público servido por un teniente ó vicario delegado del cura de la matriz. (V. Palma.) [OCR original lee 'part. jud. de Ibiza' — clarament error d'OCR: l'entrada pertany al part. jud. de Palma per context.]"
     },
     {
       "title": "ALQUERIA",
@@ -60,7 +63,8 @@
       "cross_references": [
         "Selva"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)"
     }
   ]
 }

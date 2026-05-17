@@ -16,7 +16,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Estancia en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     },
     {
       "title": "DAMA",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Canal en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "DAMETO (can)",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Benisalem"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Benisalem."
     },
     {
       "title": "DAMETO (so)",
@@ -55,7 +58,8 @@
       "cross_references": [
         "Palma"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma."
     },
     {
       "title": "DAMETO (so)",
@@ -69,7 +73,8 @@
         "Palma"
       ],
       "confidence": "high",
-      "note": "Second distinct DAMETO (so) entry in Palma jurisdiction."
+      "note": "Second distinct DAMETO (so) entry in Palma jurisdiction.",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Palma."
     },
     {
       "title": "DAMETO (so)",
@@ -82,7 +87,8 @@
       "cross_references": [
         "Esporlas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Esporlas."
     }
   ]
 }

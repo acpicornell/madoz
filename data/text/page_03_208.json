@@ -13,8 +13,11 @@
       "municipality": "Sansellas",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sancellas. (V. Sancellas.)",
       "stats": {},
-      "cross_references": ["Sancellas"],
-      "confidence": "high"
+      "cross_references": [
+        "Sancellas"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sancellas. (V. Sancellas.)"
     }
   ]
 }

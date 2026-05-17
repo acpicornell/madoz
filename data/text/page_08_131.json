@@ -16,7 +16,8 @@
       "cross_references": [
         "Maria"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Maria."
     },
     {
       "title": "FONT (la) [Lluví]",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Lluví"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisdicción de la v. de Lluví."
     },
     {
       "title": "FONT (so) [Valldemosa]",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Valldemosa"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Valldemosa."
     },
     {
       "title": "FONT (so) [Andraix]",
@@ -55,7 +58,8 @@
       "cross_references": [
         "Andraix"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Andraix."
     },
     {
       "title": "FONT (so) [San Juan]",
@@ -68,7 +72,8 @@
       "cross_references": [
         "San Juan"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisdicción de la v. de San Juan."
     },
     {
       "title": "FONT (so) [Petra]",
@@ -81,7 +86,8 @@
       "cross_references": [
         "Petra"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Petra."
     },
     {
       "title": "FONT DE LA MENTA",
@@ -94,7 +100,8 @@
       "cross_references": [
         "Bañalbufar"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de Bañalbufar."
     },
     {
       "title": "FONT DELS MONJOS",
@@ -107,7 +114,8 @@
       "cross_references": [
         "Deyá"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Deyá."
     }
   ]
 }

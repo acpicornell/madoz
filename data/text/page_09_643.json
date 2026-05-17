@@ -6,7 +6,33 @@
   "model": "claude-opus-4-7-via-claude-code",
   "note": "JORDÁ (son) entry begins on this leaf and continues into leaf 644 (its description completes with 'leares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas'). Title is on this leaf so entry assigned here.",
   "entries": [
-    {"title": "JONOY (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alaró", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró.", "stats": {}, "cross_references": ["Alaró"], "confidence": "high"},
-    {"title": "JORDÁ (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sansellas", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas.", "stats": {}, "cross_references": ["Sansellas"], "confidence": "high"}
+    {
+      "title": "JONOY (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró.",
+      "stats": {},
+      "cross_references": [
+        "Alaró"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró."
+    },
+    {
+      "title": "JORDÁ (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sansellas",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas.",
+      "stats": {},
+      "cross_references": [
+        "Sansellas"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sansellas."
+    }
   ]
 }

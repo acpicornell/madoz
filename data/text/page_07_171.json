@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CRESTAITR", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "La Puebla", "description": "Predio con oratorio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla.", "stats": {}, "cross_references": ["La Puebla"], "confidence": "high"}
+    {
+      "title": "CRESTAITR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Predio con oratorio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla.",
+      "stats": {},
+      "cross_references": [
+        "La Puebla"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con oratorio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla."
+    }
   ]
 }

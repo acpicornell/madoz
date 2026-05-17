@@ -17,7 +17,8 @@
         "Alayor"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "Estancia en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor."
     },
     {
       "title": "JUAN (Son)",
@@ -30,7 +31,8 @@
       "cross_references": [
         "Muro"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Muro."
     },
     {
       "title": "JUAN (San)",
@@ -54,7 +56,8 @@
         "Montuiri"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "V. con ayunt. en la isla y dióc. de Mallorca, prov., aud. terr. y c. g. de Baleares, part. jud. de Manacor. Sit. á la falda de una colina, que le resguarda del viento N., á la libre influencia de los demás, con clima templado y sano; las enfermedades comunes son fiebres intermitentes. Tiene 440 casas, inclusas la consistorial y la cárcel, que forman una plaza y 20 calles, la mayor parte empedradas; una escuela de instrucción primaria, dotada con 1,100 rs. de los fondos municipales; una igl. parr. (San Juan Bautista), servida por un cura de segundo ascenso, de provisión real y ordinaria, 2 vicarios temporales y amovibles, nombrados por el diocesano á propuesta del párroco, 2 beneficiados de patronato de sangre, uno de eclesiástico, y 5 sacerdotes ordenados á título de patrimonio, adscritos al servicio de la igl. sin especial obligación, un sacristán lego y 2 monacillos. El cementerio está sit. á unos 1,000 pasos del pueblo, en el monte llamado de Consolación, á que da nombre un oratorio dedicado á Ntra. Sra. con igual advocación. El térm. confina N. Sineu; E. Petra; S. Villafranca, y O. Montiuri, y se estiende una leg. de N. á S., é igual dist. de E. á O. El terreno es de buena calidad; sus montes inmediatos á la pobl. preservan á esta de los vientos del N., pero en años de abundantes lluvias, suelen inundarla sus vertientes. Los caminos son locales y se hallan en buen estado. Prod.: todo género de granos, vino, legumbres y hortalizas; cria ganado lanar, cabrío, vacuno y alguna caza. Pobl.: 415 vec., 1,575 alm. Cap. imp.: 320,828. Contr. en el primer semestre de 1846, 30,900."
     }
   ]
 }

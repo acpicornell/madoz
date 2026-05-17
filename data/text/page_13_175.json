@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Calviá",
-      "description": "prédio en la isla de Mallorca, prov. de Baleares , part. jud. de Palma, térm. y jurisd. de la v. de Calviá.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Calvià.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "prédio en la isla de Mallorca, prov. de Baleares , part. jud. de Palma, térm. y jurisd. de la v. de Calviá."
     },
     {
       "title": "PORRAT (son)",
@@ -22,10 +23,11 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Sineu",
-      "description": "prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "prédio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Muro",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, y felig. de Muro. (V. Muro.)",
       "stats": {},
-      "cross_references": ["Muro"],
-      "confidence": "high"
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, y felig. de Muro. (V. Muro.)"
     },
     {
       "title": "ALICANTI MENOR",
@@ -24,8 +27,11 @@
       "municipality": "Muro",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)",
       "stats": {},
-      "cross_references": ["Muro"],
-      "confidence": "high"
+      "cross_references": [
+        "Muro"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Muro. (V. Muro.)"
     }
   ]
 }

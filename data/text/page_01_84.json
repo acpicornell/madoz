@@ -18,7 +18,8 @@
         "Monte Toro",
         "Ciudadela"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cas. de la isla de Menorca, prov. de las Baleares, part. jud., térm. y felig. de Mercadal. Sit. cerca del puerto de su nombre, al E. del Monte Toro y NE. de la isla, rodeada de elevadas montañas que la guarecen de los vientos fríos del N. Clima poco sano. Terreno en general montuoso y poco fértil. Es muy conocida esta Granja por el famoso desembarco que en las playas inmediatas realizaron las tropas inglesas á últimos del siglo pasado, con el fin de sitiar la plaza de Ciudadela."
     },
     {
       "title": "ADAYA ó DADAYA",
@@ -33,7 +34,8 @@
         "Noucous",
         "Cala Molí"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Puerto de la isla, tercio y prov. marítima de Menorca, distrito de Ciudadela, apostadero de Cartagena. Sit. al NE. de la isla; perspectiva muy agradable; la entrada está oculta por montecillos de tierra intermedios hacia el N. Mas que de mar, presenta la apariencia de un gran río. Punto peñascoso y lleno de bajíos, muy poco frecuentado. Para entrar es necesario atracar á la costa del O. (Noucous, que es limpia), dejando á babor los islotes de su nombre. Para penetrar más al interior, por la boca de Cala Molí (donde ya no merece el nombre de puerto sino de cala, cómoda solo para embarcaciones de corto porte), conviene dejar por la popa la más pequeña de las tres islas y fondear en toda su estension (se interna como una milla al SE.). Fondo de la entrada: 7 brazas; 3 en la costa de Noucous; 4 en la boca de Cala Molí; pasando esta solo 2 brazas, que crecen al internarse y vuelven luego á disminuir."
     },
     {
       "title": "ADAYA (islas de)",
@@ -48,7 +50,8 @@
         "Cabo Javaretx",
         "Águila"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "En el tercio y prov. marítima de Menorca, distrito de Ciudadela, apostadero de Cartagena. Son tres pequeños islotes á la embocadura del puerto de su nombre, al O. 1/4 NO. 3 1/2 millas del cabo Javaretx. La mayor está tendida del NE. al SO.; la chica y la rasa de N. á S. La primera es algo montuosa por la banda del N., las otras dos muy bajas. Al SE. de la isla grande á 1/3 de cable hay otra isla pequeña llamada Águila, sin paso por todas partes sino para lanchas. Al NO. de la Chica, á más de 1 1/2 cable, sale una restinga con 6 brazas de fondo; en tiempos bonancibles no es temible, pero con vientos frescos rompe toda ella."
     }
   ]
 }

@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. jurisd. de la y. de Lluchmayor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. de Baleares, part. jud. de Palma, térm. jurisd. de la y. de Lluchmayor."
     },
     {
       "title": "VALLGORNERA YELL",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca,prov. de Baleares , part. jud. de Palma , térm. jurisd. de la v. de Lluchmayor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca,prov. de Baleares , part. jud. de Palma , térm. jurisd. de la v. de Lluchmayor."
     }
   ]
 }

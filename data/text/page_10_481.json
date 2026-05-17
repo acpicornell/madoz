@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "LLABIA (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alaró", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró.", "stats": {}, "cross_references": ["Alaró"], "confidence": "high"},
-    {"title": "LLABRES (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Esporlas", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Esporlas.", "stats": {}, "cross_references": ["Esporlas"], "confidence": "high"}
+    {
+      "title": "LLABIA (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alaró",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró.",
+      "stats": {},
+      "cross_references": [
+        "Alaró"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la villa de Alaró."
+    },
+    {
+      "title": "LLABRES (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Esporlas",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Esporlas.",
+      "stats": {},
+      "cross_references": [
+        "Esporlas"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Esporlas."
+    }
   ]
 }

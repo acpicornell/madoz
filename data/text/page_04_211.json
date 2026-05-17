@@ -18,7 +18,8 @@
         "Selva"
       ],
       "confidence": "high",
-      "note": "Four BENI- toponyms on this leaf, all Mallorcan (Inca district): BENIABONA (Selva), BENIAGUAL (Binisalem), BENIALI (Sancellas — distinct from the BENIALI of Valle de Gallinera/Alicante which also appears), BENIAMAR (Selva). The OCR mangles the leading B as R."
+      "note": "Four BENI- toponyms on this leaf, all Mallorcan (Inca district): BENIABONA (Selva), BENIAGUAL (Binisalem), BENIALI (Sancellas — distinct from the BENIALI of Valle de Gallinera/Alicante which also appears), BENIAMAR (Selva). The OCR mangles the leading B as R.",
+      "description_raw": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Selva. (V. Selva.)"
     },
     {
       "title": "BENIAGUAL",
@@ -32,7 +33,8 @@
         "Binisalem"
       ],
       "confidence": "high",
-      "note": "Four BENI- toponyms on this leaf, all Mallorcan (Inca district): BENIABONA (Selva), BENIAGUAL (Binisalem), BENIALI (Sancellas — distinct from the BENIALI of Valle de Gallinera/Alicante which also appears), BENIAMAR (Selva). The OCR mangles the leading B as R."
+      "note": "Four BENI- toponyms on this leaf, all Mallorcan (Inca district): BENIABONA (Selva), BENIAGUAL (Binisalem), BENIALI (Sancellas — distinct from the BENIALI of Valle de Gallinera/Alicante which also appears), BENIAMAR (Selva). The OCR mangles the leading B as R.",
+      "description_raw": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Binisalem. Tiene un oratorio público. Su clima, prod. y demás circunstancias (V. Binisalem.)"
     },
     {
       "title": "BENIALI",
@@ -46,7 +48,8 @@
         "Sancellas"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "L. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Sancellas: tiene una igl. parr. (San Cristóbal), aneja de la de esta, servida por un vicario temporal y amovible, nombrado por el diocesano á propuesta del párroco de la matriz y un sacerdote ascrito á ella, un sacristán y dos monacillos. Su clima, prod. y demás circunstancias. (V. Sancellas)."
     },
     {
       "title": "BENIAMAR",
@@ -60,7 +63,8 @@
         "Selva"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "L. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de la v. de Selva; tiene una igl. parr. (Sta. Tecla), aneja de la de esta v., servida por un vicario temporal y amovible, nombrado por el diocesano á propuesta del párroco de la matriz y un sacerdote ascrito á ella, un sacristán y 2 monacillos. Su clima, prod. y demás circunstancias. (V. Selva.)"
     }
   ]
 }

@@ -16,7 +16,8 @@
       "cross_references": [
         "Felanitx"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx."
     },
     {
       "title": "FERREGUT (so)",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Palma"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Palma."
     },
     {
       "title": "FERREGUT (son)",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Puebla"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Puebla."
     }
   ]
 }

@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CASTELLO", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Deyá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Deyá.", "stats": {}, "cross_references": ["Deyá"], "confidence": "high"}
+    {
+      "title": "CASTELLO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Deyá",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Deyá.",
+      "stats": {},
+      "cross_references": [
+        "Deyá"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Deyá."
+    }
   ]
 }

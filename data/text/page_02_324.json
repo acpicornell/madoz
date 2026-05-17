@@ -12,14 +12,15 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Pollenza",
-      "description": "Punta de la isla, tercio y prov. marít. de Mallorca, distr. de Alcudia, apostadero de Cartagena. Sit. entre la punta del Viento y el cast. de Polensa, entre el puerto de este nombre. (V. Pollenza.)",
+      "description": "Punta de la isla, tercio y prov. marít. de Mallorca, distr. de Alcudia, apostadero de Cartagena. Sit. entre la punta del Viento y el cast. de Pollenza, entre el puerto de este nombre. (V. Pollenza.)",
       "stats": {},
       "cross_references": [
         "Punta del Viento",
         "Castillo de Pollensa",
         "Puerto de Pollensa"
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "Punta de la isla, tercio y prov. marít. de Mallorca, distr. de Alcudia, apostadero de Cartagena. Sit. entre la punta del Viento y el cast. de Polensa, entre el puerto de este nombre. (V. Pollenza.)"
     }
   ]
 }

@@ -16,7 +16,8 @@
       "cross_references": [
         "Sansellas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Sansellas."
     },
     {
       "title": "CASTELL SO",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Andraix"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Andraix."
     }
   ]
 }

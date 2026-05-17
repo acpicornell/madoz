@@ -5,6 +5,21 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "FERNANDO (San)", "place_type": "parroquia", "island": "Formentera", "judicial_district": "Ibiza", "municipality": "San Francisco Javier", "description": "Parroquia ó caserío perteneciente al distrito municipal de San Francisco Javier en la isla de Formentera, prov., aud. terr. y c. g. de Baleares, part. jud. y dióc. de Ibiza. Compónese de varias casas diseminadas, y una igl. parr. de igual nombre, servida por un cura de ingreso y un sacristán; en su térm. se hallan las salinas de la isla.", "stats": {}, "cross_references": ["Formentera", "Ibiza", "San Francisco Javier"], "confidence": "high"}
+    {
+      "title": "FERNANDO (San)",
+      "place_type": "parroquia",
+      "island": "Formentera",
+      "judicial_district": "Ibiza",
+      "municipality": "San Francisco Javier",
+      "description": "Parroquia ó caserío perteneciente al distrito municipal de San Francisco Javier en la isla de Formentera, prov., aud. terr. y c. g. de Baleares, part. jud. y dióc. de Ibiza. Compónese de varias casas diseminadas, y una igl. parr. de igual nombre, servida por un cura de ingreso y un sacristán; en su térm. se hallan las salinas de la isla.",
+      "stats": {},
+      "cross_references": [
+        "Formentera",
+        "Ibiza",
+        "San Francisco Javier"
+      ],
+      "confidence": "high",
+      "description_raw": "Parroquia ó caserío perteneciente al distrito municipal de San Francisco Javier en la isla de Formentera, prov., aud. terr. y c. g. de Baleares, part. jud. y dióc. de Ibiza. Compónese de varias casas diseminadas, y una igl. parr. de igual nombre, servida por un cura de ingreso y un sacristán; en su térm. se hallan las salinas de la isla."
+    }
   ]
 }

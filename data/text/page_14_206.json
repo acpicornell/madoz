@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": null,
-      "description": "piedio en la isla de Mallorca, prov. de Balea -res, part. jud.. de Manacor, térm. y jurisd. de la v. de Campos.",
+      "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Campos.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "piedio en la isla de Mallorca, prov. de Balea -res, part. jud.. de Manacor, térm. y jurisd. de la v. de Campos."
     },
     {
       "title": "SERRAL",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares , part. jud. de Palma, térm. y jurisd. de la v. de Sta. Maria.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov., aud. terr., c. g. de Baleares , part. jud. de Palma, térm. y jurisd. de la v. de Sta. Maria."
     },
     {
       "title": "SERRALTA (so)",
@@ -36,7 +38,8 @@
       "description": "predio en la isla de Mallorca, prov., aud. terr., c. a. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov., aud. terr., c. a. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent."
     }
   ]
 }

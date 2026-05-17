@@ -13,8 +13,13 @@
       "municipality": "Ciudadela",
       "description": "Cabo en la prov. y part. marít. de Mahón, dist. de Ciudadela, tercio de Mallorca, departamento de Cartagena. Sit. al S. 36º O. del cabo de la Selló; es el más occidental de la isla de Menorca; desciende desde la torre y vigía del mismo nombre que ocupa lo más elevado del cabo, al cual se desciende formando 2 escalones; es poco alto, tajado al mar, con 20 brazas de fondo en sus contornos.",
       "stats": {},
-      "cross_references": ["Menorca", "Ciudadela", "Cabo de la Selló"],
-      "confidence": "high"
+      "cross_references": [
+        "Menorca",
+        "Ciudadela",
+        "Cabo de la Selló"
+      ],
+      "confidence": "high",
+      "description_raw": "Cabo en la prov. y part. marít. de Mahón, dist. de Ciudadela, tercio de Mallorca, departamento de Cartagena. Sit. al S. 36º O. del cabo de la Selló; es el más occidental de la isla de Menorca; desciende desde la torre y vigía del mismo nombre que ocupa lo más elevado del cabo, al cual se desciende formando 2 escalones; es poco alto, tajado al mar, con 20 brazas de fondo en sus contornos."
     }
   ]
 }

@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "HONOR", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Buñola", "description": "Predio en la prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Buñola.", "stats": {}, "cross_references": ["Buñola"], "confidence": "high"}
+    {
+      "title": "HONOR",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Buñola",
+      "description": "Predio en la prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Buñola.",
+      "stats": {},
+      "cross_references": [
+        "Buñola"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Buñola."
+    }
   ]
 }

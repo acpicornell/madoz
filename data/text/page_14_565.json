@@ -11,10 +11,11 @@
       "island": null,
       "judicial_district": "Inca",
       "municipality": null,
-      "description": "predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. yítíriád. de la v. de Campanet.",
+      "description": "predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "predio con huerta en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. yítíriád. de la v. de Campanet."
     },
     {
       "title": "SORT DES LUISE",
@@ -25,7 +26,8 @@
       "description": "casa de campo con huerta en la islade Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "casa de campo con huerta en la islade Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet."
     }
   ]
 }

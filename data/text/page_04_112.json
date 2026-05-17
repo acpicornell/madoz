@@ -13,8 +13,13 @@
       "municipality": null,
       "description": "Pequeña isla en el tercio marít. de Mallorca, prov. y distrito de Ibiza, departamento de Cartagena. Sit. al O. Tiene 3/4 milla de largo, tendiéndose de ENE. á OSO.; está tan alto su estremo oriental que puede verse sin dificultad á la dist. de 10 ó 12 leg., especialmente cuando no se mira paralela con la de Ibiza. Su eminencia está dividida en dos picos separados uno al N. y otro al S., vista cerca de una milla OSO. del cabo de Jeu.",
       "stats": {},
-      "cross_references": ["Ibiza", "Cabo de Jeu", "Bedranell"],
-      "confidence": "high"
+      "cross_references": [
+        "Ibiza",
+        "Cabo de Jeu",
+        "Bedranell"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeña isla en el tercio marít. de Mallorca, prov. y distrito de Ibiza, departamento de Cartagena. Sit. al O. Tiene 3/4 milla de largo, tendiéndose de ENE. á OSO.; está tan alto su estremo oriental que puede verse sin dificultad á la dist. de 10 ó 12 leg., especialmente cuando no se mira paralela con la de Ibiza. Su eminencia está dividida en dos picos separados uno al N. y otro al S., vista cerca de una milla OSO. del cabo de Jeu."
     },
     {
       "title": "BEDRANELL",
@@ -24,8 +29,12 @@
       "municipality": null,
       "description": "Pequeña isla en el tercio marít. de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena. Sit. al O. á una dist. media entre la mencionada de Ibiza y la de Bedra; su altura es mediana. Por entre esta última y la de Bedranell hay pasaje, aunque estrecho, con 20 brazas de fondo.",
       "stats": {},
-      "cross_references": ["Ibiza", "Bedra"],
-      "confidence": "high"
+      "cross_references": [
+        "Ibiza",
+        "Bedra"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeña isla en el tercio marít. de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena. Sit. al O. á una dist. media entre la mencionada de Ibiza y la de Bedra; su altura es mediana. Por entre esta última y la de Bedranell hay pasaje, aunque estrecho, con 20 brazas de fondo."
     }
   ]
 }

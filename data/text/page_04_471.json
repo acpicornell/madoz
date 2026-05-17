@@ -13,8 +13,11 @@
       "municipality": "Puigpuñent",
       "description": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent.",
       "stats": {},
-      "cross_references": ["Puigpuñent"],
-      "confidence": "high"
+      "cross_references": [
+        "Puigpuñent"
+      ],
+      "confidence": "high",
+      "description_raw": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Puigpuñent."
     }
   ]
 }

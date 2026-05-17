@@ -16,7 +16,8 @@
       "cross_references": [
         "Mahón"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Pequeña cala en la prov. y distr. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. 3 millas algo mas al SE.; 1/4 E. de las peñas de Mayor: no sirve sino para barcos de pescar."
     },
     {
       "title": "BINIETRENT",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Selva"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Dos predios ant. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva."
     },
     {
       "title": "BINIFALDO",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Escorca"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, part. jud. de Inca, térm. y felig. de la v. de Escorca: tiene una casa que habita el arrendatario y consta de tierras de sembradío, de pastos y bosque."
     },
     {
       "title": "BINIFALET",
@@ -58,7 +61,8 @@
       "cross_references": [
         "Llubí"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Ald. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, enclavada dentro del térm. y jurisd. de la v. de Llubí: sit. á 1/4 de leg. al N. de esta con buena ventilación y clima sano: es pobl. pobre y su terreno contiene dos pequeños bosques y alguna plantación de árboles frutales como higueras, almendros, etc.: tiene 7 vec., 28 almas."
     },
     {
       "title": "BINIFAT",
@@ -71,7 +75,8 @@
       "cross_references": [
         "Sancellas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas."
     },
     {
       "title": "BINIFAT DE BAIX",
@@ -84,7 +89,8 @@
       "cross_references": [
         "Sancellas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas."
     },
     {
       "title": "BINIFERRI",
@@ -97,7 +103,8 @@
       "cross_references": [
         "Sancellas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas."
     },
     {
       "title": "BINIFORANI",
@@ -110,7 +117,8 @@
       "cross_references": [
         "Buñola"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Buñola."
     },
     {
       "title": "BINIFOUBELL",
@@ -123,7 +131,8 @@
       "cross_references": [
         "Sancellas"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sancellas."
     },
     {
       "title": "BINIGOMAR",
@@ -136,7 +145,8 @@
       "cross_references": [
         "Pollensa"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Porción de terreno en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollensa: es una de las que repartió el rey D. Jaime el Conquistador."
     },
     {
       "title": "BINIPARRAIG",
@@ -150,7 +160,8 @@
         "Mahón",
         "BiniDali"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Pequeña cala en la prov. y distr. marít. de Mahón, tercio de Mallorca, departamento de Cartagena, sit. á 3 millas algo mas SE., 1/4 E. de las peñas de Atayor, entre la cala de BiniDali y el cabo des Fonts; no admite sino barcos pescadores."
     },
     {
       "title": "BINISAFULLA ó BINI-SAFAYA",
@@ -164,7 +175,8 @@
         "Mahón",
         "BiniParraig"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cala en la prov. y dist. marít. de Mahón, tercio de Mallorca, departam. de Cartagena; sit. á SE. de la cala de BiniParraig, 1/4 milla: tiene dos islotes en su boca, uno en la parte del E. y otro en la del O., entre las cuales, y algo mas interior, hay un bajo cerca de la costa, por cuya causa y su poco fondo solo es buena para faluchos."
     },
     {
       "title": "BINISATS (des metge)",
@@ -178,7 +190,8 @@
         "Inca"
       ],
       "confidence": "high",
-      "note": "OCR reads 'BIÑISATS' — corrected to BINISATS."
+      "note": "OCR reads 'BIÑISATS' — corrected to BINISATS.",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca."
     },
     {
       "title": "BINISETS (nu siquier)",
@@ -191,7 +204,8 @@
       "cross_references": [
         "Inca"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y jurisd. de Inca."
     },
     {
       "title": "BINITAREF",
@@ -204,7 +218,8 @@
       "cross_references": [
         "Sineu"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
     },
     {
       "title": "BINIXIDI",
@@ -217,7 +232,8 @@
       "cross_references": [
         "Selva"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Selva."
     }
   ]
 }

@@ -13,8 +13,11 @@
       "municipality": "Selva",
       "description": "Predio con caserío en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)",
       "stats": {},
-      "cross_references": ["Selva"],
-      "confidence": "high"
+      "cross_references": [
+        "Selva"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con caserío en la isla de Mallorca, prov. de las Baleares, part. jud. de Inca, térm. y felig. de Selva. (V. Selva.)"
     }
   ]
 }

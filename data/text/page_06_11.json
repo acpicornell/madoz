@@ -5,17 +5,174 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CA SEBASTIA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Soller", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller.", "stats": {}, "cross_references": ["Soller"], "confidence": "high"},
-    {"title": "CA SEROL", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "San Marcial", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial.", "stats": {}, "cross_references": ["San Marcial"], "confidence": "high"},
-    {"title": "CASOCIÉ", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Montuiri", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de Montuiri.", "stats": {}, "cross_references": ["Montuiri"], "confidence": "high"},
-    {"title": "CAS BRAU", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Algaida", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Algaida.", "stats": {}, "cross_references": ["Algaida"], "confidence": "high"},
-    {"title": "CAS CAPITA MASE", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "San Marcial", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial.", "stats": {}, "cross_references": ["San Marcial"], "confidence": "high"},
-    {"title": "CAS CORME", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Calviá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Calviá.", "stats": {}, "cross_references": ["Calviá"], "confidence": "high"},
-    {"title": "CAS POBRE", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "San Marcial", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial.", "stats": {}, "cross_references": ["San Marcial"], "confidence": "high"},
-    {"title": "CAS BARARDS", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Soller", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller.", "stats": {}, "cross_references": ["Soller"], "confidence": "high"},
-    {"title": "CAS CANONJE", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Santañí", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Santañí.", "stats": {}, "cross_references": ["Santañí"], "confidence": "high"},
-    {"title": "CAS COCO", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Felanitx", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Felanitx.", "stats": {}, "cross_references": ["Felanitx"], "confidence": "high"},
-    {"title": "CAS CORSO", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Felanitx", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Felanitx.", "stats": {}, "cross_references": ["Felanitx"], "confidence": "high"},
-    {"title": "CAS FRARE", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Felanitx", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Felanitx.", "stats": {}, "cross_references": ["Felanitx"], "confidence": "high", "note": "Madoz says 'part. jud. de Inca' but Felanitx is in part. jud. de Manacor; transcribed as Manacor for consistency."}
+    {
+      "title": "CA SEBASTIA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller.",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller."
+    },
+    {
+      "title": "CA SEROL",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "San Marcial",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial.",
+      "stats": {},
+      "cross_references": [
+        "San Marcial"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial."
+    },
+    {
+      "title": "CASOCIÉ",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Montuiri",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de Montuiri.",
+      "stats": {},
+      "cross_references": [
+        "Montuiri"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de Montuiri."
+    },
+    {
+      "title": "CAS BRAU",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Algaida",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Algaida.",
+      "stats": {},
+      "cross_references": [
+        "Algaida"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Algaida."
+    },
+    {
+      "title": "CAS CAPITA MASE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "San Marcial",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial.",
+      "stats": {},
+      "cross_references": [
+        "San Marcial"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial."
+    },
+    {
+      "title": "CAS CORME",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Calviá",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Calviá.",
+      "stats": {},
+      "cross_references": [
+        "Calviá"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Calviá."
+    },
+    {
+      "title": "CAS POBRE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "San Marcial",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial.",
+      "stats": {},
+      "cross_references": [
+        "San Marcial"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de San Marcial."
+    },
+    {
+      "title": "CAS BARARDS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller.",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Soller."
+    },
+    {
+      "title": "CAS CANONJE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Santañí",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Santañí.",
+      "stats": {},
+      "cross_references": [
+        "Santañí"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Santañí."
+    },
+    {
+      "title": "CAS COCO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [
+        "Felanitx"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Felanitx."
+    },
+    {
+      "title": "CAS CORSO",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [
+        "Felanitx"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. jurisd. de la v. de Felanitx."
+    },
+    {
+      "title": "CAS FRARE",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Felanitx",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Felanitx.",
+      "stats": {},
+      "cross_references": [
+        "Felanitx"
+      ],
+      "confidence": "high",
+      "note": "Madoz says 'part. jud. de Inca' but Felanitx is in part. jud. de Manacor; transcribed as Manacor for consistency.",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Felanitx."
+    }
   ]
 }

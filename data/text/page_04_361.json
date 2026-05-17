@@ -13,8 +13,14 @@
       "municipality": "San Antonio",
       "description": "Cabo en el tercio marit. de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena, sit. al S. 25° E. 1/8 milla de Cabo Negrete, en el puerto Magno ó de San Antonio. (V.): se denomina Blanco por ser tal el color de la tierra que le constituye: su altura es mediana, entre ambos cabos forman la cala llamada de Gracio de buen fondeadero para verano.",
       "stats": {},
-      "cross_references": ["Ibiza", "Cabo Negrete", "puerto Magno", "San Antonio"],
-      "confidence": "high"
+      "cross_references": [
+        "Ibiza",
+        "Cabo Negrete",
+        "puerto Magno",
+        "San Antonio"
+      ],
+      "confidence": "high",
+      "description_raw": "Cabo en el tercio marit. de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena, sit. al S. 25° E. 1/8 milla de Cabo Negrete, en el puerto Magno ó de San Antonio. (V.): se denomina Blanco por ser tal el color de la tierra que le constituye: su altura es mediana, entre ambos cabos forman la cala llamada de Gracio de buen fondeadero para verano."
     },
     {
       "title": "BLANCO (cabo, Mallorca)",
@@ -24,8 +30,11 @@
       "municipality": "Palma",
       "description": "Cabo en el tercio, prov. y distr. marit. de Mallorca, departamento de Cartagena: es de mediana altura, tajado á pique, de color blanco, con una torre encima: desde él se puede ir en demanda del fondeadero de Palma, en inteligencia de que tanto este cabo como toda la costa que sigue, es hondable y se puede atracar por todas partes sin recelo.",
       "stats": {},
-      "cross_references": ["Palma"],
-      "confidence": "high"
+      "cross_references": [
+        "Palma"
+      ],
+      "confidence": "high",
+      "description_raw": "Cabo en el tercio, prov. y distr. marit. de Mallorca, departamento de Cartagena: es de mediana altura, tajado á pique, de color blanco, con una torre encima: desde él se puede ir en demanda del fondeadero de Palma, en inteligencia de que tanto este cabo como toda la costa que sigue, es hondable y se puede atracar por todas partes sin recelo."
     }
   ]
 }

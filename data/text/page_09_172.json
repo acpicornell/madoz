@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "HERA DEN GARRIGA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Estellenchs", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Estellenchs.", "stats": {}, "cross_references": ["Estellenchs"], "confidence": "high"},
-    {"title": "HERAS", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Artá", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá.", "stats": {}, "cross_references": ["Artá"], "confidence": "high"}
+    {
+      "title": "HERA DEN GARRIGA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Estellenchs",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Estellenchs.",
+      "stats": {},
+      "cross_references": [
+        "Estellenchs"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Estellenchs."
+    },
+    {
+      "title": "HERAS",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Artá",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá.",
+      "stats": {},
+      "cross_references": [
+        "Artá"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Artá."
+    }
   ]
 }

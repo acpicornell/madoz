@@ -16,7 +16,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. jurisd. de la v. de Pollenza."
     },
     {
       "title": "FORMENTON",
@@ -30,7 +31,8 @@
         "Pollenza",
         "Soller"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Cabo en la isla, prov., part. marítimo y tercio naval de Mallorca, distr. de Soller, depart. de Cartagena: corresponde á la prov. civil de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "FORMENTOR (islote de)",
@@ -43,7 +45,8 @@
       "cross_references": [
         "Pollenza"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Monte pequeño y aislado, próximo al cabo de este nombre en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza."
     },
     {
       "title": "FORMET NOU",
@@ -56,7 +59,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. y térm. jurisd. de la c. de Mahon."
     },
     {
       "title": "FORMET VELL",
@@ -69,7 +73,8 @@
       "cross_references": [
         "Mahon"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahon."
     }
   ]
 }

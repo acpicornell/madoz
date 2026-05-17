@@ -13,8 +13,12 @@
       "municipality": null,
       "description": "Pequeña ensenada en la isla de Menorca, sit. al S. del Cabo de Perpigna; la punta de la galera divide esta ensenada de otra no mayor llamada la Falconera.",
       "stats": {},
-      "cross_references": ["Cabo de Perpigna", "Falconera"],
-      "confidence": "high"
+      "cross_references": [
+        "Cabo de Perpigna",
+        "Falconera"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeña ensenada en la isla de Menorca, sit. al S. del Cabo de Perpigna; la punta de la galera divide esta ensenada de otra no mayor llamada la Falconera."
     }
   ]
 }

@@ -13,8 +13,14 @@
       "municipality": "Ibiza",
       "description": "En el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena, es una de las tres que se comprenden bajo el nombre de Conejeras y está sit. entre la Conejera grande y la punta de Piedras, tendida casi de NO. á SE. el espacio de 1/2 milla escasa; es bastante alta y acantilada por todas partes, con dos elevados pedruscos en su estremo del NO.",
       "stats": {},
-      "cross_references": ["Ibiza", "Conejera grande", "Conejeras", "punta de Piedras"],
-      "confidence": "high"
+      "cross_references": [
+        "Ibiza",
+        "Conejera grande",
+        "Conejeras",
+        "punta de Piedras"
+      ],
+      "confidence": "high",
+      "description_raw": "En el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena, es una de las tres que se comprenden bajo el nombre de Conejeras y está sit. entre la Conejera grande y la punta de Piedras, tendida casi de NO. á SE. el espacio de 1/2 milla escasa; es bastante alta y acantilada por todas partes, con dos elevados pedruscos en su estremo del NO."
     }
   ]
 }

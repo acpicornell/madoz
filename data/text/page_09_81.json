@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "GUIEM (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Capdepera", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Capdepera.", "stats": {}, "cross_references": ["Capdepera"], "confidence": "high"}
+    {
+      "title": "GUIEM (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Capdepera",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Capdepera.",
+      "stats": {},
+      "cross_references": [
+        "Capdepera"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Capdepera."
+    }
   ]
 }

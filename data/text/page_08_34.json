@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "FELIP (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Lluchmayor", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Lluchmayor.", "stats": {}, "cross_references": ["Lluchmayor"], "confidence": "high"}
+    {
+      "title": "FELIP (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Lluchmayor",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Lluchmayor.",
+      "stats": {},
+      "cross_references": [
+        "Lluchmayor"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de la v. de Lluchmayor."
+    }
   ]
 }

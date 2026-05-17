@@ -6,15 +6,16 @@
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
     {
-      "title": "PUiNXUAT",
+      "title": "PUNXUAT",
       "place_type": "aldea",
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": null,
-      "description": "ald. ó cas. en la isla de Mallorca, prov.,aud. terr., c. g. de Baleares, part. jud. de Palma, ténn. y jurisd. de Algaida.",
+      "description": "ald. ó cas. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de Algaida.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. ó cas. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. de Palma, térm. y jurisd. de Algaida."
     }
   ]
 }

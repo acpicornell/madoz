@@ -16,7 +16,8 @@
       "cross_references": [
         "Pollensa"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Valle en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollensa."
     },
     {
       "title": "CUYEBA (so)",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Capdepera"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de Capdepera."
     },
     {
       "title": "CUYERASA (can)",
@@ -43,7 +45,8 @@
         "Pollenza"
       ],
       "confidence": "high",
-      "note": "Alias antigo: 'el Real Masot'."
+      "note": "Alias antigo: 'el Real Masot'.",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Pollenza. Antiguamente nombrado el Real Masot."
     }
   ]
 }

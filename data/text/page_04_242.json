@@ -13,8 +13,15 @@
       "municipality": "Formentera",
       "description": "Cabo en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, apostadero de Cartagena. Sit. al O. de la isla de Formentera, al N. NO. 3/4 milla de la torre de Garobaret. Dan los navegantes comunmente el nombre de cabo Berbería á toda la costa que media desde la punta de la Anguila hasta la llamada punta de Cala Sauna.",
       "stats": {},
-      "cross_references": ["Formentera", "Ibiza", "Torre de Garobaret", "Punta de la Anguila", "Punta de Cala Sauna"],
-      "confidence": "high"
+      "cross_references": [
+        "Formentera",
+        "Ibiza",
+        "Torre de Garobaret",
+        "Punta de la Anguila",
+        "Punta de Cala Sauna"
+      ],
+      "confidence": "high",
+      "description_raw": "Cabo en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, apostadero de Cartagena. Sit. al O. de la isla de Formentera, al N. NO. 3/4 milla de la torre de Garobaret. Dan los navegantes comunmente el nombre de cabo Berbería á toda la costa que media desde la punta de la Anguila hasta la llamada punta de Cala Sauna."
     }
   ]
 }

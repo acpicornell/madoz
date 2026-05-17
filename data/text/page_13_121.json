@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmavor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmavor."
     },
     {
       "title": "PONS (son)",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. juris. de la v. de Campanet.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. juris. de la v. de Campanet."
     },
     {
       "title": "PONS DE SON LLEBBA",
@@ -36,7 +38,8 @@
       "description": "alq. en la isla de Mal'orca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "alq. en la isla de Mal'orca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger."
     },
     {
       "title": "PONT (can)",
@@ -47,7 +50,8 @@
       "description": "predio en el valle de Cuxach, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd de la v. de Pollenza.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en el valle de Cuxach, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd de la v. de Pollenza."
     },
     {
       "title": "PONT (so)",
@@ -58,7 +62,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares , part . jud.. térm. y ¡urisd. de la v. de Manacor.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares , part . jud.. térm. y ¡urisd. de la v. de Manacor."
     }
   ]
 }

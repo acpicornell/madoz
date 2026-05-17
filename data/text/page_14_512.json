@@ -11,10 +11,11 @@
       "island": "Mallorca",
       "judicial_district": null,
       "municipality": "Campos",
-      "description": "ald. en la isla de Mallorca, part. jud. de Manacor , térm. y jurisd. de la v. de Campos, á la cual estaunida su pobl. y riqueza.",
+      "description": "ald. en la isla de Mallorca, part. jud. de Manacor, térm. y jurisd. de la v. de Campos, á la cual está unida su pobl. y riqueza.",
       "stats": {},
       "cross_references": [],
-      "confidence": "medium"
+      "confidence": "medium",
+      "description_raw": "ald. en la isla de Mallorca, part. jud. de Manacor , térm. y jurisd. de la v. de Campos, á la cual estaunida su pobl. y riqueza."
     }
   ]
 }

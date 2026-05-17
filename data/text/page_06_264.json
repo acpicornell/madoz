@@ -5,8 +5,47 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CA TER", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Soller", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller.", "stats": {}, "cross_references": ["Soller"], "confidence": "high"},
-    {"title": "CA TERRETA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Soller", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller.", "stats": {}, "cross_references": ["Soller"], "confidence": "high"},
-    {"title": "CA TES", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Soller", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller.", "stats": {}, "cross_references": ["Soller"], "confidence": "high"}
+    {
+      "title": "CA TER",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller.",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller."
+    },
+    {
+      "title": "CA TERRETA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller.",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller."
+    },
+    {
+      "title": "CA TES",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Soller",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller.",
+      "stats": {},
+      "cross_references": [
+        "Soller"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca y térm. jurisd. de la v. de Soller."
+    }
   ]
 }

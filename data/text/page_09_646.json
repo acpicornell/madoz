@@ -17,7 +17,8 @@
         "Alayor"
       ],
       "confidence": "medium",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "Estancia en la isla de Mallorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor. [Nota: el texto dice 'isla de Mallorca' pero geográficamente Mahón/Alayor están en Menorca; probable error tipográfico del original.]"
     },
     {
       "title": "JOSE (San)",
@@ -38,7 +39,8 @@
         "Ibiza (part. jud.)"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "V., cab. de ayunt. que forma con los l. de San Jorge, San Antonio y San Francisco de Paula, en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr., c. g. de Baleares: sit. á 3 leg. de la cap. pobl.: 565 vec., 2,911 alm. cap. imp.: 255,327 rs. contr.: (V. Ibiza, part.)"
     }
   ]
 }

@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CIURANA (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "La Puebla", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla.", "stats": {}, "cross_references": ["La Puebla"], "confidence": "high"},
-    {"title": "CIURANA (son)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Alcudia", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Alcudia.", "stats": {}, "cross_references": ["Alcudia"], "confidence": "high"}
+    {
+      "title": "CIURANA (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla.",
+      "stats": {},
+      "cross_references": [
+        "La Puebla"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla."
+    },
+    {
+      "title": "CIURANA (son)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Alcudia",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Alcudia.",
+      "stats": {},
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Alcudia."
+    }
   ]
 }

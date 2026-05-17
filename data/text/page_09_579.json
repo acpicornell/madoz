@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "JAIME (San)", "place_type": "estancia", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Alayor", "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor.", "stats": {}, "cross_references": ["Alayor"], "confidence": "high"}
+    {
+      "title": "JAIME (San)",
+      "place_type": "estancia",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Alayor",
+      "description": "Estancia en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor.",
+      "stats": {},
+      "cross_references": [
+        "Alayor"
+      ],
+      "confidence": "high",
+      "description_raw": "Estancia en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor."
+    }
   ]
 }

@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "JOY (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Villafranca", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de Villafranca.", "stats": {}, "cross_references": ["Villafranca"], "confidence": "high"}
+    {
+      "title": "JOY (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Villafranca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de Villafranca.",
+      "stats": {},
+      "cross_references": [
+        "Villafranca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la villa de Villafranca."
+    }
   ]
 }

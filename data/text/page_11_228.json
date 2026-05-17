@@ -17,7 +17,8 @@
         "Santa Margarita",
         "Inca"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Santa Margarita."
     },
     {
       "title": "MARIA",
@@ -42,7 +43,8 @@
         "Palma"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "V. con ayunt. en la isla de Mallorca, prov., aud. terr., c. g. de Baleares (Palma 8 leg.), part. jud. de Inca (3): sit. sobre 2 alturas, divididas por un valle; la una en que está la plaza, la igl. y la casa consistorial, le dan el nombre de la v., y á la otra le llaman el arrabal; goza de buena ventilación y clima sano; las enfermedades comunes son fiebres intermitentes. Consta la pobl. de 262 casas que forman su casco, y 23 fuera de este; una igl. parr. dedicada á Ntra. Sra., bajo la advocación de la Salud, anejo de la de Sta. Margarita, y servida por un vicario temporal y amovible que nombra el diocesano; tiene un cementerio, una escuela de primeras letras dotada con 797 rs. vn., concurrida por 30 niños, y otra de igual clase para 40 niñas que la concurren, cuya maestra disfruta la asignación de 239 rs. El térm. confina N. Llubí; E. Sta. Margarita; S. Petra, y O. Lineu; en él se encuentran varios predios rústicos, entre los cuales es notable el nombrado Roqueta, por su situación, perspectiva y hermosura de su casa. El terreno es llano en general y muy fértil; le cruzan algunos caminos carreteros locales y uno de herradura que conduce á Inca. Recibe el correo de la cap. de la prov. los martes y sábados. prod.: trigo candeal, cebada, avena, garbanzos, habas, guijas, higos y vino; cria algún ganado y caza de distintas especies. ind.: la agrícola. pobl.: 275 vec., 1,085 alm. cap. imp.: 132,683. contr.: en el año 1846, 35,340."
     }
   ]
 }

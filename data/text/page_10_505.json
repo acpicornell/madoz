@@ -5,7 +5,33 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "LLIBARTO VELL", "place_type": "predio", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Mahón", "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón.", "stats": {}, "cross_references": ["Mahón"], "confidence": "high"},
-    {"title": "LLIBARTO NOU", "place_type": "predio", "island": "Menorca", "judicial_district": "Mahón", "municipality": "Mahón", "description": "Predio subdividido en varios poseedores en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón.", "stats": {}, "cross_references": ["Mahón"], "confidence": "high"}
+    {
+      "title": "LLIBARTO VELL",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón.",
+      "stats": {},
+      "cross_references": [
+        "Mahón"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón."
+    },
+    {
+      "title": "LLIBARTO NOU",
+      "place_type": "predio",
+      "island": "Menorca",
+      "judicial_district": "Mahón",
+      "municipality": "Mahón",
+      "description": "Predio subdividido en varios poseedores en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón.",
+      "stats": {},
+      "cross_references": [
+        "Mahón"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio subdividido en varios poseedores en la isla de Menorca, prov. de Baleares, part. jud., térm. y jurisd. de la c. de Mahón."
+    }
   ]
 }

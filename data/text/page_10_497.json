@@ -6,6 +6,19 @@
   "model": "claude-opus-4-7-via-claude-code",
   "note": "Title 'LLEBBA' is likely an OCR mangling of LLEBRA or similar Mallorcan name; retained as printed for fidelity.",
   "entries": [
-    {"title": "LLEBRA", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "La Puebla", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla. (OCR original: 'LLEBBA').", "stats": {}, "cross_references": ["La Puebla"], "confidence": "medium"}
+    {
+      "title": "LLEBRA",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla. (OCR original: 'LLEBBA').",
+      "stats": {},
+      "cross_references": [
+        "La Puebla"
+      ],
+      "confidence": "medium",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla. (OCR original: 'LLEBBA')."
+    }
   ]
 }

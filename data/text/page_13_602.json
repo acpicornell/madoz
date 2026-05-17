@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. do Manacor . térm. jurisd. de la v. de Campos.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. do Manacor . térm. jurisd. de la v. de Campos."
     },
     {
       "title": "RUSIÑÜL (so)",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, prov , aud. terr. y c. g. de Baleares, part. jud., térm. y jurisd. de lac. de Palma.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov , aud. terr. y c. g. de Baleares, part. jud., térm. y jurisd. de lac. de Palma."
     }
   ]
 }

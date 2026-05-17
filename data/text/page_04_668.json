@@ -13,8 +13,11 @@
       "municipality": "Alcudia",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia.",
       "stats": {},
-      "cross_references": ["Alcudia"],
-      "confidence": "high"
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la c. de Alcudia."
     },
     {
       "title": "BURGUET (Son)",
@@ -27,8 +30,11 @@
         "cuarteradas": 108,
         "casas": 25
       },
-      "cross_references": ["Llubí"],
-      "confidence": "high"
+      "cross_references": [
+        "Llubí"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Llubí. Sit. sobre una altura á 1/3 de leg. de la pobl.: comprende 108 cuarteradas de tierra, y tiene hermosa arboleda de frutales como higueras, almendros etc. y 25 casas para secar y beneficiar los higos."
     }
   ]
 }

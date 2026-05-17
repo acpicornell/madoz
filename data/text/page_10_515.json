@@ -5,6 +5,24 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "LLORENS (San) ó SAN LLORENS DE CARDASAR", "place_type": "aldea", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Manacor", "description": "Ald. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. y ayunt. de Manacor. Sit. al Oriente de esta v., le combaten los vientos del N. y E. El clima es sano, aunque algo húmedo, por lo cual se padecen comúnmente fiebres intermitentes, que degeneran en tisis por el abandono ó miseria de sus hab. Tiene 281 casas (159 formando cuerpo de pobl. y 122 rurales diseminadas por el térm.); 1 escuela de instrucción primaria dotada con 550 rs. vn. anuales, concurrida por 30 alumnos; 1 igl. parr. (San Lorenzo), aneja de la de Manacor, servida por 1 vicario, y 1 cementerio á 500 pasos de la pobl. Térm., terreno, prod. y contr. véase Manacor.", "stats": {"casas": 281, "casas_cuerpo_pobl": 159, "casas_rurales": 122, "alumnos": 30}, "cross_references": ["Manacor"], "confidence": "high"}
+    {
+      "title": "LLORENS (San) ó SAN LLORENS DE CARDASAR",
+      "place_type": "aldea",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Manacor",
+      "description": "Ald. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. y ayunt. de Manacor. Sit. al Oriente de esta v., le combaten los vientos del N. y E. El clima es sano, aunque algo húmedo, por lo cual se padecen comúnmente fiebres intermitentes, que degeneran en tisis por el abandono ó miseria de sus hab. Tiene 281 casas (159 formando cuerpo de pobl. y 122 rurales diseminadas por el térm.); 1 escuela de instrucción primaria dotada con 550 rs. vn. anuales, concurrida por 30 alumnos; 1 igl. parr. (San Lorenzo), aneja de la de Manacor, servida por 1 vicario, y 1 cementerio á 500 pasos de la pobl. Térm., terreno, prod. y contr. véase Manacor.",
+      "stats": {
+        "casas": 281,
+        "casas_cuerpo_pobl": 159,
+        "casas_rurales": 122,
+        "alumnos": 30
+      },
+      "cross_references": [
+        "Manacor"
+      ],
+      "confidence": "high",
+      "description_raw": "Ald. en la isla y dióc. de Mallorca, prov., aud. terr., c. g. de Baleares, part. jud. y ayunt. de Manacor. Sit. al Oriente de esta v., le combaten los vientos del N. y E. El clima es sano, aunque algo húmedo, por lo cual se padecen comúnmente fiebres intermitentes, que degeneran en tisis por el abandono ó miseria de sus hab. Tiene 281 casas (159 formando cuerpo de pobl. y 122 rurales diseminadas por el térm.); 1 escuela de instrucción primaria dotada con 550 rs. vn. anuales, concurrida por 30 alumnos; 1 igl. parr. (San Lorenzo), aneja de la de Manacor, servida por 1 vicario, y 1 cementerio á 500 pasos de la pobl. Térm., terreno, prod. y contr. véase Manacor."
+    }
   ]
 }

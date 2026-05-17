@@ -13,8 +13,11 @@
       "municipality": "Alaró",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaró. (V. Alaró.)",
       "stats": {},
-      "cross_references": ["Alaró"],
-      "confidence": "high"
+      "cross_references": [
+        "Alaró"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Alaró. (V. Alaró.)"
     }
   ]
 }

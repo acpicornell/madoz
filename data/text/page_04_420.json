@@ -13,8 +13,11 @@
       "municipality": "Campanet",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á 1/4 de hora de la pobl. Su terreno es de mediana calidad y se halla poblado de olivos, algarrobos, higueras y almendros.",
       "stats": {},
-      "cross_references": ["Campanet"],
-      "confidence": "high"
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á 1/4 de hora de la pobl. Su terreno es de mediana calidad y se halla poblado de olivos, algarrobos, higueras y almendros."
     }
   ]
 }

@@ -16,7 +16,8 @@
       "cross_references": [
         "Lluchmayor"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. y jurisd. de Lluchmayor."
     },
     {
       "title": "CASETA DE SAN BAULO",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Santa Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Casilla de vigía á la orilla del mar en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     },
     {
       "title": "CASETA ROITGE (la)",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Santa Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     }
   ]
 }

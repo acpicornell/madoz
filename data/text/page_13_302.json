@@ -14,7 +14,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baeares, part. jud. de Manacor, térm. y jurisd. de lav.de Arta.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baeares, part. jud. de Manacor, térm. y jurisd. de lav.de Arta."
     },
     {
       "title": "PUJOL",
@@ -25,7 +26,8 @@
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térín. y jurisd. de la v. de SanJuan.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térín. y jurisd. de la v. de SanJuan."
     },
     {
       "title": "PUJOL (el)",
@@ -36,7 +38,8 @@
       "description": "alq. en la isla de Mallorca prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "alq. en la isla de Mallorca prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de María."
     },
     {
       "title": "PUJOL (so)",
@@ -47,7 +50,8 @@
       "description": "predio en la isla de Mallorca , prov., aud. ten ., c. g. de Baleares, part. jad. de Palma, térm. y jurisd. de la v. de Algaida.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov., aud. ten ., c. g. de Baleares, part. jad. de Palma, térm. y jurisd. de la v. de Algaida."
     },
     {
       "title": "PULA",
@@ -58,7 +62,8 @@
       "description": "predio en la isla de Mallorca , prov. , aud. terr., c. g. de Baleares, part. jud. de Manacor, térm. y jurisd. dela v. de Artá.",
       "stats": {},
       "cross_references": [],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "predio en la isla de Mallorca , prov. , aud. terr., c. g. de Baleares, part. jud. de Manacor, térm. y jurisd. dela v. de Artá."
     }
   ]
 }

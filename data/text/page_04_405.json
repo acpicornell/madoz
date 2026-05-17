@@ -13,8 +13,11 @@
       "municipality": "Escorca",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca: tiene una casa que habita el arrendatario y su terreno está poblado de encinas y olivos, y prod. algún trigo.",
       "stats": {},
-      "cross_references": ["Escorca"],
-      "confidence": "high"
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca: tiene una casa que habita el arrendatario y su terreno está poblado de encinas y olivos, y prod. algún trigo."
     },
     {
       "title": "BONNABE",
@@ -24,8 +27,11 @@
       "municipality": "Campanet",
       "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á una hora de la pobl., pertenece á una de las casas mas ant. de ella: es terreno fertilísimo, poblado de olivos, algarrobos y mon. con abundancia trigo, frutas y hortalizas.",
       "stats": {},
-      "cross_references": ["Campanet"],
-      "confidence": "high"
+      "cross_references": [
+        "Campanet"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Campanet: sit. á una hora de la pobl., pertenece á una de las casas mas ant. de ella: es terreno fertilísimo, poblado de olivos, algarrobos y mon. con abundancia trigo, frutas y hortalizas."
     }
   ]
 }

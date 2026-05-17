@@ -13,8 +13,11 @@
       "municipality": "Alcudia",
       "description": "Pequeña isla en el tercio y prov. marít. de Mallorca, apostadero de Cartagena, distr. de la bahía y puerto de Alcudia. (V. Alcudia.)",
       "stats": {},
-      "cross_references": ["Alcudia"],
-      "confidence": "high"
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Pequeña isla en el tercio y prov. marít. de Mallorca, apostadero de Cartagena, distr. de la bahía y puerto de Alcudia. (V. Alcudia.)"
     },
     {
       "title": "ALCANADA",
@@ -24,8 +27,11 @@
       "municipality": "Alcudia",
       "description": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia. (V. Alcudia.)",
       "stats": {},
-      "cross_references": ["Alcudia"],
-      "confidence": "high"
+      "cross_references": [
+        "Alcudia"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio con cas. en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Alcudia. (V. Alcudia.)"
     }
   ]
 }

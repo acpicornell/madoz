@@ -13,8 +13,11 @@
       "municipality": "Inca",
       "description": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y felig. de Inca. (V. Inca.)",
       "stats": {},
-      "cross_references": ["Inca"],
-      "confidence": "high"
+      "cross_references": [
+        "Inca"
+      ],
+      "confidence": "high",
+      "description_raw": "Alq. en la isla de Mallorca, prov. de Baleares, part. jud., térm. y felig. de Inca. (V. Inca.)"
     }
   ]
 }

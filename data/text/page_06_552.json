@@ -5,6 +5,19 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "COMELLAS (so)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Manacor", "municipality": "Montuiri", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Montuiri.", "stats": {}, "cross_references": ["Montuiri"], "confidence": "high"}
+    {
+      "title": "COMELLAS (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Manacor",
+      "municipality": "Montuiri",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Montuiri.",
+      "stats": {},
+      "cross_references": [
+        "Montuiri"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Montuiri."
+    }
   ]
 }

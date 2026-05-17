@@ -5,10 +5,75 @@
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
   "entries": [
-    {"title": "CASANOVA (Algaida)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Algaida", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Algaida.", "stats": {}, "cross_references": ["Algaida"], "confidence": "high"},
-    {"title": "CASANOVA (Esporlas)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Palma", "municipality": "Esporlas", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Esporlas.", "stats": {}, "cross_references": ["Esporlas"], "confidence": "high"},
-    {"title": "CASANOVA (La Puebla)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "La Puebla", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla.", "stats": {}, "cross_references": ["La Puebla"], "confidence": "high"},
-    {"title": "CASANOVA (Sineu)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Sineu", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.", "stats": {}, "cross_references": ["Sineu"], "confidence": "high"},
-    {"title": "CASANOVA (Se)", "place_type": "predio", "island": "Mallorca", "judicial_district": "Inca", "municipality": "Escorca", "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.", "stats": {}, "cross_references": ["Escorca"], "confidence": "high"}
+    {
+      "title": "CASANOVA (Algaida)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Algaida",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Algaida.",
+      "stats": {},
+      "cross_references": [
+        "Algaida"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de Algaida."
+    },
+    {
+      "title": "CASANOVA (Esporlas)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Esporlas",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Esporlas.",
+      "stats": {},
+      "cross_references": [
+        "Esporlas"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Esporlas."
+    },
+    {
+      "title": "CASANOVA (La Puebla)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "La Puebla",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla.",
+      "stats": {},
+      "cross_references": [
+        "La Puebla"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de la Puebla."
+    },
+    {
+      "title": "CASANOVA (Sineu)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Sineu",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu.",
+      "stats": {},
+      "cross_references": [
+        "Sineu"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sineu."
+    },
+    {
+      "title": "CASANOVA (Se)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Inca",
+      "municipality": "Escorca",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca.",
+      "stats": {},
+      "cross_references": [
+        "Escorca"
+      ],
+      "confidence": "high",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Escorca."
+    }
   ]
 }

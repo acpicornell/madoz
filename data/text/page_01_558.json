@@ -13,8 +13,12 @@
       "municipality": "Andraitx",
       "description": "Punto de la isla, tercio y prov. marít. de Mallorca, distr. de Andraitx. Sit. á dist. de 1 1/2 milla al N. 50° E. de la cañada de Estellens; es muy poco saliente y tiene al N. un islotillo.",
       "stats": {},
-      "cross_references": ["Andraitx", "Estellens"],
-      "confidence": "high"
+      "cross_references": [
+        "Andraitx",
+        "Estellens"
+      ],
+      "confidence": "high",
+      "description_raw": "Punto de la isla, tercio y prov. marít. de Mallorca, distr. de Andraitx. Sit. á dist. de 1 1/2 milla al N. 50° E. de la cañada de Estellens; es muy poco saliente y tiene al N. un islotillo."
     },
     {
       "title": "ALGARET",
@@ -24,8 +28,12 @@
       "municipality": null,
       "description": "Punta de la isla y prov. marít. de Menorca. Sit. á 1/2 milla de la Cova de Corps, con la cual forma la ensenada llamada de Sandy Bay.",
       "stats": {},
-      "cross_references": ["Cova de Corps", "Sandy Bay"],
-      "confidence": "high"
+      "cross_references": [
+        "Cova de Corps",
+        "Sandy Bay"
+      ],
+      "confidence": "high",
+      "description_raw": "Punta de la isla y prov. marít. de Menorca. Sit. á 1/2 milla de la Cova de Corps, con la cual forma la ensenada llamada de Sandy Bay."
     }
   ]
 }

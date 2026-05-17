@@ -13,8 +13,14 @@
       "municipality": null,
       "description": "Bajo en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena. Se encuentra sit. en el llamado Freo de enmedio viniendo de occidente á entrar en el mismo al S. 26º O. de la torre de las Portas, y al OSO. 1/4 milla de la isla Redonda; rompe en él la mar por poca que haya.",
       "stats": {},
-      "cross_references": ["Ibiza", "Freo de enmedio", "Torre de las Portas", "Isla Redonda"],
-      "confidence": "high"
+      "cross_references": [
+        "Ibiza",
+        "Freo de enmedio",
+        "Torre de las Portas",
+        "Isla Redonda"
+      ],
+      "confidence": "high",
+      "description_raw": "Bajo en el tercio marítimo de Mallorca, prov. y distr. de Ibiza, departamento de Cartagena. Se encuentra sit. en el llamado Freo de enmedio viniendo de occidente á entrar en el mismo al S. 26º O. de la torre de las Portas, y al OSO. 1/4 milla de la isla Redonda; rompe en él la mar por poca que haya."
     }
   ]
 }

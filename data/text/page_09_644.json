@@ -18,7 +18,8 @@
         "Santañí"
       ],
       "confidence": "high",
-      "note": "Tail of JORDÁ (son) appears at start of this leaf but the entry's title is on leaf 643 (assigned there). Two new Balearic entries begin on this leaf."
+      "note": "Tail of JORDÁ (son) appears at start of this leaf but the entry's title is on leaf 643 (assigned there). Two new Balearic entries begin on this leaf.",
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Santañí."
     },
     {
       "title": "JORGE (San)",
@@ -32,7 +33,8 @@
         "San José (Ibiza)"
       ],
       "confidence": "high",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py."
+      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "description_raw": "L. en la isla, part. jud. y dióc. de Ibiza, prov., aud. terr., c. g. de Baleares, distrito municipal de San José: sit. á 1 leg. de la cap. pobl.: riqueza etc. (V. José San)."
     }
   ]
 }

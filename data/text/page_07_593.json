@@ -16,7 +16,8 @@
       "cross_references": [
         "Muro"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, término y jurisdicción de la v. de Muro."
     },
     {
       "title": "ESTAÑY DE SON BAULO",
@@ -29,7 +30,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     },
     {
       "title": "ESTAÑY DE SON REAL",
@@ -42,7 +44,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     },
     {
       "title": "ESTAÑY DEL BISBA",
@@ -55,7 +58,8 @@
       "cross_references": [
         "Sta. Margarita"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "description_raw": "Lago en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Sta. Margarita."
     }
   ]
 }

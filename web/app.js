@@ -411,7 +411,6 @@ async function main() {
     // Explore-tab stat bar.
     const types = new Set(state.entries.map(e => e.place_type).filter(Boolean)).size;
     $("stat-text").textContent = fmt(payload.text_total);
-    $("stat-madoz").textContent = fmt(payload.madoz_total);
     $("stat-volumes").textContent = fmt(new Set(state.entries.map(e => e.vol)).size);
     $("stat-islands").textContent = fmt(new Set(state.entries.map(e => e.island).filter(Boolean)).size);
     $("stat-types").textContent = fmt(types);

@@ -20,8 +20,8 @@
     {
       "title": "VIVOT",
       "place_type": "predio",
-      "island": null,
-      "judicial_district": null,
+      "island": "Mallorca",
+      "judicial_district": "Inca",
       "municipality": "Inca",
       "description": "predio y marquesado de igual nombre en la isla de Mallorca (Baleares), part. jud., térm. y jurisd. de la v. de Inca.",
       "stats": {},

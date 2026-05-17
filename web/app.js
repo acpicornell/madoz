@@ -355,6 +355,65 @@ function renderStats() {
 
 let demoRendered = false;
 
+// Compact-format large numbers for parallel-plot labels (40,480 stays;
+// 3.020,320 → "3,020,320" — keep full digits but with thousands separator).
+function fmtCompact(n) {
+  if (n >= 1e6) return `${(n / 1e6).toFixed(2)}M`;
+  if (n >= 1e3) return `${(n / 1e3).toFixed(1)}K`;
+  return n.toString();
+}
+
+// Parallel-coordinates / slope graph between two metrics.
+// `rows` = [{label, leftValue, leftRank, rightValue, rightRank}, ...]
+// sorted by leftRank ascending.
+function svgParallel(rows, leftAxisLabel, rightAxisLabel) {
+  const N = rows.length;
+  const width = 720;
+  const rowGap = 22;
+  const labelW = 220;
+  const rightW = 140;
+  const padTop = 30;
+  const padBottom = 10;
+  const innerH = Math.max(60, (N - 1) * rowGap);
+  const height = innerH + padTop + padBottom;
+  const axisX1 = labelW;
+  const axisX2 = width - rightW;
+
+  const yFor = rank => padTop + ((rank - 1) / Math.max(1, N - 1)) * innerH;
+
+  const axisLabels =
+    `<text x="${axisX1}" y="14" text-anchor="middle" class="par-axis">${esc(leftAxisLabel)}</text>` +
+    `<text x="${axisX2}" y="14" text-anchor="middle" class="par-axis">${esc(rightAxisLabel)}</text>` +
+    `<line x1="${axisX1}" y1="${padTop - 6}" x2="${axisX1}" y2="${padTop + innerH + 6}" class="par-axis-line"/>` +
+    `<line x1="${axisX2}" y1="${padTop - 6}" x2="${axisX2}" y2="${padTop + innerH + 6}" class="par-axis-line"/>`;
+
+  const body = rows.map(r => {
+    const yL = yFor(r.leftRank);
+    const yR = yFor(r.rightRank);
+    const delta = r.leftRank - r.rightRank; // +: better right rank than left
+    let colour;
+    if (Math.abs(delta) <= 2) colour = "#94a3b8";
+    else if (delta > 0) colour = "#0f766e";
+    else colour = "#be123c";
+    const deltaTxt = delta === 0 ? "" :
+      ` <tspan class="par-delta">(${delta > 0 ? "↑" : "↓"}${Math.abs(delta)})</tspan>`;
+    return (
+      `<line x1="${axisX1}" y1="${yL}" x2="${axisX2}" y2="${yR}" ` +
+      `stroke="${colour}" stroke-width="1.4" stroke-opacity="0.65"/>` +
+      `<circle cx="${axisX1}" cy="${yL}" r="3" fill="${colour}"/>` +
+      `<circle cx="${axisX2}" cy="${yR}" r="3" fill="${colour}"/>` +
+      `<text x="${axisX1 - 8}" y="${yL + 3.5}" text-anchor="end" class="par-label">` +
+        `${esc(r.label)} <tspan class="par-val">(${esc(fmt(r.leftValue))})</tspan>` +
+      `</text>` +
+      `<text x="${axisX2 + 8}" y="${yR + 3.5}" text-anchor="start" class="par-val">` +
+        `${esc(fmtCompact(r.rightValue))}${deltaTxt}` +
+      `</text>`
+    );
+  }).join("");
+
+  return `<svg viewBox="0 0 ${width} ${height}" class="bars-svg par-svg" preserveAspectRatio="xMinYMin meet" role="img">${axisLabels}${body}</svg>`;
+}
+
 // Inline horizontal-bar chart. `rows` is [[label, value, sub?], ...]
 // sorted descending. `fmtVal` formats the numeric value for display.
 function svgBars(rows, opts = {}) {
@@ -425,6 +484,39 @@ function renderDemografia() {
     .slice(0, 20);
   $("demo-chart-riq").innerHTML = byRiq.length
     ? svgBars(byRiq, { colour: "var(--accent-secondary, #c2410c)" })
+    : '<p class="empty">Sense dades.</p>';
+
+  // === Slope graph: rank-by-almas vs rank-by-riqueza ===
+  // Take munis that have BOTH metrics, compute ranks within that pool,
+  // sort by left rank, keep top 20.
+  const bothMetrics = state.entries.filter(e =>
+    isMunicipality(e) &&
+    statsOf(e)?.almas != null &&
+    statsOf(e)?.riqueza_imponible != null
+  );
+  // Rank by each metric (1 = highest)
+  const sortedByA = [...bothMetrics].sort((a, b) => statsOf(b).almas - statsOf(a).almas);
+  const sortedByR = [...bothMetrics].sort((a, b) => statsOf(b).riqueza_imponible - statsOf(a).riqueza_imponible);
+  const rankA = new Map(sortedByA.map((e, i) => [e.id, i + 1]));
+  const rankR = new Map(sortedByR.map((e, i) => [e.id, i + 1]));
+  const parRows = sortedByA.slice(0, 20).map(e => ({
+    label: e.title,
+    leftValue: statsOf(e).almas,
+    rightValue: statsOf(e).riqueza_imponible,
+    leftRank: rankA.get(e.id),
+    rightRank: rankR.get(e.id),
+  }));
+  // Recompute ranks within the displayed top-20 so slopes are visible
+  // (rank-by-population is just 1..20; rank-by-riqueza is the position
+  // of each muni within these 20 munis when ordered by riqueza).
+  const dispByR = [...parRows].sort((a, b) => b.rightValue - a.rightValue);
+  const dispRankR = new Map(dispByR.map((r, i) => [r.label, i + 1]));
+  for (const r of parRows) {
+    r.leftRank = parRows.indexOf(r) + 1;
+    r.rightRank = dispRankR.get(r.label);
+  }
+  $("demo-chart-parallel").innerHTML = parRows.length
+    ? svgParallel(parRows, "Rang per ànimes", "Rang per riquesa imp.")
     : '<p class="empty">Sense dades.</p>';
 
   // === Population aggregated per island ===

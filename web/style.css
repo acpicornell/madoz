@@ -969,6 +969,30 @@ footer p { margin: 0; }
 .bars-svg .bar-label { font-size: 11px; fill: var(--text); font-variant-numeric: tabular-nums; }
 .bars-svg .bar-value { font-size: 11px; fill: var(--text); font-variant-numeric: tabular-nums; font-weight: 600; }
 .bars-svg .bar-sub { fill: var(--text-muted); font-weight: 400; font-size: 10px; }
+.par-svg .par-axis {
+  font-size: 11px;
+  fill: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.par-svg .par-axis-line {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+.par-svg .par-label {
+  font-size: 11px;
+  fill: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.par-svg .par-val {
+  font-size: 10px;
+  fill: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+}
+.par-svg .par-delta {
+  font-weight: 600;
+}
 @media (max-width: 800px) {
   .demo-charts { grid-template-columns: 1fr; }
 }

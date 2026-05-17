@@ -222,7 +222,7 @@ function toggleExpand(tr) {
         <div class="madoz-supplement-body">${esc(e.madoz_content)}</div>
         <p class="madoz-supplement-note">
           Transcripció web de tercers, no del nostre OCR. Sovint més completa per articles
-          grans (villes amb ayuntamiento) però amb errors propis de transcripció.
+          grans (viles amb ajuntament) però amb errors propis de transcripció.
         </p>
       </details>`
     : "";
@@ -339,6 +339,8 @@ function renderStats() {
 
   const total = state.entries.length;
   const linked = state.entries.filter(e => e.madoz_url).length;
+  const totalEl = document.getElementById("stats-total-entries");
+  if (totalEl) totalEl.textContent = fmt(total);
   fill("stat-links", [
     ["Total d'entrades del nostre OCR", total],
     ["També presents a diccionariomadoz.com", linked],
@@ -464,8 +466,8 @@ function renderDemografia() {
     ["fab_fideos", "Fàb. de fideus"],
     ["jabonerias_jabon_fuerte", "Jaboneries (sabó fort)"],
     ["jabonerias_blanco", "Jaboneries (sabó blanc)"],
-    ["tahonas", "Tafones"],
-    ["tejares", "Teulares"],
+    ["tahonas", "Molins de sang"],
+    ["tejares", "Teuleries"],
     ["telares_lienzo", "Telers de lli"],
     ["herrerias", "Ferreries"],
   ];

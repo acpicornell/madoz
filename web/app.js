@@ -204,7 +204,12 @@ function toggleExpand(tr) {
   const madozLink = e.madoz_url
     ? `<a href="${esc(e.madoz_url)}" target="_blank" rel="noopener">Veure a diccionariomadoz.com →</a>`
     : `<span class="text-muted">(sense article corresponent a diccionariomadoz.com)</span>`;
-  const noteHtml = e.note ? `<p class="entry-note"><em>Nota:</em> ${esc(e.note)}</p>` : "";
+  const noteHtml = e.note
+    ? `<details class="entry-note">
+        <summary>📝 Nota d'extracció</summary>
+        <p class="entry-note-body">${esc(e.note)}</p>
+      </details>`
+    : "";
 
   // Mega-article complement: when diccionariomadoz.com has significantly
   // more text than our OCR, offer a toggle to read their fuller version.

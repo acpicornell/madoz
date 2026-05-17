@@ -40,9 +40,17 @@
       <div class="home-stat"><span class="num" id="home-stat-entries">…</span><span class="label">articles balears</span></div>
       <div class="home-stat"><span class="num">16</span><span class="label">volums (1845–1850)</span></div>
       <div class="home-stat"><span class="num">5</span><span class="label">illes documentades</span></div>
-      <div class="home-stat"><span class="num" id="home-stat-types">…</span><span class="label">tipus de lloc</span></div>
+      <div class="home-stat"><span class="num" id="home-stat-toppop">…</span><span class="label" id="home-stat-toppop-label">…</span></div>
     </div>
   </div>
+
+  <aside class="home-featured" id="home-featured" hidden>
+    <p class="featured-eyebrow">Una entrada del Madoz, a l'atzar</p>
+    <h2 class="featured-title" id="featured-title">…</h2>
+    <p class="featured-meta" id="featured-meta">…</p>
+    <p class="featured-excerpt" id="featured-excerpt">…</p>
+    <button class="featured-open" id="featured-open" type="button">Llegir l'entrada sencera →</button>
+  </aside>
 
   <div class="home-prose">
     <h2>Què és el Madoz</h2>
@@ -119,27 +127,28 @@
     <h2>Per on començar</h2>
   </div>
   <div class="home-actions">
-    <button class="home-action" data-goto="explore"><strong>Explorar →</strong><span>Filtrar les ~1.180 entrades per illa, partit, municipi, tipus de lloc, volum i confiança.</span></button>
+    <button class="home-action" data-goto="explore"><strong>Explorar →</strong><span>Filtra les 1.183 entrades per illa, partit, municipi, tipus de lloc, volum i confiança.</span></button>
+    <button class="home-action" data-goto="demografia"><strong>Demografia →</strong><span>Gràfics de població, riquesa imponible i infraestructura productiva segons Madoz cap a 1846.</span></button>
     <button class="home-action" data-goto="stats"><strong>Estadístiques →</strong><span>Recomptes per illa, tipus de lloc, partit judicial, top municipis i cobertura per volum.</span></button>
+    <button class="home-action" data-goto="notes"><strong>Notes →</strong><span>Quadern de treball del projecte: decisions d'extracció, dificultats i casos resolts a mà.</span></button>
   </div>
 
   <div class="home-prose">
     <h2>Sobre les dades i el codi</h2>
     <p>
-      Font primària: l'edició original de Madoz a Madrid (1845–1850), 16 volums, digitalitzada per
-      l'<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a> (chocr =
-      compressed hOCR). Cotejada amb la transcripció moderna article-per-article de
-      <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>.
+      Font primària: l'edició original de Madoz a Madrid (1845–1850), 16 volums, en
+      <strong>domini públic</strong>. Els facsímils provenen de la digitalització feta per la
+      <strong>Universitat de Toronto</strong> (Robarts Library) i allotjats a
+      l'<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>
+      (chocr = compressed hOCR). Cotejada amb la transcripció moderna article-per-article de
+      <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>,
+      emprada per cita amb atribució — els drets sobre les seves transcripcions corresponen als seus autors.
     </p>
     <p>
       L'extracció estructurada s'ha fet amb <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude Opus 4.7</a>
       (Anthropic) llegint el text OCR de cada full. Web 100% estàtica: HTML + CSS + un sol fitxer
-      JSON (~750 KB), JS vanilla, sense backend ni WASM. Codi obert.
-    </p>
-    <p style="font-size:0.88em;color:var(--text-muted)">
-      Per saber-ne més: <a href="https://es.wikipedia.org/wiki/Diccionario_geogr%C3%A1fico-estad%C3%ADstico-hist%C3%B3rico_de_Espa%C3%B1a_y_sus_posesiones_de_Ultramar" target="_blank" rel="noopener">Wikipedia: Diccionario de Madoz</a>
-      · <a href="https://es.wikipedia.org/wiki/Pascual_Madoz" target="_blank" rel="noopener">Wikipedia: Pascual Madoz</a>
-      · <a href="https://en.wikipedia.org/wiki/Spanish_confiscation" target="_blank" rel="noopener">Spanish confiscation (desamortización)</a>
+      JSON (~1,1 MB), JS vanilla, sense backend ni WASM. Codi i dades extretes es publiquen sota
+      <a href="https://github.com/acpicornell/madoz/blob/main/LICENSE" target="_blank" rel="noopener">AGPL-3.0-or-later</a>.
     </p>
   </div>
 </section>

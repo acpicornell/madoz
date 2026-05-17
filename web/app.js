@@ -667,6 +667,70 @@ async function renderNotes() {
 }
 
 // === BOOTSTRAP ===
+// === HOME: featured entry ===
+function renderFeatured(entries) {
+  const eligible = entries.filter(e => {
+    const d = e.description || "";
+    if (d.length < 600 || d.length > 2800) return false;
+    if (!e.place_type) return false;
+    const head = d.trim().slice(0, 4).toUpperCase();
+    if (head === "V. " || head === "VEAS") return false;
+    return true;
+  });
+  const host = $("home-featured");
+  if (!host || !eligible.length) return;
+  const e = eligible[Math.floor(Math.random() * eligible.length)];
+
+  $("featured-title").textContent = e.title;
+
+  const meta = [];
+  if (e.place_type) meta.push(e.place_type);
+  if (e.island) meta.push(e.island);
+  if (e.municipality && e.municipality.toUpperCase() !== e.title.toUpperCase()) {
+    meta.push(`mun. de ${e.municipality}`);
+  }
+  meta.push(`Tom ${e.vol}, pàg. ${e.page_printed || "?"}`);
+  $("featured-meta").textContent = meta.join(" · ");
+
+  const full = e.description || "";
+  const MAX = 320;
+  let excerpt = full.slice(0, MAX);
+  if (full.length > MAX) {
+    const cut = excerpt.lastIndexOf(" ");
+    if (cut > 220) excerpt = excerpt.slice(0, cut);
+    excerpt = excerpt.replace(/[,;:]\s*$/, "") + "…";
+  }
+  $("featured-excerpt").textContent = excerpt;
+
+  $("featured-open").onclick = () => focusEntry(e.id);
+  host.hidden = false;
+}
+
+function focusEntry(id) {
+  const e = state.entries.find(x => x.id === id);
+  if (!e) return;
+  gotoTab("explore");
+  for (const f of FILTER_DEFS) {
+    state[f.stateKey] = "";
+    const el = $(f.id);
+    if (el) el.value = "";
+  }
+  state.only_madoz = false;
+  const onlyMadoz = $("f-only-madoz");
+  if (onlyMadoz) onlyMadoz.checked = false;
+  state.search = e.title;
+  const sb = $("f-search");
+  if (sb) sb.value = e.title;
+  update();
+  setTimeout(() => {
+    const tr = document.querySelector(`#tbody-madoz tr.madoz-row[data-id="${id}"]`);
+    if (tr) {
+      tr.scrollIntoView({ behavior: "smooth", block: "center" });
+      toggleExpand(tr);
+    }
+  }, 80);
+}
+
 async function main() {
   initTabs();
   try {
@@ -685,7 +749,18 @@ async function main() {
 
     // Home-tab hero + per-island cards.
     $("home-stat-entries").textContent = fmt(payload.text_total);
-    $("home-stat-types").textContent = fmt(types);
+    let almasSum = 0, almasCount = 0;
+    for (const e of state.entries) {
+      const a = e.stats && e.stats.almas;
+      if (typeof a === "number" && a > 0) { almasSum += a; almasCount += 1; }
+    }
+    if (almasCount) {
+      $("home-stat-toppop").textContent = fmt(almasSum);
+      $("home-stat-toppop-label").textContent = `ànimes en ${almasCount} municipis, c. 1846`;
+    } else {
+      $("home-stat-toppop").textContent = fmt(types);
+      $("home-stat-toppop-label").textContent = "tipus de lloc";
+    }
     const byIsland = state.entries.reduce((m, e) => {
       const k = e.island || "_none";
       m[k] = (m[k] || 0) + 1;
@@ -697,6 +772,7 @@ async function main() {
     $("home-src-formentera").textContent = fmt(byIsland.Formentera || 0);
     $("home-src-cabrera").textContent = fmt(byIsland.Cabrera || 0);
     $("home-src-balears").textContent = fmt(byIsland.Baleares || 0);
+    renderFeatured(state.entries);
     bindFilters();
     initSort();
     update();

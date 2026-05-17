@@ -27,6 +27,7 @@
   <button class="tab active" data-toptab="home">Inici</button>
   <button class="tab" data-toptab="explore">Explorar</button>
   <button class="tab" data-toptab="stats">Estadístiques</button>
+  <button class="tab" data-toptab="demografia">Demografia</button>
   <button class="tab" data-toptab="notes">Notes</button>
 </nav>
 
@@ -271,6 +272,59 @@
         Quantes entrades del nostre OCR també tenen article a diccionariomadoz.com (l'altre projecte de transcripció).
       </p>
       <table id="stat-links"><tbody><tr><td class="empty">—</td></tr></tbody></table>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DEMOGRAFIA ===== -->
+<section id="tab-demografia" class="tab-content" data-toptab="demografia">
+  <div class="modern-intro">
+    <h2>Demografia balear segons Madoz (c. 1845)</h2>
+    <p>
+      Dades estadístiques extretes directament dels articles del Madoz: població (vecinos + almas),
+      riquesa imponible, contribució i comptes d'infraestructura productiva. La majoria de xifres
+      corresponen a la matrícula catastral del 1842–1846. <strong>Atenció:</strong> un <em>vecino</em>
+      a Madoz és normalment un cap de família (≈ una llar), no una persona; les <em>almas</em>
+      sí que són individus.
+    </p>
+    <p class="demo-coverage" id="demo-coverage">…</p>
+  </div>
+
+  <div class="demo-charts">
+    <div class="demo-card">
+      <h3>Top 20 municipis per població (animes)</h3>
+      <p class="demo-caption">Habitants totals declarats per Madoz al voltant de 1846.</p>
+      <div id="demo-chart-almas" class="demo-chart"><p class="empty">Carregant…</p></div>
+    </div>
+
+    <div class="demo-card">
+      <h3>Top 20 municipis per riquesa imponible</h3>
+      <p class="demo-caption">Imposable declarada en rs. vn., base per al càlcul de la contribució territorial.</p>
+      <div id="demo-chart-riq" class="demo-chart"><p class="empty">Carregant…</p></div>
+    </div>
+
+    <div class="demo-card">
+      <h3>Població agregada per illa</h3>
+      <p class="demo-caption">Suma d'animes dels municipis amb dada per illa. Cabrera no apareix per no ser-ne un municipi.</p>
+      <div id="demo-chart-illa" class="demo-chart"><p class="empty">Carregant…</p></div>
+    </div>
+
+    <div class="demo-card">
+      <h3>Vecinos vs. animes (mida de llar)</h3>
+      <p class="demo-caption">Ratio almas/vecinos per municipi (ordenat). Valors típics balears 1845: 4–5 persones per llar.</p>
+      <div id="demo-chart-ratio" class="demo-chart"><p class="empty">Carregant…</p></div>
+    </div>
+
+    <div class="demo-card demo-card-wide">
+      <h3>Infraestructura productiva agregada</h3>
+      <p class="demo-caption">Comptes totals declarats al conjunt de municipis amb dada. Mostra l'economia preindustrial: vent + aigua + oli + alambics + jaboneries.</p>
+      <div id="demo-chart-ind" class="demo-chart"><p class="empty">Carregant…</p></div>
+    </div>
+
+    <div class="demo-card demo-card-wide">
+      <h3>Contribució per habitant (rs. vn. / ànima)</h3>
+      <p class="demo-caption">Càrrega fiscal individual segons les xifres oficials d'aleshores. Detecta municipis amb tipus efectius alts/baixos respecte la mitjana.</p>
+      <div id="demo-chart-percap" class="demo-chart"><p class="empty">Carregant…</p></div>
     </div>
   </div>
 </section>

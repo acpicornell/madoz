@@ -39,6 +39,7 @@ function gotoTab(t) {
   document.querySelectorAll(".tab-content").forEach(sec =>
     sec.classList.toggle("active", sec.dataset.toptab === t));
   if (t === "stats") renderStats();
+  if (t === "demografia") renderDemografia();
   if (t === "notes") renderNotes();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -344,6 +345,159 @@ function renderStats() {
     ["Només al nostre OCR", total - linked],
     ["Total d'articles a diccionariomadoz.com", state.madozTotal],
   ], ([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${fmt(v)}</td></tr>`);
+}
+
+// === DEMOGRAFIA TAB ===
+// Renders SVG bar charts from the per-entry `stats` JSON. Pure inline
+// SVG — no chart library — so the page stays dependency-free.
+
+let demoRendered = false;
+
+// Inline horizontal-bar chart. `rows` is [[label, value, sub?], ...]
+// sorted descending. `fmtVal` formats the numeric value for display.
+function svgBars(rows, opts = {}) {
+  const fmtVal = opts.fmt || fmt;
+  const colour = opts.colour || "var(--accent)";
+  const labelW = opts.labelW ?? 160;
+  const barH = opts.barH ?? 18;
+  const gap = opts.gap ?? 6;
+  const valueW = opts.valueW ?? 90;
+  const width = 720;
+  const innerW = width - labelW - valueW - 20;
+  const max = Math.max(...rows.map(r => r[1]));
+  const height = rows.length * (barH + gap);
+  const lines = rows.map((r, i) => {
+    const [label, val, sub] = r;
+    const w = max > 0 ? Math.max(1, (val / max) * innerW) : 0;
+    const y = i * (barH + gap);
+    return (
+      `<g transform="translate(0,${y})">` +
+      `<text x="${labelW - 6}" y="${barH * 0.72}" text-anchor="end" class="bar-label">${esc(label)}</text>` +
+      `<rect x="${labelW}" y="0" width="${w}" height="${barH}" rx="2" fill="${colour}"/>` +
+      `<text x="${labelW + w + 6}" y="${barH * 0.72}" class="bar-value">${esc(fmtVal(val))}${sub ? ` <tspan class="bar-sub">${esc(sub)}</tspan>` : ""}</text>` +
+      `</g>`
+    );
+  }).join("");
+  return `<svg viewBox="0 0 ${width} ${height}" class="bars-svg" preserveAspectRatio="xMinYMin meet" role="img">${lines}</svg>`;
+}
+
+function statsOf(e) {
+  return (e.stats && typeof e.stats === "object") ? e.stats : null;
+}
+
+// Exclude part. jud. and isla aggregates from per-municipality charts —
+// their population is the SUM of their constituent municipios and would
+// double-count if shown alongside individual munis.
+function isMunicipality(e) {
+  return e.place_type && e.place_type !== "partido judicial";
+}
+
+function renderDemografia() {
+  if (demoRendered) return;
+  demoRendered = true;
+
+  // === Coverage line ===
+  const withAlmas = state.entries.filter(e => isMunicipality(e) && statsOf(e)?.almas != null);
+  const withVec = state.entries.filter(e => isMunicipality(e) && statsOf(e)?.vecinos != null);
+  const withRiq = state.entries.filter(e => isMunicipality(e) && statsOf(e)?.riqueza_imponible != null);
+  $("demo-coverage").innerHTML =
+    `<strong>Cobertura de dades:</strong> ` +
+    `${withAlmas.length} entrades amb total d'animes · ` +
+    `${withVec.length} amb vecinos · ` +
+    `${withRiq.length} amb riquesa imponible. ` +
+    `Les entrades sense xifres pròpies (alqueries, predios, llogarets satèl·lits) queden fora dels gràfics; Madoz les agrega al municipi pare.`;
+
+  // === Top 20 by almas ===
+  const byAlmas = withAlmas
+    .map(e => [e.title, statsOf(e).almas, statsOf(e).vecinos ? `${fmt(statsOf(e).vecinos)} vec.` : null])
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20);
+  $("demo-chart-almas").innerHTML = byAlmas.length
+    ? svgBars(byAlmas)
+    : '<p class="empty">Sense dades.</p>';
+
+  // === Top 20 by riqueza imponible ===
+  const byRiq = withRiq
+    .map(e => [e.title, statsOf(e).riqueza_imponible, "rs."])
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 20);
+  $("demo-chart-riq").innerHTML = byRiq.length
+    ? svgBars(byRiq, { colour: "var(--accent-secondary, #c2410c)" })
+    : '<p class="empty">Sense dades.</p>';
+
+  // === Population aggregated per island ===
+  const islandTotals = new Map();
+  for (const e of withAlmas) {
+    const island = e.island || "(sense illa)";
+    islandTotals.set(island, (islandTotals.get(island) || 0) + statsOf(e).almas);
+  }
+  const byIsla = [...islandTotals.entries()]
+    .map(([k, v]) => [k, v, "habitants"])
+    .sort((a, b) => b[1] - a[1]);
+  $("demo-chart-illa").innerHTML = byIsla.length
+    ? svgBars(byIsla, { colour: "#0f766e", labelW: 130 })
+    : '<p class="empty">Sense dades.</p>';
+
+  // === Almas / vecinos ratio per municipality (household size) ===
+  const ratioRows = state.entries
+    .filter(e => isMunicipality(e) && statsOf(e)?.almas && statsOf(e)?.vecinos)
+    .map(e => {
+      const s = statsOf(e);
+      return [e.title, +(s.almas / s.vecinos).toFixed(2), `${fmt(s.vecinos)} → ${fmt(s.almas)}`];
+    })
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 25);
+  $("demo-chart-ratio").innerHTML = ratioRows.length
+    ? svgBars(ratioRows, {
+        colour: "#7c3aed",
+        fmt: v => v.toFixed(2),
+      })
+    : '<p class="empty">Sense dades.</p>';
+
+  // === Industry totals across all entries ===
+  const INDUSTRY_KEYS = [
+    ["molinos_viento", "Molins de vent"],
+    ["molinos_agua", "Molins d'aigua"],
+    ["molinos_aceite", "Molins d'oli"],
+    ["alambiques", "Alambics (aiguardent)"],
+    ["fab_aguardiente", "Fàb. d'aiguardent"],
+    ["fab_fideos", "Fàb. de fideus"],
+    ["jabonerias_jabon_fuerte", "Jaboneries (sabó fort)"],
+    ["jabonerias_blanco", "Jaboneries (sabó blanc)"],
+    ["tahonas", "Tafones"],
+    ["tejares", "Teulares"],
+    ["telares_lienzo", "Telers de lli"],
+    ["herrerias", "Ferreries"],
+  ];
+  const industryTotals = INDUSTRY_KEYS.map(([key, label]) => {
+    let sum = 0, n = 0;
+    for (const e of state.entries) {
+      const s = statsOf(e);
+      if (s && typeof s[key] === "number") { sum += s[key]; n++; }
+    }
+    return [label, sum, `en ${n} municipis`];
+  }).filter(r => r[1] > 0)
+    .sort((a, b) => b[1] - a[1]);
+  $("demo-chart-ind").innerHTML = industryTotals.length
+    ? svgBars(industryTotals, { colour: "#92400e", labelW: 200 })
+    : '<p class="empty">Sense dades.</p>';
+
+  // === Contribución per ánima (rs./hab) ===
+  const percapRows = state.entries
+    .filter(e => isMunicipality(e) && statsOf(e)?.contribucion_rs && statsOf(e)?.almas)
+    .map(e => {
+      const s = statsOf(e);
+      const rate = s.contribucion_rs / s.almas;
+      return [e.title, +rate.toFixed(2), `${fmt(s.contribucion_rs)} rs. / ${fmt(s.almas)} hab.`];
+    })
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 25);
+  $("demo-chart-percap").innerHTML = percapRows.length
+    ? svgBars(percapRows, {
+        colour: "#be123c",
+        fmt: v => `${v.toFixed(2)} rs.`,
+      })
+    : '<p class="empty">Sense dades.</p>';
 }
 
 // === NOTES TAB (Madoz abbreviations) ===

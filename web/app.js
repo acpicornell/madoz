@@ -402,7 +402,7 @@ function renderDemografia() {
   const withRiq = state.entries.filter(e => isMunicipality(e) && statsOf(e)?.riqueza_imponible != null);
   $("demo-coverage").innerHTML =
     `<strong>Cobertura de dades:</strong> ` +
-    `${withAlmas.length} entrades amb total d'animes · ` +
+    `${withAlmas.length} entrades amb total d'ànimes · ` +
     `${withVec.length} amb vecinos · ` +
     `${withRiq.length} amb riquesa imponible. ` +
     `Les entrades sense xifres pròpies (alqueries, predios, llogarets satèl·lits) queden fora dels gràfics; Madoz les agrega al municipi pare.`;

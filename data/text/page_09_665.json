@@ -11,13 +11,14 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Sineu",
-      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu. [El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'.]",
+      "description": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu.",
       "stats": {},
       "cross_references": [
         "Sineu"
       ],
       "confidence": "medium",
-      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu. [El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'.]"
+      "description_raw": "Predio en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de Sineu. [El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'.]",
+      "note": "El texto OCR lee 'Sor' pero la convención mallorquina para predios es 'Son'."
     }
   ]
 }

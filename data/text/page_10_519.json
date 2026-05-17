@@ -281,11 +281,11 @@
       "island": "Menorca",
       "judicial_district": "Mahón",
       "municipality": "Alayor",
-      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor. [Original OCR dice 'isla de Mallorca' pero el contexto admin. — Mahón / Alayor — es Menorca; corregido.]",
+      "description": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor.",
       "stats": {},
       "cross_references": [],
       "confidence": "medium",
-      "note": "Dense leaf with 22+ Balearic entries (mostly tiny Menorca alquerías). LLUCHMAYOR is the only large entry with full stats. LLUMENA DE NETTO chocr text says 'isla de Mallorca' but admin context (Mahón/Alayor) is unambiguously Menorca — corrected to Menorca. LLUGALGARI chocr text says 'c. g. de Barcelona' — almost certainly an OCR/edition error; standard Madoz convention is Baleares, kept as written.",
+      "note": "Dense leaf with 22+ Balearic entries (mostly tiny Menorca alquerías). LLUCHMAYOR is the only large entry with full stats. LLUMENA DE NETTO chocr text says 'isla de Mallorca' but admin context (Mahón/Alayor) is unambiguously Menorca — corrected to Menorca. LLUGALGARI chocr text says 'c. g. de Barcelona' — almost certainly an OCR/edition error; standard Madoz convention is Baleares, kept as written.\n\nOriginal OCR dice 'isla de Mallorca' pero el contexto admin. — Mahón / Alayor — es Menorca; corregido.",
       "description_raw": "Predio en la isla de Menorca, prov. de Baleares, part. jud. de Mahon, térm. y jurisd. de la v. de Alayor. [Original OCR dice 'isla de Mallorca' pero el contexto admin. — Mahón / Alayor — es Menorca; corregido.]"
     },
     {

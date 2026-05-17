@@ -26,14 +26,15 @@
       "island": "Menorca",
       "judicial_district": "Ciudadela",
       "municipality": null,
-      "description": "Torre de vigía abandonada en el tercio y prov. marít. de Menorca, dist. de Ciudadela, apostadero de Cartagena. Sit. en una altura al otro lado de la boca del puerto de Fanells. (V. Fanells.) [OCR original lee 'Murcia'; corregido por contexto.]",
+      "description": "Torre de vigía abandonada en el tercio y prov. marít. de Menorca, dist. de Ciudadela, apostadero de Cartagena. Sit. en una altura al otro lado de la boca del puerto de Fanells. (V. Fanells.)",
       "stats": {},
       "cross_references": [
         "Fanells",
         "Ciudadela"
       ],
       "confidence": "medium",
-      "description_raw": "Torre de vigía abandonada en el tercio y prov. marít. de Menorca, dist. de Ciudadela, apostadero de Cartagena. Sit. en una altura al otro lado de la boca del puerto de Fanells. (V. Fanells.) [OCR original lee 'Murcia'; corregido por contexto.]"
+      "description_raw": "Torre de vigía abandonada en el tercio y prov. marít. de Menorca, dist. de Ciudadela, apostadero de Cartagena. Sit. en una altura al otro lado de la boca del puerto de Fanells. (V. Fanells.) [OCR original lee 'Murcia'; corregido por contexto.]",
+      "note": "ALBUFERA (Atalaya de la) appears here with OCR-mangled province ('Murcia' for what should be 'Menorca' — context says 'dist. de Ciudadela' and 'puerto de Fanells', both Menorcan).\n\nOCR original lee 'Murcia'; corregido por contexto."
     }
   ]
 }

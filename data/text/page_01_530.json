@@ -11,13 +11,14 @@
       "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Santa Margarita",
-      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.) [Conocida antiguamente como Cova den Panxe.]",
+      "description": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.)",
       "stats": {},
       "cross_references": [
         "Santa Margarita"
       ],
       "confidence": "high",
-      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.) [Conocida antiguamente como Cova den Panxe.]"
+      "description_raw": "Casa de campo en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y felig. de Sta. Margarita. (V. Santa Margarita.) [Conocida antiguamente como Cova den Panxe.]",
+      "note": "Conocida antiguamente como Cova den Panxe."
     }
   ]
 }

@@ -11,13 +11,13 @@
       "island": "Menorca",
       "judicial_district": "Mahón",
       "municipality": "Alayor",
-      "description": "Estancia en la isla de Mallorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor. [Nota: el texto dice 'isla de Mallorca' pero geográficamente Mahón/Alayor están en Menorca; probable error tipográfico del original.]",
+      "description": "Estancia en la isla de Mallorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor.",
       "stats": {},
       "cross_references": [
         "Alayor"
       ],
       "confidence": "medium",
-      "note": "Re-extracted from chocr by recover_municipality_articles.py.",
+      "note": "Nota: el texto dice 'isla de Mallorca' pero geográficamente Mahón/Alayor están en Menorca; probable error tipográfico del original.",
       "description_raw": "Estancia en la isla de Mallorca, prov. de Baleares, part. jud. de Mahón, térm. y jurisd. de la v. de Alayor. [Nota: el texto dice 'isla de Mallorca' pero geográficamente Mahón/Alayor están en Menorca; probable error tipográfico del original.]"
     },
     {

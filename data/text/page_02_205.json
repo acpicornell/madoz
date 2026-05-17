@@ -44,13 +44,14 @@
       "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Palma",
-      "description": "Ald. de la isla de Mallorca; corresponde á la jurisd. y felig. de la v. de Palma. Tiene un oratorio público servido por un teniente ó vicario delegado del cura de la matriz. (V. Palma.) [OCR original lee 'part. jud. de Ibiza' — clarament error d'OCR: l'entrada pertany al part. jud. de Palma per context.]",
+      "description": "Ald. de la isla de Mallorca; corresponde á la jurisd. y felig. de la v. de Palma. Tiene un oratorio público servido por un teniente ó vicario delegado del cura de la matriz. (V. Palma.)",
       "stats": {},
       "cross_references": [
         "Palma"
       ],
       "confidence": "medium",
-      "description_raw": "Ald. de la isla de Mallorca; corresponde á la jurisd. y felig. de la v. de Palma. Tiene un oratorio público servido por un teniente ó vicario delegado del cura de la matriz. (V. Palma.) [OCR original lee 'part. jud. de Ibiza' — clarament error d'OCR: l'entrada pertany al part. jud. de Palma per context.]"
+      "description_raw": "Ald. de la isla de Mallorca; corresponde á la jurisd. y felig. de la v. de Palma. Tiene un oratorio público servido por un teniente ó vicario delegado del cura de la matriz. (V. Palma.) [OCR original lee 'part. jud. de Ibiza' — clarament error d'OCR: l'entrada pertany al part. jud. de Palma per context.]",
+      "note": "ALQUERIA (ald. Mallorca, Palma) is OCR-ambiguous: original chocr says 'sit. ea el part. jud. de Ibiza: corresponde á la jurisd. y felig. de la v. de Pálma' — 'Ibiza' here is almost certainly OCR garble (the surrounding context places this aldea under Palma jurisdiction, not Ibiza). Marked as Mallorca/Palma with confidence=medium.\n\nOCR original lee 'part. jud. de Ibiza' — clarament error d'OCR: l'entrada pertany al part. jud. de Palma per context."
     },
     {
       "title": "ALQUERIA",

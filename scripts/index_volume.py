@@ -50,10 +50,70 @@ OUT_DIR = DATA / "index"
 # "ESTARAS ¿son)", "LLANERAS (sój"). To recover those, we accept ANY
 # non-separator char inside the title body — the safeguard is the
 # initial 2+ caps run and the Balearic filter on the body afterwards.
+#
+# Two categories of in-title OCR noise we explicitly tolerate inside
+# the *initial caps run* (the lead word):
+#
+# 1) Punctuation/symbol noise — stripped post-match by
+#    ``_strip_title_noise`` (``F'ORMENTÓR`` → ``FORMENTÓR``,
+#    ``CABRER^A`` → ``CABRERA``).
+#
+# 2) Lowercase glyphs the IA ABBYY OCR routinely produces in place of
+#    uppercase letters in this corpus:
+#      - ``a`` ↔ ``A`` (``SaN JUAN`` → ``SAN JUAN``, ``GaYA`` → ``GAYA``,
+#        ``MaSTAQUERA`` → ``MASTAQUERA``)
+#      - ``h`` ↔ ``E`` (``FhRREDELLS`` → ``FERREDELLS``, downstream
+#        ``fix_title_mismatches.py`` rewrites the ``H`` to ``E``)
+#      - ``ü`` ↔ ``Ü``/``O`` (``FüRMENTO`` → ``FÜRMENTO``, downstream
+#        accent fix rewrites to ``FORMENTO``)
+#    These are uppercased in ``_strip_title_noise`` so the captured
+#    title still reads as caps; the lemma-to-canonical mapping is the
+#    job of the existing ``fix_ocr_*`` family. Calibrated empirically
+#    against tomos 6/8/11/13/15/16 — different set from minano (BSB
+#    scans had ``hnu``; IA ABBYY has ``ah`` + the ``ü`` ↔ ``Ü`` accent
+#    quirk shared with minano).
+#
+# Kept intentionally small: the wider the set the more false positives
+# from peninsular paragraphs whose all-caps shouting words begin with a
+# lowercase glyph.
+TITLE_NOISE_CHARS = r"\^_'"
+TITLE_LOWER_TOLERATED = r"ahü"
+TITLE_NOISE_RE = re.compile(f'[{TITLE_NOISE_CHARS}]+')
+
+
+_LEMMA_RE = re.compile(r"^[^\s\(\)\-]+")
+
+
+def _strip_title_noise(title: str) -> str:
+    """Remove ``^_'`` from a captured title and uppercase the tolerated
+    lowercase-OCR letters — applied only to the **lead lemma** (the
+    first whitespace-/paren-/hyphen-delimited token).
+
+    Madoz titles routinely carry a legitimate lowercase parenthetical
+    specifier (``ACEITE (cala del)``, ``ALBERCUIX (fortaleza de)``,
+    ``CAYETANO (San, vulgo LA CAPELLA)``) and OCR sometimes drops the
+    opening ``(`` entirely (``BARGAS c \\i.\\ DE las)`` — closing
+    paren but no opener), so splitting on ``(`` alone is unsafe. The
+    lead lemma is where the OCR confusion we target lives
+    (``FhRREDELLS``, ``GaYA``, ``FüRMENTO``, ``FUFOXa``), so transform
+    only that first token and leave anything after the first space
+    untouched.
+    """
+    m = _LEMMA_RE.match(title)
+    if not m:
+        return title
+    head = m.group(0)
+    tail = title[len(head):]
+    head = TITLE_NOISE_RE.sub('', head).translate(
+        {ord(c): ord(c.upper()) for c in TITLE_LOWER_TOLERATED}
+    )
+    return head + tail
+
+
 PAT_ENTRY_STRICT = re.compile(
     r'^[\s\'\"~`«»_,\.\-\(\)\[\]\{\}t0\d]{0,6}'  # leading OCR junk
     r'(?P<title>'
-        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9]{1,}'      # initial caps run (>=2)
+        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9' + TITLE_NOISE_CHARS + TITLE_LOWER_TOLERATED + r']{1,}'  # initial caps run (>=2)
         r'[^:;\n]{0,50}?'                       # title body (anything but the separator)
     r')'
     r"\s*(?:[:;]\.?|-\.|\.\-)\s*[\'\"]?\s*"
@@ -75,8 +135,8 @@ PAT_ENTRY_STRICT = re.compile(
 PAT_ENTRY_LOOSE = re.compile(
     r'^[\s\'\"~`«»_,\.\-\(\)\[\]\{\}t0\d]{0,6}'
     r'(?P<title>'
-        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9]{1,}'                  # initial caps run (digits ok for OCR)
-        r'(?:\s+(?:[óòo]\s+)?[A-ZÑÁÉÍÓÚÜ]+(?:[\-,\'][A-ZÑÁÉÍÓÚÜ]+)*)*'   # extra caps words
+        r'[A-ZÑÁÉÍÓÚÜ][A-ZÑÁÉÍÓÚÜ0-9' + TITLE_NOISE_CHARS + TITLE_LOWER_TOLERATED + r']{1,}'  # initial caps run
+        r'(?:\s+(?:[óòo]\s+)?[A-ZÑÁÉÍÓÚÜ' + TITLE_NOISE_CHARS + r']+(?:[\-,\'][A-ZÑÁÉÍÓÚÜ]+)*)*'   # extra caps words
         r'(?:\s*\([A-Za-zñáéíóúÑÁÉÍÓÚÜ0-9\s\.,\-\']{1,30}\))?'  # optional parens
     r')'
     r'[\s\.\,•:;\'\"]{1,4}'                                   # flexible separator
@@ -291,7 +351,25 @@ def index_volume(vol: str) -> list[dict]:
             require_body_marker = True
         if not m:
             continue
-        title = m.group("title").strip(" .,;:-")
+        raw_title = m.group("title")
+        # Caps-dominance filter on the lead lemma. With TITLE_LOWER_TOLERATED
+        # enabled the regex now also matches Titlecase words like ``Banco``,
+        # ``Cartajeoa``, ``Para`` (from statistics-appendix prose), which are
+        # not Madoz headwords. A real OCR-damaged lemma has 1–2 lowercase
+        # glyphs in an otherwise-CAPS lead word (``FhRREDELLS``, ``GaYA``,
+        # ``FüRMENTO``); a Titlecase sentence opener has 4+ lowercase. The
+        # ratio test (≥ 60 % uppercase in the alphabetic chars of the
+        # first whitespace-/paren-/hyphen-delimited token) cuts the line
+        # cleanly between the two.
+        lemma_m = _LEMMA_RE.match(raw_title)
+        if lemma_m:
+            lemma = lemma_m.group(0)
+            alpha = [c for c in lemma if c.isalpha()]
+            if alpha:
+                upper_ratio = sum(1 for c in alpha if c.isupper()) / len(alpha)
+                if upper_ratio < 0.6:
+                    continue
+        title = _strip_title_noise(raw_title).strip(" .,;:-")
         body = m.group("body").strip()
         # Title quality filters
         if not (3 <= len(title) <= 60):

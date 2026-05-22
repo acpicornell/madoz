@@ -36,6 +36,7 @@ Run:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import sys
@@ -119,6 +120,26 @@ _EDITORIAL_TRAIL_RX = re.compile(
 )
 
 
+def _jitter(lon: float, lat: float, key: str, radius: float = 0.0045) -> tuple[float, float]:
+    """Deterministic small offset (~500 m max) for entries that pile up
+    at the same point.
+
+    Many Madoz predios share a parent municipality and end up routed to
+    the same village centre via the matriz fallback (e.g. 101 entries
+    at Pollença, 48 at Santa Margalida, 41 at Maó). Without spreading
+    they render as a single dot and the map loses any sense of how
+    much detail each muni carries. The jitter is derived from a hash
+    of (vol, leaf, title, island) so the same entry always lands at
+    the same offset across runs.
+    """
+    h = int(hashlib.md5(key.encode("utf-8")).hexdigest(), 16)
+    # Polar sampling so points spread within a disc, not a square.
+    import math
+    angle = ((h >> 0) & 0xFFFF) / 0xFFFF * 2 * math.pi
+    dist = ((h >> 16) & 0xFFFF) / 0xFFFF * radius
+    return lon + dist * math.cos(angle), lat + dist * math.sin(angle)
+
+
 def _strip_editorial(title: str) -> str:
     t = _EDITORIAL_SUFFIX_RX.sub('', title)
     t = _EDITORIAL_TRAIL_RX.sub('', t)
@@ -180,7 +201,35 @@ def best_match(title: str, island: str | None, gz_by_island: dict,
     def municipality_match(r):
         if not entry_mun_norm:
             return False
-        return normalize(r.get('mun') or '') == entry_mun_norm
+        mun_norm = normalize(r.get('mun') or '')
+        if not mun_norm:
+            return False
+        if mun_norm == entry_mun_norm:
+            return True
+        # Loose match: 'Maria' ↔ 'Maria de la Salut', 'Sant Llorenç' ↔
+        # 'Sant Llorenç des Cardassar'. Substring on word boundary.
+        if entry_mun_norm in mun_norm.split() + [mun_norm.split()[0] if mun_norm else '']:
+            return True
+        return entry_mun_norm == mun_norm.split()[0] if mun_norm else False
+
+    # Predio-type matches in the *wrong* municipality are almost always
+    # homonym mismatches (every Mallorquin valley has its own Son X
+    # farms; NGIB carries 19 distinct toponyms containing "Monjo", so
+    # picking the Son Monjo of Montuïri for an article describing the
+    # Son Monjo of Campanet is the dominant failure mode). When the
+    # article declares a parent municipality and the candidate is one
+    # of these farm/agroindustrial types in a different muni, reject
+    # the match so the via_matriz fallback (parent village coordinates)
+    # wins instead.
+    FARM_TYPES = ('Finca', 'Construcció agroindustrial', 'Construcció')
+
+    def acceptable(r):
+        if not entry_mun_norm:
+            return True
+        ltype = r.get('local_type') or ''
+        if not any(t in ltype for t in FARM_TYPES):
+            return True
+        return municipality_match(r)
 
     for pool in pools:
         exact = [r for r in pool if r['norm'] == norm_title]
@@ -190,9 +239,11 @@ def best_match(title: str, island: str | None, gz_by_island: dict,
                 r['source'] != 'historical',
                 'Municipi' not in (r.get('local_type') or ''),
             ))
-            res = resolve_to_coords(exact[0], 100, pool)
-            if res:
-                return res
+            cand = exact[0]
+            if acceptable(cand):
+                res = resolve_to_coords(cand, 100, pool)
+                if res:
+                    return res
 
         min_len = max(4, int(len(norm_title) * 0.6))
         choices_filtered = [
@@ -211,11 +262,17 @@ def best_match(title: str, island: str | None, gz_by_island: dict,
                     not municipality_match(pool[idx_map[t[2]]]),
                     -t[1],
                 ))
-                _, score, local_idx = results[0]
-                r = pool[idx_map[local_idx]]
-                res = resolve_to_coords(r, score, pool)
-                if res:
-                    return res
+                # Walk in sorted order, skip unacceptable (wrong-muni
+                # farm) candidates. If everything in the pool is a
+                # wrong-muni farm, fall through to None so the matriz
+                # fallback runs.
+                for _, score, local_idx in results:
+                    r = pool[idx_map[local_idx]]
+                    if not acceptable(r):
+                        continue
+                    res = resolve_to_coords(r, score, pool)
+                    if res:
+                        return res
     return None
 
 
@@ -290,6 +347,14 @@ def main():
             match = best_match(mat, island, gz)
             if match and not match.get('_ambiguous_homonym'):
                 match['via_matriz'] = mat
+                # Spread same-village entries with a small deterministic
+                # jitter so 50+ predios of Pollença / Santa Margalida /
+                # Maó don't render as a single overlap.
+                if match.get('lon') is not None and match.get('lat') is not None:
+                    key = f"{vol}/{leaf}/{title}/{island or ''}"
+                    match['lon'], match['lat'] = _jitter(
+                        match['lon'], match['lat'], key
+                    )
                 emit(match)
                 n_matched += 1
                 n_via_matriz += 1

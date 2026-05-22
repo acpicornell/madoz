@@ -40,7 +40,7 @@ function gotoTab(t) {
     sec.classList.toggle("active", sec.dataset.toptab === t));
   if (t === "stats") renderStats();
   if (t === "demografia") renderDemografia();
-  if (t === "notes") renderNotes();
+  if (t === "abbr") renderAbbreviations();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -609,11 +609,11 @@ function renderDemografia() {
     : '<p class="empty">Sense dades.</p>';
 }
 
-// === NOTES TAB (Madoz abbreviations) ===
-let notesRendered = false;
-async function renderNotes() {
-  if (notesRendered) return;
-  notesRendered = true;
+// === ABREVIATURES TAB ===
+let abbrRendered = false;
+async function renderAbbreviations() {
+  if (abbrRendered) return;
+  abbrRendered = true;
   const container = document.getElementById("abbreviations-container");
   try {
     const res = await fetch("abbreviations.json");

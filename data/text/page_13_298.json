@@ -8,7 +8,7 @@
     {
       "title": "PUIGDERROS",
       "place_type": "predio",
-      "island": null,
+      "island": "Mallorca",
       "judicial_district": "Palma",
       "municipality": "Lluchmayor",
       "description": "predio en la irla de Mallorca, prov. de Baleares, part. jud. de Palma, térm. jurisd. de la v. de Lluchmayor.",
@@ -44,7 +44,7 @@
     {
       "title": "PUIGGROS",
       "place_type": "predio",
-      "island": null,
+      "island": "Mallorca",
       "judicial_district": "Manacor",
       "municipality": "Felanitx",
       "description": "predio en la isla de Mallorca, prov. de Baleares, part. jud. de Manacor, térm. y jurisd. de la v. de Felanitx.",

@@ -32,7 +32,7 @@
     {
       "title": "PONS DE SON LLEBBA",
       "place_type": "alquería",
-      "island": null,
+      "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": "Buger",
       "description": "alq. en la isla de Mal'orca, prov. de Baleares, part. jud. de Inca, térm. y jurisd. de la v. de Buger.",
@@ -44,7 +44,7 @@
     {
       "title": "PONT (can)",
       "place_type": "predio",
-      "island": null,
+      "island": "Mallorca",
       "judicial_district": "Inca",
       "municipality": null,
       "description": "predio en el valle de Cuxach, en la isla de Mallorca, prov. de Baleares, part. jud. de Inca, térm. y jurisd de la v. de Pollenza.",

@@ -15,20 +15,26 @@ DB = PROJECT / "db" / "madoz.duckdb"
 OUT = PROJECT / "web" / "data.json"
 
 
-def _load_coords() -> dict[tuple[str, int, str], dict]:
-    """Per-entry coords keyed by (vol, leaf, title), if available.
+def _load_coords() -> dict[tuple[str, int, str, str], dict]:
+    """Per-entry coords keyed by (vol, leaf, title, island).
 
-    Produced by ``scripts/enrich_coords.py``. Returns an empty dict if
-    the file is missing so export still works before the NGIB pipeline
-    has been run.
+    Produced by ``scripts/enrich_coords.py``. ``island`` is part of the
+    key so that two same-leaf same-title homonyms (e.g. CONSELL Mallorca
+    and CONSELL Menorca on leaf 06/571) keep separate coordinates — a
+    dict keyed only on (vol, leaf, title) silently collapses them and
+    causes the wrong-island bug observed on the live map.
+
+    Returns an empty dict if the file is missing so export still works
+    before the NGIB pipeline has been run.
     """
     coords_path = PROJECT / "data" / "coords.json"
     if not coords_path.exists():
         return {}
     payload = json.loads(coords_path.read_text())
-    by_key: dict[tuple[str, int, str], dict] = {}
+    by_key: dict[tuple[str, int, str, str], dict] = {}
     for c in payload:
-        by_key[(c["vol"], int(c["leaf"]), c["title"])] = c
+        key = (c["vol"], int(c["leaf"]), c["title"], c.get("island") or "")
+        by_key[key] = c
     return by_key
 
 
@@ -62,7 +68,9 @@ def main() -> None:
         # NGIB-derived coordinates (added 2026-05-22). Only inline the
         # numeric fields the map needs — the full match metadata is
         # available in data/coords.json if anyone wants the audit.
-        c = coords_by_key.get((d["vol"], d["leaf"], d["title"]))
+        c = coords_by_key.get(
+            (d["vol"], d["leaf"], d["title"], d.get("island") or "")
+        )
         if c and "lon" in c and "lat" in c:
             d["lon"] = c["lon"]
             d["lat"] = c["lat"]

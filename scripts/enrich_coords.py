@@ -238,63 +238,77 @@ def main():
     n_ambiguous = 0
     missed = []
 
-    for p in sorted((ROOT / 'data' / 'text').glob('page_*.json')):
-        d = json.loads(p.read_text())
-        for e in d.get('entries', []):
-            n_total += 1
-            island = e.get('island')
-            title = e.get('title', '')
+    # Read entries from the DB rather than the per-leaf JSON: the DB is
+    # the authoritative source after fill_missing_islands.py /
+    # fix_title_mismatches.py / recover_*.py have run. The JSON files
+    # are sometimes stale (e.g. JOSE (San) leaf 09/646 has
+    # island='Menorca' in the JSON but the DB correctly has the second
+    # row as Ibiza). Geocoding from stale JSON places homonyms on the
+    # wrong island.
+    DB = ROOT / 'db' / 'madoz.duckdb'
+    con = duckdb.connect(str(DB), read_only=True)
+    rows = con.execute(
+        """SELECT vol, leaf, title, island, municipality
+           FROM text_entries
+           WHERE title IS NOT NULL
+           ORDER BY vol, leaf, title, island"""
+    ).fetchall()
 
-            def emit(extra):
-                coords.append({
-                    'vol': d['vol'], 'leaf': int(d['leaf']),
-                    'title': title, **extra,
-                })
+    for vol, leaf, title, island, mat in rows:
+        n_total += 1
 
-            mat = e.get('municipality')
-            match = best_match(title, island, gz, entry_municipality=mat)
-            if match and not match.get('_ambiguous_homonym'):
-                emit(match)
-                n_matched += 1
-                continue
+        def emit(extra, _vol=vol, _leaf=leaf, _title=title, _island=island):
+            # ``island`` is part of the key so that two same-leaf
+            # same-title homonyms ('CONSELL' Mallorca + 'CONSELL'
+            # Menorca on leaf 06/571) keep separate coordinates.
+            coords.append({
+                'vol': _vol, 'leaf': int(_leaf),
+                'title': _title, 'island': _island, **extra,
+            })
 
-            if match and match.get('_ambiguous_homonym'):
-                island_ngib = ISLAND_ALIAS.get(island)
-                if island_ngib and island_ngib in ISLAND_CENTROID:
-                    lon, lat = ISLAND_CENTROID[island_ngib]
-                    emit({
-                        'lon': lon, 'lat': lat,
-                        'matched': f'(ubicació indeterminada · {island_ngib})',
-                        'score': 0,
-                        'fallback': 'ambiguous-homonym',
-                    })
-                    n_matched += 1
-                    n_ambiguous += 1
-                    continue
+        match = best_match(title, island, gz, entry_municipality=mat)
+        if match and not match.get('_ambiguous_homonym'):
+            emit(match)
+            n_matched += 1
+            continue
 
-            if mat:
-                match = best_match(mat, island, gz)
-                if match and not match.get('_ambiguous_homonym'):
-                    match['via_matriz'] = mat
-                    emit(match)
-                    n_matched += 1
-                    n_via_matriz += 1
-                    continue
-
+        if match and match.get('_ambiguous_homonym'):
             island_ngib = ISLAND_ALIAS.get(island)
             if island_ngib and island_ngib in ISLAND_CENTROID:
                 lon, lat = ISLAND_CENTROID[island_ngib]
                 emit({
                     'lon': lon, 'lat': lat,
-                    'matched': f'(centroide {island_ngib})',
+                    'matched': f'(ubicació indeterminada · {island_ngib})',
                     'score': 0,
-                    'fallback': 'island-centroid',
+                    'fallback': 'ambiguous-homonym',
                 })
                 n_matched += 1
-                n_centroid += 1
+                n_ambiguous += 1
                 continue
 
-            missed.append((title, island))
+        if mat:
+            match = best_match(mat, island, gz)
+            if match and not match.get('_ambiguous_homonym'):
+                match['via_matriz'] = mat
+                emit(match)
+                n_matched += 1
+                n_via_matriz += 1
+                continue
+
+        island_ngib = ISLAND_ALIAS.get(island)
+        if island_ngib and island_ngib in ISLAND_CENTROID:
+            lon, lat = ISLAND_CENTROID[island_ngib]
+            emit({
+                'lon': lon, 'lat': lat,
+                'matched': f'(centroide {island_ngib})',
+                'score': 0,
+                'fallback': 'island-centroid',
+            })
+            n_matched += 1
+            n_centroid += 1
+            continue
+
+        missed.append((title, island))
 
     print(f'\n=== match rate ===', file=sys.stderr)
     print(f'  exact / fuzzy:        {n_matched - n_via_matriz - n_centroid - n_ambiguous:>4}', file=sys.stderr)

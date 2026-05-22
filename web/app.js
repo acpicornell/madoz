@@ -41,6 +41,7 @@ function gotoTab(t) {
   if (t === "stats") renderStats();
   if (t === "demografia") renderDemografia();
   if (t === "notes") renderNotes();
+  if (t === "map") renderMap();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -780,6 +781,131 @@ async function main() {
     console.error(err);
     $("tbody-madoz").innerHTML =
       `<tr><td colspan="8" class="empty" style="color:#b00">Error: ${esc(err.message)}</td></tr>`;
+  }
+}
+
+// === MAPA tab — Leaflet, lazy-loaded ===
+const ISLAND_COLOUR = {
+  "Mallorca":   "#0070b8",
+  "Menorca":    "#0f766e",
+  "Ibiza":      "#c2410c",   // Madoz uses Ibiza/Iviza in the island field
+  "Eivissa":    "#c2410c",
+  "Formentera": "#a04545",
+  "Cabrera":    "#7c3aed",
+  "Baleares":   "#475569",
+};
+let mapInstance = null;
+let mapLeafletLoading = null;
+const mapMarkersAll = [];
+
+function loadLeaflet() {
+  if (window.L) return Promise.resolve();
+  if (mapLeafletLoading) return mapLeafletLoading;
+  mapLeafletLoading = new Promise((resolve, reject) => {
+    const s = document.createElement("script");
+    s.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    s.integrity = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=";
+    s.crossOrigin = "";
+    s.onload = resolve;
+    s.onerror = () => reject(new Error("Leaflet failed to load"));
+    document.head.appendChild(s);
+  });
+  return mapLeafletLoading;
+}
+
+function radiusForAlmas(a) {
+  if (!a || a <= 0) return 4;
+  // sqrt scaling so a 36 000-ànima Palma isn't 1000× a 200-ànima predio
+  return Math.max(4, Math.min(28, Math.sqrt(a) * 0.18));
+}
+
+function buildMapPopupHTML(e) {
+  const stats = e.stats || {};
+  const bits = [];
+  if (e.place_type) bits.push(e.place_type);
+  if (e.island) bits.push(e.island);
+  if (e.municipality) bits.push(e.municipality);
+  if (stats.almas) bits.push(`${fmt(stats.almas)} àn.`);
+  else if (stats.vecinos) bits.push(`${fmt(stats.vecinos)} vec.`);
+  const meta = bits.join(" · ");
+  const desc = (e.description || "").slice(0, 600);
+  const more = (e.description || "").length > 600 ? "…" : "";
+  const fbLabel = {
+    "ambiguous-homonym": "topònim ambigu — ubicació indeterminada",
+    "island-centroid":   "ubicació aproximada al centre de l'illa",
+  }[e.coord_fallback];
+  const fb = fbLabel
+    ? ` <em style="color:#94a3b8">(${esc(fbLabel)})</em>` : "";
+  return (
+    `<h3 class="map-popup-title">${esc(e.title)}</h3>` +
+    `<p class="map-popup-meta">${esc(meta)} · Tom ${e.vol} · pàg. ${e.page_printed || "?"}${fb}</p>` +
+    `<p class="map-popup-desc">${esc(desc)}${more}</p>` +
+    (e.ia_url
+      ? `<a class="map-popup-link" href="${e.ia_url}" target="_blank" rel="noopener">↗ Facsímil a IA</a>`
+      : "")
+  );
+}
+
+async function renderMap() {
+  await loadLeaflet();
+  const el = $("map-canvas");
+  if (!el) return;
+
+  if (!mapInstance) {
+    mapInstance = L.map(el, {
+      center: [39.7, 2.9],
+      zoom: 8,
+      zoomControl: true,
+      scrollWheelZoom: true,
+    });
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 19,
+      subdomains: "abcd",
+    }).addTo(mapInstance);
+
+    for (const e of state.entries) {
+      if (typeof e.lon !== "number" || typeof e.lat !== "number") continue;
+      const stats = e.stats || {};
+      const r = radiusForAlmas(stats.almas || stats.vecinos * 4 || 0);
+      const colour = ISLAND_COLOUR[e.island] || "#475569";
+      const m = L.circleMarker([e.lat, e.lon], {
+        radius: r,
+        color: "#fff",
+        weight: 1.2,
+        fillColor: colour,
+        fillOpacity: e.coord_fallback ? 0.35 : 0.78,
+      });
+      m._madoz_entry = e;
+      m.bindPopup(() => buildMapPopupHTML(e), { maxWidth: 360, minWidth: 280 });
+      mapMarkersAll.push(m);
+    }
+
+    const toggle = $("map-toggle-fallback");
+    if (toggle) {
+      toggle.addEventListener("change", () => syncMapMarkers(toggle.checked));
+    }
+    syncMapMarkers(toggle ? toggle.checked : true);
+
+    const real = mapMarkersAll.filter(m => !m._madoz_entry.coord_fallback);
+    if (real.length) {
+      const group = L.featureGroup(real);
+      mapInstance.fitBounds(group.getBounds().pad(0.08));
+    }
+  } else {
+    setTimeout(() => mapInstance.invalidateSize(), 60);
+  }
+}
+
+function syncMapMarkers(showFallback) {
+  if (!mapInstance) return;
+  for (const m of mapMarkersAll) {
+    const fb = m._madoz_entry.coord_fallback;
+    if (fb && !showFallback) {
+      if (mapInstance.hasLayer(m)) mapInstance.removeLayer(m);
+    } else {
+      if (!mapInstance.hasLayer(m)) m.addTo(mapInstance);
+    }
   }
 }
 

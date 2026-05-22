@@ -1234,43 +1234,39 @@ button.primary:hover { filter: brightness(1.08); }
   font-style: italic;
 }
 
-/* === Notes tab: Madoz abbreviations === */
-/* Single alphabetical table, 2 columns flowing as multi-column on wide
-   screens so it fits the eye like the original Madoz print page. */
-.abbr-table {
-  width: 100%;
-  border-collapse: collapse;
+/* === Abreviatures tab === */
+/* Alphabetical list flowing into multiple visual columns on wide
+   screens. Uses CSS multi-column on a <div> container (not a <table>):
+   browsers do not fragment table layout across CSS columns, which is
+   what produced a single tall column with wasted side whitespace in
+   the original version of this view. */
+.abbr-list {
+  column-count: 4;
+  column-gap: 2.4em;
+  column-rule: 1px solid var(--border-soft, #eee);
   margin-top: 1em;
   font-size: 0.93em;
-  /* Multi-column flow: the table body splits into 2 visual columns on
-     wider viewports. */
-  column-count: 2;
-  column-gap: 2.2em;
-  column-rule: 1px solid var(--border-soft, #eee);
 }
-@media (max-width: 760px) { .abbr-table { column-count: 1; } }
-.abbr-table thead {
-  display: none;  /* header repeats badly across multi-col; the section
-                     intro already announces the contents. */
-}
-.abbr-table tr {
+@media (max-width: 1400px) { .abbr-list { column-count: 3; } }
+@media (max-width: 960px)  { .abbr-list { column-count: 2; } }
+@media (max-width: 560px)  { .abbr-list { column-count: 1; } }
+.abbr-item {
   display: grid;
-  grid-template-columns: 7em 1fr;
-  gap: 0.7em;
-  padding: 0.22em 0;
+  grid-template-columns: 5.5em 1fr;
+  gap: 0.55em;
+  padding: 0.2em 0;
+  line-height: 1.4;
   break-inside: avoid;
+  page-break-inside: avoid;     /* legacy browsers */
   border-bottom: 1px solid var(--border-soft, #eee);
 }
-.abbr-table td {
-  padding: 0;
-  line-height: 1.4;
-}
-.abbr-table td.abbr-cell {
+.abbr-cell {
   font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   font-weight: 600;
   color: var(--accent, #c14a2c);
   white-space: nowrap;
 }
+.abbr-def { color: var(--text); }
 .notes-list {
   line-height: 1.55;
   padding-left: 1.3em;

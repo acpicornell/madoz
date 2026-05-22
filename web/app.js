@@ -619,29 +619,34 @@ async function renderAbbreviations() {
     const res = await fetch("abbreviations.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    // Helper: render an alphabetical 2-col table from a list of [abbr, meaning].
-    const renderTable = items => {
+    // Helper: render an alphabetical multi-column list of (abbr, meaning).
+    // The container uses CSS `column-count` to flow into 2-4 visible
+    // columns depending on viewport — a `<table>` would not work here
+    // because browsers do not fragment table layout across CSS columns,
+    // which is what produced a single tall column with wasted side
+    // whitespace in the original version of this view.
+    const renderList = items => {
       const sorted = [...items].sort(
         (a, b) => norm(a[0]).localeCompare(norm(b[0]), "es")
       );
       const rows = sorted.map(([a, m]) =>
-        `<tr><td class="abbr-cell">${esc(a)}</td><td>${esc(m)}</td></tr>`
+        `<div class="abbr-item"><span class="abbr-cell">${esc(a)}</span><span class="abbr-def">${esc(m)}</span></div>`
       ).join("");
-      return `<table class="abbr-table"><tbody>${rows}</tbody></table>`;
+      return `<div class="abbr-list">${rows}</div>`;
     };
 
     // Official Madoz list (flat alphabetical from all categories).
     const officialItems = data.categories.flatMap(c => c.items);
-    const officialHtml = renderTable(officialItems);
+    const officialHtml = renderList(officialItems);
 
-    // Optional supplementary table (in-entry abbreviations not in the source).
+    // Optional supplementary list (in-entry abbreviations not in the source).
     const supp = data.supplementary;
     const suppHtml = supp ? `
       <div class="modern-intro" style="margin-top:2.5em">
         <h3>${esc(supp.title)}</h3>
         <p>${esc(supp.intro)}</p>
       </div>
-      ${renderTable(supp.items)}
+      ${renderList(supp.items)}
     ` : "";
 
     const notes = (data.context_notes || []).map(n => {

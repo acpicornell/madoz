@@ -16,12 +16,13 @@ data/reports/
 # explicitly when satisfied with quality)
 data/vision/
 
-# NGIB raw download (regenerable from IDEIB via fetch_ngib.py) and the
-# derived gazetteer parquet (regenerable from NGIB via build_gazetteer.py).
-# The final geocoding output (data/coords.json) IS versioned so reviewers
-# can see the placement without running the pipeline.
+# NGIB pipeline outputs (Mapa tab was removed 2026-05-22 because the
+# fuzzy geocoding kept producing wrong placements that were hard to
+# audit; the scripts remain dormant under scripts/ but their outputs
+# are no longer consumed by the web payload, so we don't track them).
 data/ngib/
 data/gazetteer.parquet
+data/coords.json
 
 # DuckDB binary — rebuildable from JSONL cache via scrape_madoz.py --from-cache
 # and load_chocr_index.py. The raw JSONL is versioned so the DB never needs to

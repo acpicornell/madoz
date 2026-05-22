@@ -15,29 +15,6 @@ DB = PROJECT / "db" / "madoz.duckdb"
 OUT = PROJECT / "web" / "data.json"
 
 
-def _load_coords() -> dict[tuple[str, int, str, str], dict]:
-    """Per-entry coords keyed by (vol, leaf, title, island).
-
-    Produced by ``scripts/enrich_coords.py``. ``island`` is part of the
-    key so that two same-leaf same-title homonyms (e.g. CONSELL Mallorca
-    and CONSELL Menorca on leaf 06/571) keep separate coordinates — a
-    dict keyed only on (vol, leaf, title) silently collapses them and
-    causes the wrong-island bug observed on the live map.
-
-    Returns an empty dict if the file is missing so export still works
-    before the NGIB pipeline has been run.
-    """
-    coords_path = PROJECT / "data" / "coords.json"
-    if not coords_path.exists():
-        return {}
-    payload = json.loads(coords_path.read_text())
-    by_key: dict[tuple[str, int, str, str], dict] = {}
-    for c in payload:
-        key = (c["vol"], int(c["leaf"]), c["title"], c.get("island") or "")
-        by_key[key] = c
-    return by_key
-
-
 def main() -> None:
     con = duckdb.connect(str(DB), read_only=True)
     rows = con.execute(
@@ -59,24 +36,9 @@ def main() -> None:
         "note", "madoz_url", "madoz_title", "madoz_content",
     ]
 
-    coords_by_key = _load_coords()
-
     entries = []
-    n_with_coords = 0
     for row in rows:
         d = dict(zip(cols, row))
-        # NGIB-derived coordinates (added 2026-05-22). Only inline the
-        # numeric fields the map needs — the full match metadata is
-        # available in data/coords.json if anyone wants the audit.
-        c = coords_by_key.get(
-            (d["vol"], d["leaf"], d["title"], d.get("island") or "")
-        )
-        if c and "lon" in c and "lat" in c:
-            d["lon"] = c["lon"]
-            d["lat"] = c["lat"]
-            if c.get("fallback"):
-                d["coord_fallback"] = c["fallback"]
-            n_with_coords += 1
         # stats arrives as JSON string from DuckDB; parse so frontend
         # doesn't have to re-parse a string per row.
         if isinstance(d["stats"], str) and d["stats"]:
@@ -122,8 +84,7 @@ def main() -> None:
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    print(f"Wrote {OUT.relative_to(PROJECT)}  ({OUT.stat().st_size/1024:.1f} KB, "
-          f"{len(entries)} entries, {n_with_coords} with coords)")
+    print(f"Wrote {OUT.relative_to(PROJECT)}  ({OUT.stat().st_size/1024:.1f} KB, {len(entries)} entries)")
 
 
 if __name__ == "__main__":

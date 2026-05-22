@@ -46,6 +46,15 @@ FIXES: list[tuple[int, str, int | None]] = [
     (8545, "LLUCALCARI",                    116020),  # was 116018 (LLUCALARI SAN ANTONIO DE)
     (8187, "CAS-CONCOS",                    None),    # add hyphen
     (8875, "SAN LORENZO ó LLORENS DESCARDASAR", None),  # ÜES → DES (OCR mangle)
+    # Third wave (2026-05-22, surfaced by suspicious_titles_audit.py).
+    # Both are double OCR confusions Madoz could not plausibly have
+    # typeset (K in a Catalan toponym; Ü outside «üe/üi» in caps run).
+    # Cross-checked against the chocr: POU COLOMER (predio, Manacor)
+    # appears next to POU NÓU and POU SALAT, all canonical Mallorcan
+    # «POU + X» predios; RAMÜNET GROS is the OCR pair of RAMONET PETIT
+    # (next entry on the same leaf), confirming Ü → O.
+    (8725, "POU COLOMER",                   None),    # K→R, Ü→O
+    (8791, "RAMONET GROS (so)",             None),    # Ü→O
 ]
 
 

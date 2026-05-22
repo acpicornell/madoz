@@ -7,6 +7,7 @@ dependencies = [
     "duckdb>=1.5.0",
     "anthropic>=0.100",
     "python-dotenv>=1.0",
+    "rapidfuzz>=3.0",
 ]
 
 [tool.uv]

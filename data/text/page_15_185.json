@@ -4,5 +4,18 @@
   "page_printed": "181",
   "window": 2,
   "model": "claude-opus-4-7-via-claude-code",
-  "entries": []
+  "entries": [
+    {
+      "title": "TUGORES (so)",
+      "place_type": "predio",
+      "island": "Mallorca",
+      "judicial_district": "Palma",
+      "municipality": "Palma",
+      "description": "Predio en la isla de Mallorca, prov., aud. terr. y c. g. de Baleares, part. jud., térm. y jurisd. de la c. de Palma.",
+      "stats": {},
+      "cross_references": [],
+      "confidence": "high",
+      "note": "Recovered 2026-05-22 by inner_lemma_audit.py: buried after the 'V. Toya' cross-references TUGIA and TLCIENSIS SALTUS in chocr leaf 15/185."
+    }
+  ]
 }

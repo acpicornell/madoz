@@ -287,8 +287,11 @@ tbody tr.is-total td { color: var(--accent-dark); }
 /* === STATS === */
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(2, 1fr);   /* fixed 2 columns → 2×3 grid */
   gap: 1.5em;
+}
+@media (max-width: 900px) {
+  .stats-grid { grid-template-columns: 1fr; }
 }
 .card {
   background: var(--surface);

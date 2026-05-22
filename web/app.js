@@ -318,35 +318,45 @@ function renderStats() {
     }
     return [...m.entries()].sort((a, b) => b[1] - a[1]);
   };
-  const fill = (id, rows, fmtRow) => {
-    const tb = document.querySelector(`#${id} tbody`);
-    tb.innerHTML = rows.length
-      ? rows.map(fmtRow).join("")
-      : '<tr><td class="empty">—</td></tr>';
+  const draw = (id, rows, opts = {}) => {
+    const host = document.getElementById(id);
+    if (!host) return;
+    host.innerHTML = rows.length
+      ? svgBars(rows, opts)
+      : '<p class="empty">—</p>';
   };
-  fill("stat-by-island", count("island"),
-    ([v, n]) => `<tr><td>${esc(v)}</td><td class="num">${fmt(n)}</td></tr>`);
-  fill("stat-by-type", count("place_type").slice(0, 15),
-    ([v, n]) => `<tr><td>${esc(v)}</td><td class="num">${fmt(n)}</td></tr>`);
-  fill("stat-by-district", count("judicial_district"),
-    ([v, n]) => `<tr><td>${esc(v)}</td><td class="num">${fmt(n)}</td></tr>`);
-  fill("stat-by-muni", count("municipality").slice(0, 20),
-    ([v, n]) => `<tr><td>${esc(v)}</td><td class="num">${fmt(n)}</td></tr>`);
-  const byVol = count("vol").sort((a, b) =>
-    a[0].localeCompare(b[0], "ca", { numeric: true }));
-  fill("stat-by-vol", byVol,
-    ([v, n]) => `<tr><td>tom ${esc(v)}</td><td class="num">${fmt(n)}</td></tr>`);
 
+  // Stat charts use svgBars for visual consistency with the Demografia
+  // tab. Bigger barH/gap on the short lists (islands, links) so they
+  // don't render as a tiny stripe inside their card; default sizes
+  // elsewhere so the longer top-15 / top-20 lists stay compact.
+  draw("stat-by-island",   count("island"),
+       { barH: 22, gap: 10, labelW: 130 });
+  draw("stat-by-type",     count("place_type").slice(0, 15),
+       { labelW: 170 });
+  draw("stat-by-district", count("judicial_district"),
+       { barH: 22, gap: 10, labelW: 130 });
+  draw("stat-by-muni",     count("municipality").slice(0, 20),
+       { labelW: 200 });
+
+  // Volume coverage in natural vol order (01–16), not by count.
+  const byVol = count("vol").sort((a, b) =>
+    a[0].localeCompare(b[0], "ca", { numeric: true }))
+    .map(([v, n]) => [`tom ${v}`, n]);
+  draw("stat-by-vol", byVol, { labelW: 90 });
+
+  // Solapament: 4 KPI bars (us total, overlap with curated, our-only,
+  // their total). Wider labels because the descriptions are sentences.
   const total = state.entries.length;
   const linked = state.entries.filter(e => e.madoz_url).length;
   const totalEl = document.getElementById("stats-total-entries");
   if (totalEl) totalEl.textContent = fmt(total);
-  fill("stat-links", [
-    ["Total d'entrades del nostre OCR", total],
-    ["També presents a diccionariomadoz.com", linked],
-    ["Només al nostre OCR", total - linked],
-    ["Total d'articles a diccionariomadoz.com", state.madozTotal],
-  ], ([k, v]) => `<tr><td>${esc(k)}</td><td class="num">${fmt(v)}</td></tr>`);
+  draw("stat-links", [
+    ["Entrades del nostre OCR",          total],
+    ["També a diccionariomadoz.com",     linked],
+    ["Només al nostre OCR",              total - linked],
+    ["Total a diccionariomadoz.com",     state.madozTotal],
+  ], { barH: 22, gap: 10, labelW: 260 });
 }
 
 // === DEMOGRAFIA TAB ===

@@ -919,6 +919,32 @@ footer p:last-child { margin-bottom: 0; }
 .repo-link:hover { color: var(--accent-dark); }
 .repo-icon { width: 1em; height: 1em; }
 
+/* === Notes-prose (scholarly content in the Notes tab) === */
+.notes-prose {
+  margin: 0 0 2.4em;
+  line-height: 1.65;
+  font-size: 1.02em;
+  color: var(--text);
+}
+.notes-prose h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.45em;
+  color: var(--accent-dark);
+  margin: 2.2em 0 0.6em;
+  padding-bottom: 0.25em;
+  border-bottom: 1px solid var(--border);
+  line-height: 1.25;
+}
+.notes-prose h2:first-of-type { margin-top: 1.2em; }
+.notes-prose p {
+  margin: 0 0 1em;
+  text-align: justify;
+  hyphens: auto;
+}
+.notes-prose em { font-style: italic; }
+.notes-prose strong { color: var(--text); }
+.notes-prose a { color: var(--accent-dark); }
+
 /* Madoz table: clickable rows expand inline to reveal the article body. */
 #table-madoz tbody tr.madoz-row { cursor: pointer; }
 #table-madoz tbody tr.madoz-row:hover { background: var(--accent-light); }

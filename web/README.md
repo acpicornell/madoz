@@ -2,7 +2,7 @@
 
 Explorador local dels articles balears del *Diccionario geográfico-estadístico-histórico* de Pascual Madoz (1845-1850).
 
-Web 100% estàtica, sense backend, sense WASM, sense workers. Un sol JSON (~770 KB), JS vanilla.
+Web 100% estàtica, sense backend, sense WASM, sense workers. Un sol JSON (~900 KB), JS vanilla.
 
 ## Llançar
 
@@ -16,15 +16,20 @@ Obre <http://localhost:8001>.
 
 ## Estructura
 
-- `index.html` — single-page app, dues pestanyes (Explorar, Estadístiques)
+- `index.html` — single-page app
 - `style.css` — estil (cream + terracotta, mateixa paleta que el projecte Nomenclàtor IB)
-- `app.js` — UI vanilla, ~280 línies, sense dependències
-- `data.json` (~770 KB) — entrades amb tot el text + URL a diccionariomadoz.com quan hi ha article corresponent (generat amb `scripts/export_web_data.py`)
+- `app.js` — UI vanilla, sense dependències
+- `data.json` (~900 KB, 1217 entries) — generat amb `scripts/export_web_data.py`
+- `abbreviations.json` — glossari d'abreviatures de Madoz
 
 ## Pestanyes
 
-1. **Explorar** — filtres (cerca, illa, partit, municipi, tipus, volum, confiança, només-amb-article-a-diccionariomadoz), taula sortable, descàrrega CSV dels resultats actuals. Clica una fila per veure la descripció completa, els estadístics (vecinos, almas, contribución...), les referències creuades i l'enllaç a diccionariomadoz.com (quan n'hi hagi).
-2. **Estadístiques** — recomptes per illa, tipus de lloc, partit judicial, top 20 municipis, cobertura per volum i solapament amb diccionariomadoz.com.
+1. **Inici** — visió general del projecte, estadístiques de portada.
+2. **Explorar** — filtres (cerca, illa, partit, municipi, tipus, volum, confiança), taula sortable, descàrrega CSV dels resultats actuals. Clica una fila per veure la descripció completa, els estadístics (vecinos, almas, contribución…) i les referències creuades.
+3. **Estadístiques** — recomptes per illa, tipus de lloc, partit judicial, top 20 municipis i cobertura per volum.
+4. **Demografia** — gràfics SVG inline a partir del camp `stats` JSON de cada article.
+5. **Notes** — notes acadèmiques sobre el Diccionari de Madoz.
+6. **Abreviatures** — glossari de les abreviatures que usa Madoz al text.
 
 ## Re-exportar el JSON després de tocar la BD
 

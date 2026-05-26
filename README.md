@@ -25,11 +25,7 @@ text. Concretely, every entry should have:
   contribución, productive infrastructure counts) where they appear
   inline in the article prose.
 
-Source of truth is the Internet Archive facsimile alone. An earlier
-version of this project also indexed a third-party WordPress mirror
-([diccionariomadoz.com](https://diccionariomadoz.com)) as a parallel
-transcription set, but the mirror was removed: its licence is unclear
-and the upstream project has not been updated since 2023. The 1217-
+Source of truth is the Internet Archive facsimile alone. The 1217-
 entry corpus has been independently validated against a second OCR
 engine (Tesseract 5 + Apple Vision) to confirm it captures every
 Balearic article ABBYY's hOCR could plausibly recover from the facsimile.
@@ -147,11 +143,10 @@ Promotes the rows to `confidence='medium'` afterwards.
 
 ### Phase 4 — Independent OCR validation
 
-**Why.** With the curated diccionariomadoz.com mirror removed, the
-corpus has no external ground-truth set to cross-check against.
-Re-running the facsimile through a second, completely independent OCR
-engine — one whose failure modes have no correlation with ABBYY's —
-gives us that check. Two questions to answer empirically:
+**Why.** The corpus has no external ground-truth set to cross-check
+against. Re-running the facsimile through a second, completely
+independent OCR engine — one whose failure modes have no correlation
+with ABBYY's — gives us that check. Two questions to answer empirically:
 
   1. Does ABBYY's hOCR (the source of `chocr_entries`) silently drop
      any Balearic article whose first paragraph it mangled past
@@ -278,8 +273,8 @@ Fix: `recover_municipality_articles.py` reads a ±4-leaf chocr window
 around each candidate so the model can see continuation, and re-asks
 for the **full body of the named target only**, ignoring adjacent
 peninsular homonyms. The script is idempotent and only touches rows
-whose description is < 1/2 of the curated mirror's length (a signal
-for "we truncated this").
+whose description is short enough that "we truncated this" is the
+most likely explanation.
 
 Lesson: **always size the context window to the article, not to the
 page.** Where articles cross leaves, sliding-window context beats
@@ -332,10 +327,9 @@ cross-checked by `scripts/verify_titles_tesseract.py`, which re-OCRs
 the corresponding PDF page with Tesseract `spa` and reports whether
 the cleaner reading matches the manual fix.
 
-Note on policy: we preserve Madoz's own typos verbatim (the IA
-facsimile is the source of truth, not the curated mirror's "natural"
-reading). The audit catches OCR misreads; it does not "correct"
-Madoz.
+Note on policy: we preserve Madoz's own typos verbatim. The IA
+facsimile is the source of truth; the audit catches OCR misreads, it
+does not "correct" Madoz.
 
 Lesson: **for OCR-derived titles, treat any below-threshold similarity
 hit as either a real OCR typo to fix or a real homonym to verify.**

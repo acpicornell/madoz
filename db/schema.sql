@@ -12,13 +12,6 @@
 --    the Max plan) reading the chocr plaintext for each leaf and
 --    extracting a structured record. This is what the static website
 --    consumes.
---
--- An earlier version of the project also indexed a third-party mirror
--- (diccionariomadoz.com) into madoz_entries / madoz_tags /
--- madoz_entry_tags, and stored a madoz_entry_id FK on both
--- chocr_entries and text_entries. The mirror was removed (licence
--- unclear, upstream project inactive since 2023); the tables and FK
--- columns are gone.
 
 CREATE SEQUENCE IF NOT EXISTS seq_chocr_id START 1;
 

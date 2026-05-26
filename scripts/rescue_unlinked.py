@@ -4,10 +4,6 @@ Balearic article that the LLM-extraction phase dropped (because the
 chocr title was OCR-mangled beyond recognition, because the
 extraction window cropped the wrong paragraph, etc.).
 
-This is the only phase that survived the diccionariomadoz.com mirror
-removal. The earlier four phases relied on the curated mirror as a
-ground-truth set; they no longer have a target.
-
 Inserts a text_entries row with confidence='unverified' and
 model='chocr-snippet' so the cleanup_unverified.py pass can later
 normalise OCR artefacts and verify titles against Tesseract or PDF.

@@ -59,7 +59,6 @@ def main() -> None:
             e["title"],
             e.get("context"),
             e.get("source") or "regex",
-            None,  # madoz_entry_id — populated by a separate match step
             e.get("place_type"),
             e.get("island"),
             e.get("judicial_district"),
@@ -67,9 +66,9 @@ def main() -> None:
         ))
     con.executemany(
         """INSERT INTO chocr_entries
-           (vol, leaf, page_printed, title, context, source, madoz_entry_id,
+           (vol, leaf, page_printed, title, context, source,
             place_type, island, judicial_district, municipality)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         payload,
     )
     con.execute("COMMIT")

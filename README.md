@@ -25,13 +25,14 @@ text. Concretely, every entry should have:
   contribución, productive infrastructure counts) where they appear
   inline in the article prose.
 
-Other transcriptions of Madoz exist online — most notably
-[diccionariomadoz.com](https://diccionariomadoz.com), a careful
-WordPress-based mirror we cross-reference throughout the pipeline.
-This project is not a replacement for that work; it's a parallel
-effort with a different shape (Balearic-only, primary-source index,
-LLM-extracted structured fields, machine-readable export, demographic
-charts). Where useful, both can be consulted side by side.
+Source of truth is the Internet Archive facsimile alone. An earlier
+version of this project also indexed a third-party WordPress mirror
+([diccionariomadoz.com](https://diccionariomadoz.com)) as a parallel
+transcription set, but the mirror was removed: its licence is unclear
+and the upstream project has not been updated since 2023. The 1217-
+entry corpus has been independently validated against a second OCR
+engine (Tesseract 5 + Apple Vision) to confirm it captures every
+Balearic article ABBYY's hOCR could plausibly recover from the facsimile.
 
 ## What lives where
 
@@ -40,16 +41,16 @@ data/
   chocr/             # hOCR per volume (gitignored, ~1 GB total)
   page_numbers/      # leaf→page maps per volume (gitignored)
   txt_djvu/          # plain OCR text per volume (gitignored)
+  pdf/               # facsimile PDFs from IA (gitignored, ~1.5 GB)
   pages/             # page JPEGs (gitignored)
   text/_chocr/       # per-leaf chocr windows used by extraction
   text/              # per-leaf extracted JSON (one file per leaf, versioned)
   index/             # per-volume + merged JSONL indexes (versioned)
-  madoz/             # raw WP REST scrape (versioned)
-  reports/           # audit HTML reports (versioned)
+  tesseract/         # parallel Tesseract OCR output (gitignored)
 db/
   schema.sql              # DuckDB schema (versioned)
   madoz.duckdb            # built DB (gitignored, regenerable)
-scripts/                  # all pipeline + maintenance scripts
+scripts/                  # pipeline + maintenance scripts
 web/
   index.html
   app.js
@@ -58,27 +59,23 @@ web/
   abbreviations.json      # Madoz abbreviation glossary
 ```
 
-The local DuckDB carries **three** independent entry sources side by
-side, complementary rather than competing:
+The local DuckDB carries two complementary tables:
 
 ```
 db/madoz.duckdb
-├── madoz_entries           ← scraped from diccionariomadoz.com (1152 rows)
-├── chocr_entries           ← regex parse of IA hOCR              (1198 rows)
-└── text_entries            ← Claude-extracted article bodies     (1183 rows)
+├── chocr_entries           ← regex parse of IA hOCR              (1202 rows)
+└── text_entries            ← Claude-extracted article bodies     (1217 rows)
 ```
 
-`madoz_entries` carries a parallel human transcription and structured
-fields useful for cross-reference; `chocr_entries` is an exhaustive
-machine-readable index of the facsimile that carries OCR noise in
-titles; `text_entries` is the working canonical output that the
+`chocr_entries` is an exhaustive machine-readable index of the
+facsimile that carries OCR noise in titles; `text_entries` is the
+working canonical output that the
 website renders. Each `text_entries` row carries `(vol, leaf,
-page_printed)` for citation, plus an optional `madoz_entry_id` linking
-it back to `madoz_entries` for side-by-side display.
+page_printed)` for citation.
 
 ## Pipeline
 
-Five phases. The earlier ones build a clean index; the later ones turn
+Four phases. The earlier ones build a clean index; the later ones turn
 that index into structured article bodies and ship them.
 
 ### Phase 1 — Index from chOCR (deterministic, free)
@@ -107,18 +104,7 @@ Output → `data/index/tomo<vol>.jsonl`, merged into
  "context": "V. de la isla de Mallorca, prov., aud. terr..."}
 ```
 
-### Phase 2 — Scrape + recover (cross-reference)
-
-`scrape_madoz.py` pulls the curated entries from diccionariomadoz.com's
-WP REST API into `madoz_entries`, politely paced (1.5 s between
-requests, exponential backoff on 429/5xx).
-
-`recover_missing.py` then takes the curated entries that Phase 1
-missed and fuzzy-matches each title against paragraph heads in the
-chocr. Hits are tagged `source='scrape'` and written to
-`data/index/from_scrape.jsonl`; misses go to `unrecoverable.jsonl`.
-
-### Phase 3 — Claude text extraction over chocr (canonical path)
+### Phase 2 — Claude text extraction over chocr (canonical path)
 
 `scripts/stage_chocr.py` writes per-leaf chocr windows under
 `data/text/_chocr/`. `scripts/extract_text.py` then walks every
@@ -138,55 +124,66 @@ One JSON file per leaf goes to `data/text/page_<vol>_<leaf>.json`;
 extraction prompt explicitly **skips numeric stats tables** (the chocr
 mangles them; see "Difficulties").
 
-### Phase 4 — Recovery + corrections (idempotent)
+### Phase 3 — Rescue + cleanup
 
-Several scripts patch the leaf-by-leaf output after the fact:
+`scripts/link_text_entries.py` cross-links every `text_entries` row to
+its corresponding `chocr_entries` row (same `vol`/`leaf`, fuzzy title
+match handling B↔V, accent strip, OCR digit confusions).
 
-| Script | What it fixes |
-|---|---|
-| `recover_municipality_articles.py` | Mega-articles (PALMA, MAHON, IBIZA, ALCUDIA, …) truncated because the per-leaf cap clipped them mid-article. Reads a ±4-leaf chocr window and re-extracts the full body. Idempotent: rows already marked `Re-extracted from chocr` are skipped unless `--include-done`. |
-| `recover_palma.py` | Hand-transcribed PALMA `part. jud.` + PALMA `c.` (the LLM had attached tail-of-peninsular-article noise; manually replaced with the actual Balearic text from chocr leaves 12/586 + 12/588). |
-| `recover_homonym_extras.py`, `recover_refal_extras.py`, `recover_refalet_extras.py`, `recover_salas_isleta.py` | Recover specific homonyms the leaf parse missed (multiple distinct articles sharing one leaf). |
-| `dedup_municipality_articles.py` | Detect and merge duplicate municipality rows extracted from neighbouring leaves (e.g. MAHON 8585 ↔ 8594). |
-| `fix_title_mismatches.py` | Hand-maintained list of OCR-title corrections (`CASCONCOS` → `CAS-CONCOS`, `LLUCALCARI` re-linked from Menorcan homonym to Mallorcan, …). |
-| `fix_ocr_*.py` (open-paren, close-paren, accent-abbrev, digit, spacing, replaced-open-paren) | Class-by-class OCR-title fixups, each script handling one error pattern. |
-| `clean_descriptions.py`, `normalize_ocr_regex.py` | Regex-deterministic OCR-glue cleanup over the `description` column. |
-| `move_bracketed_notes.py` | Strip bracketed editorial annotations out of `description` into the dedicated `note` field. |
-| `fill_medium_conf_fields.py`, `fill_missing_islands.py`, `normalize_municipalities.py`, `normalize_judicial_districts.py`, `normalize_place_types.py`, `normalize_medium_conf.py`, `infer_place_types.py` | Backfill / canonicalise structured fields when the extraction left them blank or non-standard. |
-| `link_text_entries.py`, `apply_curated_links.py` | Maintain the `text_entries.madoz_entry_id` foreign key for cross-source verification. |
-| `purge_non_balearic.py` | Drop rows whose article body, on inspection, turned out to be a peninsular homonym. |
-| `audit_similarity.py`, `audit_homonyms.py`, `audit_leaf_drift.py` | Generate HTML reports under `data/reports/` flagging suspicious title/content divergence and leaf-vs-printed-page drift. |
+`scripts/rescue_unlinked.py` looks for `chocr_entries` paragraphs that
+clearly describe a Balearic place but never produced a `text_entries`
+row (because the extraction LLM dropped them, the OCR title was
+mangled past the regex, etc.). Promotes them with
+`confidence='unverified'` and `model='chocr-snippet'`.
+
+`scripts/cleanup_unverified.py` applies a deterministic typographic
+cleanup pass over the unverified rows (R/P→B in `Raleares` /
+`Paleares`, glued abbreviations, OCR-junk characters, soft-hyphen
+stitches) plus a hand-curated TITLE_FIXES table for OCR-mangled
+lemmas (`AKL4NT` → `ARIANT`, `IUMIS (Son` → `RAMIS (Son)`, etc.).
+Promotes the rows to `confidence='medium'` afterwards.
+
+### Phase 4 — Independent OCR validation
+
+Second OCR pass via Tesseract 5 (`spa` trained data) across all 16
+volumes. `scripts/tesseract_reocr_all.py` renders each PDF page at
+300 dpi and runs 10 parallel Tesseract workers; on an Apple M4 Pro
+the full corpus completes in ~50 minutes.
+
+`scripts/verify_titles_tesseract.py` cross-checks each manual
+`TITLE_FIXES` entry against the Tesseract reading of the
+corresponding facsimile page (e.g. tom02 PDF page 560 confirms ABBYY's
+`AKL4NT` is canonical `ARIANT`). `scripts/tesseract_full_xref.py`
+runs the full-corpus comparison: every Tesseract-detected Balearic
+opener against the DB, surfacing any article ABBYY missed
+(0 in the current run — the corpus is essentially complete).
 
 ### Phase 5 — Web export + static site
 
-`scripts/export_web_data.py` flattens `text_entries ⋈ madoz_entries`
-into a single `web/data.json` (~1.1 MB, 1183 entries). The site is a
-plain SPA — vanilla JS, no framework, no DuckDB-WASM — that filters
-and renders entries with their volume/page provenance, OCR-fix notes,
-and (when meaningfully longer) a "📖 Versió ampliada de
-diccionariomadoz.com" supplement for cross-reference.
+`scripts/export_web_data.py` dumps `text_entries` to a single
+`web/data.json` (~900 KB, 1217 entries). The site is a plain SPA —
+vanilla JS, no framework, no DuckDB-WASM — that filters and renders
+entries with their volume/page provenance and OCR-fix notes.
 
 Tabs: **Home** (project intro), **Explore** (search + faceted filter),
 **Estadístiques** (coverage tables: by island, place type, judicial
-district, top 20 munis, volume coverage, overlap with the curated
-mirror), **Demografia** (inline SVG charts: top 20 munis by ànimes and
-by riquesa imponible, ànimes-vs-riquesa slope graph, riquesa per
-capita, aggregated population by island, productive infrastructure,
+district, top 20 munis, volume coverage), **Demografia** (inline SVG
+charts: top 20 munis by ànimes and by riquesa imponible, ànimes-vs-
+riquesa slope graph, riquesa per capita, aggregated population by
+island, productive infrastructure,
 contribution per inhabitant), **Notes** (working notebook).
 
 ## Current status
 
 | Metric | Value |
 |---|---:|
-| `text_entries` rows | **1 183** |
-| Mallorca / Menorca / Ibiza / Formentera / Cabrera | 994 / 115 / 41 / 8 / 1 |
-| Distinct `(vol, leaf)` pairs covered | 693 |
-| Linked to a `madoz_entries` row | 1 042 (88 %) |
+| `text_entries` rows | **1 217** |
+| Confidence high / medium / unverified | 1 041 / 176 / 0 |
+| Distinct `(vol, leaf)` pairs covered | ~715 |
 | Entries with structured `stats` | 99 (8 %) |
-| Entries with `almas` figure | 61 |
-| Entries with `riqueza_imponible` figure | 47 |
-| `madoz_entries` total (curated mirror) | 1 152 |
-| `chocr_entries` total (raw OCR index) | 1 198 |
+| `chocr_entries` total (raw OCR index) | 1 202 |
+| Tesseract validation pages re-OCRed | 11 894 (all 16 volumes) |
+| Novel Balearic articles found by Tesseract | 0 (corpus complete) |
 
 ## Difficulties (what didn't work, and why)
 
@@ -295,19 +292,19 @@ Cases hit so far: `CASCONCOS` → `CAS-CONCOS`, `BINIBECA` →
 `BINI-BECA`, `BINISALEM` (Madoz actually prints `BENISALEM`),
 `BINISAFULLA ó BINI-SAFAYA`, `CUEVALARGA` → `CUEVA-LARGA`,
 `LLUGALGARI` → `LLUCALCARI`, `SAN LORENZO ó LLORENS ÜESCARDASAR` →
-`SAN LORENZO ó LLORENS DESCARDASAR`. Some of these also need their
-`madoz_entry_id` re-pointed because the curated mirror's title used
-the corrected spelling but our index used the OCR one.
+`SAN LORENZO ó LLORENS DESCARDASAR`, plus the OCR-mangled rescue set
+(`AKL4NT` → `ARIANT`, `ARIA5íV` → `ARIANY`, `BOSCII` → `BOSCH`,
+`F1ÜL` → `FIOL`, `LLE.\An\E` → `LLENAIRE`, `LLI.NWS` → `LLINAS`,
+`LLOBACII` → `LLOBACH`, `PEDRÜXELLA (cnAN)` → `PEDRUXELLA (Gran)`,
+`PERPlHA` → `PERPIÑA`, `IUMIS (Son` → `RAMIS (Son)`,
+`HA SOS ÍCADO DE)` → `BAJOS (cabo de)`).
 
-`fix_title_mismatches.py` carries the canonical fix list as a `FIXES =
-[(text_entry_id, new_title, new_madoz_entry_id), …]` tuple so the same
-correction never needs hand-applying twice. The `fix_ocr_*` family
-handles whole classes of mechanical OCR errors (unmatched parens,
-misread digits in titles, accent-abbrev confusions, spacing). The
-`audit_similarity.py` report
-(`data/reports/similarity_audit.html`) is how we surface new ones:
-side-by-side compare of our description vs. the curated mirror,
-ordered by SequenceMatcher delta.
+`scripts/cleanup_unverified.py` carries the canonical fix list as a
+`TITLE_FIXES = {text_entry_id: (new_title, reason), …}` dict so the
+same correction never needs hand-applying twice. The fixes are
+cross-checked by `scripts/verify_titles_tesseract.py`, which re-OCRs
+the corresponding PDF page with Tesseract `spa` and reports whether
+the cleaner reading matches the manual fix.
 
 Note on policy: we preserve Madoz's own typos verbatim (the IA
 facsimile is the source of truth, not the curated mirror's "natural"
@@ -362,33 +359,26 @@ for v in $(seq -w 1 16); do python scripts/fetch_volume.py $v; done
 for v in $(seq -w 1 16); do python scripts/index_volume.py $v; done
 python scripts/merge_index.py
 
-# 3. Scrape the curated mirror (or skip if data/madoz/posts.jsonl exists)
-python scripts/scrape_madoz_extras.py    # only mis-categorised slugs
-python scripts/scrape_madoz.py           # full scrape; ~30 min
-python scripts/recover_missing.py        # locate misses in the chocr
-
-# 4. Load regex + scrape into DuckDB
+# 3. Load the chocr index into DuckDB
 python scripts/load_chocr_index.py
 
-# 5. LLM extraction over chocr text (costs API credits)
+# 4. LLM extraction over chocr text (costs API credits)
 python scripts/stage_chocr.py            # writes data/text/_chocr windows
 python scripts/extract_text.py           # per-leaf Sonnet extraction
 python scripts/load_text.py              # flatten data/text/ into text_entries
 
-# 6. Recovery + corrections (idempotent; re-run anytime)
-python scripts/recover_palma.py --apply
-python scripts/recover_homonym_extras.py --apply
-python scripts/recover_refal_extras.py --apply
-python scripts/recover_refalet_extras.py --apply
-python scripts/recover_salas_isleta.py --apply
-python scripts/recover_municipality_articles.py --all-municipalities --apply
-python scripts/dedup_municipality_articles.py --apply
-python scripts/fix_title_mismatches.py --apply
-python scripts/clean_descriptions.py --apply
-python scripts/normalize_ocr_regex.py --apply
-python scripts/move_bracketed_notes.py --apply
-python scripts/link_text_entries.py
-python scripts/apply_curated_links.py
+# 5. Link + rescue + cleanup
+python scripts/link_text_entries.py      # text↔chocr cross-link
+python scripts/rescue_unlinked.py --apply       # promote chocr-only Balearic openers
+python scripts/cleanup_unverified.py --apply    # OCR typographic cleanup
+
+# 6. (Optional) Independent OCR validation via Tesseract
+for v in $(seq -w 1 16); do
+  curl -sL "https://archive.org/download/diccionariogeogr${v}mado/diccionariogeogr${v}mado.pdf" \
+       -o "data/pdf/tomo${v}.pdf"
+done
+python scripts/tesseract_reocr_all.py --workers 10 --dpi 300   # ~50 min on M-series
+python scripts/tesseract_full_xref.py                          # cross-check vs DB
 
 # 7. Export the static site payload
 python scripts/export_web_data.py
@@ -401,15 +391,10 @@ python scripts/export_web_data.py
 python scripts/index_volume.py 02 && python scripts/merge_index.py
 
 # Refresh the DB after JSONL changes
-python scripts/scrape_madoz.py --from-cache
 python scripts/load_chocr_index.py
 
 # Re-export the web payload after any text_entries change
 python scripts/export_web_data.py
-
-# Inspect divergence vs. the curated mirror
-python scripts/audit_similarity.py --titles-same
-open data/reports/similarity_audit.html
 
 # Serve the site locally
 python -m http.server -d web 8000
@@ -430,5 +415,4 @@ run a modified version of this software as a network service, you must
 offer the source of your modifications to the users of that service.
 
 Underlying data carries the licence of its origin: the Madoz facsimile
-(Internet Archive scans of an 1845–1850 work) is public domain;
-diccionariomadoz.com's transcriptions are credited where used.
+(Internet Archive scans of an 1845–1850 work) is public domain.

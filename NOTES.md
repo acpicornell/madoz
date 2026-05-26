@@ -1,10 +1,21 @@
 # Madoz ben fet — notes inicials
 
+> **Nota (2026-05-26)**: aquestes notes són la motivació original del
+> projecte (maig 2025). Reflecteixen un disseny inicial que cotejava
+> el corpus contra el mirall de diccionariomadoz.com. Aquell mirall es
+> va eliminar del projecte per dues raons: la seva llicència no és
+> explícita (incompatible amb la publicació AGPL-3.0 del nostre codi i
+> dades) i el projecte upstream no s'ha actualitzat des de 2023. La
+> validació encreuada es fa ara amb un segon OCR independent
+> (Tesseract 5) sobre el mateix facsímil IA. Vegeu el README per
+> l'arquitectura actual; aquesta nota es manté com a registre
+> històric.
+
 Side-project segregat de [Nomenclator](https://github.com/acpicornell/nomenclator).
 Objectiu: re-digitalitzar el subset balear del *Diccionario geográfico-
 estadístico-histórico de España y sus posesiones de Ultramar* de Pascual
-Madoz (1845–1850) amb qualitat superior a la transcripció actual de
-diccionariomadoz.com.
+Madoz (1845–1850) directament dels facsímils en domini públic
+d'Internet Archive.
 
 ## Motivació
 

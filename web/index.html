@@ -87,13 +87,11 @@
       Una extracció completa dels articles <strong>balears</strong> del Madoz, treballada en dues
       passades: primer, un escanejat OCR (chocr d'<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>)
       identifica els articles del territori illenc; després, un model de llenguatge (Claude Opus
-      4.7) llegeix el text dels 693 fulls de Madoz que contenen entrades balears i en treu el camp
+      4.7) llegeix el text dels fulls de Madoz que contenen entrades balears i en treu el camp
       estructurat: títol, tipus de lloc, illa, partit judicial, municipi, descripció, estadístics
-      (vecinos, almas, contribución…) i referències creuades. Els resultats es cotegen amb la
-      transcripció web de <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>
-      i passen per un pipeline de scripts de neteja —<code>purge_non_balearic.py</code>,
-      <code>normalize_*</code>— que elimina falsos positius (homònims peninsulars que s'havien
-      colat) i unifica les variants OCR.
+      (vecinos, almas, contribución…) i referències creuades. Posteriorment validem amb un
+      segon OCR independent (Tesseract 5 sobre el mateix facsímil) per confirmar que el conjunt
+      de 1217 entries està essencialment complet i corregir títols afectats per soroll OCR.
     </p>
   </div>
 
@@ -142,9 +140,7 @@
       <strong>domini públic</strong>. Els facsímils provenen de la digitalització feta per la
       <strong>Universitat de Toronto</strong> (Robarts Library) i allotjats a
       l'<a href="https://archive.org/" target="_blank" rel="noopener">Internet Archive</a>
-      (chocr = compressed hOCR). Cotejada amb la transcripció moderna article-per-article de
-      <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>,
-      emprada per cita amb atribució — els drets sobre les seves transcripcions corresponen als seus autors.
+      (chocr = compressed hOCR).
     </p>
     <p>
       L'extracció estructurada s'ha fet amb <a href="https://www.anthropic.com" target="_blank" rel="noopener">Claude Opus 4.7</a>
@@ -174,8 +170,7 @@
     </p>
     <p>
       La columna <strong>Vol/Full</strong> indica on viu l'entrada als 16 volums originals
-      (1845–1850). L'estrella ★ marca les entrades que també apareixen a diccionariomadoz.com
-      (un altre projecte de transcripció, útil per cotejar).
+      (1845–1850); el lemma enllaça al facsímil corresponent a Internet Archive.
     </p>
   </div>
   <div class="modern-explorer">
@@ -213,9 +208,6 @@
           <option value="medium">Mitjana</option>
           <option value="low">Baixa</option>
         </select>
-      </div>
-      <div class="filter-group">
-        <label class="checkbox-line"><input id="f-only-madoz" type="checkbox"> Només amb article a diccionariomadoz.com</label>
       </div>
       <button id="f-clear" class="ghost">Netejar filtres</button>
       <button id="f-export" class="ghost btn-export" title="Descarrega un CSV amb tots els resultats actuals">Descarregar CSV</button>
@@ -265,13 +257,6 @@
     <div class="stat-card">
       <h3>Per partit judicial</h3>
       <div id="stat-by-district" class="stat-chart"><p class="empty">—</p></div>
-    </div>
-    <div class="stat-card">
-      <h3>Solapament amb diccionariomadoz.com</h3>
-      <p style="color:var(--text-muted);font-size:0.88em;margin:0 0 0.6em">
-        Quantes entrades del nostre OCR també tenen article a diccionariomadoz.com (l'altre projecte de transcripció).
-      </p>
-      <div id="stat-links" class="stat-chart"><p class="empty">—</p></div>
     </div>
     <div class="stat-card">
       <h3>Top 20 municipis</h3>
@@ -525,15 +510,9 @@
       A diferència de Miñano, el Diccionari de Madoz ha estat repetidament reeditat
       en format facsímil per <strong>comunitat autònoma</strong> al llarg del darrer
       mig segle (Andalusia, Aragó, Castella i Lleó, País Valencià, Galícia, entre
-      moltes altres), i ha estat objecte de bibliografia secundària abundant. La
-      seva presència a la xarxa, però, ha estat tradicionalment fragmentària.
-      L'esforç de transcripció més extens i sostingut és el de
-      <a href="https://www.diccionariomadoz.com/" target="_blank" rel="noopener">diccionariomadoz.com</a>,
-      un projecte privat que ha publicat sistemàticament la transcripció text de
-      la major part del corpus al llarg de més d'una dècada de feina. Aquesta
-      edició s'hi coteja explícitament: cada entrada porta enllaç a la versió
-      pública del mirror i l'utilitza com a referència de control creuat, sense
-      pretendre suplantar-lo.
+      moltes altres), i ha estat objecte de bibliografia secundària abundant. Aquesta
+      edició treballa exclusivament a partir dels facsímils en domini públic de
+      Internet Archive, sense dependència de transcripcions de tercers.
     </p>
 
     <h2>Mètode d'extracció</h2>

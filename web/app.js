@@ -11,7 +11,6 @@ const state = {
   type: "",
   vol: "",
   conf: "",
-  only_madoz: false,
   sort_col: "title",
   sort_dir: "asc",
 };
@@ -75,7 +74,6 @@ function matchesExcept(e, exceptKey) {
     const v = state[f.stateKey];
     if (v && e[f.field] !== v) return false;
   }
-  if (state.only_madoz && !e.madoz_url) return false;
   if (state.search) {
     const hay = norm((e.title || "") + " " + (e.description || ""));
     if (!hay.includes(norm(state.search))) return false;
@@ -152,12 +150,11 @@ function renderTable() {
   const slice = state.filtered.slice(0, 500);
   const dot = c => c === "high" ? "●" : c === "medium" ? "◐" : c === "low" ? "○" : "—";
   tbody.innerHTML = slice.map(e => {
-    const mark = e.madoz_url ? '<span class="link-mark" title="També té article a diccionariomadoz.com">★</span>' : "";
     const volLeaf = e.ia_url
       ? `<a href="${esc(e.ia_url)}" target="_blank" rel="noopener" class="ia-link" title="Obre el facsímil a Internet Archive (pàgina sencera)">${esc(e.vol)}/${esc(e.leaf)} ↗</a>`
       : `${esc(e.vol)}/${esc(e.leaf)}`;
     return `<tr data-id="${e.id}" class="madoz-row">
-      <td><strong>${esc(e.title)}</strong> ${mark}</td>
+      <td><strong>${esc(e.title)}</strong></td>
       <td>${esc(e.place_type || "—")}</td>
       <td>${esc(e.island || "—")}</td>
       <td>${esc(e.judicial_district || "—")}</td>
@@ -202,28 +199,10 @@ function toggleExpand(tr) {
     crefsHtml = `<div class="entry-crefs"><strong>Referències creuades:</strong> ` +
       e.cross_references.map(c => `<code>${esc(c)}</code>`).join(", ") + `</div>`;
   }
-  const madozLink = e.madoz_url
-    ? `<a href="${esc(e.madoz_url)}" target="_blank" rel="noopener">Veure a diccionariomadoz.com →</a>`
-    : `<span class="text-muted">(sense article corresponent a diccionariomadoz.com)</span>`;
   const noteHtml = e.note
     ? `<details class="entry-note">
         <summary>📝 Nota d'extracció</summary>
         <p class="entry-note-body">${esc(e.note)}</p>
-      </details>`
-    : "";
-
-  // Mega-article complement: when diccionariomadoz.com has significantly
-  // more text than our OCR, offer a toggle to read their fuller version.
-  // Marked clearly as external transcription, not our facsimile-faithful OCR.
-  const supplementHtml = e.madoz_content
-    ? `<details class="madoz-supplement">
-        <summary>📖 Versió ampliada de diccionariomadoz.com
-          (${fmt(e.madoz_content.length)} caràcters vs. ${fmt((e.description || '').length)} els nostres)</summary>
-        <div class="madoz-supplement-body">${esc(e.madoz_content)}</div>
-        <p class="madoz-supplement-note">
-          Transcripció web de tercers, no del nostre OCR. Sovint més completa per articles
-          grans (viles amb ajuntament) però amb errors propis de transcripció.
-        </p>
       </details>`
     : "";
 
@@ -235,10 +214,8 @@ function toggleExpand(tr) {
       ${statsHtml}
       ${crefsHtml}
       ${noteHtml}
-      ${supplementHtml}
       <p class="madoz-source">
-        <span>Tom ${esc(e.vol)} · full ${esc(e.leaf)} · pàg. ${esc(e.page_printed || "?")}</span>
-        · ${madozLink}
+        Tom ${esc(e.vol)} · full ${esc(e.leaf)} · pàg. ${esc(e.page_printed || "?")}
       </p>
     </div>
   </td>`;
@@ -275,12 +252,10 @@ function bindFilters() {
   const sel = (id, key) => $(id).addEventListener("change", e => { state[key] = e.target.value; update(); });
   sel("f-island", "island"); sel("f-district", "district"); sel("f-municipality", "municipality");
   sel("f-type", "type"); sel("f-vol", "vol"); sel("f-conf", "conf");
-  $("f-only-madoz").addEventListener("change", e => { state.only_madoz = e.target.checked; update(); });
   $("f-clear").addEventListener("click", () => {
     Object.assign(state, { search: "", island: "", district: "", municipality: "",
-                            type: "", vol: "", conf: "", only_madoz: false });
+                            type: "", vol: "", conf: "" });
     $("f-search").value = "";
-    $("f-only-madoz").checked = false;
     update();
   });
   $("f-export").addEventListener("click", exportCSV);
@@ -345,18 +320,9 @@ function renderStats() {
     .map(([v, n]) => [`tom ${v}`, n]);
   draw("stat-by-vol", byVol, { labelW: 90 });
 
-  // Solapament: 4 KPI bars (us total, overlap with curated, our-only,
-  // their total). Wider labels because the descriptions are sentences.
   const total = state.entries.length;
-  const linked = state.entries.filter(e => e.madoz_url).length;
   const totalEl = document.getElementById("stats-total-entries");
   if (totalEl) totalEl.textContent = fmt(total);
-  draw("stat-links", [
-    ["Entrades del nostre OCR",          total],
-    ["També a diccionariomadoz.com",     linked],
-    ["Només al nostre OCR",              total - linked],
-    ["Total a diccionariomadoz.com",     state.madozTotal],
-  ], { barH: 22, gap: 10, labelW: 260 });
 }
 
 // === DEMOGRAFIA TAB ===
@@ -730,9 +696,6 @@ function focusEntry(id) {
     const el = $(f.id);
     if (el) el.value = "";
   }
-  state.only_madoz = false;
-  const onlyMadoz = $("f-only-madoz");
-  if (onlyMadoz) onlyMadoz.checked = false;
   state.search = e.title;
   const sb = $("f-search");
   if (sb) sb.value = e.title;
@@ -753,7 +716,6 @@ async function main() {
     if (!res.ok) throw new Error(`HTTP ${res.status} carregant data.json`);
     const payload = await res.json();
     state.entries = payload.entries;
-    state.madozTotal = payload.madoz_total;
 
     // Explore-tab stat bar.
     const types = new Set(state.entries.map(e => e.place_type).filter(Boolean)).size;

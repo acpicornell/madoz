@@ -66,8 +66,7 @@ def main() -> None:
                 model,
                 source_file,
                 note,
-                None,  # chocr_entry_id — back-filled by a later matching step
-                None,  # madoz_entry_id — back-filled by a later matching step
+                None,  # chocr_entry_id — back-filled by link_text_entries.py
             ))
 
     con = duckdb.connect(str(DB))
@@ -79,8 +78,8 @@ def main() -> None:
            (vol, leaf, page_printed, title, place_type, island,
             judicial_district, municipality, description, description_raw,
             stats, cross_references, confidence, window_size, model,
-            source_file, note, chocr_entry_id, madoz_entry_id)
-           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            source_file, note, chocr_entry_id)
+           VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
         payload,
     )
     con.execute("COMMIT")

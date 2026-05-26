@@ -41,7 +41,9 @@ data/
   chocr/             # hOCR per volume (gitignored, ~1 GB total)
   page_numbers/      # leaf→page maps per volume (gitignored)
   txt_djvu/          # plain OCR text per volume (gitignored)
-  pdf/               # facsimile PDFs from IA (gitignored, ~1.5 GB)
+  pdf/               # 16 IA facsimile PDFs (gitignored, 1.7 GB total).
+                     # Required by the Tesseract validation pass; not
+                     # used by the active chocr→text pipeline.
   pages/             # page JPEGs (gitignored)
   text/_chocr/       # per-leaf chocr windows used by extraction
   text/              # per-leaf extracted JSON (one file per leaf, versioned)
@@ -373,10 +375,16 @@ python scripts/rescue_unlinked.py --apply       # promote chocr-only Balearic op
 python scripts/cleanup_unverified.py --apply    # OCR typographic cleanup
 
 # 6. (Optional) Independent OCR validation via Tesseract
-for v in $(seq -w 1 16); do
+# Pre-requisite: the 16 IA facsimile PDFs under data/pdf/ (~1.7 GB
+# total). They are gitignored. Volume 10 lives under a different IA
+# identifier (`diccionariogeogr10madouoft`) — the loop handles it.
+for v in 01 02 03 04 05 06 07 08 09 11 12 13 14 15 16; do
   curl -sL "https://archive.org/download/diccionariogeogr${v}mado/diccionariogeogr${v}mado.pdf" \
        -o "data/pdf/tomo${v}.pdf"
 done
+curl -sL "https://archive.org/download/diccionariogeogr10madouoft/diccionariogeogr10madouoft.pdf" \
+     -o "data/pdf/tomo10.pdf"          # tom 10 — non-standard IA id
+
 python scripts/tesseract_reocr_all.py --workers 10 --dpi 300   # ~50 min on M-series
 python scripts/tesseract_full_xref.py                          # cross-check vs DB
 

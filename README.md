@@ -147,18 +147,42 @@ Promotes the rows to `confidence='medium'` afterwards.
 
 ### Phase 4 — Independent OCR validation
 
-Second OCR pass via Tesseract 5 (`spa` trained data) across all 16
-volumes. `scripts/tesseract_reocr_all.py` renders each PDF page at
-300 dpi and runs 10 parallel Tesseract workers; on an Apple M4 Pro
-the full corpus completes in ~50 minutes.
+**Why.** With the curated diccionariomadoz.com mirror removed, the
+corpus has no external ground-truth set to cross-check against.
+Re-running the facsimile through a second, completely independent OCR
+engine — one whose failure modes have no correlation with ABBYY's —
+gives us that check. Two questions to answer empirically:
+
+  1. Does ABBYY's hOCR (the source of `chocr_entries`) silently drop
+     any Balearic article whose first paragraph it mangled past
+     recognition? If so, the second engine should find it.
+  2. Are the manual title corrections in `TITLE_FIXES` justified, or
+     did we over-correct? An independent reading of the same page
+     should agree on `AKL4NT` → `ARIANT`, `IUMIS (Son` → `RAMIS (Son)`,
+     etc.
+
+**How.** Tesseract 5 with the `spa` trained data set, run across all
+16 IA facsimile PDFs. `scripts/tesseract_reocr_all.py` renders each
+PDF page at 300 dpi and runs 10 parallel Tesseract workers (one per
+M-series Performance core); on an Apple M4 Pro the full 11 894-page
+corpus completes in ~50 minutes. Output: `data/tesseract/text/
+tomoNN_pNNNN.txt` per page (~116 MB total, gitignored).
 
 `scripts/verify_titles_tesseract.py` cross-checks each manual
 `TITLE_FIXES` entry against the Tesseract reading of the
 corresponding facsimile page (e.g. tom02 PDF page 560 confirms ABBYY's
 `AKL4NT` is canonical `ARIANT`). `scripts/tesseract_full_xref.py`
 runs the full-corpus comparison: every Tesseract-detected Balearic
-opener against the DB, surfacing any article ABBYY missed
-(0 in the current run — the corpus is essentially complete).
+opener against the DB.
+
+**What it found.** 0 novel Balearic articles missed by ABBYY (the
+corpus is essentially complete), 2 cases where Tesseract reads the
+canonical lemma cleaner than my hand-applied `TITLE_FIXES` (LLINARS →
+LLINAS, RUMIS (Son) → RAMIS (Son) — Tesseract reads what Madoz
+actually printed; I had over-corrected). A parallel run with Apple
+Vision (`scripts/apple_vision_low_conf_sweep.py`, ~12× faster on the
+Neural Engine) over the 66 mangle-rich pages reproduced the same
+0-novel finding.
 
 ### Phase 5 — Web export + static site
 

@@ -539,6 +539,22 @@ function renderDemografia() {
       })
     : '<p class="empty">Sense dades.</p>';
 
+  // === Almas / casas ratio per municipality (occupancy per dwelling) ===
+  const pphRows = state.entries
+    .filter(e => isMunicipality(e) && statsOf(e)?.almas && statsOf(e)?.casas)
+    .map(e => {
+      const s = statsOf(e);
+      return [e.title, +(s.almas / s.casas).toFixed(2), `${fmt(s.casas)} cases → ${fmt(s.almas)} ànim.`];
+    })
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 25);
+  $("demo-chart-pph").innerHTML = pphRows.length
+    ? svgBars(pphRows, {
+        colour: "#be185d",
+        fmt: v => v.toFixed(2),
+      })
+    : '<p class="empty">Sense dades.</p>';
+
   // === Industry totals across all entries ===
   const INDUSTRY_KEYS = [
     ["molinos_viento", "Molins de vent"],

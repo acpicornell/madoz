@@ -146,12 +146,12 @@ TITLE_FIXES: dict[int, tuple[str, str]] = {
     9095: ("BOSCH (can)", "BOSCII = BOSCH; II / H OCR confusion"),
     9096: ("FIOL (son)", "F1ÜL (son) — 1→I, Ü→O common OCR"),
     9098: ("LLENAIRE", "LLE.\\An\\E body 'predio... Pollenza' → LLENAIRE"),
-    9099: ("LLINARS", "LLI.NWS = LLINARS; same article as 9100"),
-    9100: ("LLINARS ó MOLINS DE LLINARS", "LLIN.\\S ó .MOUNS DE LLIXAS"),
+    9099: ("LLINAS", "LLI.NWS = LLINAS (verified vs PDF with Tesseract spa: Madoz prints LLINAS without R)"),
+    9100: ("LLINAS ó MOLINS DE LLINAS", "LLIN.\\S ó .MOUNS DE LLIXAS = LLINAS ó MOLINS DE LLINAS (Tesseract-verified)"),
     9101: ("LLOBACH", "LLOBACII II→H"),
     9102: ("PEDRUXELLA (Gran), (antig. Pertuxella)", "PEDRÜXELLA (cnAN)"),
     9103: ("PERPIÑA (so)", "PERPlHA (so) lH→ÑA"),
-    9105: ("RUMIS (Son)", "IUMIS (Son — I→R; predio in Llubí"),
+    9105: ("RAMIS (Son)", "IUMIS (Son = RAMIS (Son) — Tesseract-verified vs PDF; canonical Mallorquí family name"),
     9107: ("RIPOLL", "already RIPOLL, no change"),  # placeholder, noop
 }
 

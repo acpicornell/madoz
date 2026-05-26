@@ -38,9 +38,15 @@ CHOCR_DIR = PROJECT / "data" / "text" / "_chocr"
 
 # Castilian-form ↔ project-canonical form. Madoz uses Castilian spelling
 # (DEVA, BAYOLI); our text_entries sometimes use the Catalan form (DEYA).
+# Canonical lemma → list of alias forms. Used post-core_lemma(), so the
+# keys/values must match what core_lemma() produces (V → B, accent strip,
+# all-caps, no whitespace).
+# DEVA (Madoz Castilian) ↔ DEYA (Catalan, the form our text_entries use)
+# Both normalize via V→B: DEVA → DEBA, DEYA → DEYA. So the alias maps
+# DEBA ↔ DEYA.
 LEMMA_ALIAS = {
-    "DEVA": "DEYA",
-    "DEYA": "DEVA",
+    "DEBA": "DEYA",
+    "DEYA": "DEBA",
 }
 
 # Tokens that confirm a text body is talking about the Balearic Islands.
@@ -51,6 +57,65 @@ BALEARIC_TOKENS = re.compile(
     r"Palma\s+de\s+Mallorca|Mah[óo]n|Ciudadela|Eivissa)\b",
     re.IGNORECASE,
 )
+
+# Stricter set: 'Cabrera' alone is a peninsular collision (Cáceres sierra
+# de la Cabrera, etc.). Require one of these for unambiguous Balearic
+# classification. Used only when 'Cabrera' is the only signal.
+BALEARIC_STRONG = re.compile(
+    r"\b(?:Mallorca|Menorca|Iviza|Ibiza|Baleares|Mah[óo]n|Eivissa|"
+    r"Palma\s+de\s+Mallorca|Formentera)\b",
+    re.IGNORECASE,
+)
+
+
+_BALEARIC_TOKENS_COMPRESSED = re.compile(
+    r"(?:mallorca|menorca|iviza|ibiza|baleares|cabrera|formentera|"
+    r"palmademallorca|mahon|ciudadela|eivissa)"
+)
+_BALEARIC_STRONG_COMPRESSED = re.compile(
+    r"(?:mallorca|menorca|iviza|ibiza|baleares|mahon|eivissa|"
+    r"palmademallorca|formentera)"
+)
+
+
+def is_balearic_text(text: str) -> bool:
+    """True iff the body unambiguously describes a Balearic place.
+
+    Rejects peninsular articles that mention 'Cabrera' in passing
+    (sierra de la Cabrera in Cáceres, etc.) and peninsular cross-refs
+    that name a Balearic suffragan (VALENCIA arzobispado mentioning
+    Mallorca and Menorca as dependencies).
+    """
+    if not text:
+        return False
+    # Collapse OCR junk between letters of a word: 'Menor- ■ca' must
+    # still match 'Menorca'. Lowercase, strip accents, drop every
+    # non-letter — then search the compressed forms.
+    compressed = _strip_accents(text).lower()
+    compressed = re.sub(r"[^a-z]+", "", compressed)
+    if not _BALEARIC_TOKENS_COMPRESSED.search(compressed):
+        return False
+    if not _BALEARIC_STRONG_COMPRESSED.search(compressed):
+        return False
+    # Peninsular cross-ref filter: opener says 'en la prov. de <peninsular>'
+    # but the article is about that province, not Mallorca/Menorca/Ibiza.
+    # The opener appears in the first ~80 chars.
+    head = text[:120].lower()
+    if re.search(
+        r"\b(?:prov(?:incia)?\.?|part(?:ido)?\.?\s*jud\.?|di[óo]c\.?|"
+        r"audiencia|tercio|distrito)\s+(?:territoriales?|de)\s+"
+        r"(?:c[áa]ceres|badajoz|c[óo]rdoba|granada|sevilla|c[áa]diz|"
+        r"valencia|alicante|murcia|cartagena|toledo|madrid|barcelona|"
+        r"gerona|tarragona|l[ée]rida|huesca|zaragoza|teruel|"
+        r"navarra|guip[úu]zcoa|vizcaya|[áa]lava|la\s+coru[ñn]a|"
+        r"lugo|orense|pontevedra|asturias?|oviedo|le[óo]n|"
+        r"salamanca|[áa]vila|segovia|valladolid|burgos|santander|"
+        r"palencia|soria|guadalajara|cuenca|ciudad\s+real|albacete|"
+        r"ja[ée]n|almer[íi]a|m[áa]laga|huelva|c[áa]diz|canarias|tenerife)\b",
+        head,
+    ):
+        return False
+    return True
 
 # Map of opening abbreviations Madoz uses to a normalized place_type.
 # Used to recover place_type from chocr context when chocr_entries.place_type
@@ -229,51 +294,73 @@ def phase2_relink_wrong_sense(
     """
     text_rows = con.execute("""
         SELECT t.id, t.title, t.place_type, t.madoz_entry_id,
-               m.title, m.place_type
+               m.title, m.place_type, m.content_length
         FROM text_entries t
         JOIN madoz_entries m ON t.madoz_entry_id = m.id
     """).fetchall()
     madoz_rows = con.execute("""
-        SELECT id, title, place_type FROM madoz_entries
+        SELECT id, title, place_type, content_length FROM madoz_entries
     """).fetchall()
 
-    by_lemma: dict[str, list[tuple[int, str, str | None]]] = {}
-    for mid, mt, mpt in madoz_rows:
+    by_lemma: dict[str, list[tuple]] = {}
+    for mid, mt, mpt, mlen in madoz_rows:
         cl = core_lemma(mt)
         if cl:
-            by_lemma.setdefault(cl, []).append((mid, mt, mpt))
+            by_lemma.setdefault(cl, []).append((mid, mt, mpt, mlen))
 
     proposed = []
-    for tid, ttitle, tpt, cur_mid, cur_mt, cur_mpt in text_rows:
+    for tid, ttitle, tpt, cur_mid, cur_mt, cur_mpt, cur_mlen in text_rows:
         cur_score = pt_aligned(tpt, cur_mpt)
-        if cur_score >= 2:
-            continue  # current link is already good
-        # Look for a strictly better candidate
+        # Two distinct cases warrant a relink:
+        # (a) place_type mismatch (cur_score <= 1) AND a better-aligned
+        #     candidate exists (the original Phase 2 logic).
+        # (b) current link is to a *stub* curated entry (< 200 chars)
+        #     while a substantive same-lemma + same-pt candidate exists
+        #     (ALAYOR linked to 54-char stub instead of 5555-char full).
         cl = core_lemma(ttitle)
         candidates = list(by_lemma.get(cl, []))
         alias = LEMMA_ALIAS.get(cl)
         if alias:
             candidates.extend(by_lemma.get(alias, []))
+        # Score by (pt_alignment, content_length) descending
         scored = sorted(
-            ((pt_aligned(tpt, mpt), mid, mt, mpt) for mid, mt, mpt in candidates),
+            (
+                (pt_aligned(tpt, mpt), mlen or 0, mid, mt, mpt)
+                for mid, mt, mpt, mlen in candidates
+            ),
             reverse=True,
         )
         if not scored:
             continue
-        top_score = scored[0][0]
-        if top_score <= cur_score:
+        top_score, top_len, top_mid, top_mt, top_mpt = scored[0]
+        # Case (a): clear place_type improvement
+        better_pt = top_score > cur_score
+        # Case (b): same pt (>= 1, so we have *some* alignment) and the
+        # current link is a stub. Score must be >= 1 to avoid relinking
+        # to a different-place homonym when neither side carries pt info
+        # (ATALAYA torre Mallorca was being relinked to ATALAYA monte
+        # Ibiza because cur_score=0 == top_score=0).
+        better_stub = (
+            top_score >= cur_score
+            and top_score >= 1
+            and (cur_mlen or 0) < 200
+            and top_len >= 200
+            and top_mid != cur_mid
+        )
+        if not (better_pt or better_stub):
             continue
-        top_candidates = [s for s in scored if s[0] == top_score]
-        if len(top_candidates) != 1:
-            continue  # ambiguous, skip
-        _, mid, mt, mpt = top_candidates[0]
-        if mid == cur_mid:
+        top_band = [s for s in scored if s[0] == top_score and s[1] == top_len]
+        if len(top_band) != 1:
+            continue
+        if top_mid == cur_mid:
             continue
         proposed.append({
             "phase": 2, "tid": tid, "ttitle": ttitle, "tpt": tpt,
-            "cur_mid": cur_mid, "cur_mpt": cur_mpt,
-            "new_mid": mid, "new_mt": mt, "new_mpt": mpt,
+            "cur_mid": cur_mid, "cur_mpt": cur_mpt, "cur_mlen": cur_mlen,
+            "new_mid": top_mid, "new_mt": top_mt, "new_mpt": top_mpt,
+            "new_mlen": top_len,
             "cur_score": cur_score, "new_score": top_score,
+            "reason": "stub→substantive" if better_stub and not better_pt else "pt improvement",
         })
 
     if apply:
@@ -282,6 +369,56 @@ def phase2_relink_wrong_sense(
             [(p["new_mid"], p["tid"]) for p in proposed],
         )
     return proposed
+
+
+_DIGIT_FIX = str.maketrans({"1": "I", "0": "O", "5": "S", "8": "B", "4": "A"})
+
+
+def compressed_lemma(title: str) -> str:
+    """Aggressively normalize a title for cross-source title comparison.
+
+    Strips all whitespace, accents, punctuation, and applies OCR-digit
+    substitutions (4 ≈ A, 1 ≈ I, 5 ≈ S, etc.). This makes 'AKL4NT' and
+    'ARIANT' compare as a near-match, and 'ALC ARIAS (las)' vs
+    'ALCARIAS (las)' as identical. Lossy on purpose — only for dedup.
+    """
+    if not title:
+        return ""
+    s = title.upper()
+    s = _strip_accents(s)
+    s = re.sub(r"[^A-Z0-9]", "", s)
+    s = s.translate(_DIGIT_FIX)
+    return s
+
+
+def title_covered_on_leaf(
+    chocr_title: str,
+    leaf_text_titles: list[str],
+    *,
+    strict: bool = False,
+) -> bool:
+    """True if any text_entry title on the same leaf already represents
+    the chocr article. Robust against OCR variants and curatorial
+    expansions ('AGUILAS' vs 'AGUILAS (punta de las)').
+
+    strict=True drops the fuzzy-ratio path; only exact/substring matches
+    count. Use for global (cross-leaf) comparisons where 80% fuzz hits
+    catch unrelated short words ('VETA' vs 'VILETA').
+    """
+    ck = compressed_lemma(chocr_title)
+    if not ck:
+        return False
+    for t in leaf_text_titles:
+        tk = compressed_lemma(t)
+        if not tk:
+            continue
+        if ck == tk or ck in tk or tk in ck:
+            return True
+        if not strict:
+            from rapidfuzz import fuzz
+            if fuzz.ratio(ck, tk) >= 80:
+                return True
+    return False
 
 
 def _load_chocr_window(vol: str, leaf: int) -> str | None:
@@ -409,7 +546,7 @@ def phase3_promote_chocr(
             )
             if para is None or len(para) < 120:
                 continue
-            if not BALEARIC_TOKENS.search(para):
+            if not is_balearic_text(para):
                 continue
             chosen = (cid, vol, leaf, pp, ctitle, para, score)
             break
@@ -451,11 +588,313 @@ def phase3_promote_chocr(
     return proposed
 
 
+# Peninsular toponym lemmas — articles bearing these names CANNOT be
+# Balearic, even if the chocr Balearic filter caught a passing mention
+# (Valencia archbishop article mentions Mallorca and Menorca as suffragans).
+PENINSULAR_LEMMA_BLOCK = {
+    "VALENCIA", "BARCELONA", "MADRID", "SEVILLA", "ZARAGOZA",
+    "TOLEDO", "CORDOBA", "GRANADA", "MURCIA", "CARTAGENA",
+    "MALAGA", "BILBAO", "OVIEDO", "BURGOS", "LEON",
+    "SALAMANCA", "AVILA", "SEGOVIA", "VALLADOLID", "PALENCIA",
+    "SANTANDER", "NAVARRA", "PAMPLONA", "VITORIA", "SAN SEBASTIAN",
+    "LUGO", "ORENSE", "PONTEVEDRA", "LA CORUNA", "GERONA",
+    "TARRAGONA", "LERIDA", "HUESCA", "TERUEL", "CASTELLON",
+    "ALICANTE", "ALMERIA", "JAEN", "HUELVA", "CACERES",
+    "BADAJOZ", "CIUDAD REAL", "CUENCA", "GUADALAJARA", "SORIA",
+    "CADIZ", "CANARIAS", "TENERIFE", "ALBACETE",
+}
+
+
+def _is_peninsular_lemma(title: str) -> bool:
+    """True if the bare lemma (sans parens) is a peninsular toponym."""
+    if not title:
+        return False
+    bare = re.sub(r"\([^)]*\)", "", title).strip()
+    bare = re.sub(r"\s+", " ", bare).upper()
+    bare = _strip_accents(bare)
+    return bare in PENINSULAR_LEMMA_BLOCK
+
+
+def _looks_like_real_lemma(title: str) -> bool:
+    """Reject chocr titles that are obvious junk (mid-sentence
+    fragments captured by the regex). A real Madoz lemma is a short
+    all-caps string optionally followed by a parenthesised qualifier.
+    """
+    if not title:
+        return False
+    if len(title) > 50:
+        return False
+    # Strip parens content; the rest must be all-uppercase (with OCR
+    # digits/punctuation) and contain no lowercase letters.
+    bare = re.sub(r"\([^)]*\)", "", title).strip()
+    bare = re.sub(r"\s+", " ", bare)
+    if not bare:
+        return False
+    # A real lemma may have OCR digits, accents, hyphens; reject if it
+    # has any lowercase letter (e.g. 'TERRENO es de buena calidad...').
+    if re.search(r"\b[a-z]+\b", bare):
+        return False
+    return True
+
+
+def phase4_promote_chocr_orphans(
+    con: duckdb.DuckDBPyConnection, *, apply: bool
+) -> list[dict]:
+    """Promote chocr_entries that have NO text_entry covering them on the
+    same leaf (by aggressive title comparison).
+
+    Unlike Phase 3, this doesn't require a curated mirror match. The
+    rationale: if the chocr regex indexed an article with a Balearic
+    context AND no text_entry on that leaf represents it, we have a
+    bona-fide miss in our corpus. Insert with madoz_entry_id from a
+    fuzzy curated match if available, else NULL.
+    """
+    chocr_rows = con.execute("""
+        SELECT id, vol, leaf, page_printed, title, context
+        FROM chocr_entries
+        WHERE source = 'regex' AND madoz_entry_id IS NULL
+    """).fetchall()
+
+    # text_entries by (vol, leaf) → list of (id, title) AND
+    # by vol → list of all titles (to catch articles indexed under a
+    # different leaf via chocr-window overlap)
+    text_by_leaf: dict[tuple, list[tuple]] = {}
+    text_by_vol: dict[str, list[str]] = {}
+    for r in con.execute(
+        "SELECT id, vol, leaf, title FROM text_entries"
+    ).fetchall():
+        text_by_leaf.setdefault((r[1], r[2]), []).append((r[0], r[3]))
+        text_by_vol.setdefault(r[1], []).append(r[3])
+
+    # madoz_entries by core_lemma (for opportunistic curated link)
+    madoz_by_lemma: dict[str, list[tuple]] = {}
+    for r in con.execute("""
+        SELECT id, title, place_type, island, municipality, content_length
+        FROM madoz_entries
+    """).fetchall():
+        cl = core_lemma(r[1])
+        if cl:
+            madoz_by_lemma.setdefault(cl, []).append(r)
+
+    next_id = (con.execute("SELECT max(id) FROM text_entries").fetchone()[0] or 0) + 1
+
+    proposed = []
+    seen_madoz: set[int] = set()
+    for cid, vol, leaf, pp, ctitle, ctx in chocr_rows:
+        if not _looks_like_real_lemma(ctitle):
+            continue
+        if _is_peninsular_lemma(ctitle):
+            continue
+        if not is_balearic_text(ctx):
+            continue
+        leaf_titles = [t for _, t in text_by_leaf.get((vol, leaf), [])]
+        if title_covered_on_leaf(ctitle, leaf_titles):
+            continue
+        # Cross-leaf dedup: chocr's overlapping windows index the same
+        # article on consecutive leaves (ADAYA on leaves 84 + 85). If the
+        # title is already covered anywhere in the same volume by a
+        # near-exact match, skip.
+        ck = compressed_lemma(ctitle)
+        vol_titles = text_by_vol.get(vol, [])
+        if ck and any(
+            compressed_lemma(t) == ck for t in vol_titles
+        ):
+            continue
+        # Genuine miss — find article paragraph in chocr window
+        window = _load_chocr_window(vol, leaf)
+        if window is None:
+            # Fall back to the chocr_entries.context field directly. It's
+            # only ~200 chars but at least it gives us *something*.
+            para = ctx
+        else:
+            lemma_for_lookup = ctitle.split("(")[0].strip()
+            para = _extract_paragraph(window, lemma_for_lookup)
+            if para is None:
+                para = ctx  # fallback
+        if not para or len(para) < 60:
+            continue
+        if not is_balearic_text(para):
+            continue
+
+        # Opportunistic curated link
+        chocr_pt = infer_place_type(ctx)
+        cl = core_lemma(ctitle)
+        mid = None
+        mpt = misl = mmuni = None
+        cands = madoz_by_lemma.get(cl, [])
+        cands += [r for a in [LEMMA_ALIAS.get(cl)] if a for r in madoz_by_lemma.get(a, [])]
+        if cands:
+            if chocr_pt:
+                aligned = [c for c in cands if pt_aligned(chocr_pt, c[2]) >= 2]
+                if len(aligned) == 1:
+                    mid, _, mpt, misl, mmuni, _ = aligned[0]
+                elif len(aligned) > 1:
+                    best = max(aligned, key=lambda r: r[5] or 0)
+                    mid, _, mpt, misl, mmuni, _ = best
+            elif len(cands) == 1:
+                mid, _, mpt, misl, mmuni, _ = cands[0]
+        if mid in seen_madoz and mid is not None:
+            # Already promoted another chocr for this madoz_entry in this run
+            mid = None
+
+        # Try to derive place_type from the para opener if curated didn't tell us
+        if not mpt:
+            mpt = infer_place_type(para)
+
+        proposed.append({
+            "phase": 4, "new_tid": next_id, "vol": vol, "leaf": leaf,
+            "page_printed": pp, "title": ctitle, "place_type": mpt,
+            "island": misl, "municipality": mmuni,
+            "description": para[:8000],
+            "chocr_entry_id": cid, "madoz_entry_id": mid,
+            "confidence": "unverified",
+            "note": "Promoted by rescue_unlinked.py Phase 4 (chocr orphan, no same-leaf text_entry)",
+            "source_file": (
+                f"data/text/_chocr/page_{vol}_{leaf}.txt"
+                if window else "chocr_entries.context"
+            ),
+        })
+        text_by_leaf.setdefault((vol, leaf), []).append((next_id, ctitle))
+        text_by_vol.setdefault(vol, []).append(ctitle)
+        if mid is not None:
+            seen_madoz.add(mid)
+        next_id += 1
+
+    if apply and proposed:
+        for p in proposed:
+            con.execute(
+                """INSERT INTO text_entries
+                   (id, vol, leaf, page_printed, title, place_type, island,
+                    municipality, description, confidence, model, source_file,
+                    note, chocr_entry_id, madoz_entry_id, extracted_at,
+                    description_raw)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?)""",
+                [
+                    p["new_tid"], p["vol"], p["leaf"], p["page_printed"],
+                    p["title"], p["place_type"], p["island"], p["municipality"],
+                    p["description"], p["confidence"], "chocr-snippet",
+                    p["source_file"], p["note"], p["chocr_entry_id"],
+                    p["madoz_entry_id"], p["description"],
+                ],
+            )
+    return proposed
+
+
+# Curated-mirror entries whose title is an OCR typo of an article we
+# already have under the canonical spelling. Promoting them creates a
+# duplicate; resolution is a Phase-2-style relink which Phase 5 can't
+# perform without losing safety.
+CURATED_OCR_DUPS = {
+    21285,  # 'CALOBKA (La)' is OCR for CALOBRA (la); we already have
+            # text_entry 8075 CALOBRA — needs a manual relink, not a new row.
+}
+
+# Letter → most-likely Madoz volume. Used to guess `vol` for Phase 5
+# curated-mirror promotions, since the curated mirror itself doesn't
+# track volume. Coarse but workable for navigation: a reader can locate
+# the article on the IA facsimile of that volume. `leaf` is set to 0 as
+# a sentinel signalling "no chocr leaf known".
+LETTER_TO_VOL = {
+    "A": "01", "B": "04", "C": "06", "D": "07", "E": "07", "F": "08",
+    "G": "08", "H": "09", "I": "09", "J": "09", "K": "09", "L": "10",
+    "M": "11", "N": "12", "O": "12", "P": "12", "Q": "13", "R": "13",
+    "S": "13", "T": "15", "U": "16", "V": "16", "W": "16", "X": "16",
+    "Y": "16", "Z": "16",
+}
+
+
+def _guess_vol_from_lemma(title: str) -> str:
+    """Best-guess Madoz volume by the first letter of the lemma (post-
+    stripping LA/SAN/SO articles). Returns the placeholder '00' if the
+    lemma is empty or has no recognisable first letter."""
+    cl = core_lemma(title)
+    if not cl:
+        return "00"
+    first = cl[0].upper()
+    return LETTER_TO_VOL.get(first, "00")
+
+
+def phase5_promote_curated_only(
+    con: duckdb.DuckDBPyConnection, *, apply: bool
+) -> list[dict]:
+    """Promote substantive curated Balearic entries that have *no chocr
+    counterpart and no text_entry* — the cases where indent-detection
+    upstream would have helped but the chocr regex didn't catch them.
+
+    For these we trust the curated mirror as the source-of-truth body
+    text. confidence='unverified', model='curated-mirror'. (vol, leaf,
+    page_printed) come from the curated entry if known; otherwise NULL.
+    """
+    unlinked = con.execute("""
+        SELECT m.id, m.title, m.place_type, m.island, m.municipality,
+               m.content_length, m.content_text
+        FROM madoz_entries m
+        WHERE NOT EXISTS (SELECT 1 FROM text_entries t WHERE t.madoz_entry_id = m.id)
+          AND content_length >= 200
+          AND m.island IS NOT NULL
+    """).fetchall()
+
+    # All text_entries titles (we don't know which vol the curated
+    # entry belongs to, so check globally).
+    all_text_titles = [
+        r[0] for r in con.execute("SELECT title FROM text_entries").fetchall()
+    ]
+
+    next_id = (con.execute("SELECT max(id) FROM text_entries").fetchone()[0] or 0) + 1
+
+    proposed = []
+    for mid, mt, mpt, misl, mmuni, mlen, mtext in unlinked:
+        if mid in CURATED_OCR_DUPS:
+            continue
+        ck = compressed_lemma(mt)
+        if not ck:
+            continue
+        # Skip if any text_entry's title is a substring/superstring match
+        # (catches 'BLANCO' curated vs 'BLANCO (cabo, Mallorca)' text).
+        if title_covered_on_leaf(mt, all_text_titles, strict=True):
+            continue
+        # Verify the content is unambiguously Balearic
+        if not is_balearic_text(mtext or ""):
+            continue
+        proposed.append({
+            "phase": 5, "new_tid": next_id,
+            "vol": _guess_vol_from_lemma(mt), "leaf": 0,
+            "page_printed": None, "title": mt, "place_type": mpt,
+            "island": misl, "municipality": mmuni,
+            "description": (mtext or "")[:8000],
+            "chocr_entry_id": None, "madoz_entry_id": mid,
+            "confidence": "unverified",
+            "note": "Promoted by rescue_unlinked.py Phase 5 from curated mirror; no chocr counterpart found",
+            "source_file": "data/madoz/posts.jsonl",
+        })
+        all_text_titles.append(mt)
+        next_id += 1
+
+    if apply and proposed:
+        for p in proposed:
+            con.execute(
+                """INSERT INTO text_entries
+                   (id, vol, leaf, page_printed, title, place_type, island,
+                    municipality, description, confidence, model, source_file,
+                    note, chocr_entry_id, madoz_entry_id, extracted_at,
+                    description_raw)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?)""",
+                [
+                    p["new_tid"], p["vol"], p["leaf"], p["page_printed"],
+                    p["title"], p["place_type"], p["island"], p["municipality"],
+                    p["description"], p["confidence"], "curated-mirror",
+                    p["source_file"], p["note"], p["chocr_entry_id"],
+                    p["madoz_entry_id"], p["description"],
+                ],
+            )
+    return proposed
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true",
                     help="Commit changes. Default is dry-run.")
-    ap.add_argument("--phase", type=int, choices=[1, 2, 3],
+    ap.add_argument("--phase", type=int, choices=[1, 2, 3, 4, 5],
                     help="Run only one phase.")
     args = ap.parse_args()
 
@@ -484,7 +923,7 @@ def main():
         for p in ph2[:40]:
             print(f"  text {p['tid']} \"{p['ttitle'][:35]:35s}\" pt={p['tpt'] or '—':18s}"
                   f" : madoz {p['cur_mid']}→{p['new_mid']} (pt {p['cur_mpt'] or '—'} → {p['new_mpt'] or '—'},"
-                  f" score {p['cur_score']}→{p['new_score']})")
+                  f" score {p['cur_score']}→{p['new_score']}, {p.get('reason', '?')})")
         if len(ph2) > 40:
             print(f"  ... and {len(ph2) - 40} more")
 
@@ -497,6 +936,25 @@ def main():
                   f" desc-len={len(p['description'])}")
         if len(ph3) > 40:
             print(f"  ... and {len(ph3) - 40} more")
+
+    if args.phase in (None, 4):
+        ph4 = phase4_promote_chocr_orphans(con, apply=args.apply)
+        print(f"\n=== Phase 4: promote chocr orphans (no same-leaf coverage) ({len(ph4)} proposals) ===")
+        for p in ph4[:60]:
+            mid_label = str(p["madoz_entry_id"]) if p["madoz_entry_id"] else "—"
+            print(f"  new text {p['new_tid']}: \"{p['title'][:35]:35s}\""
+                  f" vol={p['vol']} leaf={p['leaf']} pt={p['place_type'] or '—':12s}"
+                  f" → madoz {mid_label} desc-len={len(p['description'])}")
+        if len(ph4) > 60:
+            print(f"  ... and {len(ph4) - 60} more")
+
+    if args.phase in (None, 5):
+        ph5 = phase5_promote_curated_only(con, apply=args.apply)
+        print(f"\n=== Phase 5: promote curated-only Balearic entries ({len(ph5)} proposals) ===")
+        for p in ph5[:40]:
+            print(f"  new text {p['new_tid']}: \"{p['title'][:35]:35s}\""
+                  f" isl={p['island'] or '—':10s} pt={p['place_type'] or '—':14s}"
+                  f" → madoz {p['madoz_entry_id']} (curated, no chocr)")
 
     after_n = con.execute("SELECT count(*) FROM text_entries").fetchone()[0]
     after_linked = con.execute(

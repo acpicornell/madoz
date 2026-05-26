@@ -153,6 +153,16 @@ TITLE_FIXES: dict[int, tuple[str, str]] = {
     9103: ("PERPIÑA (so)", "PERPlHA (so) lH→ÑA"),
     9105: ("RAMIS (Son)", "IUMIS (Son = RAMIS (Son) — Tesseract-verified vs PDF; canonical Mallorquí family name"),
     9107: ("RIPOLL", "already RIPOLL, no change"),  # placeholder, noop
+
+    # ── Triple-OCR triangulation fixes (Tess + Apple Vision concordant
+    # against ABBYY, then visually verified on the facsimile by user 2026-05-26)
+    8083: ("CAMP DEU SERRA", "ABBYY/curator: DEN; Tess+Vision+facsímil: DEU"),
+    8703: ("PONS DE SON LLEBRA", "ABBYY: LLEBBA (BB); Tess+Vision+facsímil: LLEBRA"),
+    8808: ("REFAL GENAS", "ABBYY: CENAS; Tess+Vision+facsímil: GENAS"),
+    8921: ("SERRAL", "ABBYY: ERRAL (S inicial perduda); Tess+Vision+facsímil: SERRAL"),
+    8949: ("SORT DE SE CAPITANA", "ABBYY: SA mallorquí (curatorial); Tess+Vision+facsímil: SE"),
+    8964: ("TALCOLETAS", "ABBYY: TALCOLEÍAS (Í/T mangle); Tess+Vision+facsímil: TALCOLETAS"),
+    9011: ("VALLDENEGRE", "ABBYY: VALLUENEGRE (D perduda); Tess+Vision+facsímil: VALLDENEGRE — Vall d'en Negre"),
 }
 
 
@@ -191,18 +201,23 @@ def main():
 
     con = duckdb.connect(str(DB), read_only=not args.apply)
 
-    rows = con.execute("""
-        SELECT id, title, description
+    # Process every 'unverified' row PLUS any row explicitly listed in
+    # TITLE_FIXES (titled corrections may apply to already-promoted
+    # entries discovered via later triangulation audits).
+    fix_ids = tuple(TITLE_FIXES.keys())
+    placeholders = ",".join("?" * len(fix_ids))
+    rows = con.execute(f"""
+        SELECT id, title, description, confidence
         FROM text_entries
-        WHERE confidence = 'unverified'
+        WHERE confidence = 'unverified' OR id IN ({placeholders})
         ORDER BY id
-    """).fetchall()
-    print(f"=== {len(rows)} unverified entries to process ===\n")
+    """, list(fix_ids)).fetchall()
+    print(f"=== {len(rows)} entries to process ===\n")
 
     changes = []
     title_changes = 0
     desc_changes = 0
-    for tid, title, desc in rows:
+    for tid, title, desc, conf in rows:
         new_title = title
         lemma_swap = None
         if tid in TITLE_FIXES and TITLE_FIXES[tid][0] != title:
@@ -219,13 +234,13 @@ def main():
         if new_desc != desc:
             desc_changes += 1
         if new_desc != desc or new_title != title:
-            changes.append((tid, title, new_title, desc, new_desc))
+            changes.append((tid, title, new_title, desc, new_desc, conf))
 
     print(f"Rows with description changes: {desc_changes}")
     print(f"Rows with title    changes:   {title_changes}\n")
 
     if args.show_diff:
-        for tid, ot, nt, od, nd in changes:
+        for tid, ot, nt, od, nd, _ in changes:
             print(f"--- id={tid} ---")
             if ot != nt:
                 print(f"  title:  {ot!r}")
@@ -244,12 +259,15 @@ def main():
             print()
 
     if args.apply and changes:
-        for tid, _, nt, _, nd in changes:
+        for tid, _, nt, _, nd, old_conf in changes:
+            # Only promote to 'medium' if the row was 'unverified'.
+            # Already-promoted rows (high/medium) keep their confidence.
+            new_conf = "medium" if old_conf == "unverified" else old_conf
             con.execute(
                 """UPDATE text_entries
-                   SET title = ?, description = ?, confidence = 'medium'
+                   SET title = ?, description = ?, confidence = ?
                    WHERE id = ?""",
-                [nt, nd, tid],
+                [nt, nd, new_conf, tid],
             )
         # Also promote any unverified row that had NO changes — they're
         # still cleaner than before (regex left them untouched because

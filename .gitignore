@@ -51,3 +51,7 @@ __pycache__/
 .dev.vars*
 !.dev.vars.example
 data/pdf/
+
+# Tesseract re-OCR output — regenerable from PDFs via
+# scripts/tesseract_reocr_all.py. ~120 MB of text not worth tracking.
+data/tesseract/

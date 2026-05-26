@@ -34,17 +34,24 @@ Balearic article ABBYY's hOCR could plausibly recover from the facsimile.
 
 ```
 data/
-  chocr/             # hOCR per volume (gitignored, ~1 GB total)
+  chocr/             # ABBYY hOCR per volume, from IA (gitignored, ~1 GB)
   page_numbers/      # leaf→page maps per volume (gitignored)
-  txt_djvu/          # plain OCR text per volume (gitignored)
+  txt_djvu/          # plain OCR text per volume (gitignored, ~100 MB)
   pdf/               # 16 IA facsimile PDFs (gitignored, 1.7 GB total).
                      # Required by the Tesseract validation pass; not
                      # used by the active chocr→text pipeline.
-  pages/             # page JPEGs (gitignored)
+  pages/             # per-leaf JPEGs (gitignored, ~1 GB). Used only by
+                     # the dormant Mapa pipeline (fetch_pages.py +
+                     # build_gazetteer.py); not the active pipeline.
   text/_chocr/       # per-leaf chocr windows used by extraction
   text/              # per-leaf extracted JSON (one file per leaf, versioned)
   index/             # per-volume + merged JSONL indexes (versioned)
-  tesseract/         # parallel Tesseract OCR output (gitignored)
+  tesseract/         # parallel Tesseract OCR output (gitignored, ~120 MB)
+  ngib/              # NGIB toponym set for the dormant Mapa pipeline
+                     # (gitignored)
+  vision/            # legacy Vision-extraction batch output. The
+                     # experiment was discarded (see Difficulties §1);
+                     # the table is gone. Kept for archival only.
 db/
   schema.sql              # DuckDB schema (versioned)
   madoz.duckdb            # built DB (gitignored, regenerable)
@@ -168,7 +175,11 @@ tomoNN_pNNNN.txt` per page (~116 MB total, gitignored).
 corresponding facsimile page (e.g. tom02 PDF page 560 confirms ABBYY's
 `AKL4NT` is canonical `ARIANT`). `scripts/tesseract_full_xref.py`
 runs the full-corpus comparison: every Tesseract-detected Balearic
-opener against the DB.
+opener against the DB. `scripts/tesseract_low_conf_sweep.py` runs the
+same comparison but restricted to the ~66 pages where chocr_entries
+shows obvious mangle markers (digits inside lemmas, II/H mismatches,
+junk parens) — a faster targeted run when only the high-risk pages
+need re-checking.
 
 **What it found.** 0 novel Balearic articles missed by ABBYY (the
 corpus is essentially complete), 2 cases where Tesseract reads the
@@ -186,13 +197,35 @@ Neural Engine) over the 66 mangle-rich pages reproduced the same
 vanilla JS, no framework, no DuckDB-WASM — that filters and renders
 entries with their volume/page provenance and OCR-fix notes.
 
-Tabs: **Home** (project intro), **Explore** (search + faceted filter),
-**Estadístiques** (coverage tables: by island, place type, judicial
-district, top 20 munis, volume coverage), **Demografia** (inline SVG
-charts: top 20 munis by ànimes and by riquesa imponible, ànimes-vs-
-riquesa slope graph, riquesa per capita, aggregated population by
-island, productive infrastructure,
-contribution per inhabitant), **Notes** (working notebook).
+Tabs: **Inici** (project intro), **Explorar** (search + faceted
+filter), **Estadístiques** (coverage tables: by island, place type,
+judicial district, top 20 munis, volume coverage), **Demografia**
+(inline SVG charts: top 20 munis by ànimes and by riquesa imponible,
+ànimes-vs-riquesa slope graph, riquesa per capita, aggregated
+population by island, productive infrastructure, contribution per
+inhabitant), **Notes** (scholarly notes on the Diccionari de Madoz),
+**Abreviatures** (Madoz abbreviation glossary).
+
+### Dormant: geographic-coordinate pipeline
+
+A separate set of scripts was written for an early "Mapa" tab that
+plotted each entry on a Leaflet map. The tab was dropped because the
+fuzzy geocoding produced too many hard-to-audit wrong placements
+(memory: `project_mapa_rejected.md`). The scripts are kept around in
+case someone wants to revisit the problem with a different
+methodology, but they're not part of the active pipeline:
+
+  - `scripts/fetch_ngib.py` — pulls the Nomenclàtor Geogràfic de les
+    Illes Balears toponym set from IDEIB.
+  - `scripts/fetch_pages.py` — downloads per-leaf JPEGs from IA for
+    visual verification of coordinate guesses.
+  - `scripts/build_gazetteer.py` — builds a fuzzy match table between
+    Madoz lemmas and NGIB toponyms.
+  - `scripts/enrich_coords.py` — resolves lat/lon for each
+    `text_entries` row using the gazetteer.
+
+None of these scripts are required for the chocr→text→web pipeline
+described above. The DB schema does not carry lat/lon columns.
 
 ## Current status
 

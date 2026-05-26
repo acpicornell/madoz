@@ -112,12 +112,12 @@ nav.tabs-sub .tab.active {
 .tab-content.active { display: block; }
 
 /* === EXPLORE === */
-#tab-explore.tab-content {
-  display: none;
-  grid-template-columns: 280px 1fr;
-  gap: 2em;
-}
-#tab-explore.tab-content.active { display: grid; }
+/* The outer tab is a vertical stack: stats bar, full-width intro box,
+   then the .modern-explorer grid (sidebar + results table). Block
+   layout here so the intro spans the whole width; the sidebar/results
+   2-column split lives inside .modern-explorer. */
+#tab-explore.tab-content { display: none; }
+#tab-explore.tab-content.active { display: block; }
 .filters-modern { margin-bottom: 0; }
 
 aside.filters {

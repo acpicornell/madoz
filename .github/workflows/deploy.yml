@@ -1,0 +1,33 @@
+name: Deploy
+
+# Deploy to Cloudflare Workers on push to the default branch.
+# Requires a CLOUDFLARE_API_TOKEN repository secret. The guard step keeps the
+# run green while the secret is missing, so this workflow can be committed first.
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Cloudflare token
+        id: guard
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "No CLOUDFLARE_API_TOKEN secret set yet — skipping deploy."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.guard.outputs.skip != 'true'
+      - name: Deploy to Cloudflare Workers
+        if: steps.guard.outputs.skip != 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          # Static-assets-only Workers (no `main` entry-point) need Wrangler v4.
+          wranglerVersion: "4.112.0"

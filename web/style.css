@@ -28,9 +28,9 @@ a { color: var(--accent); }
 header {
   border-bottom: 1px solid var(--border);
   background: linear-gradient(180deg, #fbf6e9 0%, var(--bg) 100%);
-  padding: 1.5em 2em 1em;
+  padding: 1.5em 0 1em;
 }
-.header-content { max-width: 1400px; margin: 0 auto; }
+.header-content { max-width: 1400px; margin: 0 auto; padding: 0 2em; }
 h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1.8em;
@@ -68,6 +68,8 @@ h1 {
 .source-fresh:empty { display: none; }
 
 nav.tabs {
+  max-width: 1400px;
+  margin: 0 auto;
   padding: 0 2em;
   background: var(--bg);
   display: flex;

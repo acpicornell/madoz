@@ -1,5 +1,7 @@
 # Madoz, Balearic subset
 
+[![Deploy](https://github.com/acpicornell/madoz/actions/workflows/deploy.yml/badge.svg)](https://github.com/acpicornell/madoz/actions/workflows/deploy.yml)
+
 A re-digitisation of the **Balearic Islands subset** of Pascual
 Madoz's *Diccionario geográfico-estadístico-histórico de España y sus
 posesiones de Ultramar* (Madrid, 1845–1850, 16 vols.).

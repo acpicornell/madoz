@@ -22,11 +22,11 @@ jobs:
             echo "No CLOUDFLARE_API_TOKEN secret set yet — skipping deploy."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         if: steps.guard.outputs.skip != 'true'
       - name: Deploy to Cloudflare Workers
         if: steps.guard.outputs.skip != 'true'
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # Static-assets-only Workers (no `main` entry-point) need Wrangler v4.

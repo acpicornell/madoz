@@ -1,0 +1,4 @@
+# Files that live beside the site but are not part of it. Wrangler leaves
+# anything listed here out of the deploy (gitignore syntax).
+.assetsignore
+README.md

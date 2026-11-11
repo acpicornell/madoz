@@ -54,7 +54,7 @@ page_printed)` for citation.
 
 ## Pipeline
 
-Four phases. The earlier ones build a clean index; the later ones turn
+Five phases. The earlier ones build a clean index; the later ones turn
 that index into structured article bodies and ship them.
 
 ### Phase 1 — Index from chOCR (deterministic, free)
@@ -219,8 +219,11 @@ extraction phase.
 ### Full rebuild from scratch
 
 ```bash
-# 1. Download IA chocr + page_numbers + djvu for each volume (~1 GB)
-for v in $(seq -w 1 16); do python scripts/fetch_volume.py $v; done
+# 1. Download IA chocr + page_numbers + djvu for each volume (~1 GB).
+# fetch_volume.py only knows the standard `diccionariogeogrNNmado` ids,
+# so volume 10 (`diccionariogeogr10madouoft`) fails with an HTTP error;
+# skip it here and fetch its three files by hand (METHOD.md §9).
+for v in 01 02 03 04 05 06 07 08 09 11 12 13 14 15 16; do python scripts/fetch_volume.py $v; done
 
 # 2. Build the per-volume regex index
 for v in $(seq -w 1 16); do python scripts/index_volume.py $v; done
@@ -242,7 +245,7 @@ python scripts/cleanup_unverified.py --apply    # OCR typographic cleanup
 # 6. (Optional) Independent OCR validation via Tesseract
 # Pre-requisite: the 16 IA facsimile PDFs under data/pdf/ (~1.7 GB
 # total). They are gitignored. Volume 10 lives under a different IA
-# identifier (`diccionariogeogr10madouoft`) — the loop handles it.
+# identifier (`diccionariogeogr10madouoft`), fetched separately below.
 for v in 01 02 03 04 05 06 07 08 09 11 12 13 14 15 16; do
   curl -sL "https://archive.org/download/diccionariogeogr${v}mado/diccionariogeogr${v}mado.pdf" \
        -o "data/pdf/tomo${v}.pdf"
@@ -277,7 +280,7 @@ python -m http.server -d web 8000
 
 Code, scripts, commit messages and the README and docs are in English so the
 project stays navigable for any contributor. The public-facing
-website, `NOTES.md` (author's working notebook) and any
+website and any
 content-targeted docs are in Catalan, as a deliberate cultural choice
 for the published artefact.
 

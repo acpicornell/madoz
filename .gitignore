@@ -3,15 +3,15 @@ data/chocr/
 data/page_numbers/
 data/txt_djvu/
 
-# Page images (downloaded on demand for phase 3)
+# Page images (downloaded on demand by fetch_pages.py)
 data/pages/
-# Resized image cache from the retired Phase 3 vision pass (Batch API submits)
+# Resized image cache from the retired Vision extraction pass (Batch API submits)
 data/pages_resized/
 
 # Generated audit reports (regenerable from the DB; large files)
 data/reports/
 
-# Vision output from the retired Phase 3 vision pass (each run had a
+# Vision output from the retired Vision extraction pass (each run had a
 # non-trivial dollar cost; the script is no longer in the repository)
 data/vision/
 

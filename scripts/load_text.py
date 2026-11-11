@@ -1,4 +1,4 @@
-"""Load Phase 3 text-pass JSON output into the project DuckDB.
+"""Load Phase 2 text-pass JSON output into the project DuckDB.
 
 Reads every `data/text/page_<vol>_<leaf>.json` produced by
 extract_text.py (API path) or hand-written from chocr by the assistant

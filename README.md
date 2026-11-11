@@ -13,7 +13,7 @@ a clean, citable, structured transcription.
 
 Side-project segregated from
 [Nomenclator](https://github.com/acpicornell/nomenclator); see
-`NOTES.md` for the original motivation.
+[docs/METHOD.md](docs/METHOD.md) for its goals.
 
 ## What's in it
 

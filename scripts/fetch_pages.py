@@ -1,4 +1,4 @@
-"""Download the page JPEGs we need for Phase 3 (Vision extraction).
+"""Download the page JPEGs used by the retired Vision extraction pass.
 
 Reads the unique (vol, leaf) pairs from `chocr_entries` and fetches each
 corresponding page image from Internet Archive at ~350 dpi (1600 px

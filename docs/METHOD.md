@@ -83,7 +83,7 @@ inclou aquí una taula d'estadístiques…]` placeholder; the `stats` JSON
 column is only populated when the figures appear inline in prose. A
 regex pass over `description` recovers a few more (`pobl.: X vec., Y
 alm.`, `CONTR.: X rs.`, `RIQ. IMP.: …`), bringing total coverage to
-99 / 1 183 (8 %) — enough to power the Demografia charts and
+99 of the 1 217 entries (8 %) — enough to power the Demografia charts and
 spot-check, but not enough for quantitative whole-archipelago
 analysis.
 
@@ -94,7 +94,7 @@ mark the column unavailable.
 ### 4. Multi-leaf mega-articles got silently truncated
 
 PALMA, MAHON, IBIZA, ALCUDIA, MANACOR (part. jud.), CIUDADELA, … are
-multi-leaf articles. The leaf-by-leaf extraction in Phase 3 caps
+multi-leaf articles. The leaf-by-leaf extraction in Phase 2 caps
 output per call, so anything past the first leaf's allowance was cut.
 The per-leaf JSON file looked "complete" but the article body was
 truncated, sometimes severely (PALMA captured the wrong paragraph
@@ -183,7 +183,10 @@ the article body, not just the title.**
 ### 9. Volume 10 lives at a different IA identifier
 
 Volume 10 is hosted under `diccionariogeogr10madouoft` instead of the
-regular `diccionariogeogr10mado`. The current `fetch_volume.py` will
-404 on this volume; fetch the three files manually with `curl` if you
-re-run the full pipeline. See git history for the workaround.
+regular `diccionariogeogr10mado`. `fetch_volume.py` builds every URL
+from the regular pattern, so on this volume the request fails with an
+HTTP error and the script stops without writing anything. Fetch the
+three files (`_chocr.html.gz`, `_page_numbers.json`, `_djvu.txt`) from
+the `madouoft` identifier with `curl`, saved as `data/chocr/tomo10.html.gz`,
+`data/page_numbers/tomo10.json` and `data/txt_djvu/tomo10.txt`.
 

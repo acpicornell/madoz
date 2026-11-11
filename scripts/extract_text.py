@@ -1,7 +1,8 @@
-"""Phase 3 alternative: extract structured Madoz entries from chocr TEXT.
+"""Phase 2: extract structured Madoz entries from chocr TEXT.
 
-Mirrors `extract_vision.py` but sends Sonnet the per-leaf OCR text from
-chocr instead of the page image. This sidesteps the leaf↔IA-image
+Replaces the retired Vision pass (`extract_vision.py`, no longer in the
+repository): sends Sonnet the per-leaf OCR text from chocr instead of
+the page image. This sidesteps the leaf↔IA-image
 index mismatch entirely (chocr is keyed by leafNum) and is ~10× cheaper
 than Vision. The tradeoff is that statistics (vecinos, almas, contr.)
 inherit OCR digit errors that the model can only correct from context.

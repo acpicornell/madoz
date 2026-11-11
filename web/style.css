@@ -276,7 +276,7 @@ aside.filters h3 {
 
 button {
   background: var(--accent);
-  color: white;
+  color: var(--on-accent);
   border: none;
   padding: 0.5em 1em;
   border-radius: 3px;
@@ -617,7 +617,7 @@ tbody tr.is-total td { color: var(--accent-dark); }
 .badge-p {
   display: inline-block;
   background: var(--accent);
-  color: white;
+  color: var(--on-accent);
   padding: 0 0.3em;
   border-radius: 2px;
   font-size: 0.72em;
@@ -1216,7 +1216,7 @@ footer p:last-child { margin-bottom: 0; }
 }
 button.primary {
   background: var(--accent);
-  color: white;
+  color: var(--on-accent);
   border: 0;
   padding: 0.5em 1.2em;
   border-radius: 4px;

@@ -9,7 +9,97 @@
   --accent-light: #f4e8e2;
   --accent-dark: #5e2620;
   --num-bg: #f7f3eb;
+  --header-top: #fbf6e9;
+  --subnav-bg: #faf6ec;
+  --row-line: #f0eadb;
+  --diff-bg: rgba(220, 180, 100, 0.18);
+  --zebra: rgba(247, 243, 235, 0.4);
+  --ok: #1f6b3a;
+  --on-accent: #fff;
+  --conf-medium: #b87333;
+  --note-bg: #f8f5ed;
+  --rich: #0f766e;
+  --poor: #be123c;
 }
+
+/* Dark theme, as on the sibling sites: defined once for "the system is dark
+   and the reader has not chosen light" and once for "the reader chose dark"
+   (theme.js sets data-theme on <html> before the first paint). --border-soft
+   and --bg-card are set only here: in the light theme they stay undefined and
+   every rule falls back to the value it always had. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151210;
+    --surface: #1e1a17;
+    --border: #3a332c;
+    --text: #ece6de;
+    --text-muted: #ada297;
+    --accent: #e08a74;
+    --accent-light: #36211c;
+    --accent-dark: #f0b3a3;
+    --num-bg: #24201b;
+    --header-top: #221c17;
+    --subnav-bg: #1b1714;
+    --row-line: #2c2620;
+    --diff-bg: rgba(220, 180, 100, 0.22);
+    --zebra: rgba(255, 255, 255, 0.025);
+    --ok: #6cc58c;
+    --on-accent: #1a0f0c;
+    --conf-medium: #e0a26a;
+    --note-bg: #211c17;
+    --rich: #4fbfb0;
+    --poor: #f0708a;
+    --border-soft: #2c2620;
+    --bg-card: #24201b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151210;
+  --surface: #1e1a17;
+  --border: #3a332c;
+  --text: #ece6de;
+  --text-muted: #ada297;
+  --accent: #e08a74;
+  --accent-light: #36211c;
+  --accent-dark: #f0b3a3;
+  --num-bg: #24201b;
+  --header-top: #221c17;
+  --subnav-bg: #1b1714;
+  --row-line: #2c2620;
+  --diff-bg: rgba(220, 180, 100, 0.22);
+  --zebra: rgba(255, 255, 255, 0.025);
+  --ok: #6cc58c;
+  --on-accent: #1a0f0c;
+  --conf-medium: #e0a26a;
+  --note-bg: #211c17;
+  --rich: #4fbfb0;
+  --poor: #f0708a;
+  --border-soft: #2c2620;
+  --bg-card: #24201b;
+  color-scheme: dark;
+}
+:root[data-theme="light"] { color-scheme: light; }
+
+/* Light/dark toggle (theme.js). */
+.theme {
+  float: right;
+  margin-left: 12px;
+  display: grid;
+  place-items: center;
+  background: none;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px;
+  color: var(--text-muted);
+}
+.theme:hover { color: var(--accent); border-color: var(--accent); }
+.theme:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+/* The wealth-against-population legend (index.html). */
+.c-rich { color: var(--rich); }
+.c-poor { color: var(--poor); }
 
 * { box-sizing: border-box; }
 
@@ -27,7 +117,7 @@ a { color: var(--accent); }
 
 header {
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(180deg, #fbf6e9 0%, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--header-top) 0%, var(--bg) 100%);
   padding: 1.5em 0 1em;
 }
 .header-content { max-width: 1400px; margin: 0 auto; padding: 0 2em; }
@@ -81,7 +171,7 @@ nav.tabs-main {
 }
 nav.tabs-sub {
   border-bottom: 1px solid var(--border);
-  background: #faf6ec;
+  background: var(--subnav-bg);
   padding-left: 3em;
 }
 .tab {
@@ -266,7 +356,7 @@ thead th.sorted-asc::after { content: " ↑"; color: var(--accent); }
 thead th.sorted-desc::after { content: " ↓"; color: var(--accent); }
 tbody td {
   padding: 0.5em 0.5em;
-  border-bottom: 1px solid #f0eadb;
+  border-bottom: 1px solid var(--row-line);
   font-family: Georgia, serif;
 }
 tbody td.num {
@@ -531,7 +621,7 @@ tbody tr.is-total td { color: var(--accent-dark); }
 .traj-row .traj-source { font-weight: 600; font-size: 0.92em; }
 .traj-row .traj-name { font-size: 1.05em; }
 .traj-row .traj-name.diff {
-  background: rgba(220, 180, 100, 0.18);
+  background: var(--diff-bg);
   padding: 0.05em 0.35em;
   border-radius: 3px;
 }
@@ -549,7 +639,7 @@ tbody tr.is-total td { color: var(--accent-dark); }
   font-style: italic;
   text-align: center;
 }
-#t-cr-all tr:nth-child(even) td { background: rgba(247, 243, 235, 0.4); }
+#t-cr-all tr:nth-child(even) td { background: var(--zebra); }
 .source-meta {
   display: block;
   font-size: 0.85em;
@@ -702,11 +792,11 @@ tbody tr.is-total td { color: var(--accent-dark); }
 }
 #sql-status { color: var(--text-muted); font-size: 0.9em; }
 #sql-status.error { color: var(--accent); }
-#sql-status.ok { color: #1f6b3a; }
+#sql-status.ok { color: var(--ok); }
 
 /* === HOME / INICI === */
 .home-hero {
-  background: linear-gradient(135deg, var(--accent-light) 0%, #fbf6e9 100%);
+  background: linear-gradient(135deg, var(--accent-light) 0%, var(--header-top) 100%);
   border: 1px solid var(--border);
   border-radius: 6px;
   padding: 2.5em 2em 2em;
@@ -792,7 +882,7 @@ tbody tr.is-total td { color: var(--accent-dark); }
 }
 .featured-open {
   background: var(--accent);
-  color: #fff;
+  color: var(--on-accent);
   border: 1px solid var(--accent-dark);
   border-radius: 4px;
   padding: 0.55em 1em;
@@ -982,8 +1072,8 @@ footer p:last-child { margin-bottom: 0; }
 
 /* ===== Madoz-only additions ===== */
 /* Confidence dots in main table */
-.conf-high { color: #1f6b3a; font-weight: 700; }
-.conf-medium { color: #b87333; }
+.conf-high { color: var(--ok); font-weight: 700; }
+.conf-medium { color: var(--conf-medium); }
 .conf-low { color: var(--text-muted); }
 
 /* Internet Archive facsimile link on the Vol/Full cell */
@@ -1109,7 +1199,7 @@ footer p:last-child { margin-bottom: 0; }
 /* Editorial extraction note — collapsible <details>. */
 .entry-note {
   margin: 1em 0 0.6em;
-  background: #f8f5ed;
+  background: var(--note-bg);
   border: 1px solid var(--border-soft, #e5e0d4);
   border-radius: 5px;
   padding: 0.6em 0.9em;

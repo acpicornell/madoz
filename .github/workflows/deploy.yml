@@ -24,6 +24,11 @@ jobs:
           fi
       - uses: actions/checkout@v7
         if: steps.guard.outputs.skip != 'true'
+      - name: Check the site against its own security policy
+        if: steps.guard.outputs.skip != 'true'
+        # Fails the deploy if a page loads or runs anything the site's _headers does
+        # not admit, or links to a page or anchor that does not exist.
+        run: python3 scripts/check_site.py web
       - name: Deploy to Cloudflare Workers
         if: steps.guard.outputs.skip != 'true'
         uses: cloudflare/wrangler-action@v4

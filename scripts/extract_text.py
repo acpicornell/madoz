@@ -16,7 +16,6 @@ the target leaf only — so the same entry never gets recorded twice.
 
 Modes:
   --page VOL LEAF       extract a single leaf (testing)
-  --sample              run on a small diverse curated sample
   --all                 process every leaf with chocr_entries rows
 
 Output: data/text/page_<vol>_<leaf>.json — one file per leaf.
@@ -415,8 +414,6 @@ def main() -> None:
     sub = ap.add_mutually_exclusive_group(required=True)
     sub.add_argument("--page", nargs=2, metavar=("VOL", "LEAF"),
                      help="extract a single leaf (e.g. --page 02 603)")
-    sub.add_argument("--sample", action="store_true",
-                     help="run on a curated diverse sample")
     sub.add_argument("--all", action="store_true",
                      help="process every leaf in chocr_entries not yet done")
     ap.add_argument("--overwrite", action="store_true",
@@ -433,11 +430,6 @@ def main() -> None:
     if args.page:
         vol, leaf = args.page[0], int(args.page[1])
         pairs = [(vol, leaf)]
-    elif args.sample:
-        # Reuse the same anchor pages as the vision sampler for parity.
-        from extract_vision import pick_sample  # type: ignore
-        pairs = pick_sample()
-        print(f"Sample size: {len(pairs)}")
     else:
         con = duckdb.connect(str(DB), read_only=True)
         pairs = [(r[0], r[1]) for r in con.execute(

@@ -5,15 +5,14 @@ data/txt_djvu/
 
 # Page images (downloaded on demand for phase 3)
 data/pages/
-# Resized image cache produced by extract_vision.py for Batch API submits
+# Resized image cache from the retired Phase 3 vision pass (Batch API submits)
 data/pages_resized/
 
 # Generated audit reports (regenerable from the DB; large files)
 data/reports/
 
-# Vision output (regenerable by extract_vision.py — but each rerun has
-# a non-trivial dollar cost, so consider committing the final batch
-# explicitly when satisfied with quality)
+# Vision output from the retired Phase 3 vision pass (each run had a
+# non-trivial dollar cost; the script is no longer in the repository)
 data/vision/
 
 # NGIB pipeline outputs (Mapa tab was removed 2026-05-22 because the
@@ -24,8 +23,8 @@ data/ngib/
 data/gazetteer.parquet
 data/coords.json
 
-# DuckDB binary — rebuildable from JSONL cache via scrape_madoz.py --from-cache
-# and load_chocr_index.py. The raw JSONL is versioned so the DB never needs to
+# DuckDB binary — rebuildable from the JSONL cache via the loaders under
+# scripts/ (e.g. load_chocr_index.py). The raw JSONL is versioned so the DB never needs to
 # hit the network to be reconstructed.
 db/*.duckdb
 db/*.duckdb.wal

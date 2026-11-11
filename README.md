@@ -212,8 +212,8 @@ inhabitant), **Notes** (scholarly notes on the Diccionari de Madoz),
 
 A separate set of scripts was written for an early "Mapa" tab that
 plotted each entry on a Leaflet map. The tab was dropped because the
-fuzzy geocoding produced too many hard-to-audit wrong placements
-(memory: `project_mapa_rejected.md`). The scripts are kept around in
+fuzzy geocoding produced too many hard-to-audit wrong placements.
+The scripts are kept around in
 case someone wants to revisit the problem with a different
 methodology, but they're not part of the active pipeline:
 

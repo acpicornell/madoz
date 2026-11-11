@@ -1,9 +1,9 @@
 """Index a Madoz volume by exploiting hOCR paragraph structure.
 
-Phase 1 of the "Madoz done right" pipeline: for each Balearic entry,
+Phase 1 of the pipeline (docs/PIPELINE.md): for each Balearic entry,
 record its exact location in the original edition — volume, leaf,
-printed page — so phase 2 (Claude Vision extraction) can fetch the
-correct page image directly.
+printed page — so Phase 2 (Claude text extraction over the chOCR,
+scripts/extract_text.py) reads the right leaf.
 
 Strategy (rewritten to avoid the regex-on-flat-text mess):
 

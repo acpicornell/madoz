@@ -1,5 +1,6 @@
 """Typographic OCR cleanup for the 32 'unverified' text_entries created
-by rescue_unlinked.py (Phase 3, 4, 5).
+by rescue_unlinked.py. Part of Phase 3 (rescue + cleanup) in
+docs/PIPELINE.md.
 
 Strict cleanup policy:
   - Fix unambiguous OCR artifacts: R→B in 'Raleares' / 'Paleares', glued
